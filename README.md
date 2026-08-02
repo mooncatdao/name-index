@@ -114,6 +114,20 @@ reports `remainingTransactionCount`; rerun it until that count is zero. Future
 scans and backfills fetch both block timestamps and transaction senders before
 their events are persisted.
 
+## Automated publishing
+
+The production wake-up path is an Alchemy Custom Webhook to a small Cloudflare
+Worker, then GitHub Actions. The Worker validates the raw-body signature and
+dispatches a fixed repository event; it never uses webhook payload data as
+canonical input. Actions runs the existing finalized incremental scanner,
+enrichment, artifact generation, and `npm run check`, then commits only changed
+canonical `data/` artifacts. A six-hour scheduled run is the fallback, and
+workflow concurrency serializes duplicate or overlapping deliveries.
+
+Deployment, required secrets, Alchemy filter setup, manual dispatch testing,
+checkpoint cache behavior, and recovery steps are documented in
+[docs/automated-publishing.md](docs/automated-publishing.md).
+
 ## Seed comparison
 
 Compare only the committed canonical current-name artifact with the historical

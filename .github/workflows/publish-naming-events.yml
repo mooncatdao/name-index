@@ -1,0 +1,97 @@
+name: Publish MoonCat naming index
+
+on:
+  repository_dispatch:
+    types: [alchemy-naming-event]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mooncat-naming-index-publish
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      CHECKPOINT_CACHE_KEY: mooncat-naming-checkpoint-${{ github.run_id }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Restore scanner checkpoint cache
+        uses: actions/cache/restore@v4
+        with:
+          path: state/checkpoint.json
+          key: ${{ env.CHECKPOINT_CACHE_KEY }}
+          restore-keys: |
+            mooncat-naming-checkpoint-
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scan finalized naming events
+        env:
+          MOONCAT_RPC_URL: ${{ secrets.MOONCAT_RPC_URL }}
+        run: npm run scan:save
+
+      - name: Validate canonical outputs
+        run: npm run check
+
+      - name: Detect generated canonical changes
+        id: changes
+        shell: bash
+        run: |
+          generated_paths=(
+            data/events.jsonl
+            data/current-names.json
+            data/names-by-cat-id.json
+            data/names-by-rescue-order.json
+            data/metadata.json
+            data/names-simple.json
+          )
+          if git diff --quiet -- "${generated_paths[@]}"; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push generated canonical artifacts
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            data/events.jsonl \
+            data/current-names.json \
+            data/names-by-cat-id.json \
+            data/names-by-rescue-order.json \
+            data/metadata.json \
+            data/names-simple.json
+          if git diff --cached --quiet; then
+            echo "No staged canonical changes."
+            exit 0
+          fi
+          git commit -m "chore: update MoonCat naming index"
+          git push
+
+      - name: Report no-change run
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "No canonical naming changes detected."
+
+      - name: Save scanner checkpoint cache
+        uses: actions/cache/save@v4
+        with:
+          path: state/checkpoint.json
+          key: ${{ env.CHECKPOINT_CACHE_KEY }}
