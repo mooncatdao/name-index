@@ -18,7 +18,7 @@
     "scan:save": "node scripts/scan-and-save.js",
     "generate:current-names": "node scripts/generate-current-names.js",
     "validate:current-names": "node scripts/generate-current-names.js --check",
-    "check": "node --check src/constants.js && node --check src/cat-id-map.js && node --check src/name-decoder.js && node --check src/checkpoint.js && node --check src/cat-named-logs.js && node --check src/dry-run-scanner.js && node --check src/event-store.js && node --check src/persistent-scanner.js && node --check src/current-names.js && node --check scripts/fetch-cat-named-logs.js && node --check scripts/scan-dry-run.js && node --check scripts/scan-and-save.js && node --check scripts/generate-current-names.js && npm run validate:cat-id-map && npm run validate:name-seed && npm run validate:current-names && npm test"
+    "check": "node --check src/constants.js && node --check src/cat-id-map.js && node --check src/name-decoder.js && node --check src/checkpoint.js && node --check src/cat-named-logs.js && node --check src/dry-run-scanner.js && node --check src/event-store.js && node --check src/persistent-scanner.js && node --check src/current-names.js && node --check src/current-name-artifacts.js && node --check scripts/fetch-cat-named-logs.js && node --check scripts/scan-dry-run.js && node --check scripts/scan-and-save.js && node --check scripts/generate-current-names.js && npm run validate:cat-id-map && npm run validate:name-seed && npm run validate:current-names && npm test"
   },
   "dependencies": {
     "viem": "^2.33.2"

@@ -1,15 +1,11 @@
-import { mkdir, readFile, rename, unlink, writeFile } from "node:fs/promises";
-import { randomUUID } from "node:crypto";
-import path from "node:path";
+import { readFile } from "node:fs/promises";
 
 import {
-  CHAIN_ID,
-  MOONCAT_COUNT,
-  MOONCAT_RESCUE_ADDRESS,
-  NAMING_START_BLOCK
-} from "../src/constants.js";
+  buildCurrentNameArtifacts,
+  saveCurrentNameArtifacts,
+  serializeCurrentNameArtifact
+} from "../src/current-name-artifacts.js";
 import { loadEventsJsonl } from "../src/event-store.js";
-import { deriveCurrentNames } from "../src/current-names.js";
 
 const DEFAULTS = {
   events: "data/events.jsonl",
@@ -56,80 +52,24 @@ function parseArguments(argv) {
   };
 }
 
-function relativeSourcePath(eventsPath) {
-  return eventsPath;
-}
-
-function buildMetadata(events, derived, eventsPath) {
-  return {
-    schemaVersion: 1,
-    chainId: CHAIN_ID,
-    contractAddress: MOONCAT_RESCUE_ADDRESS,
-    namingStartBlock: Number(NAMING_START_BLOCK),
-    moonCatCount: MOONCAT_COUNT,
-    eventCount: events.length,
-    blankEventCount: events.filter((event) => event.decoded.status === "blank").length,
-    removedEventCount: events.filter((event) => event.removed).length,
-    namedCatCount: derived.currentNames.length,
-    source: relativeSourcePath(eventsPath)
-  };
-}
-
-function serialize(value) {
-  return `${JSON.stringify(value, null, 2)}\n`;
-}
-
-async function saveJsonAtomic(filePath, value) {
-  const directory = path.dirname(filePath);
-  const temporaryPath = path.join(
-    directory,
-    `.${path.basename(filePath)}.${process.pid}.${randomUUID()}.tmp`
-  );
-  await mkdir(directory, { recursive: true });
-  try {
-    await writeFile(temporaryPath, serialize(value), {
-      encoding: "utf8",
-      flag: "wx",
-      mode: 0o600
-    });
-    await rename(temporaryPath, filePath);
-  } catch (error) {
-    try {
-      await unlink(temporaryPath);
-    } catch (cleanupError) {
-      if (cleanupError.code !== "ENOENT") {
-        error.cleanupError = cleanupError;
-      }
-    }
-    throw error;
-  }
-}
-
 async function readSource(paths) {
   return loadEventsJsonl(paths.eventsPath);
 }
 
 async function buildOutputs(paths) {
   const events = await readSource(paths);
-  const derived = deriveCurrentNames(events);
-  return {
-    currentNames: serialize(derived.currentNames),
-    namesByCatId: serialize(derived.namesByCatId),
-    namesByRescueOrder: serialize(derived.namesByRescueOrder),
-    metadata: serialize(buildMetadata(events, derived, paths.eventsPath))
-  };
+  const artifacts = buildCurrentNameArtifacts(events, { sourcePath: paths.eventsPath });
+  return Object.fromEntries(
+    Object.entries(artifacts).map(([key, value]) => [
+      key,
+      serializeCurrentNameArtifact(value)
+    ])
+  );
 }
 
 async function writeOutputs(paths) {
   const events = await readSource(paths);
-  const derived = deriveCurrentNames(events);
-  await saveJsonAtomic(paths.currentNamesPath, derived.currentNames);
-  await saveJsonAtomic(paths.namesByCatIdPath, derived.namesByCatId);
-  await saveJsonAtomic(paths.namesByRescueOrderPath, derived.namesByRescueOrder);
-  await saveJsonAtomic(
-    paths.metadataPath,
-    buildMetadata(events, derived, paths.eventsPath)
-  );
+  await saveCurrentNameArtifacts(events, paths, { sourcePath: paths.eventsPath });
 }
 
 async function checkOutputs(paths) {
@@ -181,4 +121,4 @@ try {
   process.exitCode = 1;
 }
 
-export { buildMetadata, parseArguments };
+export { parseArguments };

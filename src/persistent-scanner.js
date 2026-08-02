@@ -5,12 +5,17 @@ import {
 } from "./event-store.js";
 import { saveCheckpoint } from "./checkpoint.js";
 import { runDryRunScan } from "./dry-run-scanner.js";
+import { saveCurrentNameArtifacts } from "./current-name-artifacts.js";
 
 function assertPaths(paths) {
   if (!paths || typeof paths !== "object" ||
       typeof paths.eventsPath !== "string" || paths.eventsPath === "" ||
-      typeof paths.checkpointPath !== "string" || paths.checkpointPath === "") {
-    throw new TypeError("paths must contain eventsPath and checkpointPath");
+      typeof paths.checkpointPath !== "string" || paths.checkpointPath === "" ||
+      typeof paths.currentNamesPath !== "string" || paths.currentNamesPath === "" ||
+      typeof paths.namesByCatIdPath !== "string" || paths.namesByCatIdPath === "" ||
+      typeof paths.namesByRescueOrderPath !== "string" || paths.namesByRescueOrderPath === "" ||
+      typeof paths.metadataPath !== "string" || paths.metadataPath === "") {
+    throw new TypeError("paths must include event, checkpoint, and current-name artifact paths");
   }
 }
 
@@ -30,10 +35,12 @@ export async function runPersistentScan(client, checkpoint, paths, options = {})
   const scan = dependencies.runDryRunScan ?? runDryRunScan;
   const loadEvents = dependencies.loadEventsJsonl ?? loadEventsJsonl;
   const saveEvents = dependencies.saveEventsJsonl ?? saveEventsJsonl;
+  const saveArtifacts = dependencies.saveCurrentNameArtifacts ?? saveCurrentNameArtifacts;
   const saveState = dependencies.saveCheckpoint ?? saveCheckpoint;
   assertDependency(scan, "runDryRunScan");
   assertDependency(loadEvents, "loadEventsJsonl");
   assertDependency(saveEvents, "saveEventsJsonl");
+  assertDependency(saveArtifacts, "saveCurrentNameArtifacts");
   assertDependency(saveState, "saveCheckpoint");
 
   const scanResult = await scan(client, checkpoint, options);
@@ -49,6 +56,9 @@ export async function runPersistentScan(client, checkpoint, paths, options = {})
 
   if (eventsChanged) {
     await saveEvents(paths.eventsPath, mergedEvents);
+    await saveArtifacts(mergedEvents, paths, {
+      sourcePath: paths.eventsSource ?? "data/events.jsonl"
+    });
   }
   if (checkpointChanged) {
     await saveState(paths.checkpointPath, scanResult.proposedCheckpoint);
@@ -59,6 +69,8 @@ export async function runPersistentScan(client, checkpoint, paths, options = {})
     existingEventCount: existingEvents.length,
     persistedEventCount: mergedEvents.length,
     eventsChanged,
+    artifactsChanged: eventsChanged,
+    artifactsWritten: eventsChanged,
     checkpointChanged,
     checkpointAdvanced
   };
