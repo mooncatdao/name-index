@@ -121,7 +121,7 @@ Worker, then GitHub Actions. The Worker validates the raw-body signature and
 dispatches a fixed repository event; it never uses webhook payload data as
 canonical input. Actions runs the existing finalized incremental scanner,
 enrichment, artifact generation, and `npm run check`, then commits only changed
-canonical `data/` artifacts. A six-hour scheduled run is the fallback, and
+generated `data/` artifacts. A six-hour scheduled run is the fallback, and
 workflow concurrency serializes duplicate or overlapping deliveries.
 Publishing commits those generated artifacts directly to `main`; it does not
 open a pull request. Repository branch rules therefore need to permit the
@@ -130,6 +130,24 @@ workflow's normal push while still blocking force pushes and branch deletion.
 Deployment, required secrets, Alchemy filter setup, manual dispatch testing,
 checkpoint cache behavior, and recovery steps are documented in
 [docs/automated-publishing.md](docs/automated-publishing.md).
+
+## Monthly naming timeline
+
+Generate and validate the deterministic UTC-month timeline derived from the
+canonical event history:
+
+```sh
+npm run generate:naming-timeline
+npm run validate:naming-timeline
+```
+
+The graph includes only nonremoved, successful nonblank naming events with a
+valid canonical `blockTimestamp`. Blank attempts are explicitly excluded, and
+the artifact includes zero-count months between its first and last included
+month. To view the dependency-free page, serve the repository root over HTTP,
+for example `python3 -m http.server 8000`, then open
+`http://localhost:8000/timeline/`. The source remains `data/events.jsonl`; no
+live RPC or clock-derived fields are used during generation.
 
 ## Seed comparison
 

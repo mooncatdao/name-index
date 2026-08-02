@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MoonCat naming timeline</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { margin: 0; padding: 2rem; background: Canvas; color: CanvasText; }
+      main { max-width: 1100px; margin: 0 auto; }
+      h1 { margin-bottom: 0.25rem; }
+      .scope { margin-top: 0; color: color-mix(in srgb, CanvasText 70%, Canvas); }
+      #chart-wrap { overflow-x: auto; }
+      svg { display: block; min-width: 700px; width: 100%; height: auto; }
+      .axis, .grid { stroke: currentColor; fill: none; }
+      .grid { opacity: 0.2; }
+      .bar { fill: #4f86c6; }
+      .bar:hover, .bar:focus { fill: #e68a2e; outline: none; }
+      .bar:focus { stroke: currentColor; stroke-width: 2; }
+      text { fill: currentColor; font-size: 12px; }
+      .axis-label { font-size: 14px; font-weight: 600; }
+      #error { padding: 1rem; border: 1px solid #b33; color: #b33; }
+      [hidden] { display: none; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>MoonCat namings by UTC month</h1>
+      <p class="scope">Successful nonblank naming events per calendar month. Blank naming attempts are explicitly excluded.</p>
+      <p id="value-readout" aria-live="polite">Loading timeline data…</p>
+      <p id="error" role="alert" hidden></p>
+      <div id="chart-wrap">
+        <svg id="chart" viewBox="0 0 1000 560" role="img" aria-labelledby="chart-title chart-description">
+          <title id="chart-title">Successful MoonCat namings by month</title>
+          <desc id="chart-description">An SVG bar chart showing successful nonblank MoonCat naming events grouped by UTC month.</desc>
+        </svg>
+      </div>
+    </main>
+    <script>
+      const SVG_NS = "http://www.w3.org/2000/svg";
+      const chart = document.getElementById("chart");
+      const readout = document.getElementById("value-readout");
+      const error = document.getElementById("error");
+      const width = 1000;
+      const height = 560;
+      const margin = { top: 45, right: 24, bottom: 92, left: 72 };
+
+      function addSvg(tag, attributes, parent = chart) {
+        const element = document.createElementNS(SVG_NS, tag);
+        for (const [name, value] of Object.entries(attributes)) {
+          element.setAttribute(name, value);
+        }
+        parent.appendChild(element);
+        return element;
+      }
+
+      function showValue(month, count) {
+        readout.textContent = `${month}: ${count.toLocaleString()} successful nonblank namings`;
+      }
+
+      function render(timeline) {
+        if (!timeline || !Array.isArray(timeline.monthly) || timeline.monthly.length === 0) {
+          throw new Error("timeline artifact contains no monthly buckets");
+        }
+        const buckets = timeline.monthly;
+        const plotWidth = width - margin.left - margin.right;
+        const plotHeight = height - margin.top - margin.bottom;
+        const maxCount = Math.max(...buckets.map((bucket) => bucket.count), 1);
+        const step = plotWidth / buckets.length;
+        const barWidth = Math.max(1, step * 0.82);
+        const plot = addSvg("g", { "aria-label": "Monthly naming bars" });
+        for (let index = 0; index <= 4; index += 1) {
+          const count = Math.round(maxCount * index / 4);
+          const y = margin.top + plotHeight - plotHeight * count / maxCount;
+          addSvg("line", { class: "grid", x1: margin.left, x2: width - margin.right, y1: y, y2: y }, plot);
+          addSvg("text", { x: margin.left - 10, y: y + 4, "text-anchor": "end" }, plot).textContent = count.toLocaleString();
+        }
+        addSvg("line", { class: "axis", x1: margin.left, x2: margin.left, y1: margin.top, y2: margin.top + plotHeight }, plot);
+        addSvg("line", { class: "axis", x1: margin.left, x2: width - margin.right, y1: margin.top + plotHeight, y2: margin.top + plotHeight }, plot);
+        const labelStep = Math.max(1, Math.ceil(buckets.length / 12));
+        buckets.forEach((bucket, index) => {
+          const barHeight = plotHeight * bucket.count / maxCount;
+          const x = margin.left + index * step + (step - barWidth) / 2;
+          const y = margin.top + plotHeight - barHeight;
+          const group = addSvg("g", {
+            tabindex: "0",
+            role: "group",
+            "aria-label": `${bucket.month}: ${bucket.count} successful nonblank namings`
+          }, plot);
+          const bar = addSvg("rect", { class: "bar", x, y, width: barWidth, height: Math.max(barHeight, bucket.count ? 1 : 0), rx: 1 }, group);
+          addSvg("title", {}, bar).textContent = `${bucket.month}: ${bucket.count} successful nonblank namings`;
+          group.addEventListener("mouseenter", () => showValue(bucket.month, bucket.count));
+          group.addEventListener("focus", () => showValue(bucket.month, bucket.count));
+          if (index % labelStep === 0 || index === buckets.length - 1) {
+            addSvg("text", { x: x + barWidth / 2, y: margin.top + plotHeight + 22, "text-anchor": "end", transform: `rotate(-45 ${x + barWidth / 2} ${margin.top + plotHeight + 22})` }, plot).textContent = bucket.month;
+          }
+        });
+        addSvg("text", { class: "axis-label", x: width / 2, y: height - 8, "text-anchor": "middle" }, plot).textContent = "UTC month";
+        addSvg("text", { class: "axis-label", x: 18, y: height / 2, "text-anchor": "middle", transform: `rotate(-90 18 ${height / 2})` }, plot).textContent = "Successful namings";
+        showValue(`${timeline.firstMonth} to ${timeline.lastMonth}`, timeline.includedEventCount);
+      }
+
+      fetch("../data/timeline-monthly.json")
+        .then((response) => {
+          if (!response.ok) throw new Error(`timeline data request failed (${response.status})`);
+          return response.json();
+        })
+        .then(render)
+        .catch((loadError) => {
+          chart.hidden = true;
+          error.hidden = false;
+          error.textContent = `Unable to load the naming timeline. Serve the repository over HTTP and try again: ${loadError.message}`;
+          readout.textContent = "";
+        });
+    </script>
+  </body>
+</html>
