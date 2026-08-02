@@ -22,11 +22,55 @@ const EVENT = {
   }
 };
 
+const REDACTED_EVENT = {
+  ...EVENT,
+  eventId: "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:1",
+  transactionHash: "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  logIndex: 1,
+  blockNumber: 11,
+  catId: "0x0008d4ecd0",
+  nameRaw: "0x4a657773646964392f3131000000000000000000000000000000000000000000",
+  decoded: {
+    rawName: "0x4a657773646964392f3131000000000000000000000000000000000000000000",
+    status: "redacted",
+    text: "�"
+  }
+};
+
+const INVALID_EVENT = {
+  ...EVENT,
+  eventId: "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc:2",
+  transactionHash: "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  logIndex: 2,
+  blockNumber: 12,
+  catId: "0x00b7c50d8a",
+  nameRaw: "0xc328000000000000000000000000000000000000000000000000000000000000",
+  decoded: {
+    rawName: "0xc328000000000000000000000000000000000000000000000000000000000000",
+    status: "invalid-utf8"
+  }
+};
+
+const LEADING_NULL_EVENT = {
+  ...EVENT,
+  eventId: "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd:3",
+  transactionHash: "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  logIndex: 3,
+  blockNumber: 13,
+  catId: "0x007d228add",
+  nameRaw: "0x0063617400000000000000000000000000000000000000000000000000000000",
+  decoded: {
+    rawName: "0x0063617400000000000000000000000000000000000000000000000000000000",
+    status: "leading-null"
+  }
+};
+
 const PATHS = {
   currentNamesPath: "current.json",
   namesByCatIdPath: "by-cat.json",
   namesByRescueOrderPath: "by-rescue.json",
-  metadataPath: "metadata.json"
+  metadataPath: "metadata.json",
+  namesSimplePath: "names-simple.json"
 };
 
 test("artifact builder is deterministic and metadata matches merged events", () => {
@@ -37,6 +81,7 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   assert.equal(artifacts.namesByCatId[EVENT.catId].eventId, EVENT.eventId);
   assert.equal(artifacts.namesByRescueOrder[6].catId, EVENT.catId);
   assert.equal(artifacts.namesByRescueOrder.length, 25_440);
+  assert.deepEqual(artifacts.namesSimple, { "6": "cat" });
   assert.deepEqual(artifacts.metadata, {
     schemaVersion: 1,
     chainId: 1,
@@ -51,6 +96,20 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   });
 });
 
+test("simple map includes display text, redacted text, and numeric rescue ordering only", () => {
+  const artifacts = buildCurrentNameArtifacts([
+    LEADING_NULL_EVENT,
+    REDACTED_EVENT,
+    INVALID_EVENT,
+    EVENT
+  ]);
+  assert.deepEqual(Object.keys(artifacts.namesSimple), ["6", "4420"]);
+  assert.equal(artifacts.namesSimple["6"], "cat");
+  assert.equal(artifacts.namesSimple["4420"], "�");
+  assert.equal(Object.hasOwn(artifacts.namesSimple, "37"), false);
+  assert.equal(Object.hasOwn(artifacts.namesSimple, "39"), false);
+});
+
 test("artifact writes receive the exact merged event-derived payloads in order", async () => {
   const calls = [];
   await saveCurrentNameArtifacts([EVENT], PATHS, {
@@ -61,12 +120,14 @@ test("artifact writes receive the exact merged event-derived payloads in order",
     PATHS.currentNamesPath,
     PATHS.namesByCatIdPath,
     PATHS.namesByRescueOrderPath,
-    PATHS.metadataPath
+    PATHS.metadataPath,
+    PATHS.namesSimplePath
   ]);
   assert.equal(calls[0][1][0].eventId, EVENT.eventId);
   assert.equal(calls[1][1][EVENT.catId].eventId, EVENT.eventId);
   assert.equal(calls[2][1][6].eventId, EVENT.eventId);
   assert.equal(calls[3][1].eventCount, 1);
+  assert.equal(calls[4][1]["6"], "cat");
 });
 
 test("artifact write failure stops the remaining artifact writes", async () => {
@@ -80,4 +141,23 @@ test("artifact write failure stops the remaining artifact writes", async () => {
     }
   }), /artifact disk full/);
   assert.deepEqual(calls, [PATHS.currentNamesPath, PATHS.namesByCatIdPath]);
+});
+
+test("failure writing the simple map stops after the earlier artifacts", async () => {
+  const calls = [];
+  await assert.rejects(saveCurrentNameArtifacts([EVENT], PATHS, {
+    writeJsonAtomic: async (filePath) => {
+      calls.push(filePath);
+      if (filePath === PATHS.namesSimplePath) {
+        throw new Error("simple map disk full");
+      }
+    }
+  }), /simple map disk full/);
+  assert.deepEqual(calls, [
+    PATHS.currentNamesPath,
+    PATHS.namesByCatIdPath,
+    PATHS.namesByRescueOrderPath,
+    PATHS.metadataPath,
+    PATHS.namesSimplePath
+  ]);
 });

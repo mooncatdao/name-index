@@ -12,7 +12,8 @@ const DEFAULTS = {
   currentNames: "data/current-names.json",
   namesByCatId: "data/names-by-cat-id.json",
   namesByRescueOrder: "data/names-by-rescue-order.json",
-  metadata: "data/metadata.json"
+  metadata: "data/metadata.json",
+  namesSimple: "data/names-simple.json"
 };
 
 function parseArguments(argv) {
@@ -22,7 +23,8 @@ function parseArguments(argv) {
     "--current-names",
     "--names-by-cat-id",
     "--names-by-rescue-order",
-    "--metadata"
+    "--metadata",
+    "--names-simple"
   ]);
   for (let index = 0; index < argv.length; index += 1) {
     const flag = argv[index];
@@ -48,7 +50,8 @@ function parseArguments(argv) {
     currentNamesPath: values.currentnames ?? DEFAULTS.currentNames,
     namesByCatIdPath: values.namesbycatid ?? DEFAULTS.namesByCatId,
     namesByRescueOrderPath: values.namesbyrescueorder ?? DEFAULTS.namesByRescueOrder,
-    metadataPath: values.metadata ?? DEFAULTS.metadata
+    metadataPath: values.metadata ?? DEFAULTS.metadata,
+    namesSimplePath: values.namessimple ?? DEFAULTS.namesSimple
   };
 }
 
@@ -78,7 +81,8 @@ async function checkOutputs(paths) {
     [paths.currentNamesPath, expected.currentNames],
     [paths.namesByCatIdPath, expected.namesByCatId],
     [paths.namesByRescueOrderPath, expected.namesByRescueOrder],
-    [paths.metadataPath, expected.metadata]
+    [paths.metadataPath, expected.metadata],
+    [paths.namesSimplePath, expected.namesSimple]
   ];
   for (const [filePath, expectedBytes] of outputPaths) {
     let actualBytes;
@@ -103,7 +107,8 @@ async function main() {
     currentNamesPath: args.currentNamesPath,
     namesByCatIdPath: args.namesByCatIdPath,
     namesByRescueOrderPath: args.namesByRescueOrderPath,
-    metadataPath: args.metadataPath
+    metadataPath: args.metadataPath,
+    namesSimplePath: args.namesSimplePath
   };
   if (args.check) {
     await checkOutputs(paths);

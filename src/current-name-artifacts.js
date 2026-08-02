@@ -15,7 +15,8 @@ const ARTIFACT_KEYS = [
   "currentNames",
   "namesByCatId",
   "namesByRescueOrder",
-  "metadata"
+  "metadata",
+  "namesSimple"
 ];
 
 function assertPaths(paths) {
@@ -26,7 +27,8 @@ function assertPaths(paths) {
     "currentNamesPath",
     "namesByCatIdPath",
     "namesByRescueOrderPath",
-    "metadataPath"
+    "metadataPath",
+    "namesSimplePath"
   ]) {
     if (typeof paths[key] !== "string" || paths[key] === "") {
       throw new TypeError(`artifact paths must include ${key}`);
@@ -54,6 +56,16 @@ function buildMetadata(events, derived, sourcePath) {
   };
 }
 
+/** Build CatMoon's display-only decimal rescue-order name map. */
+export function buildSimpleNameMap(currentNames) {
+  return Object.fromEntries(
+    currentNames
+      .filter((record) => typeof record.text === "string")
+      .sort((left, right) => left.rescueOrder - right.rescueOrder)
+      .map((record) => [String(record.rescueOrder), record.text])
+  );
+}
+
 /** Build all current-name artifacts from an already available event array. */
 export function buildCurrentNameArtifacts(events, options = {}) {
   if (!options || typeof options !== "object" || Array.isArray(options)) {
@@ -69,7 +81,8 @@ export function buildCurrentNameArtifacts(events, options = {}) {
       canonicalEvents,
       derived,
       options.sourcePath ?? "data/events.jsonl"
-    )
+    ),
+    namesSimple: buildSimpleNameMap(derived.currentNames)
   };
 }
 
@@ -99,7 +112,7 @@ export async function writeCurrentNameJsonAtomic(filePath, value) {
   }
 }
 
-/** Atomically persist all four current-name artifacts from the supplied events. */
+/** Atomically persist all current-name artifacts from the supplied events. */
 export async function saveCurrentNameArtifacts(events, paths, options = {}) {
   assertPaths(paths);
   const artifacts = buildCurrentNameArtifacts(events, options);

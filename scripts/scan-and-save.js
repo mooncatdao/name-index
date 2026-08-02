@@ -8,7 +8,7 @@ function parseArguments(argv) {
   const values = {};
   for (let index = 0; index < argv.length; index += 1) {
     const flag = argv[index];
-    if (!["--checkpoint", "--events", "--current-names", "--names-by-cat-id", "--names-by-rescue-order", "--metadata"].includes(flag)) {
+    if (!["--checkpoint", "--events", "--current-names", "--names-by-cat-id", "--names-by-rescue-order", "--metadata", "--names-simple"].includes(flag)) {
       throw new Error(`unknown argument: ${flag}`);
     }
     const name = flag.slice(2);
@@ -32,7 +32,8 @@ function parseArguments(argv) {
     currentNamesPath: path.resolve(process.cwd(), values["current-names"] ?? "data/current-names.json"),
     namesByCatIdPath: path.resolve(process.cwd(), values["names-by-cat-id"] ?? "data/names-by-cat-id.json"),
     namesByRescueOrderPath: path.resolve(process.cwd(), values["names-by-rescue-order"] ?? "data/names-by-rescue-order.json"),
-    metadataPath: path.resolve(process.cwd(), values.metadata ?? "data/metadata.json")
+    metadataPath: path.resolve(process.cwd(), values.metadata ?? "data/metadata.json"),
+    namesSimplePath: path.resolve(process.cwd(), values["names-simple"] ?? "data/names-simple.json")
   };
 }
 

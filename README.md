@@ -60,6 +60,18 @@ npm run validate:current-names
 The backfill tests use mocked block/log clients and persistence dependencies;
 they do not perform live RPC calls.
 
+## CatMoon compatibility names
+
+`data/names-simple.json` is a derived display compatibility artifact with the
+shape `{ "6": "mister moo" }` consumed by CatMoon. It uses decimal rescue-order
+keys and includes only canonical current-name records with a string `text`
+field, including rescue order 4420's redacted replacement-character display.
+Invalid UTF-8 and leading-null records remain available in the detailed
+canonical artifacts but are omitted from this simple map. The map is not the
+canonical source of truth; `data/events.jsonl` and the detailed current-name
+artifacts retain raw bytes and status information. `npm run validate:current-names`
+checks its exact bytes along with the other current-name artifacts.
+
 ## Seed comparison
 
 Compare only the committed canonical current-name artifact with the historical
