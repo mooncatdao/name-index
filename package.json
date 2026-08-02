@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Reproducible index of MoonCat naming events and current names.",
+  "license": "GPL-3.0-or-later",
   "type": "module",
   "engines": {
     "node": ">=22"

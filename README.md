@@ -5,6 +5,18 @@ contract. The event JSONL is canonical; current-name JSON artifacts are
 derived from that event history. `data/seed/current-names.json` is a historical
 comparison reference only and is never merged into canonical events.
 
+## License
+
+Original project code and documentation are licensed under the GNU General
+Public License version 3 or any later version (SPDX: `GPL-3.0-or-later`); see
+[LICENSE](LICENSE).
+
+Bundled third-party and upstream reference material under `references/` remains
+subject to its own original licenses and terms and is not relicensed by this
+repository. Generated and on-chain data is offered under
+`GPL-3.0-or-later` to the extent copyright or related rights apply; this does
+not claim ownership of the underlying blockchain facts.
+
 ## One backfill batch
 
 Set `MOONCAT_RPC_URL` (preferred) or `ETH_RPC_URL`, then run one bounded batch:
