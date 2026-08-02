@@ -9,7 +9,9 @@
   },
   "scripts": {
     "test": "node --test",
-    "check": "node --check src/constants.js && npm test"
+    "generate:cat-id-map": "node scripts/generate-cat-id-map.js",
+    "validate:cat-id-map": "node scripts/generate-cat-id-map.js --check",
+    "check": "node --check src/constants.js && node --check src/cat-id-map.js && npm run validate:cat-id-map && npm test"
   },
   "dependencies": {
     "viem": "^2.33.2"
