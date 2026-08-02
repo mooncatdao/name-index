@@ -12,6 +12,7 @@ const EVENT = {
   logIndex: 0,
   blockNumber: 10,
   transactionIndex: 0,
+  blockTimestamp: 1_502_373_528,
   catId: "0x00d8523a53",
   nameRaw: "0x6361740000000000000000000000000000000000000000000000000000000000",
   removed: false,

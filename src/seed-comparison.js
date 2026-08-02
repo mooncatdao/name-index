@@ -75,6 +75,16 @@ function comparableSeed(entry) {
   };
 }
 
+function reportCanonicalDetails(record) {
+  const {
+    namedOrder: _namedOrder,
+    blockTimestamp: _blockTimestamp,
+    namedYear: _namedYear,
+    ...details
+  } = record;
+  return details;
+}
+
 function equalComparable(left, right) {
   return JSON.stringify(left) === JSON.stringify(right);
 }
@@ -128,10 +138,13 @@ export function buildSeedComparison(canonicalCurrentNames, seed, options = {}) {
       continue;
     }
     if (equalComparable(comparableCanonical(canonical), comparableSeed(seedEntry))) {
-      exactMatches.push([key, { canonical, seed: seedDetails(seedEntry) }]);
+      exactMatches.push([key, {
+        canonical: reportCanonicalDetails(canonical),
+        seed: seedDetails(seedEntry)
+      }]);
     } else {
       mismatches.push([key, {
-        canonical,
+        canonical: reportCanonicalDetails(canonical),
         seed: seedDetails(seedEntry)
       }]);
     }
@@ -155,7 +168,9 @@ export function buildSeedComparison(canonicalCurrentNames, seed, options = {}) {
       mismatches: mismatches.length
     },
     exactMatches: indexedOutput(exactMatches, (value) => value),
-    canonicalOnly: indexedOutput(canonicalOnly, (value) => ({ canonical: value })),
+    canonicalOnly: indexedOutput(canonicalOnly, (value) => ({
+      canonical: reportCanonicalDetails(value)
+    })),
     seedOnly: indexedOutput(seedOnly, (value) => ({ seed: seedDetails(value) })),
     mismatches: indexedOutput(mismatches, (value) => value)
   };

@@ -126,6 +126,41 @@ test("empty ranges from the provider produce an empty event list", async () => {
   }), []);
 });
 
+test("enriches nonblank logs with one cached timestamp call per block", async () => {
+  const calls = [];
+  const logs = [
+    makeLog({
+      transactionHash: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      blockNumber: 20n,
+      logIndex: 0n,
+      catId: CAT_ID
+    }),
+    makeLog({
+      transactionHash: "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      blockNumber: 20n,
+      logIndex: 1n,
+      catId: SECOND_CAT_ID,
+      catName: SECOND_NAME
+    })
+  ];
+  const client = {
+    async getLogs() {
+      return logs;
+    },
+    async getBlock(request) {
+      calls.push(request);
+      return { timestamp: 1_502_373_528n };
+    }
+  };
+  const events = await fetchCatNamedLogs(client, {
+    fromBlock: 20n,
+    toBlock: 20n,
+    chunkSize: 1n
+  });
+  assert.deepEqual(calls, [{ blockNumber: 20n }]);
+  assert.deepEqual(events.map((event) => event.blockTimestamp), [1_502_373_528, 1_502_373_528]);
+});
+
 test("deduplicates exact overlap logs and rejects conflicting duplicates", async () => {
   const duplicate = makeLog({ blockNumber: 20n });
   const client = {

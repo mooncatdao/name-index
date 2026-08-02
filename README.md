@@ -72,6 +72,27 @@ canonical source of truth; `data/events.jsonl` and the detailed current-name
 artifacts retain raw bytes and status information. `npm run validate:current-names`
 checks its exact bytes along with the other current-name artifacts.
 
+## Naming order and block time metadata
+
+Canonical nonblank events may carry `blockTimestamp` as Unix seconds. Current
+name records derive `namedOrder` from block number, transaction index, and log
+index, and publish it as a 1-based human-readable value. `namedYear` is the
+four-digit UTC year derived from that block timestamp. Blank attempts remain in
+the event history but do not receive naming-order metadata.
+
+To enrich an existing event store in bounded, resumable batches, configure
+`MOONCAT_RPC_URL` or `ETH_RPC_URL` and run:
+
+```sh
+npm run enrich:timestamps -- --max-blocks 250
+```
+
+The command fetches each unique missing nonblank event block once per run,
+persists events before regenerating detailed artifacts, and can be rerun until
+`remainingBlockCount` is zero. New logs discovered by scans and backfills use
+the same RPC block-timestamp enrichment path before persistence. The historical
+seed is not used as a timestamp source.
+
 ## Seed comparison
 
 Compare only the committed canonical current-name artifact with the historical

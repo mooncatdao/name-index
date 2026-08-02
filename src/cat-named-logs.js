@@ -6,6 +6,7 @@ import {
   MOONCAT_RESCUE_ADDRESS
 } from "./constants.js";
 import { decodeMoonCatName } from "./name-decoder.js";
+import { enrichEventsWithBlockTimestamps } from "./timestamp-enrichment.js";
 
 const TX_HASH_PATTERN = /^0x[0-9a-f]{64}$/i;
 const CAT_ID_PATTERN = /^0x[0-9a-f]{10}$/i;
@@ -149,7 +150,8 @@ function compareEvents(left, right) {
 export async function fetchCatNamedLogs(client, {
   fromBlock,
   toBlock,
-  chunkSize
+  chunkSize,
+  enrichTimestamps = true
 }) {
   if (!client || typeof client.getLogs !== "function") {
     throw new TypeError("client must provide getLogs");
@@ -180,5 +182,9 @@ export async function fetchCatNamedLogs(client, {
     }
   }
 
-  return [...byEventId.values()].sort(compareEvents);
+  const events = [...byEventId.values()].sort(compareEvents);
+  if (enrichTimestamps && typeof client.getBlock === "function") {
+    return (await enrichEventsWithBlockTimestamps(client, events)).events;
+  }
+  return events;
 }

@@ -14,7 +14,7 @@ const INVALID_RAW = "0xc32800000000000000000000000000000000000000000000000000000
 const LEADING_RAW = "0x0063617400000000000000000000000000000000000000000000000000000000";
 const REDACTED_RAW = "0x4a657773646964392f3131000000000000000000000000000000000000000000";
 
-function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, text = "cat", removed = false }) {
+function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, text = "cat", removed = false, blockTimestamp = 1_502_373_528 }) {
   const transactionHash = `0x${id.repeat(64).slice(0, 64)}`;
   const decoded = { rawName: nameRaw, status };
   if (status === "text" || status === "redacted") {
@@ -26,6 +26,7 @@ function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, te
     logIndex: 0,
     blockNumber,
     transactionIndex: 0,
+    blockTimestamp,
     catId,
     nameRaw,
     removed,
@@ -62,9 +63,23 @@ test("all nonblank statuses are retained with raw/status/text fields", () => {
     event({ id: "d", catId: "0x007d228add", blockNumber: 5, status: "leading-null", nameRaw: LEADING_RAW })
   ]);
   assert.deepEqual(result.currentNames.map((entry) => entry.rescueOrder), [6, 35, 37, 39]);
+  assert.deepEqual(result.currentNames.map((entry) => entry.namedOrder), [1, 2, 3, 4]);
+  assert.equal(result.namesByCatId["0x00d8523a53"].namedYear, 2017);
+  assert.equal(result.namesByCatId["0x00d8523a53"].blockTimestamp, 1_502_373_528);
   assert.equal(result.namesByCatId["0x0069b659c0"].text, "�");
   assert.equal(Object.hasOwn(result.namesByCatId["0x00b7c50d8a"], "text"), false);
   assert.equal(result.namesByRescueOrder[39].status, "leading-null");
+});
+
+test("named order uses canonical event order within the same block and is one-based", () => {
+  const first = event({ id: "a", catId: "0x00d8523a53", blockNumber: 10 });
+  const second = event({ id: "b", catId: "0x0069b659c0", blockNumber: 10 });
+  const result = deriveCurrentNames([
+    { ...second, transactionIndex: 2 },
+    { ...first, transactionIndex: 1 }
+  ]);
+  assert.equal(result.namesByCatId[first.catId].namedOrder, 1);
+  assert.equal(result.namesByCatId[second.catId].namedOrder, 2);
 });
 
 test("distinct nonblank assignments for one CatID fail loudly", () => {

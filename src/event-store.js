@@ -24,6 +24,7 @@ const REQUIRED_EVENT_FIELDS = [
   "removed",
   "decoded"
 ];
+const OPTIONAL_EVENT_FIELDS = ["blockTimestamp"];
 const DECODED_FIELDS = ["rawName", "status", "text"];
 const STATUSES = new Set(Object.values(NAME_STATUS));
 
@@ -58,9 +59,11 @@ export function validateEvent(event) {
   if (!event || typeof event !== "object" || Array.isArray(event)) {
     fail("event must be an object");
   }
-  const expectedEventFields = Object.hasOwn(event, "transactionIndex")
-    ? [...REQUIRED_EVENT_FIELDS, "transactionIndex"]
-    : REQUIRED_EVENT_FIELDS;
+  const expectedEventFields = [
+    ...REQUIRED_EVENT_FIELDS,
+    ...(Object.hasOwn(event, "transactionIndex") ? ["transactionIndex"] : []),
+    ...(Object.hasOwn(event, "blockTimestamp") ? OPTIONAL_EVENT_FIELDS : [])
+  ];
   assertExactFields(event, expectedEventFields, "event");
   if (typeof event.transactionHash !== "string" ||
       !TX_HASH_PATTERN.test(event.transactionHash)) {
@@ -70,6 +73,9 @@ export function validateEvent(event) {
   assertSafeInteger(event.blockNumber, "blockNumber");
   if (Object.hasOwn(event, "transactionIndex")) {
     assertSafeInteger(event.transactionIndex, "transactionIndex");
+  }
+  if (Object.hasOwn(event, "blockTimestamp")) {
+    assertSafeInteger(event.blockTimestamp, "blockTimestamp");
   }
   if (typeof event.catId !== "string" || !CAT_ID_PATTERN.test(event.catId)) {
     fail("catId must be lowercase bytes5 hex");
@@ -135,7 +141,14 @@ function mergeIntoMap(byEventId, events) {
     validateEvent(event);
     const existing = byEventId.get(event.eventId);
     if (existing) {
-      if (JSON.stringify(existing) !== JSON.stringify(event)) {
+      const sameExceptTimestamp =
+        JSON.stringify({ ...existing, blockTimestamp: undefined }) ===
+        JSON.stringify({ ...event, blockTimestamp: undefined });
+      const existingHasTimestamp = Object.hasOwn(existing, "blockTimestamp");
+      const incomingHasTimestamp = Object.hasOwn(event, "blockTimestamp");
+      if (sameExceptTimestamp && existingHasTimestamp !== incomingHasTimestamp) {
+        byEventId.set(event.eventId, incomingHasTimestamp ? event : existing);
+      } else if (JSON.stringify(existing) !== JSON.stringify(event)) {
         throw new EventStoreConflictError(event.eventId);
       }
     } else {

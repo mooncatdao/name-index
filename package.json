@@ -16,6 +16,7 @@
     "fetch:cat-named-logs": "node scripts/fetch-cat-named-logs.js",
     "scan:dry-run": "node scripts/scan-dry-run.js",
     "scan:save": "node scripts/scan-and-save.js",
+    "enrich:timestamps": "node scripts/enrich-timestamps.js",
     "backfill": "node scripts/backfill.js",
     "backfill:all": "node scripts/backfill.js --until-complete",
     "generate:current-names": "node scripts/generate-current-names.js",
@@ -23,7 +24,7 @@
     "validate:names-simple": "node scripts/generate-current-names.js --check",
     "compare:seed": "node scripts/compare-seed.js",
     "validate:seed-comparison": "node scripts/compare-seed.js --check",
-    "check": "node --check src/constants.js && node --check src/cat-id-map.js && node --check src/name-decoder.js && node --check src/checkpoint.js && node --check src/cat-named-logs.js && node --check src/dry-run-scanner.js && node --check src/event-store.js && node --check src/persistent-scanner.js && node --check src/backfill.js && node --check src/current-names.js && node --check src/current-name-artifacts.js && node --check src/seed-comparison.js && node --check scripts/fetch-cat-named-logs.js && node --check scripts/scan-dry-run.js && node --check scripts/scan-and-save.js && node --check scripts/backfill.js && node --check scripts/compare-seed.js && node --check scripts/generate-current-names.js && npm run validate:cat-id-map && npm run validate:name-seed && npm run validate:current-names && npm run validate:names-simple && npm run validate:seed-comparison && npm test"
+    "check": "node --check src/constants.js && node --check src/cat-id-map.js && node --check src/name-decoder.js && node --check src/checkpoint.js && node --check src/cat-named-logs.js && node --check src/dry-run-scanner.js && node --check src/event-store.js && node --check src/persistent-scanner.js && node --check src/backfill.js && node --check src/current-names.js && node --check src/current-name-artifacts.js && node --check src/timestamp-enrichment.js && node --check src/seed-comparison.js && node --check scripts/fetch-cat-named-logs.js && node --check scripts/scan-dry-run.js && node --check scripts/scan-and-save.js && node --check scripts/enrich-timestamps.js && node --check scripts/backfill.js && node --check scripts/compare-seed.js && node --check scripts/generate-current-names.js && npm run validate:cat-id-map && npm run validate:name-seed && npm run validate:current-names && npm run validate:names-simple && npm run validate:seed-comparison && npm test"
   },
   "dependencies": {
     "viem": "^2.33.2"

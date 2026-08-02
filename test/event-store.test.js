@@ -80,3 +80,13 @@ test("optional transactionIndex may be absent from normalized events", async () 
   assert.deepEqual(loaded, [event]);
   await rm(directory, { recursive: true, force: true });
 });
+
+test("timestamp enrichment merges a missing optional timestamp without conflict", () => {
+  const event = makeEvent();
+  const enriched = { ...event, blockTimestamp: 1_502_373_528 };
+  assert.deepEqual(mergeEvents([event], [enriched]), [enriched]);
+  assert.throws(
+    () => mergeEvents([enriched], [{ ...enriched, blockTimestamp: 1_502_373_529 }]),
+    EventStoreConflictError
+  );
+});
