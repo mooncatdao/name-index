@@ -80,6 +80,7 @@ objects keyed as `<catId>@<rescueOrder>`:
 - `mismatches`: both records exist but their raw/status/text values differ.
 
 Each category retains canonical or seed details, including raw bytes and
-decoded status/text where available. With the committed empty event store, the
-initial report has 1,225 `seedOnly` records and zero records in the other
-categories.
+decoded status/text where available. The current report has 1,225 exact
+matches, seven `canonicalOnly` records, and zero `seedOnly` records or
+mismatches. See [the seed reconciliation note](docs/seed-reconciliation.md)
+for the seven records and the evidence limits around seed coverage.
