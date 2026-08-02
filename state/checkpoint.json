@@ -3,10 +3,10 @@
   "chainId": 1,
   "contractAddress": "0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6",
   "startBlock": 4140409,
-  "lastScannedBlock": 4140408,
-  "lastFinalizedBlock": 4140408,
+  "lastScannedBlock": 25667847,
+  "lastFinalizedBlock": 25667847,
   "confirmations": 64,
   "overlapBlocks": 100,
   "chunkSize": 10000,
-  "updatedAt": null
+  "updatedAt": "2026-08-02T14:51:53.651Z"
 }
