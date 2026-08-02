@@ -7,6 +7,7 @@ import {
   writeFile
 } from "node:fs/promises";
 import path from "node:path";
+import { getAddress } from "viem";
 
 import { NAME_STATUS } from "./name-decoder.js";
 
@@ -24,7 +25,8 @@ const REQUIRED_EVENT_FIELDS = [
   "removed",
   "decoded"
 ];
-const OPTIONAL_EVENT_FIELDS = ["blockTimestamp"];
+const OPTIONAL_EVENT_FIELDS = ["blockTimestamp", "namer"];
+const ADDRESS_PATTERN = /^0x[0-9a-f]{40}$/i;
 const DECODED_FIELDS = ["rawName", "status", "text"];
 const STATUSES = new Set(Object.values(NAME_STATUS));
 
@@ -62,7 +64,8 @@ export function validateEvent(event) {
   const expectedEventFields = [
     ...REQUIRED_EVENT_FIELDS,
     ...(Object.hasOwn(event, "transactionIndex") ? ["transactionIndex"] : []),
-    ...(Object.hasOwn(event, "blockTimestamp") ? OPTIONAL_EVENT_FIELDS : [])
+    ...(Object.hasOwn(event, "blockTimestamp") ? ["blockTimestamp"] : []),
+    ...(Object.hasOwn(event, "namer") ? ["namer"] : [])
   ];
   assertExactFields(event, expectedEventFields, "event");
   if (typeof event.transactionHash !== "string" ||
@@ -76,6 +79,20 @@ export function validateEvent(event) {
   }
   if (Object.hasOwn(event, "blockTimestamp")) {
     assertSafeInteger(event.blockTimestamp, "blockTimestamp");
+  }
+  if (Object.hasOwn(event, "namer")) {
+    if (event.decoded?.status === NAME_STATUS.BLANK ||
+        typeof event.namer !== "string" ||
+        !ADDRESS_PATTERN.test(event.namer)) {
+      fail("namer must be a normalized Ethereum address on nonblank events");
+    }
+    try {
+      if (getAddress(event.namer) !== event.namer) {
+        fail("namer must use checksum address format");
+      }
+    } catch {
+      fail("namer must be a normalized Ethereum address on nonblank events");
+    }
   }
   if (typeof event.catId !== "string" || !CAT_ID_PATTERN.test(event.catId)) {
     fail("catId must be lowercase bytes5 hex");
@@ -141,13 +158,25 @@ function mergeIntoMap(byEventId, events) {
     validateEvent(event);
     const existing = byEventId.get(event.eventId);
     if (existing) {
-      const sameExceptTimestamp =
-        JSON.stringify({ ...existing, blockTimestamp: undefined }) ===
-        JSON.stringify({ ...event, blockTimestamp: undefined });
-      const existingHasTimestamp = Object.hasOwn(existing, "blockTimestamp");
-      const incomingHasTimestamp = Object.hasOwn(event, "blockTimestamp");
-      if (sameExceptTimestamp && existingHasTimestamp !== incomingHasTimestamp) {
-        byEventId.set(event.eventId, incomingHasTimestamp ? event : existing);
+      const withoutOptionalMetadata = (value) => Object.fromEntries(
+        Object.entries(value).filter(([key]) => !OPTIONAL_EVENT_FIELDS.includes(key))
+      );
+      const sameExceptOptionalMetadata =
+        JSON.stringify(withoutOptionalMetadata(existing)) ===
+        JSON.stringify(withoutOptionalMetadata(event));
+      if (sameExceptOptionalMetadata) {
+        const merged = { ...existing };
+        for (const field of OPTIONAL_EVENT_FIELDS) {
+          const existingHasField = Object.hasOwn(existing, field);
+          const incomingHasField = Object.hasOwn(event, field);
+          if (existingHasField && incomingHasField && existing[field] !== event[field]) {
+            throw new EventStoreConflictError(event.eventId);
+          }
+          if (incomingHasField) {
+            merged[field] = event[field];
+          }
+        }
+        byEventId.set(event.eventId, merged);
       } else if (JSON.stringify(existing) !== JSON.stringify(event)) {
         throw new EventStoreConflictError(event.eventId);
       }

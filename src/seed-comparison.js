@@ -80,6 +80,7 @@ function reportCanonicalDetails(record) {
     namedOrder: _namedOrder,
     blockTimestamp: _blockTimestamp,
     namedYear: _namedYear,
+    namer: _namer,
     ...details
   } = record;
   return details;

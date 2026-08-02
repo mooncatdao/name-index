@@ -6,6 +6,7 @@ import {
   MOONCAT_RESCUE_ADDRESS
 } from "./constants.js";
 import { decodeMoonCatName } from "./name-decoder.js";
+import { enrichEventsWithNamers } from "./namer-enrichment.js";
 import { enrichEventsWithBlockTimestamps } from "./timestamp-enrichment.js";
 
 const TX_HASH_PATTERN = /^0x[0-9a-f]{64}$/i;
@@ -151,7 +152,8 @@ export async function fetchCatNamedLogs(client, {
   fromBlock,
   toBlock,
   chunkSize,
-  enrichTimestamps = true
+  enrichTimestamps = true,
+  enrichNamers = true
 }) {
   if (!client || typeof client.getLogs !== "function") {
     throw new TypeError("client must provide getLogs");
@@ -183,8 +185,12 @@ export async function fetchCatNamedLogs(client, {
   }
 
   const events = [...byEventId.values()].sort(compareEvents);
+  let enrichedEvents = events;
   if (enrichTimestamps && typeof client.getBlock === "function") {
-    return (await enrichEventsWithBlockTimestamps(client, events)).events;
+    enrichedEvents = (await enrichEventsWithBlockTimestamps(client, enrichedEvents)).events;
   }
-  return events;
+  if (enrichNamers && typeof client.getTransaction === "function") {
+    enrichedEvents = (await enrichEventsWithNamers(client, enrichedEvents)).events;
+  }
+  return enrichedEvents;
 }

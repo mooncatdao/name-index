@@ -90,3 +90,19 @@ test("timestamp enrichment merges a missing optional timestamp without conflict"
     EventStoreConflictError
   );
 });
+
+test("timestamp and namer enrichment merge independently and conflicts are loud", () => {
+  const event = makeEvent();
+  const namer = "0x4bE972E5799b243180b2FC76468a1C8503281449";
+  const withTimestamp = { ...event, blockTimestamp: 1_502_373_528 };
+  const enriched = { ...event, namer };
+  assert.deepEqual(mergeEvents([withTimestamp], [enriched]), [{
+    ...event,
+    blockTimestamp: 1_502_373_528,
+    namer
+  }]);
+  assert.throws(
+    () => mergeEvents([enriched], [{ ...enriched, namer: "0x61Fae4F63C5B0316F658B11319141C5755F833c8" }]),
+    EventStoreConflictError
+  );
+});

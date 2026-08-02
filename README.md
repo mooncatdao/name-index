@@ -93,6 +93,27 @@ persists events before regenerating detailed artifacts, and can be rerun until
 the same RPC block-timestamp enrichment path before persistence. The historical
 seed is not used as a timestamp source.
 
+## Namer transaction metadata
+
+Canonical nonblank naming events and detailed current-name artifacts may carry
+`namer`, the immediate Ethereum transaction `from` address. It is checksum
+normalized and may identify either a wallet or a contract; it does not identify
+the human chooser or beneficial owner, and no EOA/contract classification is
+stored.
+
+To enrich existing events without rescanning CatNamed logs, configure
+`MOONCAT_RPC_URL` or `ETH_RPC_URL` and run the bounded, resumable command:
+
+```sh
+npm run enrich:namers -- --max-transactions 250
+```
+
+Each unique missing transaction hash is fetched at most once per run. The
+command persists enriched events before regenerating detailed artifacts and
+reports `remainingTransactionCount`; rerun it until that count is zero. Future
+scans and backfills fetch both block timestamps and transaction senders before
+their events are persisted.
+
 ## Seed comparison
 
 Compare only the committed canonical current-name artifact with the historical

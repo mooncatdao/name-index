@@ -37,6 +37,7 @@ function toCurrentNameRecord(event, rescueOrder, namedOrder) {
     eventId: event.eventId,
     blockNumber: event.blockNumber,
     transactionHash: event.transactionHash,
+    ...(Object.hasOwn(event, "namer") ? { namer: event.namer } : {}),
     logIndex: event.logIndex,
     ...(Object.hasOwn(event, "transactionIndex")
       ? { transactionIndex: event.transactionIndex }

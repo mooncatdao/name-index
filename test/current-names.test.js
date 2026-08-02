@@ -14,7 +14,7 @@ const INVALID_RAW = "0xc32800000000000000000000000000000000000000000000000000000
 const LEADING_RAW = "0x0063617400000000000000000000000000000000000000000000000000000000";
 const REDACTED_RAW = "0x4a657773646964392f3131000000000000000000000000000000000000000000";
 
-function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, text = "cat", removed = false, blockTimestamp = 1_502_373_528 }) {
+function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, text = "cat", removed = false, blockTimestamp = 1_502_373_528, namer = "0x4bE972E5799b243180b2FC76468a1C8503281449" }) {
   const transactionHash = `0x${id.repeat(64).slice(0, 64)}`;
   const decoded = { rawName: nameRaw, status };
   if (status === "text" || status === "redacted") {
@@ -27,6 +27,7 @@ function event({ id, catId, blockNumber, status = "text", nameRaw = TEXT_RAW, te
     blockNumber,
     transactionIndex: 0,
     blockTimestamp,
+    ...(status === "blank" ? {} : { namer }),
     catId,
     nameRaw,
     removed,
@@ -66,6 +67,7 @@ test("all nonblank statuses are retained with raw/status/text fields", () => {
   assert.deepEqual(result.currentNames.map((entry) => entry.namedOrder), [1, 2, 3, 4]);
   assert.equal(result.namesByCatId["0x00d8523a53"].namedYear, 2017);
   assert.equal(result.namesByCatId["0x00d8523a53"].blockTimestamp, 1_502_373_528);
+  assert.equal(result.namesByCatId["0x00d8523a53"].namer, "0x4bE972E5799b243180b2FC76468a1C8503281449");
   assert.equal(result.namesByCatId["0x0069b659c0"].text, "�");
   assert.equal(Object.hasOwn(result.namesByCatId["0x00b7c50d8a"], "text"), false);
   assert.equal(result.namesByRescueOrder[39].status, "leading-null");

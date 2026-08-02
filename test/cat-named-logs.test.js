@@ -161,6 +161,42 @@ test("enriches nonblank logs with one cached timestamp call per block", async ()
   assert.deepEqual(events.map((event) => event.blockTimestamp), [1_502_373_528, 1_502_373_528]);
 });
 
+test("enriches shared-transaction logs with one normalized sender lookup", async () => {
+  const calls = [];
+  const logs = [
+    makeLog({ logIndex: 0n, blockNumber: 20n }),
+    makeLog({
+      transactionHash: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      logIndex: 1n,
+      blockNumber: 20n,
+      catId: SECOND_CAT_ID,
+      catName: SECOND_NAME
+    })
+  ];
+  const client = {
+    async getLogs() {
+      return logs;
+    },
+    async getTransaction(request) {
+      calls.push(request);
+      return { from: "0x4be972e5799b243180b2fc76468a1c8503281449" };
+    }
+  };
+  const events = await fetchCatNamedLogs(client, {
+    fromBlock: 20n,
+    toBlock: 20n,
+    chunkSize: 1n,
+    enrichTimestamps: false
+  });
+  assert.deepEqual(calls, [{
+    hash: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  }]);
+  assert.deepEqual(events.map((event) => event.namer), [
+    "0x4bE972E5799b243180b2FC76468a1C8503281449",
+    "0x4bE972E5799b243180b2FC76468a1C8503281449"
+  ]);
+});
+
 test("deduplicates exact overlap logs and rejects conflicting duplicates", async () => {
   const duplicate = makeLog({ blockNumber: 20n });
   const client = {

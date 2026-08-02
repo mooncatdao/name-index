@@ -13,6 +13,7 @@ const EVENT = {
   blockNumber: 10,
   transactionIndex: 0,
   blockTimestamp: 1_502_373_528,
+  namer: "0x4bE972E5799b243180b2FC76468a1C8503281449",
   catId: "0x00d8523a53",
   nameRaw: "0x6361740000000000000000000000000000000000000000000000000000000000",
   removed: false,
@@ -80,6 +81,7 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   });
   assert.equal(artifacts.currentNames.length, 1);
   assert.equal(artifacts.namesByCatId[EVENT.catId].eventId, EVENT.eventId);
+  assert.equal(artifacts.namesByCatId[EVENT.catId].namer, EVENT.namer);
   assert.equal(artifacts.namesByRescueOrder[6].catId, EVENT.catId);
   assert.equal(artifacts.namesByRescueOrder.length, 25_440);
   assert.deepEqual(artifacts.namesSimple, { "6": "cat" });
