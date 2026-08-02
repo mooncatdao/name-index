@@ -21,10 +21,10 @@ jobs:
       CHECKPOINT_CACHE_KEY: mooncat-naming-checkpoint-${{ github.run_id }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Restore scanner checkpoint cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: state/checkpoint.json
           key: ${{ env.CHECKPOINT_CACHE_KEY }}
@@ -32,7 +32,7 @@ jobs:
             mooncat-naming-checkpoint-
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -91,7 +91,7 @@ jobs:
         run: echo "No canonical naming changes detected."
 
       - name: Save scanner checkpoint cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: state/checkpoint.json
           key: ${{ env.CHECKPOINT_CACHE_KEY }}
