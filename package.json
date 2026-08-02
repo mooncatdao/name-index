@@ -13,7 +13,7 @@
     "validate:cat-id-map": "node scripts/generate-cat-id-map.js --check",
     "generate:name-seed": "node scripts/generate-name-seed.js",
     "validate:name-seed": "node scripts/generate-name-seed.js --check",
-    "check": "node --check src/constants.js && node --check src/cat-id-map.js && npm run validate:cat-id-map && npm run validate:name-seed && npm test"
+    "check": "node --check src/constants.js && node --check src/cat-id-map.js && node --check src/name-decoder.js && npm run validate:cat-id-map && npm run validate:name-seed && npm test"
   },
   "dependencies": {
     "viem": "^2.33.2"
