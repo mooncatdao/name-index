@@ -123,6 +123,9 @@ canonical input. Actions runs the existing finalized incremental scanner,
 enrichment, artifact generation, and `npm run check`, then commits only changed
 canonical `data/` artifacts. A six-hour scheduled run is the fallback, and
 workflow concurrency serializes duplicate or overlapping deliveries.
+Publishing commits those generated artifacts directly to `main`; it does not
+open a pull request. Repository branch rules therefore need to permit the
+workflow's normal push while still blocking force pushes and branch deletion.
 
 Deployment, required secrets, Alchemy filter setup, manual dispatch testing,
 checkpoint cache behavior, and recovery steps are documented in

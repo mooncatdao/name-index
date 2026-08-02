@@ -75,6 +75,46 @@ webhook for Ethereum mainnet and filter the MoonCatRescue contract's
 Alchemy dashboard for the deployed webhook; the Worker does not trust the
 filter or payload for canonical correctness.
 
+## Local Worker test
+
+Use Wrangler's local development mode to verify the signature and GitHub
+dispatch path before relying on a live Alchemy delivery. Put the required
+local-only bindings in `.dev.vars`: the test signing key, repository-scoped
+GitHub token, repository owner, repository name, and the
+`alchemy-naming-event` event type. Keep that file untracked.
+
+Start the Worker locally:
+
+```sh
+npx wrangler dev
+```
+
+In a second terminal, sign and send the exact same raw JSON body:
+
+```sh
+BODY='{"test":true}'
+SIGNING_KEY='test-signing-key'
+SIGNATURE=$(printf '%s' "$BODY" \
+  | openssl dgst -sha256 -hmac "$SIGNING_KEY" \
+  | awk '{print $2}')
+
+curl -i \
+  -X POST http://localhost:8787 \
+  -H "content-type: application/json" \
+  -H "x-alchemy-signature: $SIGNATURE" \
+  --data-raw "$BODY"
+```
+
+The `SIGNING_KEY` value must match the local signing-key binding in
+`.dev.vars`. A successful end-to-end local test returns `202` with
+`{"accepted":true}` and starts the publishing workflow through a
+`repository_dispatch` event. A `401` means signature verification failed; a
+`502` means the signature passed but GitHub rejected the dispatch. Restart
+Wrangler after changing `.dev.vars` so the new bindings are loaded.
+
+The `.dev.vars` file and `.wrangler/` runtime state are local-only and must not
+be committed.
+
 ## Operations and recovery
 
 - Duplicate webhook deliveries are safe: repository dispatch is only a wake-up,
