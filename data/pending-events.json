@@ -1,23 +1,5 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {
-    "0x623f11f7452aaedaf7656584a6c3931b3cd49843a0248fb1da7f8d1079fa2cf6:665": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 25674684,
-        "catId": "0x0001032db3",
-        "eventId": "0x623f11f7452aaedaf7656584a6c3931b3cd49843a0248fb1da7f8d1079fa2cf6:665",
-        "logIndex": 665,
-        "nameRaw": "0x0000000000000000000000000000000000000000000000000000000000000000",
-        "removed": false,
-        "transactionHash": "0x623f11f7452aaedaf7656584a6c3931b3cd49843a0248fb1da7f8d1079fa2cf6",
-        "transactionIndex": 289,
-        "decoded": {
-          "rawName": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "status": "blank"
-        }
-      }
-    }
-  }
+  "events": {}
 }
