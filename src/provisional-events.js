@@ -277,18 +277,12 @@ export function reconcilePendingEvents(pendingEvents, canonicalEvents, finalized
       if (canonical.removed) {
         removed.push(pending);
       } else {
-        const comparableCanonical = Object.hasOwn(pending, "transactionIndex") ===
-          Object.hasOwn(canonical, "transactionIndex")
-          ? canonical
-          : Object.fromEntries(
-            Object.entries(canonical).filter(([key]) => key !== "transactionIndex")
-          );
-        const comparablePending = Object.hasOwn(pending, "transactionIndex") ===
-          Object.hasOwn(canonical, "transactionIndex")
-          ? pending
-          : Object.fromEntries(
-            Object.entries(pending).filter(([key]) => key !== "transactionIndex")
-          );
+        const comparableCanonical = Object.fromEntries(
+          Object.entries(canonical).filter(([key]) => key !== "transactionIndex")
+        );
+        const comparablePending = Object.fromEntries(
+          Object.entries(pending).filter(([key]) => key !== "transactionIndex")
+        );
         mergeEvents([comparableCanonical], [comparablePending]);
         promoted.push(pending);
       }

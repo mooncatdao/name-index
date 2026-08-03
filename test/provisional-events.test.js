@@ -4,6 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 
+import { EventStoreConflictError } from "../src/event-store.js";
 import { buildLiveNameArtifacts } from "../src/live-name-artifacts.js";
 import {
   createPendingStore,
@@ -85,6 +86,29 @@ test("reconciliation tolerates RPC enrichment and removes canonical tombstones s
   assert.deepEqual(result.promoted.map((event) => event.eventId), [pending.eventId]);
   assert.deepEqual(result.removed.map((event) => event.eventId), [tombstone.eventId]);
   assert.deepEqual(result.retained, []);
+});
+
+test("reconciliation promotes matching events when transaction indexes differ", () => {
+  const pending = normalizeProvisionalEvent(inputEvent({ id: "a" }));
+  const canonical = { ...pending, transactionIndex: 4, blockTimestamp: 1_502_373_528 };
+  const result = reconcilePendingEvents([pending], [canonical], 100);
+  assert.deepEqual(result.promoted, [pending]);
+  assert.deepEqual(result.retained, []);
+  assert.deepEqual(pendingEventsFromStore(result.store), []);
+  assert.equal(canonical.transactionIndex, 4);
+});
+
+test("reconciliation still rejects meaningful mismatches", () => {
+  const pending = normalizeProvisionalEvent(inputEvent({ id: "a" }));
+  const canonical = {
+    ...pending,
+    transactionIndex: 4,
+    catId: "0x0069b659c0"
+  };
+  assert.throws(
+    () => reconcilePendingEvents([pending], [canonical], 100),
+    EventStoreConflictError
+  );
 });
 
 test("live artifacts overlay provisional names and expose blank pending status", () => {
