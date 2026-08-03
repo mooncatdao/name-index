@@ -129,12 +129,30 @@ their events are persisted.
 ## Automated publishing
 
 The production wake-up path is an Alchemy Custom Webhook to a small Cloudflare
-Worker, then GitHub Actions. The Worker validates the raw-body signature and
-dispatches a fixed repository event; it never uses webhook payload data as
-canonical input. Actions runs the existing finalized incremental scanner,
-enrichment, artifact generation, and `npm run check`, then commits only changed
-generated `data/` artifacts. A six-hour scheduled run is the fallback, and
-workflow concurrency serializes duplicate or overlapping deliveries.
+Worker, then GitHub Actions. The Worker validates the raw-body signature,
+strictly normalizes one matching `CatNamed` log, and dispatches only that
+bounded provisional event; it never treats webhook data as finalized
+canonical input. Repository dispatch publishes `data/pending-events.json` and
+the explicit `*-live.json` artifacts immediately. A separate reconciliation
+job waits about 15 minutes for repository dispatch, scans the existing
+64-confirmation finalized range, promotes confirmed events, removes orphaned
+pending entries, and refreshes both finalized and live artifacts. Manual and
+six-hour scheduled runs reconcile immediately without the wait.
+
+Finalized consumers should continue reading `data/events.jsonl`,
+`data/current-names.json`, `data/names-by-cat-id.json`,
+`data/names-by-rescue-order.json`, `data/names-simple.json`, and
+`data/metadata.json`; these retain their finalized-only meaning. Live
+consumers may opt into `data/pending-events.json` and the five `*-live.json`
+artifacts. Live metadata identifies finalized and provisional counts, and
+provisional current-name records carry `provisional: true`. Blank provisional
+events contribute to live pending metadata but never create a current-name
+record. Duplicate deliveries are idempotent, and finalized-height entries
+missing from RPC logs are removed as reorg/orphan candidates.
+Provisional publication and reconciliation use separate serialized job lanes,
+so a reconciliation wait does not block later provisional deliveries. Their
+short main-branch writes fetch/rebase and retry; an unresolvable race fails
+without overwriting newer commits.
 Publishing commits those generated artifacts directly to `main`; it does not
 open a pull request. Repository branch rules therefore need to permit the
 workflow's normal push while still blocking force pushes and branch deletion.

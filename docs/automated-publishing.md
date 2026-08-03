@@ -4,14 +4,29 @@ The production wake-up path is:
 
 ```text
 Alchemy Custom Webhook -> Cloudflare Worker -> GitHub repository_dispatch
-  -> Actions scanner -> validation -> explicit canonical-artifact commit
+  -> Actions provisional commit -> delayed finalized reconciliation
+  -> validation -> explicit finalized/live-artifact commit
 ```
 
-The Alchemy request is only a notification. The Worker never copies webhook
-fields into `data/`. The Actions job performs the existing finalized,
-overlap-aware scan, obtains block timestamps and transaction senders through the
-configured RPC client, regenerates detailed artifacts, and runs the full
-validation suite. A six-hour schedule covers missed or delayed notifications.
+The Worker verifies the Alchemy signature and accepts only one strictly
+validated `CatNamed` log from the MoonCatRescue contract. It sends GitHub only
+the normalized event needed for provisional ingestion; it never forwards the
+raw webhook body or advances the finalized scanner. The repository-dispatch
+path immediately writes the explicitly provisional
+`data/pending-events.json` store and the five `*-live.json` artifacts. The
+reconciliation path waits about 15 minutes only for repository dispatch, then
+checks out the latest `main`, performs the existing finalized overlap-aware
+scan, reconciles pending entries against finalized RPC logs, regenerates live
+artifacts, and runs the full validation suite. A six-hour schedule covers
+missed or delayed notifications and reconciles immediately.
+
+The workflow has separate job-level concurrency lanes for provisional
+publication and reconciliation; there is no workflow-wide lock spanning the
+reconciliation sleep. Provisional deliveries therefore continue through their
+own short publication lane while reconciliation waits. Both commit steps fetch
+and rebase onto `origin/main` before retrying the push up to three times. An
+unresolvable rebase conflict fails that run without overwriting newer commits;
+the next serialized run can retry from the resulting `main` state.
 
 ## GitHub Actions setup
 
@@ -28,8 +43,9 @@ validation suite. A six-hour schedule covers missed or delayed notifications.
    `alchemy-naming-event` repository-dispatch type, manual `workflow_dispatch`,
    and `0 */6 * * *` UTC schedule events.
 4. Scanner checkpoint continuity is kept in the GitHub Actions cache rather
-   than committed from `state/`. The canonical generated allowlist is limited
-   to the six `data/` artifacts listed in the workflow.
+   than committed from `state/`. The workflow allowlist contains the finalized
+   artifacts, the monthly timeline, the pending store, and the five live
+   artifacts. It never stages `state/`, reports, references, or secrets.
 
 Run a manual test from the Actions tab with `workflow_dispatch`. A no-change
 run succeeds, validates the repository, updates the cached checkpoint, and
@@ -63,10 +79,14 @@ workflow/repository-dispatch capability sufficient for
 
 The Worker validates the raw request body against the
 `X-Alchemy-Signature` HMAC-SHA256 hex digest using `ALCHEMY_SIGNING_KEY`.
-After a valid JSON-object body is authenticated, it sends GitHub only a fixed
-wake-up payload containing `source: alchemy-custom-webhook`; the Alchemy event
-contents are not forwarded or interpreted as canonical data. Invalid
-signatures return 401, malformed JSON returns 400, and GitHub failures return
+After authentication it requires a GraphQL Custom Webhook payload containing
+exactly one log with the MoonCatRescue address, the exact `CatNamed` topic,
+two correctly padded topics, a bytes32 name, transaction hash/index, block
+number, and log index. Wrong contracts/topics, unrelated or multiple logs,
+malformed fields, and bodies over the bounded request size are rejected. The
+GitHub payload contains only `provisional: true` and the normalized event.
+Invalid signatures return 401, malformed JSON returns 400, invalid event
+payloads return 422, oversized bodies return 413, and GitHub failures return
 502 so Alchemy can retry.
 
 Copy the deployed Worker URL into an Alchemy Custom Webhook. Configure the
@@ -92,7 +112,7 @@ npx wrangler dev
 In a second terminal, sign and send the exact same raw JSON body:
 
 ```sh
-BODY='{"test":true}'
+BODY='{"type":"GRAPHQL","event":{"data":{"block":{"number":22000000,"logs":[{"transaction":{"hash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","index":0,"logs":[{"account":{"address":"0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6"},"topics":["0xaf93a6d1ccdac374cb23b8a45184a5fbcb33c51e4471f69c088ebc18627fbd0f","0x000000000000000000000000000000000000000000000000000000d8523a53"],"data":"0x6361740000000000000000000000000000000000000000000000000000000000","index":0}]}}]}}}}'
 SIGNING_KEY='test-signing-key'
 SIGNATURE=$(printf '%s' "$BODY" \
   | openssl dgst -sha256 -hmac "$SIGNING_KEY" \
@@ -106,10 +126,12 @@ curl -i \
 ```
 
 The `SIGNING_KEY` value must match the local signing-key binding in
-`.dev.vars`. A successful end-to-end local test returns `202` with
-`{"accepted":true}` and starts the publishing workflow through a
-`repository_dispatch` event. A `401` means signature verification failed; a
-`502` means the signature passed but GitHub rejected the dispatch. Restart
+`.dev.vars`. A successful end-to-end local test must send a representative
+GraphQL `CatNamed` payload and returns `202` with `{"accepted":true}`; it
+starts the provisional publishing workflow through a `repository_dispatch`
+event. A `401` means signature verification failed, `422` means the
+authenticated payload was not one unambiguous CatNamed log, and `502` means
+the signature and event passed but GitHub rejected the dispatch. Restart
 Wrangler after changing `.dev.vars` so the new bindings are loaded.
 
 The `.dev.vars` file and `.wrangler/` runtime state are local-only and must not
@@ -117,11 +139,22 @@ be committed.
 
 ## Operations and recovery
 
-- Duplicate webhook deliveries are safe: repository dispatch is only a wake-up,
-  workflow concurrency serializes runs, event IDs make overlap scans
-  idempotent, and the scanner's confirmation/reorg rules remain authoritative.
+- Duplicate webhook deliveries are safe: workflow concurrency serializes runs,
+  the pending store is keyed by `transactionHash:logIndex`, exact duplicates
+  are no-ops, and the finalized scanner remains authoritative. Provisional
+  writes and reconciliation writes have separate job locks so the delayed
+  reconciliation lane does not queue later provisional deliveries.
+- A pending event is promoted when the finalized scan contains the same event
+  ID and compatible fields. Entries newer than the finalized height remain
+  provisional. Entries at or below that height that are absent from finalized
+  logs are removed as orphaned/reorged. Removed webhook logs are never added to
+  the pending store.
+- Finalized artifacts remain finalized-only. Live artifacts are a deliberate
+  opt-in overlay; consumers must not silently replace finalized filenames with
+  live filenames.
 - The scheduled run is the fallback for missed notifications. It uses the same
-  scan, enrichment, validation, cache, and explicit commit path.
+  scan, reconciliation, enrichment, validation, cache, and explicit commit path
+  but does not sleep.
 - If the RPC fails, the job fails before a checkpoint cache save or commit;
   retry after correcting `MOONCAT_RPC_URL`.
 - If validation fails, inspect the job logs and fix the repository or provider
