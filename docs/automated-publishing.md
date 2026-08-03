@@ -24,7 +24,9 @@ The workflow has separate job-level concurrency lanes for provisional
 publication and reconciliation; there is no workflow-wide lock spanning the
 reconciliation sleep. Provisional deliveries therefore continue through their
 own short publication lane while reconciliation waits. Both commit steps fetch
-and rebase onto `origin/main` before retrying the push up to three times. An
+and rebase with `--autostash` onto `origin/main` before retrying the push up to
+three times. This preserves an unstaged scanner checkpoint change for the later
+cache-save step without adding it to the explicit generated-artifact commit. An
 unresolvable rebase conflict fails that run without overwriting newer commits;
 the next serialized run can retry from the resulting `main` state.
 

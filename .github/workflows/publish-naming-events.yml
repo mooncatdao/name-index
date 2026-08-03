@@ -79,7 +79,8 @@ jobs:
           git commit -m "chore: publish provisional MoonCat naming event"
           for attempt in 1 2 3; do
             git fetch origin main
-            if ! git rebase origin/main; then
+            # Equivalent to git rebase origin/main with expected checkpoint changes autostashed.
+            if ! git rebase --autostash origin/main; then
               git rebase --abort || true
               echo "Unable to rebase provisional publication onto latest main."
               exit 1
@@ -198,7 +199,8 @@ jobs:
           git commit -m "chore: reconcile MoonCat naming events"
           for attempt in 1 2 3; do
             git fetch origin main
-            if ! git rebase origin/main; then
+            # Equivalent to git rebase origin/main with expected checkpoint changes autostashed.
+            if ! git rebase --autostash origin/main; then
               git rebase --abort || true
               echo "Unable to rebase reconciliation onto latest main."
               exit 1
