@@ -40,6 +40,17 @@ function inputEvent({
   };
 }
 
+function reverseObject(value) {
+  return Object.fromEntries(
+    Object.entries(value).reverse().map(([key, entry]) => [
+      key,
+      entry && typeof entry === "object" && !Array.isArray(entry)
+        ? reverseObject(entry)
+        : entry
+    ])
+  );
+}
+
 test("pending storage is independently decoded, keyed, sorted, and idempotent", async () => {
   const directory = await mkdtemp(path.join(os.tmpdir(), "name-index-pending-"));
   const filePath = path.join(directory, "pending-events.json");
@@ -96,6 +107,15 @@ test("reconciliation promotes matching events when transaction indexes differ", 
   assert.deepEqual(result.retained, []);
   assert.deepEqual(pendingEventsFromStore(result.store), []);
   assert.equal(canonical.transactionIndex, 4);
+});
+
+test("reconciliation ignores top-level and decoded property order", () => {
+  const canonical = normalizeProvisionalEvent(inputEvent({ id: "a" }));
+  const pending = reverseObject(canonical);
+  canonical.transactionIndex = 4;
+  const result = reconcilePendingEvents([pending], [canonical], 100);
+  assert.deepEqual(result.promoted, [pending]);
+  assert.deepEqual(pendingEventsFromStore(result.store), []);
 });
 
 test("reconciliation still rejects meaningful mismatches", () => {

@@ -34,9 +34,40 @@ const HASH_PATTERN = /^0x[0-9a-f]{64}$/i;
 const CAT_ID_PATTERN = /^0x[0-9a-f]{10}$/i;
 const NAME_RAW_PATTERN = /^0x[0-9a-f]{64}$/i;
 const EVENT_ID_PATTERN = /^0x[0-9a-f]{64}:\d+$/i;
+const RECONCILIATION_OPTIONAL_FIELDS = new Set(["blockTimestamp", "namer"]);
 
 function compareEventIds(left, right) {
   return left < right ? -1 : left > right ? 1 : 0;
+}
+
+function stableSerialize(value) {
+  if (Array.isArray(value)) {
+    return `[${value.map((entry) => stableSerialize(entry)).join(",")}]`;
+  }
+  if (value && typeof value === "object") {
+    return `{${Object.keys(value).sort().map((key) =>
+      `${JSON.stringify(key)}:${stableSerialize(value[key])}`
+    ).join(",")}}`;
+  }
+  return JSON.stringify(value);
+}
+
+function assertReconciliationMatch(left, right) {
+  const withoutIgnoredFields = (event) => Object.fromEntries(
+    Object.entries(event).filter(([key]) =>
+      key !== "transactionIndex" && !RECONCILIATION_OPTIONAL_FIELDS.has(key)
+    )
+  );
+  if (stableSerialize(withoutIgnoredFields(left)) !==
+      stableSerialize(withoutIgnoredFields(right))) {
+    throw new EventStoreConflictError(left.eventId);
+  }
+  for (const field of RECONCILIATION_OPTIONAL_FIELDS) {
+    if (Object.hasOwn(left, field) && Object.hasOwn(right, field) &&
+        stableSerialize(left[field]) !== stableSerialize(right[field])) {
+      throw new EventStoreConflictError(left.eventId);
+    }
+  }
 }
 
 function fail(message) {
@@ -277,13 +308,7 @@ export function reconcilePendingEvents(pendingEvents, canonicalEvents, finalized
       if (canonical.removed) {
         removed.push(pending);
       } else {
-        const comparableCanonical = Object.fromEntries(
-          Object.entries(canonical).filter(([key]) => key !== "transactionIndex")
-        );
-        const comparablePending = Object.fromEntries(
-          Object.entries(pending).filter(([key]) => key !== "transactionIndex")
-        );
-        mergeEvents([comparableCanonical], [comparablePending]);
+        assertReconciliationMatch(canonical, pending);
         promoted.push(pending);
       }
     } else if (pending.blockNumber <= finalizedBlock) {
