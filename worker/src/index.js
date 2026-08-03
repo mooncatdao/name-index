@@ -156,10 +156,10 @@ function normalizeHex(value, pattern, label) {
 
 function getCatIdFromTopic(topic) {
   const normalized = normalizeHex(topic, BYTES32_PATTERN, "CatNamed catId topic");
-  if (!/^0x0{54}[0-9a-f]{10}$/.test(normalized)) {
+  if (!/^0x[0-9a-f]{10}0{54}$/.test(normalized)) {
     throw new ProvisionalPayloadError("CatNamed catId topic is not a padded bytes5 value");
   }
-  return `0x${normalized.slice(-10)}`;
+  return `0x${normalized.slice(2, 12)}`;
 }
 
 function normalizeMatchingLog(block, transaction, log) {
@@ -296,6 +296,13 @@ export function createHandler({ fetchImpl = globalThis.fetch, cryptoImpl = globa
     try {
       provisionalEvent = normalizeAlchemyCatNamedWebhook(payload);
     } catch (error) {
+      if (error instanceof ProvisionalPayloadError) {
+        console.warn("MoonCat naming webhook rejected (422)", {
+          reason: error.message,
+          method: request.method,
+          hasPayloadType: typeof payload.type === "string"
+        });
+      }
       return jsonResponse({
         error: error instanceof ProvisionalPayloadError
           ? error.message

@@ -112,7 +112,7 @@ npx wrangler dev
 In a second terminal, sign and send the exact same raw JSON body:
 
 ```sh
-BODY='{"type":"GRAPHQL","event":{"data":{"block":{"number":22000000,"logs":[{"transaction":{"hash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","index":0,"logs":[{"account":{"address":"0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6"},"topics":["0xaf93a6d1ccdac374cb23b8a45184a5fbcb33c51e4471f69c088ebc18627fbd0f","0x000000000000000000000000000000000000000000000000000000d8523a53"],"data":"0x6361740000000000000000000000000000000000000000000000000000000000","index":0}]}}]}}}}'
+BODY='{"type":"GRAPHQL","event":{"data":{"block":{"number":22000000,"logs":[{"transaction":{"hash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","index":0,"logs":[{"account":{"address":"0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6"},"topics":["0xaf93a6d1ccdac374cb23b8a45184a5fbcb33c51e4471f69c088ebc18627fbd0f","0xd8523a5300000000000000000000000000000000000000000000000000000000"],"data":"0x6361740000000000000000000000000000000000000000000000000000000000","index":0}]}}]}}}}'
 SIGNING_KEY='test-signing-key'
 SIGNATURE=$(printf '%s' "$BODY" \
   | openssl dgst -sha256 -hmac "$SIGNING_KEY" \
@@ -136,6 +136,18 @@ Wrangler after changing `.dev.vars` so the new bindings are loaded.
 
 The `.dev.vars` file and `.wrangler/` runtime state are local-only and must not
 be committed.
+
+To inspect authenticated webhook schema rejections without exposing request
+contents or credentials, tail the deployed Worker and look for the structured
+`MoonCat naming webhook rejected (422)` warning:
+
+```sh
+npx wrangler tail mooncat-name-index-wake
+```
+
+The warning contains only the static validation reason and coarse request
+context. Successful requests, signature failures, malformed JSON, and oversized
+bodies do not emit this validation warning.
 
 ## Operations and recovery
 

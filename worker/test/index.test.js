@@ -30,7 +30,7 @@ async function signedRequest(body, signingKey = SIGNING_KEY) {
 
 const CAT_NAMED_TOPIC = "0xaf93a6d1ccdac374cb23b8a45184a5fbcb33c51e4471f69c088ebc18627fbd0f";
 const CAT_ID = "0x00d8523a53";
-const CAT_ID_TOPIC = `0x${"0".repeat(54)}${CAT_ID.slice(2)}`;
+const CAT_ID_TOPIC = `0x${CAT_ID.slice(2)}${"0".repeat(54)}`;
 const NAME_RAW = "0x6361740000000000000000000000000000000000000000000000000000000000";
 const TRANSACTION_HASH = "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 
@@ -74,6 +74,16 @@ test("normalizes one CatNamed GraphQL log without forwarding the raw webhook", (
     nameRaw: NAME_RAW,
     removed: false
   });
+});
+
+test("rejects the formerly accepted right-aligned bytes5 topic", () => {
+  const payload = webhookPayload();
+  payload.event.data.block.logs[0].transaction.logs[0].topics[1] =
+    `0x${"0".repeat(54)}${CAT_ID.slice(2)}`;
+  assert.throws(
+    () => normalizeAlchemyCatNamedWebhook(payload),
+    /CatNamed catId topic is not a padded bytes5 value/
+  );
 });
 
 test("valid signature dispatches a normalized provisional event", async () => {
@@ -167,8 +177,58 @@ test("wrong contracts, topics, and ambiguous logs are rejected", async () => {
   const ambiguous = webhookPayload();
   ambiguous.event.data.block.logs.push(ambiguous.event.data.block.logs[0]);
   for (const payload of [wrongContract, wrongTopic, ambiguous]) {
-    const response = await handler(await signedRequest(JSON.stringify(payload)), ENV);
+    const originalWarn = console.warn;
+    console.warn = () => {};
+    let response;
+    try {
+      response = await handler(await signedRequest(JSON.stringify(payload)), ENV);
+    } finally {
+      console.warn = originalWarn;
+    }
     assert.equal(response.status, 422);
+  }
+});
+
+test("422 validation warnings expose only a safe reason and coarse context", async () => {
+  const rawMarker = "raw-webhook-secret-marker";
+  const payload = { ...webhookPayload(), type: "NOT_GRAPHQL", rawMarker };
+  const rawBody = JSON.stringify(payload);
+  const signature = await signAlchemyBody(rawBody, SIGNING_KEY);
+  const warnings = [];
+  const originalWarn = console.warn;
+  console.warn = (...args) => warnings.push(args);
+  let response;
+  try {
+    const handler = createHandler({ fetchImpl: async () => {
+      throw new Error("must not dispatch");
+    } });
+    response = await handler(
+      new Request("https://worker.example/webhook", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "x-alchemy-signature": signature
+        },
+        body: rawBody
+      }),
+      ENV
+    );
+  } finally {
+    console.warn = originalWarn;
+  }
+
+  assert.equal(response.status, 422);
+  assert.deepEqual(await response.json(), { error: "webhook type must be GRAPHQL" });
+  assert.equal(warnings.length, 1);
+  assert.equal(warnings[0][0], "MoonCat naming webhook rejected (422)");
+  assert.deepEqual(warnings[0][1], {
+    reason: "webhook type must be GRAPHQL",
+    method: "POST",
+    hasPayloadType: true
+  });
+  const logged = JSON.stringify(warnings);
+  for (const secret of [rawBody, rawMarker, SIGNING_KEY, signature, ENV.GITHUB_TOKEN]) {
+    assert.doesNotMatch(logged, new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
 });
 
