@@ -4,6 +4,7 @@ import {
   writeCurrentNameJsonAtomic
 } from "./current-name-artifacts.js";
 import { mergeEvents } from "./event-store.js";
+import { assertReconciliationMatch } from "./provisional-events.js";
 
 const ARTIFACT_KEYS = [
   "currentNames",
@@ -57,19 +58,33 @@ export function buildLiveNameArtifacts(finalizedEvents, pendingEvents, options =
   }
   const finalized = mergeEvents([], finalizedEvents);
   const pending = mergeEvents([], pendingEvents);
-  const combined = mergeEvents(finalized, pending);
+  const finalizedById = new Map(
+    finalized.map((event) => [event.eventId, event])
+  );
+  const pendingOverlay = [];
+  for (const event of pending) {
+    const canonical = finalizedById.get(event.eventId);
+    if (canonical) {
+      assertReconciliationMatch(canonical, event);
+      continue;
+    }
+    pendingOverlay.push(event);
+  }
+  const combined = mergeEvents(finalized, pendingOverlay);
   const base = buildCurrentNameArtifacts(combined, {
     sourcePath: options.sourcePath ?? "data/events.jsonl + data/pending-events.json"
   });
   const pendingEventIds = new Set(
-    pending
+    pendingOverlay
       .filter((event) => !event.removed)
       .map((event) => event.eventId)
   );
-  const pendingBlankEventCount = pending.filter((event) =>
+  const pendingBlankEventCount = pendingOverlay.filter((event) =>
     event.decoded.status === "blank"
   ).length;
-  const pendingRemovedEventCount = pending.filter((event) => event.removed).length;
+  const pendingRemovedEventCount = pendingOverlay.filter((event) =>
+    event.removed
+  ).length;
   const pendingNamedCatCount = base.currentNames.filter((record) =>
     pendingEventIds.has(record.eventId)
   ).length;
@@ -77,7 +92,7 @@ export function buildLiveNameArtifacts(finalizedEvents, pendingEvents, options =
     ...base.metadata,
     artifactType: "live",
     finalizedEventCount: finalized.length,
-    pendingEventCount: pending.length,
+    pendingEventCount: pendingOverlay.length,
     pendingBlankEventCount,
     pendingRemovedEventCount,
     pendingNamedCatCount,

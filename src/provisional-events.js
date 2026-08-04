@@ -52,7 +52,7 @@ function stableSerialize(value) {
   return JSON.stringify(value);
 }
 
-function assertReconciliationMatch(left, right) {
+export function assertReconciliationMatch(left, right) {
   const withoutIgnoredFields = (event) => Object.fromEntries(
     Object.entries(event).filter(([key]) =>
       key !== "transactionIndex" && !RECONCILIATION_OPTIONAL_FIELDS.has(key)
