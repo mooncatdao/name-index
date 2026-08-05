@@ -20,6 +20,11 @@ scan, reconciles pending entries against finalized RPC logs, regenerates live
 artifacts, and runs the full validation suite. A six-hour schedule covers
 missed or delayed notifications and reconciles immediately.
 
+For repository-dispatch runs, the Actions log step named `Log provisional event
+summary` prints the event ID, transaction and block identifiers, cat ID,
+removal flag, optional transaction index, and derived blank/nonblank status. It
+does not print the raw name bytes or the full dispatch payload.
+
 The workflow has separate job-level concurrency lanes for provisional
 publication and reconciliation; there is no workflow-wide lock spanning the
 reconciliation sleep. Provisional deliveries therefore continue through their
@@ -46,8 +51,11 @@ the next serialized run can retry from the resulting `main` state.
    and `0 */6 * * *` UTC schedule events.
 4. Scanner checkpoint continuity is kept in the GitHub Actions cache rather
    than committed from `state/`. The workflow allowlist contains the finalized
-   artifacts, the monthly timeline, the pending store, and the five live
-   artifacts. It never stages `state/`, reports, references, or secrets.
+ artifacts, the monthly timeline, the generated timeline image, the pending
+ store, and the five live artifacts. It never stages `state/`, reports,
+references, or secrets. Reconciliation installs the lockfile's Playwright
+ Chromium browser, renders the existing local timeline page in embed mode, and
+ stages `docs/images/naming-timeline.png` with the other generated artifacts.
 
 Run a manual test from the Actions tab with `workflow_dispatch`. A no-change
 run succeeds, validates the repository, updates the cached checkpoint, and

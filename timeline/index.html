@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MoonCat naming timeline</title>
+    <script>
+      if (new URLSearchParams(window.location.search).get("embed") === "1") {
+        document.documentElement.classList.add("embed");
+      }
+    </script>
     <style>
       :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
       body { margin: 0; padding: 2rem; background: Canvas; color: CanvasText; }
@@ -21,6 +26,14 @@
       .axis-label { font-size: 14px; font-weight: 600; }
       #error { padding: 1rem; border: 1px solid #b33; color: #b33; }
       [hidden] { display: none; }
+      html.embed { color-scheme: light; }
+      html.embed body { padding: 0; background: #fff; color: #1f2937; }
+      html.embed main { max-width: none; }
+      html.embed h1, html.embed .scope, html.embed #value-readout { display: none; }
+      html.embed #chart-wrap { overflow: visible; }
+      html.embed svg { min-width: 0; width: 100%; }
+      html.embed .bar:hover, html.embed .bar:focus { fill: #4f86c6; }
+      html.embed * { animation: none !important; transition: none !important; }
     </style>
   </head>
   <body>
@@ -98,6 +111,7 @@
         addSvg("text", { class: "axis-label", x: width / 2, y: height - 8, "text-anchor": "middle" }, plot).textContent = "UTC month";
         addSvg("text", { class: "axis-label", x: 18, y: height / 2, "text-anchor": "middle", transform: `rotate(-90 18 ${height / 2})` }, plot).textContent = "Successful namings";
         showValue(`${timeline.firstMonth} to ${timeline.lastMonth}`, timeline.includedEventCount);
+        document.documentElement.dataset.timelineReady = "true";
       }
 
       fetch("../data/timeline-monthly.json")
@@ -107,6 +121,7 @@
         })
         .then(render)
         .catch((loadError) => {
+          document.documentElement.dataset.timelineError = "true";
           chart.hidden = true;
           error.hidden = false;
           error.textContent = `Unable to load the naming timeline. Serve the repository over HTTP and try again: ${loadError.message}`;

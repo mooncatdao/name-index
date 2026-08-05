@@ -27,6 +27,35 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Log provisional event summary
+        if: github.event_name == 'repository_dispatch'
+        env:
+          EVENT_ID: ${{ github.event.client_payload.event.eventId }}
+          TRANSACTION_HASH: ${{ github.event.client_payload.event.transactionHash }}
+          BLOCK_NUMBER: ${{ github.event.client_payload.event.blockNumber }}
+          LOG_INDEX: ${{ github.event.client_payload.event.logIndex }}
+          TRANSACTION_INDEX: ${{ github.event.client_payload.event.transactionIndex }}
+          CAT_ID: ${{ github.event.client_payload.event.catId }}
+          REMOVED: ${{ github.event.client_payload.event.removed }}
+          NAME_RAW: ${{ github.event.client_payload.event.nameRaw }}
+        run: |
+          node <<'NODE'
+          const nameRaw = process.env.NAME_RAW ?? "";
+          const summary = {
+            eventId: process.env.EVENT_ID,
+            transactionHash: process.env.TRANSACTION_HASH,
+            blockNumber: process.env.BLOCK_NUMBER,
+            logIndex: process.env.LOG_INDEX,
+            catId: process.env.CAT_ID,
+            removed: process.env.REMOVED,
+            nameStatus: nameRaw === `0x${"0".repeat(64)}` ? "blank" : "nonblank"
+          };
+          if (process.env.TRANSACTION_INDEX !== "") {
+            summary.transactionIndex = process.env.TRANSACTION_INDEX;
+          }
+          console.log("Provisional naming event summary:", JSON.stringify(summary));
+          NODE
+
       - name: Install dependencies
         run: npm ci
 
@@ -133,6 +162,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
       - name: Scan finalized naming events
         env:
           MOONCAT_RPC_URL: ${{ secrets.MOONCAT_RPC_URL }}
@@ -143,6 +175,9 @@ jobs:
 
       - name: Generate naming timeline
         run: npm run generate:naming-timeline
+
+      - name: Render naming timeline image
+        run: npm run render:timeline-image
 
       - name: Validate generated artifacts
         run: npm run check
@@ -159,6 +194,7 @@ jobs:
             data/metadata.json
             data/names-simple.json
             data/timeline-monthly.json
+            docs/images/naming-timeline.png
             data/pending-events.json
             data/current-names-live.json
             data/names-by-cat-id-live.json
@@ -186,6 +222,7 @@ jobs:
             data/metadata.json \
             data/names-simple.json \
             data/timeline-monthly.json \
+            docs/images/naming-timeline.png \
             data/pending-events.json \
             data/current-names-live.json \
             data/names-by-cat-id-live.json \
