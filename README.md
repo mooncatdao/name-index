@@ -5,17 +5,7 @@ contract. The event JSONL is canonical; current-name JSON artifacts are
 derived from that event history. `data/seed/current-names.json` is a historical
 comparison reference only and is never merged into canonical events.
 
-## License
-
-Original project code and documentation are licensed under the GNU General
-Public License version 3 or any later version (SPDX: `GPL-3.0-or-later`); see
-[LICENSE](LICENSE).
-
-Bundled third-party and upstream reference material under `references/` remains
-subject to its own original licenses and terms and is not relicensed by this
-repository. Generated and on-chain data is offered under
-`GPL-3.0-or-later` to the extent copyright or related rights apply; this does
-not claim ownership of the underlying blockchain facts.
+![MoonCat naming timeline](docs/images/naming-timeline.png)
 
 ## One backfill batch
 
@@ -179,8 +169,6 @@ for example `python3 -m http.server 8000`, then open
 `http://localhost:8000/timeline/`. A generated static preview is embedded
 below; [open the interactive timeline](timeline/) for the accessible chart.
 
-![MoonCat naming timeline](docs/images/naming-timeline.png)
-
 The source remains `data/events.jsonl`; no live RPC or clock-derived fields are
 used during generation.
 
@@ -208,3 +196,15 @@ decoded status/text where available. The current report has 1,225 exact
 matches, seven `canonicalOnly` records, and zero `seedOnly` records or
 mismatches. See [the seed reconciliation note](docs/seed-reconciliation.md)
 for the seven records and the evidence limits around seed coverage.
+
+## License
+
+Original project code and documentation are licensed under the GNU General
+Public License version 3 or any later version (SPDX: `GPL-3.0-or-later`); see
+[LICENSE](LICENSE).
+
+Bundled third-party and upstream reference material under `references/` remains
+subject to its own original licenses and terms and is not relicensed by this
+repository. Generated and on-chain data is offered under
+`GPL-3.0-or-later` to the extent copyright or related rights apply; this does
+not claim ownership of the underlying blockchain facts.
