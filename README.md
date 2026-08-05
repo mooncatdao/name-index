@@ -167,7 +167,7 @@ the artifact includes zero-count months between its first and last included
 month. To view the dependency-free page, serve the repository root over HTTP,
 for example `python3 -m http.server 8000`, then open
 `http://localhost:8000/timeline/`. A generated static preview is embedded
-below; [open the interactive timeline](timeline/) for the accessible chart.
+near the top of this readme; [open the interactive timeline](timeline/) for the accessible chart.
 
 The source remains `data/events.jsonl`; no live RPC or clock-derived fields are
 used during generation.
