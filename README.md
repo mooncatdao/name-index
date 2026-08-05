@@ -3,12 +3,12 @@
 This repository keeps an up-to-date index of MoonCat names by reading
 `CatNamed` events from the original MoonCatRescue contract.
 
+![MoonCat naming timeline](docs/images/naming-timeline.png)
+
 For most apps, you only need one of the generated JSON files listed below.
 `data/events.jsonl` is the canonical event history; the current-name files are
 derived from it. `data/seed/current-names.json` is only a historical comparison
 reference and is never merged into the canonical data.
-
-![MoonCat naming timeline](docs/images/naming-timeline.png)
 
 ## Find the right data file
 
