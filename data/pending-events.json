@@ -1,24 +1,5 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {
-    "0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd:481": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 25701353,
-        "catId": "0x0076bdf974",
-        "eventId": "0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd:481",
-        "logIndex": 481,
-        "nameRaw": "0x50656f706c6520646f6e2774206765742074686174206b696e646e6573730000",
-        "removed": false,
-        "transactionHash": "0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd",
-        "transactionIndex": 304,
-        "decoded": {
-          "rawName": "0x50656f706c6520646f6e2774206765742074686174206b696e646e6573730000",
-          "status": "text",
-          "text": "People don't get that kindness"
-        }
-      }
-    }
-  }
+  "events": {}
 }

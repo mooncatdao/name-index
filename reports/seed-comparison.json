@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1232,
+  "canonicalCount": 1233,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 7,
+    "canonicalOnly": 8,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36823,6 +36823,20 @@
         "nameRaw": "0x536d6f6f6e636174c3a961676f6c000000000000000000000000000000000000",
         "status": "text",
         "text": "Smooncatéagol"
+      }
+    },
+    "0x0076bdf974@22230": {
+      "canonical": {
+        "catId": "0x0076bdf974",
+        "rescueOrder": 22230,
+        "eventId": "0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd:481",
+        "blockNumber": 25701353,
+        "transactionHash": "0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd",
+        "logIndex": 481,
+        "transactionIndex": 304,
+        "nameRaw": "0x50656f706c6520646f6e2774206765742074686174206b696e646e6573730000",
+        "status": "text",
+        "text": "People don't get that kindness"
       }
     }
   },
