@@ -173,6 +173,9 @@ jobs:
       - name: Reconcile provisional naming events
         run: npm run reconcile:naming-events
 
+      - name: Generate seed comparison
+        run: npm run compare:seed
+
       - name: Generate naming timeline
         run: npm run generate:naming-timeline
 
@@ -195,6 +198,7 @@ jobs:
             data/names-simple.json
             data/timeline-monthly.json
             docs/images/naming-timeline.png
+            reports/seed-comparison.json
             data/pending-events.json
             data/current-names-live.json
             data/names-by-cat-id-live.json
@@ -223,6 +227,7 @@ jobs:
             data/names-simple.json \
             data/timeline-monthly.json \
             docs/images/naming-timeline.png \
+            reports/seed-comparison.json \
             data/pending-events.json \
             data/current-names-live.json \
             data/names-by-cat-id-live.json \
