@@ -67,6 +67,9 @@ jobs:
       - name: Generate live naming artifacts
         run: npm run generate:live-naming-artifacts
 
+      - name: Generate recent namings feed
+        run: npm run generate:recent-namings
+
       - name: Validate generated artifacts
         run: npm run check
 
@@ -81,6 +84,7 @@ jobs:
             data/names-by-rescue-order-live.json
             data/names-simple-live.json
             data/metadata-live.json
+            RECENT-NAMINGS.md
           )
           if git diff --quiet -- "${generated_paths[@]}"; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -100,7 +104,8 @@ jobs:
             data/names-by-cat-id-live.json \
             data/names-by-rescue-order-live.json \
             data/names-simple-live.json \
-            data/metadata-live.json
+            data/metadata-live.json \
+            RECENT-NAMINGS.md
           if git diff --cached --quiet; then
             echo "No staged provisional changes."
             exit 0
@@ -173,6 +178,9 @@ jobs:
       - name: Reconcile provisional naming events
         run: npm run reconcile:naming-events
 
+      - name: Generate recent namings feed
+        run: npm run generate:recent-namings
+
       - name: Generate seed comparison
         run: npm run compare:seed
 
@@ -205,6 +213,7 @@ jobs:
             data/names-by-rescue-order-live.json
             data/names-simple-live.json
             data/metadata-live.json
+            RECENT-NAMINGS.md
           )
           if git diff --quiet -- "${generated_paths[@]}"; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -233,7 +242,8 @@ jobs:
             data/names-by-cat-id-live.json \
             data/names-by-rescue-order-live.json \
             data/names-simple-live.json \
-            data/metadata-live.json
+            data/metadata-live.json \
+            RECENT-NAMINGS.md
           if git diff --cached --quiet; then
             echo "No staged generated changes."
             exit 0

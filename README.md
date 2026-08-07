@@ -10,6 +10,10 @@ For most apps, you only need one of the generated JSON files listed below.
 derived from it. `data/seed/current-names.json` is only a historical comparison
 reference and is never merged into the canonical data.
 
+For a human-readable newest-first activity view, see the
+[recent namings feed](RECENT-NAMINGS.md). Provisional rows are marked clearly
+and may disappear or become finalized after reconciliation.
+
 ## Find the right data file
 
 Most projects should start with `data/names-simple.json` or
@@ -47,6 +51,7 @@ reconciliation finds that an event was orphaned or replaced.
 | File | What it contains |
 | --- | --- |
 | [`data/timeline-monthly.json`](data/timeline-monthly.json) | Monthly successful naming counts used by the timeline graph. |
+| [`RECENT-NAMINGS.md`](RECENT-NAMINGS.md) | The latest successful nonblank naming events, including clearly marked provisional rows. |
 | [`reports/seed-comparison.json`](reports/seed-comparison.json) | A reproducible comparison between the canonical current names and the historical seed. |
 
 ## How updates work

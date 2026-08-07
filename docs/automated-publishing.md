@@ -50,12 +50,17 @@ the next serialized run can retry from the resulting `main` state.
    `alchemy-naming-event` repository-dispatch type, manual `workflow_dispatch`,
    and `0 */6 * * *` UTC schedule events.
 4. Scanner checkpoint continuity is kept in the GitHub Actions cache rather
-   than committed from `state/`. The workflow allowlist contains the finalized
- artifacts, the monthly timeline, the generated timeline image, the pending
- store, and the five live artifacts. It never stages `state/`, reports,
-references, or secrets. Reconciliation installs the lockfile's Playwright
- Chromium browser, renders the existing local timeline page in embed mode, and
- stages `docs/images/naming-timeline.png` with the other generated artifacts.
+   than committed from `state/`. The workflow uses an explicit generated-artifact allowlist containing the finalized
+ artifacts, the seed comparison report, the monthly timeline, the generated
+ timeline image, the recent namings feed, the pending store, and the five live
+ artifacts. It never stages `state/`, `references/`, or secrets. Reconciliation installs the
+ lockfile's Playwright Chromium browser, renders the existing local timeline
+ page in embed mode, and stages `docs/images/naming-timeline.png` with the
+ other generated artifacts.
+
+Both publication lanes regenerate and validate `RECENT-NAMINGS.md`. It combines
+finalized and provisional nonblank names, but finalized events win on overlap;
+provisional rows can disappear or become finalized during reconciliation.
 
 Run a manual test from the Actions tab with `workflow_dispatch`. A no-change
 run succeeds, validates the repository, updates the cached checkpoint, and
