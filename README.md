@@ -228,15 +228,11 @@ notes and evidence limits around seed coverage.
 
 ## License
 
-Original project code and documentation are licensed under the Apache License
-2.0 (SPDX: `Apache-2.0`); see [LICENSE](LICENSE).
+Original project code, documentation, and generated data artifacts are dedicated
+to the public domain under CC0 1.0 Universal (SPDX: `CC0-1.0`); see
+[LICENSE](LICENSE).
 
-Generated index data and derived data artifacts produced by this repository are
-dedicated to the public domain under CC0 1.0 Universal (SPDX: `CC0-1.0`) to
-the extent copyright, database, or related rights apply; see
-[DATA-LICENSE](DATA-LICENSE). This does not claim ownership of the underlying
-blockchain facts.
-
+This repository does not claim ownership of the underlying blockchain facts.
 Bundled third-party and upstream reference material under `references/` remains
 subject to its own original licenses and terms and is not relicensed by this
 repository.
