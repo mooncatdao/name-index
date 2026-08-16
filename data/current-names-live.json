@@ -11550,12 +11550,14 @@
     "eventId": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482:302",
     "blockNumber": 25765069,
     "transactionHash": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482",
+    "namer": "0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694",
     "logIndex": 302,
     "transactionIndex": 64,
     "nameRaw": "0x52656c6973680000000000000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "Relish",
-    "provisional": true
+    "blockTimestamp": 1786852619,
+    "namedYear": 2026,
+    "text": "Relish"
   },
   {
     "catId": "0x0047abd0b4",

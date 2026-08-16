@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1233,
+  "canonicalCount": 1234,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 8,
+    "canonicalOnly": 9,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36795,6 +36795,20 @@
         "nameRaw": "0x47616e6a616c662074686520477265656e206f6e2061206d697373696f6e0000",
         "status": "text",
         "text": "Ganjalf the Green on a mission"
+      }
+    },
+    "0x00f67eb670@12065": {
+      "canonical": {
+        "catId": "0x00f67eb670",
+        "rescueOrder": 12065,
+        "eventId": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482:302",
+        "blockNumber": 25765069,
+        "transactionHash": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482",
+        "logIndex": 302,
+        "transactionIndex": 64,
+        "nameRaw": "0x52656c6973680000000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Relish"
       }
     },
     "0x00a7b95e77@18150": {
