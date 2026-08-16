@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482:302": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25765069,
+        "catId": "0x00f67eb670",
+        "eventId": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482:302",
+        "logIndex": 302,
+        "nameRaw": "0x52656c6973680000000000000000000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482",
+        "transactionIndex": 64,
+        "decoded": {
+          "rawName": "0x52656c6973680000000000000000000000000000000000000000000000000000",
+          "status": "text",
+          "text": "Relish"
+        }
+      }
+    }
+  }
 }
