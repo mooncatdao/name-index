@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1235,
+  "canonicalCount": 1236,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 10,
+    "canonicalOnly": 11,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36739,6 +36739,20 @@
         "nameRaw": "0x535441524c694e4b000000000000000000000000000000000000000000000000",
         "status": "text",
         "text": "STARLiNK"
+      }
+    },
+    "0x00fdfb719b@2292": {
+      "canonical": {
+        "catId": "0x00fdfb719b",
+        "rescueOrder": 2292,
+        "eventId": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82:1049",
+        "blockNumber": 25803729,
+        "transactionHash": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82",
+        "logIndex": 1049,
+        "transactionIndex": 365,
+        "nameRaw": "0x5468697320636174206973206e6f7420666f722073616c650000000000000000",
+        "status": "text",
+        "text": "This cat is not for sale"
       }
     },
     "0x00e279df43@7613": {

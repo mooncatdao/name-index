@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | This cat is not for sale | CatID 0x00fdfb719b · rescue order 2292 | Provisional | — | [0x845b…0d82](https://etherscan.io/tx/0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82) |
+| 2026-08-21 13:12:11 UTC | This cat is not for sale | CatID 0x00fdfb719b · rescue order 2292 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x845b…0d82](https://etherscan.io/tx/0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82) |
 | 2026-08-21 10:00:35 UTC | Project256 | CatID 0x004300b27c · rescue order 25207 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x8aaf…c6e8](https://etherscan.io/tx/0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8) |
 | 2026-08-16 03:56:59 UTC | Relish | CatID 0x00f67eb670 · rescue order 12065 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x2e45…e482](https://etherscan.io/tx/0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482) |
 | 2026-08-07 06:39:47 UTC | People don't get that kindness | CatID 0x0076bdf974 · rescue order 22230 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x3614…55bd](https://etherscan.io/tx/0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd) |

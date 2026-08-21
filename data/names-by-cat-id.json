@@ -19566,6 +19566,22 @@
     "namedYear": 2021,
     "text": "Shittybank"
   },
+  "0x00fdfb719b": {
+    "catId": "0x00fdfb719b",
+    "rescueOrder": 2292,
+    "namedOrder": 1236,
+    "eventId": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82:1049",
+    "blockNumber": 25803729,
+    "transactionHash": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82",
+    "namer": "0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694",
+    "logIndex": 1049,
+    "transactionIndex": 365,
+    "nameRaw": "0x5468697320636174206973206e6f7420666f722073616c650000000000000000",
+    "status": "text",
+    "blockTimestamp": 1787317931,
+    "namedYear": 2026,
+    "text": "This cat is not for sale"
+  },
   "0x00fe08bd32": {
     "catId": "0x00fe08bd32",
     "rescueOrder": 12829,
