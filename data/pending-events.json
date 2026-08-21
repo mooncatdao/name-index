@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82:1049": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25803729,
+        "catId": "0x00fdfb719b",
+        "eventId": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82:1049",
+        "logIndex": 1049,
+        "nameRaw": "0x5468697320636174206973206e6f7420666f722073616c650000000000000000",
+        "removed": false,
+        "transactionHash": "0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82",
+        "transactionIndex": 365,
+        "decoded": {
+          "rawName": "0x5468697320636174206973206e6f7420666f722073616c650000000000000000",
+          "status": "text",
+          "text": "This cat is not for sale"
+        }
+      }
+    }
+  }
 }
