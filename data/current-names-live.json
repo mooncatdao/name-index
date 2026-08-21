@@ -19572,12 +19572,14 @@
     "eventId": "0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8:1210",
     "blockNumber": 25802771,
     "transactionHash": "0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8",
+    "namer": "0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694",
     "logIndex": 1210,
     "transactionIndex": 531,
     "nameRaw": "0x50726f6a65637432353600000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "Project256",
-    "provisional": true
+    "blockTimestamp": 1787306435,
+    "namedYear": 2026,
+    "text": "Project256"
   },
   {
     "catId": "0x000e729750",

@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1234,
+  "canonicalCount": 1235,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 9,
+    "canonicalOnly": 10,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36851,6 +36851,20 @@
         "nameRaw": "0x50656f706c6520646f6e2774206765742074686174206b696e646e6573730000",
         "status": "text",
         "text": "People don't get that kindness"
+      }
+    },
+    "0x004300b27c@25207": {
+      "canonical": {
+        "catId": "0x004300b27c",
+        "rescueOrder": 25207,
+        "eventId": "0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8:1210",
+        "blockNumber": 25802771,
+        "transactionHash": "0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8",
+        "logIndex": 1210,
+        "transactionIndex": 531,
+        "nameRaw": "0x50726f6a65637432353600000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Project256"
       }
     }
   },

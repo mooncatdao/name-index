@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | Project256 | CatID 0x004300b27c · rescue order 25207 | Provisional | — | [0x8aaf…c6e8](https://etherscan.io/tx/0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8) |
+| 2026-08-21 10:00:35 UTC | Project256 | CatID 0x004300b27c · rescue order 25207 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x8aaf…c6e8](https://etherscan.io/tx/0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8) |
 | 2026-08-16 03:56:59 UTC | Relish | CatID 0x00f67eb670 · rescue order 12065 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x2e45…e482](https://etherscan.io/tx/0x2e457d0e048e9336a042ac6a42c9def8dc3dbfc2e93757901527f02c5ddde482) |
 | 2026-08-07 06:39:47 UTC | People don't get that kindness | CatID 0x0076bdf974 · rescue order 22230 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x3614…55bd](https://etherscan.io/tx/0x3614d4589d92489841532a530f88fac4baa538f9fb0bf290be7babb1630f55bd) |
 | 2026-07-31 12:22:11 UTC | Today | CatID 0x008db774b2 · rescue order 11882 | Finalized | [0x1A92…1B1E](https://etherscan.io/address/0x1A92E36c42e39392311b2944471A301c8Af41B1E) | [0x00f3…ffbf](https://etherscan.io/tx/0x00f3833c08cd6d4b41fbda35e29fbee53eb14d35e4798a441dc8ad99ddccffbf) |

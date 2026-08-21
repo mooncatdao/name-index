@@ -3,8 +3,8 @@
   "source": "data/events.jsonl",
   "metric": "successful-nonblank-namings",
   "granularity": "month",
-  "generatedFromEventCount": 23237,
-  "includedEventCount": 1234,
+  "generatedFromEventCount": 23238,
+  "includedEventCount": 1235,
   "excludedBlankCount": 22003,
   "excludedRemovedCount": 0,
   "missingTimestampCount": 0,
@@ -445,7 +445,7 @@
     },
     {
       "month": "2026-08",
-      "count": 2
+      "count": 3
     }
   ]
 }
