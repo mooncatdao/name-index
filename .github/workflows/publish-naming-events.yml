@@ -265,6 +265,21 @@ jobs:
           echo "Reconciliation push failed after retries."
           exit 1
 
+      # CATMOON_DISPATCH_TOKEN must be a narrowly scoped token for the CatMoon repository.
+      - name: Notify CatMoon of updated naming artifacts
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          CATMOON_DISPATCH_TOKEN: ${{ secrets.CATMOON_DISPATCH_TOKEN }}
+        run: |
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --url https://api.github.com/repos/zibzub/catmoon/dispatches \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${CATMOON_DISPATCH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --header "Content-Type: application/json" \
+            --data '{"event_type":"mooncat-names-updated"}'
+
       - name: Report no-change run
         if: steps.changes.outputs.changed != 'true'
         run: echo "No finalized or live naming artifacts changed."
