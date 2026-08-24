@@ -38,6 +38,24 @@
         }
       }
     },
+    "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651:1375": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25825140,
+        "catId": "0x009628f9e2",
+        "eventId": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651:1375",
+        "logIndex": 1375,
+        "nameRaw": "0x4d63446f6e616c64277300000000000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651",
+        "transactionIndex": 440,
+        "decoded": {
+          "rawName": "0x4d63446f6e616c64277300000000000000000000000000000000000000000000",
+          "status": "text",
+          "text": "McDonald's"
+        }
+      }
+    },
     "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410": {
       "status": "provisional",
       "event": {

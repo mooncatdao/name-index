@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | McDonald's | CatID 0x009628f9e2 · rescue order 2678 | Provisional | — | [0x91ed…f651](https://etherscan.io/tx/0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651) |
 | — | This MoonCat does not yet have  | CatID 0x00dfa21957 · rescue order 5858 | Provisional | — | [0xe711…a8ee](https://etherscan.io/tx/0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee) |
 | — | After Ethereum Life 👾 | CatID 0x0041ebc6d8 · rescue order 9315 | Provisional | — | [0x214e…bf2f](https://etherscan.io/tx/0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f) |
 | — |  MoonCat Bot  | CatID 0x009ba069ff · rescue order 18579 | Provisional | — | [0x61a3…636d](https://etherscan.io/tx/0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-05 06:11:59 UTC | Zach | CatID 0x004045e136 · rescue order 12699 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0xa2e2…0d9d](https://etherscan.io/tx/0xa2e267ccb0ec1dc39357d30cce36d3086bc26e0df47c33e6ecb6d59433ff0d9d) |
 | 2026-02-04 09:47:23 UTC | Gemesis | CatID 0x001c270084 · rescue order 10225 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xc7b2…1ce2](https://etherscan.io/tx/0xc7b2fbc6463a715678020fc215172c96a3968b3d47933a327f3f01a3f0cb1ce2) |
 | 2026-02-04 09:44:47 UTC | Gemesis | CatID 0x00b6a39d56 · rescue order 10008 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xc301…6ecf](https://etherscan.io/tx/0xc3015fdd3b8346e026b5fa62fd99985ce7b8f179514629735356da9ac6b16ecf) |
-| 2026-02-04 09:41:23 UTC | Gemesis | CatID 0x00cedd4312 · rescue order 9572 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xad39…b65e](https://etherscan.io/tx/0xad39e5bab2c689d27057a7e9deeeb3a7f45f30ace86103cd6ddbb9a005dfb65e) |
