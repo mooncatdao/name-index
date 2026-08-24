@@ -56,24 +56,6 @@
         }
       }
     },
-    "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 25825074,
-        "catId": "0x0003c3048c",
-        "eventId": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410",
-        "logIndex": 1410,
-        "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
-        "removed": false,
-        "transactionHash": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8",
-        "transactionIndex": 598,
-        "decoded": {
-          "rawName": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
-          "status": "text",
-          "text": "RainbowCat-Deere Up-Ape 🌈🚜"
-        }
-      }
-    },
     "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee:995": {
       "status": "provisional",
       "event": {

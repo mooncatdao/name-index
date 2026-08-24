@@ -357,12 +357,14 @@
     "eventId": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410",
     "blockNumber": 25825074,
     "transactionHash": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8",
+    "namer": "0xa866E43D3FEe98C6668708e6d1c487335163c108",
     "logIndex": 1410,
     "transactionIndex": 598,
     "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
     "status": "text",
-    "text": "RainbowCat-Deere Up-Ape 🌈🚜",
-    "provisional": true
+    "blockTimestamp": 1787574959,
+    "namedYear": 2026,
+    "text": "RainbowCat-Deere Up-Ape 🌈🚜"
   },
   "0x0003c9614a": {
     "catId": "0x0003c9614a",

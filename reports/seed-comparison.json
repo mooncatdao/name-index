@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1236,
+  "canonicalCount": 1237,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 11,
+    "canonicalOnly": 12,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36823,6 +36823,20 @@
         "nameRaw": "0x52656c6973680000000000000000000000000000000000000000000000000000",
         "status": "text",
         "text": "Relish"
+      }
+    },
+    "0x0003c3048c@12295": {
+      "canonical": {
+        "catId": "0x0003c3048c",
+        "rescueOrder": 12295,
+        "eventId": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410",
+        "blockNumber": 25825074,
+        "transactionHash": "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8",
+        "logIndex": 1410,
+        "transactionIndex": 598,
+        "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
+        "status": "text",
+        "text": "RainbowCat-Deere Up-Ape 🌈🚜"
       }
     },
     "0x00a7b95e77@18150": {
