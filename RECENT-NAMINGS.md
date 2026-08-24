@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | This MoonCat does not yet have  | CatID 0x00dfa21957 · rescue order 5858 | Provisional | — | [0xe711…a8ee](https://etherscan.io/tx/0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee) |
 | — | After Ethereum Life 👾 | CatID 0x0041ebc6d8 · rescue order 9315 | Provisional | — | [0x214e…bf2f](https://etherscan.io/tx/0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f) |
 | — |  MoonCat Bot  | CatID 0x009ba069ff · rescue order 18579 | Provisional | — | [0x61a3…636d](https://etherscan.io/tx/0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d) |
 | — | RainbowCat-Deere Up-Ape 🌈🚜 | CatID 0x0003c3048c · rescue order 12295 | Provisional | — | [0xcbc4…5fa8](https://etherscan.io/tx/0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-04 09:47:23 UTC | Gemesis | CatID 0x001c270084 · rescue order 10225 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xc7b2…1ce2](https://etherscan.io/tx/0xc7b2fbc6463a715678020fc215172c96a3968b3d47933a327f3f01a3f0cb1ce2) |
 | 2026-02-04 09:44:47 UTC | Gemesis | CatID 0x00b6a39d56 · rescue order 10008 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xc301…6ecf](https://etherscan.io/tx/0xc3015fdd3b8346e026b5fa62fd99985ce7b8f179514629735356da9ac6b16ecf) |
 | 2026-02-04 09:41:23 UTC | Gemesis | CatID 0x00cedd4312 · rescue order 9572 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xad39…b65e](https://etherscan.io/tx/0xad39e5bab2c689d27057a7e9deeeb3a7f45f30ace86103cd6ddbb9a005dfb65e) |
-| 2026-02-04 09:38:59 UTC | Gemesis | CatID 0x0098d20567 · rescue order 11359 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x3ebf…6d28](https://etherscan.io/tx/0x3ebf93d17f597621a18a2b3236088cb626df02d7909fb2ba6f7164f3a7b56d28) |

@@ -55,6 +55,24 @@
           "text": "RainbowCat-Deere Up-Ape 🌈🚜"
         }
       }
+    },
+    "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee:995": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25825127,
+        "catId": "0x00dfa21957",
+        "eventId": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee:995",
+        "logIndex": 995,
+        "nameRaw": "0x54686973204d6f6f6e43617420646f6573206e6f742079657420686176652000",
+        "removed": false,
+        "transactionHash": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee",
+        "transactionIndex": 225,
+        "decoded": {
+          "rawName": "0x54686973204d6f6f6e43617420646f6573206e6f742079657420686176652000",
+          "status": "text",
+          "text": "This MoonCat does not yet have "
+        }
+      }
     }
   }
 }
