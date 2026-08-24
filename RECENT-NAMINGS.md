@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — |  MoonCat Bot  | CatID 0x009ba069ff · rescue order 18579 | Provisional | — | [0x61a3…636d](https://etherscan.io/tx/0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d) |
 | — | RainbowCat-Deere Up-Ape 🌈🚜 | CatID 0x0003c3048c · rescue order 12295 | Provisional | — | [0xcbc4…5fa8](https://etherscan.io/tx/0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8) |
 | 2026-08-21 13:12:11 UTC | This cat is not for sale | CatID 0x00fdfb719b · rescue order 2292 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x845b…0d82](https://etherscan.io/tx/0x845b7fa3ba3b80310bccf0935b88dc06841a6ca37700394bcd1ed52a63aa0d82) |
 | 2026-08-21 10:00:35 UTC | Project256 | CatID 0x004300b27c · rescue order 25207 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x8aaf…c6e8](https://etherscan.io/tx/0x8aaffa1850d7cce6cd237e6d17e6bd171e7769ada861a8a58f1e6400b5dcc6e8) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-04 09:41:23 UTC | Gemesis | CatID 0x00cedd4312 · rescue order 9572 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xad39…b65e](https://etherscan.io/tx/0xad39e5bab2c689d27057a7e9deeeb3a7f45f30ace86103cd6ddbb9a005dfb65e) |
 | 2026-02-04 09:38:59 UTC | Gemesis | CatID 0x0098d20567 · rescue order 11359 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x3ebf…6d28](https://etherscan.io/tx/0x3ebf93d17f597621a18a2b3236088cb626df02d7909fb2ba6f7164f3a7b56d28) |
 | 2026-02-04 09:37:11 UTC | Gemesis | CatID 0x002d3a36b0 · rescue order 10533 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x83eb…1e13](https://etherscan.io/tx/0x83eb65b363b6f5754a5e7a634ddbfa52e7eec660920870fc8a59d67b81eb1e13) |
-| 2026-02-04 09:35:47 UTC | Gemesis | CatID 0x00f814e78e · rescue order 11384 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x8dde…85b4](https://etherscan.io/tx/0x8dde803c44bbe34bdd5e1ae7190ff2cd519bc0e183e8df670011c59ccb2385b4) |

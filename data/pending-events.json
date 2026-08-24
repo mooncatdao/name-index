@@ -2,6 +2,24 @@
   "schemaVersion": 1,
   "status": "provisional",
   "events": {
+    "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d:597": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25825093,
+        "catId": "0x009ba069ff",
+        "eventId": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d:597",
+        "logIndex": 597,
+        "nameRaw": "0x204d6f6f6e43617420426f740a00000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d",
+        "transactionIndex": 114,
+        "decoded": {
+          "rawName": "0x204d6f6f6e43617420426f740a00000000000000000000000000000000000000",
+          "status": "text",
+          "text": " MoonCat Bot\n"
+        }
+      }
+    },
     "0xcbc4d68fe1ac93c4f63e8da560575c3554d936884d9884d7cd2db67be9755fa8:1410": {
       "status": "provisional",
       "event": {
