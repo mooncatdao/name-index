@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1237,
+  "canonicalCount": 1241,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 12,
+    "canonicalOnly": 16,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36755,6 +36755,34 @@
         "text": "This cat is not for sale"
       }
     },
+    "0x009628f9e2@2678": {
+      "canonical": {
+        "catId": "0x009628f9e2",
+        "rescueOrder": 2678,
+        "eventId": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651:1375",
+        "blockNumber": 25825140,
+        "transactionHash": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651",
+        "logIndex": 1375,
+        "transactionIndex": 440,
+        "nameRaw": "0x4d63446f6e616c64277300000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "McDonald's"
+      }
+    },
+    "0x00dfa21957@5858": {
+      "canonical": {
+        "catId": "0x00dfa21957",
+        "rescueOrder": 5858,
+        "eventId": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee:995",
+        "blockNumber": 25825127,
+        "transactionHash": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee",
+        "logIndex": 995,
+        "transactionIndex": 225,
+        "nameRaw": "0x54686973204d6f6f6e43617420646f6573206e6f742079657420686176652000",
+        "status": "text",
+        "text": "This MoonCat does not yet have "
+      }
+    },
     "0x00e279df43@7613": {
       "canonical": {
         "catId": "0x00e279df43",
@@ -36767,6 +36795,20 @@
         "nameRaw": "0x47616e6a616c662074686520477265656e000000000000000000000000000000",
         "status": "text",
         "text": "Ganjalf the Green"
+      }
+    },
+    "0x0041ebc6d8@9315": {
+      "canonical": {
+        "catId": "0x0041ebc6d8",
+        "rescueOrder": 9315,
+        "eventId": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f:668",
+        "blockNumber": 25825113,
+        "transactionHash": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f",
+        "logIndex": 668,
+        "transactionIndex": 232,
+        "nameRaw": "0x416674657220457468657265756d204c69666520f09f91be0000000000000000",
+        "status": "text",
+        "text": "After Ethereum Life 👾"
       }
     },
     "0x005e73653c@10044": {
@@ -36851,6 +36893,20 @@
         "nameRaw": "0x5371756967676c65204d792041737320f09f8d91f09f92a80a00000000000000",
         "status": "text",
         "text": "Squiggle My Ass 🍑💨\n"
+      }
+    },
+    "0x009ba069ff@18579": {
+      "canonical": {
+        "catId": "0x009ba069ff",
+        "rescueOrder": 18579,
+        "eventId": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d:597",
+        "blockNumber": 25825093,
+        "transactionHash": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d",
+        "logIndex": 597,
+        "transactionIndex": 114,
+        "nameRaw": "0x204d6f6f6e43617420426f740a00000000000000000000000000000000000000",
+        "status": "text",
+        "text": " MoonCat Bot\n"
       }
     },
     "0x00ba204151@19625": {

@@ -4933,12 +4933,14 @@
     "eventId": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651:1375",
     "blockNumber": 25825140,
     "transactionHash": "0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651",
+    "namer": "0xa866E43D3FEe98C6668708e6d1c487335163c108",
     "logIndex": 1375,
     "transactionIndex": 440,
     "nameRaw": "0x4d63446f6e616c64277300000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "McDonald's",
-    "provisional": true
+    "blockTimestamp": 1787575751,
+    "namedYear": 2026,
+    "text": "McDonald's"
   },
   {
     "catId": "0x0038c89fc8",
@@ -7027,12 +7029,14 @@
     "eventId": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee:995",
     "blockNumber": 25825127,
     "transactionHash": "0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee",
+    "namer": "0xa866E43D3FEe98C6668708e6d1c487335163c108",
     "logIndex": 995,
     "transactionIndex": 225,
     "nameRaw": "0x54686973204d6f6f6e43617420646f6573206e6f742079657420686176652000",
     "status": "text",
-    "text": "This MoonCat does not yet have ",
-    "provisional": true
+    "blockTimestamp": 1787575595,
+    "namedYear": 2026,
+    "text": "This MoonCat does not yet have "
   },
   {
     "catId": "0x00a8dab6c8",
@@ -9659,12 +9663,14 @@
     "eventId": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f:668",
     "blockNumber": 25825113,
     "transactionHash": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f",
+    "namer": "0xa866E43D3FEe98C6668708e6d1c487335163c108",
     "logIndex": 668,
     "transactionIndex": 232,
     "nameRaw": "0x416674657220457468657265756d204c69666520f09f91be0000000000000000",
     "status": "text",
-    "text": "After Ethereum Life 👾",
-    "provisional": true
+    "blockTimestamp": 1787575427,
+    "namedYear": 2026,
+    "text": "After Ethereum Life 👾"
   },
   {
     "catId": "0x009e8ef2fc",
@@ -15621,12 +15627,14 @@
     "eventId": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d:597",
     "blockNumber": 25825093,
     "transactionHash": "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d",
+    "namer": "0xa866E43D3FEe98C6668708e6d1c487335163c108",
     "logIndex": 597,
     "transactionIndex": 114,
     "nameRaw": "0x204d6f6f6e43617420426f740a00000000000000000000000000000000000000",
     "status": "text",
-    "text": " MoonCat Bot\n",
-    "provisional": true
+    "blockTimestamp": 1787575187,
+    "namedYear": 2026,
+    "text": " MoonCat Bot\n"
   },
   {
     "catId": "0x00a68bc6dd",
