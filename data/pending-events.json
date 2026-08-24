@@ -2,6 +2,24 @@
   "schemaVersion": 1,
   "status": "provisional",
   "events": {
+    "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f:668": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25825113,
+        "catId": "0x0041ebc6d8",
+        "eventId": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f:668",
+        "logIndex": 668,
+        "nameRaw": "0x416674657220457468657265756d204c69666520f09f91be0000000000000000",
+        "removed": false,
+        "transactionHash": "0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f",
+        "transactionIndex": 232,
+        "decoded": {
+          "rawName": "0x416674657220457468657265756d204c69666520f09f91be0000000000000000",
+          "status": "text",
+          "text": "After Ethereum Life 👾"
+        }
+      }
+    },
     "0x61a37f24d121c897266ca76f878b9c1d672a15df385da512b4a9eda013e4636d:597": {
       "status": "provisional",
       "event": {
