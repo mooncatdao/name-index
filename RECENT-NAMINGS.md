@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | Pistachio | CatID 0x00ad55c71a · rescue order 24124 | Provisional | — | [0x5e85…5f28](https://etherscan.io/tx/0x5e85345aebbebb478630d1d273bdd54b127a29158ac956ca0aaeffd59aa15f28) |
+| 2026-08-27 03:49:59 UTC | Pistachio | CatID 0x00ad55c71a · rescue order 24124 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0x5e85…5f28](https://etherscan.io/tx/0x5e85345aebbebb478630d1d273bdd54b127a29158ac956ca0aaeffd59aa15f28) |
 | 2026-08-24 12:49:11 UTC | McDonald's | CatID 0x009628f9e2 · rescue order 2678 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0x91ed…f651](https://etherscan.io/tx/0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651) |
 | 2026-08-24 12:46:35 UTC | This MoonCat does not yet have  | CatID 0x00dfa21957 · rescue order 5858 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0xe711…a8ee](https://etherscan.io/tx/0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee) |
 | 2026-08-24 12:43:47 UTC | After Ethereum Life 👾 | CatID 0x0041ebc6d8 · rescue order 9315 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0x214e…bf2f](https://etherscan.io/tx/0x214eaaaab93590faa0a1f264a376084a31e45bdad70ee81580f88899cc16bf2f) |
