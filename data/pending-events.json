@@ -1,24 +1,5 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {
-    "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa:902": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 25870093,
-        "catId": "0x00e6dd7f84",
-        "eventId": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa:902",
-        "logIndex": 902,
-        "nameRaw": "0x4265727269000000000000000000000000000000000000000000000000000000",
-        "removed": false,
-        "transactionHash": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa",
-        "transactionIndex": 274,
-        "decoded": {
-          "rawName": "0x4265727269000000000000000000000000000000000000000000000000000000",
-          "status": "text",
-          "text": "Berri"
-        }
-      }
-    }
-  }
+  "events": {}
 }

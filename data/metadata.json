@@ -4,9 +4,9 @@
   "contractAddress": "0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6",
   "namingStartBlock": 4140409,
   "moonCatCount": 25440,
-  "eventCount": 23245,
+  "eventCount": 23246,
   "blankEventCount": 22003,
   "removedEventCount": 0,
-  "namedCatCount": 1242,
+  "namedCatCount": 1243,
   "source": "data/events.jsonl"
 }

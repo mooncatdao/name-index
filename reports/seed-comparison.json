@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1242,
+  "canonicalCount": 1243,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 17,
+    "canonicalOnly": 18,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36879,6 +36879,20 @@
         "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
         "status": "text",
         "text": "RainbowCat-Deere Up-Ape 🌈🚜"
+      }
+    },
+    "0x00e6dd7f84@16501": {
+      "canonical": {
+        "catId": "0x00e6dd7f84",
+        "rescueOrder": 16501,
+        "eventId": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa:902",
+        "blockNumber": 25870093,
+        "transactionHash": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa",
+        "logIndex": 902,
+        "transactionIndex": 274,
+        "nameRaw": "0x4265727269000000000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Berri"
       }
     },
     "0x00a7b95e77@18150": {
