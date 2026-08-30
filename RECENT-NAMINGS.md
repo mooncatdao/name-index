@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Berri | CatID 0x00e6dd7f84 · rescue order 16501 | Provisional | — | [0x6a7e…81fa](https://etherscan.io/tx/0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa) |
 | 2026-08-27 03:49:59 UTC | Pistachio | CatID 0x00ad55c71a · rescue order 24124 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0x5e85…5f28](https://etherscan.io/tx/0x5e85345aebbebb478630d1d273bdd54b127a29158ac956ca0aaeffd59aa15f28) |
 | 2026-08-24 12:49:11 UTC | McDonald's | CatID 0x009628f9e2 · rescue order 2678 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0x91ed…f651](https://etherscan.io/tx/0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651) |
 | 2026-08-24 12:46:35 UTC | This MoonCat does not yet have  | CatID 0x00dfa21957 · rescue order 5858 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0xe711…a8ee](https://etherscan.io/tx/0xe71140626ed200de5997a470e143c40e5ea10de2a0831d2a0482f9f3a837a8ee) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-05 22:26:47 UTC | Zach | CatID 0x000af849cb · rescue order 10194 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x6794…7a2d](https://etherscan.io/tx/0x6794a4c973077ae8e3b709c782be7cb2e6ab1edf952ff1ce272a71564a647a2d) |
 | 2026-02-05 06:50:11 UTC | Creeper | CatID 0x00e301291a · rescue order 20043 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0xd5e5…49a2](https://etherscan.io/tx/0xd5e589bf7c361c045cef05d1130bc20801590f88564ffd9e8129e480684349a2) |
 | 2026-02-05 06:11:59 UTC | Zach | CatID 0x004045e136 · rescue order 12699 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0xa2e2…0d9d](https://etherscan.io/tx/0xa2e267ccb0ec1dc39357d30cce36d3086bc26e0df47c33e6ecb6d59433ff0d9d) |
-| 2026-02-04 09:47:23 UTC | Gemesis | CatID 0x001c270084 · rescue order 10225 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0xc7b2…1ce2](https://etherscan.io/tx/0xc7b2fbc6463a715678020fc215172c96a3968b3d47933a327f3f01a3f0cb1ce2) |

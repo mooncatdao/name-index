@@ -14215,6 +14215,20 @@
     "text": "Pixie"
   },
   {
+    "catId": "0x00e6dd7f84",
+    "rescueOrder": 16501,
+    "namedOrder": 1243,
+    "eventId": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa:902",
+    "blockNumber": 25870093,
+    "transactionHash": "0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa",
+    "logIndex": 902,
+    "transactionIndex": 274,
+    "nameRaw": "0x4265727269000000000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "text": "Berri",
+    "provisional": true
+  },
+  {
     "catId": "0x002e54862a",
     "rescueOrder": 16511,
     "namedOrder": 727,
