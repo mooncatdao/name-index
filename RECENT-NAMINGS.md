@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | Dolly Parton | CatID 0x003dc2a7bf · rescue order 18303 | Provisional | — | [0x1f7a…0cda](https://etherscan.io/tx/0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda) |
+| 2026-09-01 03:29:35 UTC | Dolly Parton | CatID 0x003dc2a7bf · rescue order 18303 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x1f7a…0cda](https://etherscan.io/tx/0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda) |
 | 2026-08-30 19:10:47 UTC | Berri | CatID 0x00e6dd7f84 · rescue order 16501 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x6a7e…81fa](https://etherscan.io/tx/0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa) |
 | 2026-08-27 03:49:59 UTC | Pistachio | CatID 0x00ad55c71a · rescue order 24124 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0x5e85…5f28](https://etherscan.io/tx/0x5e85345aebbebb478630d1d273bdd54b127a29158ac956ca0aaeffd59aa15f28) |
 | 2026-08-24 12:49:11 UTC | McDonald's | CatID 0x009628f9e2 · rescue order 2678 | Finalized | [0xa866…c108](https://etherscan.io/address/0xa866E43D3FEe98C6668708e6d1c487335163c108) | [0x91ed…f651](https://etherscan.io/tx/0x91ed7fac7007cea961d803b1fd0195c1f658b41accf8f5a58fc4bc42b850f651) |

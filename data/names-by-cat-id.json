@@ -5207,6 +5207,22 @@
     "namedYear": 2025,
     "text": "Historical Onchain JPEG"
   },
+  "0x003dc2a7bf": {
+    "catId": "0x003dc2a7bf",
+    "rescueOrder": 18303,
+    "namedOrder": 1244,
+    "eventId": "0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda:1040",
+    "blockNumber": 25879748,
+    "transactionHash": "0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda",
+    "namer": "0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc",
+    "logIndex": 1040,
+    "transactionIndex": 123,
+    "nameRaw": "0x446f6c6c7920506172746f6e0000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1788233375,
+    "namedYear": 2026,
+    "text": "Dolly Parton"
+  },
   "0x003ddf3244": {
     "catId": "0x003ddf3244",
     "rescueOrder": 7775,
