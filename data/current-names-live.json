@@ -15493,6 +15493,20 @@
     "text": "VIDPET SHARE ETH PLZ"
   },
   {
+    "catId": "0x003dc2a7bf",
+    "rescueOrder": 18303,
+    "namedOrder": 1244,
+    "eventId": "0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda:1040",
+    "blockNumber": 25879748,
+    "transactionHash": "0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda",
+    "logIndex": 1040,
+    "transactionIndex": 123,
+    "nameRaw": "0x446f6c6c7920506172746f6e0000000000000000000000000000000000000000",
+    "status": "text",
+    "text": "Dolly Parton",
+    "provisional": true
+  },
+  {
     "catId": "0x005ebee7de",
     "rescueOrder": 18311,
     "namedOrder": 663,
