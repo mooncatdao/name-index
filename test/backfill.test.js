@@ -28,7 +28,9 @@ function paths() {
     currentNamesPath: "/tmp/backfill-current-names.json",
     namesByCatIdPath: "/tmp/backfill-by-cat.json",
     namesByRescueOrderPath: "/tmp/backfill-by-rescue.json",
-    metadataPath: "/tmp/backfill-metadata.json"
+    metadataPath: "/tmp/backfill-metadata.json",
+    namesSimplePath: "/tmp/backfill-names-simple.json",
+    namesTimestampPath: "/tmp/backfill-names-timestamp.json"
   };
 }
 

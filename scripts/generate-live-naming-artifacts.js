@@ -18,7 +18,8 @@ const DEFAULTS = {
   namesByCatId: "data/names-by-cat-id-live.json",
   namesByRescueOrder: "data/names-by-rescue-order-live.json",
   metadata: "data/metadata-live.json",
-  namesSimple: "data/names-simple-live.json"
+  namesSimple: "data/names-simple-live.json",
+  namesTimestamp: "data/names-timestamp-live.json"
 };
 
 function parseArguments(argv) {
@@ -30,7 +31,8 @@ function parseArguments(argv) {
     "--names-by-cat-id",
     "--names-by-rescue-order",
     "--metadata",
-    "--names-simple"
+    "--names-simple",
+    "--names-timestamp"
   ]);
   for (let index = 0; index < argv.length; index += 1) {
     const flag = argv[index];
@@ -61,7 +63,8 @@ function parseArguments(argv) {
     namesByCatIdPath: values.namesbycatid ?? DEFAULTS.namesByCatId,
     namesByRescueOrderPath: values.namesbyrescueorder ?? DEFAULTS.namesByRescueOrder,
     metadataPath: values.metadata ?? DEFAULTS.metadata,
-    namesSimplePath: values.namessimple ?? DEFAULTS.namesSimple
+    namesSimplePath: values.namessimple ?? DEFAULTS.namesSimple,
+    namesTimestampPath: values.namestimestamp ?? DEFAULTS.namesTimestamp
   };
 }
 
@@ -94,7 +97,8 @@ async function checkOutputs(paths) {
     [paths.namesByCatIdPath, expected.namesByCatId],
     [paths.namesByRescueOrderPath, expected.namesByRescueOrder],
     [paths.metadataPath, expected.metadata],
-    [paths.namesSimplePath, expected.namesSimple]
+    [paths.namesSimplePath, expected.namesSimple],
+    [paths.namesTimestampPath, expected.namesTimestamp]
   ];
   for (const [filePath, expectedBytes] of outputPaths) {
     let actualBytes;
@@ -121,7 +125,8 @@ async function main() {
     namesByCatIdPath: args.namesByCatIdPath,
     namesByRescueOrderPath: args.namesByRescueOrderPath,
     metadataPath: args.metadataPath,
-    namesSimplePath: args.namesSimplePath
+    namesSimplePath: args.namesSimplePath,
+    namesTimestampPath: args.namesTimestampPath
   };
   if (args.check) {
     await checkOutputs(paths);

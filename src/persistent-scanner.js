@@ -14,7 +14,9 @@ function assertPaths(paths) {
       typeof paths.currentNamesPath !== "string" || paths.currentNamesPath === "" ||
       typeof paths.namesByCatIdPath !== "string" || paths.namesByCatIdPath === "" ||
       typeof paths.namesByRescueOrderPath !== "string" || paths.namesByRescueOrderPath === "" ||
-      typeof paths.metadataPath !== "string" || paths.metadataPath === "") {
+      typeof paths.metadataPath !== "string" || paths.metadataPath === "" ||
+      typeof paths.namesSimplePath !== "string" || paths.namesSimplePath === "" ||
+      typeof paths.namesTimestampPath !== "string" || paths.namesTimestampPath === "") {
     throw new TypeError("paths must include event, checkpoint, and current-name artifact paths");
   }
 }

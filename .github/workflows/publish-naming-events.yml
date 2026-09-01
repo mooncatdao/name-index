@@ -91,6 +91,7 @@ jobs:
             data/names-by-cat-id-live.json
             data/names-by-rescue-order-live.json
             data/names-simple-live.json
+            data/names-timestamp-live.json
             data/metadata-live.json
             RECENT-NAMINGS.md
           )
@@ -112,6 +113,7 @@ jobs:
             data/names-by-cat-id-live.json \
             data/names-by-rescue-order-live.json \
             data/names-simple-live.json \
+            data/names-timestamp-live.json \
             data/metadata-live.json \
             RECENT-NAMINGS.md
           if git diff --cached --quiet; then
@@ -212,6 +214,7 @@ jobs:
             data/names-by-rescue-order.json
             data/metadata.json
             data/names-simple.json
+            data/names-timestamp.json
             data/timeline-monthly.json
             docs/images/naming-timeline.png
             reports/seed-comparison.json
@@ -220,6 +223,7 @@ jobs:
             data/names-by-cat-id-live.json
             data/names-by-rescue-order-live.json
             data/names-simple-live.json
+            data/names-timestamp-live.json
             data/metadata-live.json
             RECENT-NAMINGS.md
           )
@@ -242,6 +246,7 @@ jobs:
             data/names-by-rescue-order.json \
             data/metadata.json \
             data/names-simple.json \
+            data/names-timestamp.json \
             data/timeline-monthly.json \
             docs/images/naming-timeline.png \
             reports/seed-comparison.json \
@@ -250,6 +255,7 @@ jobs:
             data/names-by-cat-id-live.json \
             data/names-by-rescue-order-live.json \
             data/names-simple-live.json \
+            data/names-timestamp-live.json \
             data/metadata-live.json \
             RECENT-NAMINGS.md
           if git diff --cached --quiet; then

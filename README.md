@@ -22,6 +22,7 @@ Most projects should start with `data/names-simple.json` or
 | File | Best for | What it contains |
 | --- | --- | --- |
 | [`data/names-simple.json`](data/names-simple.json) | Simple websites, bots, and CatMoon | The easiest display-ready map: decimal rescue order to name, such as `{ "6": "mister moo" }`. |
+| [`data/names-timestamp.json`](data/names-timestamp.json) | Display names with naming dates | Rescue order to `{ name, timestamp }`, where `timestamp` is the Unix-second naming-event block timestamp. |
 | [`data/current-names.json`](data/current-names.json) | Apps that need full details | One finalized current-name record per named MoonCat, including raw and decoded name information plus available metadata. |
 | [`data/names-by-cat-id.json`](data/names-by-cat-id.json) | Looking up a MoonCat by on-chain CatID | The detailed finalized current-name records indexed by CatID. |
 | [`data/names-by-rescue-order.json`](data/names-by-rescue-order.json) | Looking up a MoonCat by rescue order | The detailed finalized current-name records indexed by decimal rescue order. |
@@ -37,6 +38,7 @@ which combine finalized data with recent provisional webhook events:
 | File | What it contains |
 | --- | --- |
 | [`data/names-simple-live.json`](data/names-simple-live.json) | The simple rescue-order-to-name map with provisional updates included. |
+| [`data/names-timestamp-live.json`](data/names-timestamp-live.json) | The timestamped rescue-order-to-name map with provisional updates included; unknown provisional timestamps are `null`. |
 | [`data/current-names-live.json`](data/current-names-live.json) | Detailed current-name records with provisional updates included. |
 | [`data/names-by-cat-id-live.json`](data/names-by-cat-id-live.json) | Live detailed records indexed by CatID. |
 | [`data/names-by-rescue-order-live.json`](data/names-by-rescue-order-live.json) | Live detailed records indexed by rescue order. |

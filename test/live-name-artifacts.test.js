@@ -6,6 +6,7 @@ import { buildLiveNameArtifacts } from "../src/live-name-artifacts.js";
 import { normalizeProvisionalEvent } from "../src/provisional-events.js";
 
 const BLANK_RAW = "0x0000000000000000000000000000000000000000000000000000000000000000";
+const TEXT_RAW = "0x6361740000000000000000000000000000000000000000000000000000000000";
 
 function inputEvent({
   id = "a",
@@ -66,4 +67,21 @@ test("live overlay rejects meaningful finalized and pending mismatches", () => {
     () => buildLiveNameArtifacts([finalized], [pending]),
     EventStoreConflictError
   );
+});
+
+test("live timestamp map preserves known timestamps and marks unknown provisional timestamps", () => {
+  const finalized = normalizeProvisionalEvent(inputEvent({ id: "a", nameRaw: TEXT_RAW }));
+  const provisional = normalizeProvisionalEvent(inputEvent({
+    id: "b",
+    catId: "0x0069b659c0",
+    nameRaw: TEXT_RAW
+  }));
+  const withTimestamp = { ...finalized, blockTimestamp: 1_502_373_528 };
+  const artifacts = buildLiveNameArtifacts([withTimestamp], [provisional]);
+
+  assert.deepEqual(artifacts.namesSimple, { "6": "cat", "35": "cat" });
+  assert.deepEqual(artifacts.namesTimestamp, {
+    "6": { name: "cat", timestamp: 1_502_373_528 },
+    "35": { name: "cat", timestamp: null }
+  });
 });

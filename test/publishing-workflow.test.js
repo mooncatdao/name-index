@@ -96,6 +96,7 @@ test("workflow allowlists pending and live artifacts for both publication jobs",
     "data/names-by-cat-id-live.json",
     "data/names-by-rescue-order-live.json",
     "data/names-simple-live.json",
+    "data/names-timestamp-live.json",
     "data/metadata-live.json"
   ]) {
     const escaped = file.replaceAll(".", "\\.");

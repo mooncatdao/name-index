@@ -18,7 +18,8 @@ const DEFAULTS = {
   namesByCatId: "data/names-by-cat-id-live.json",
   namesByRescueOrder: "data/names-by-rescue-order-live.json",
   metadata: "data/metadata-live.json",
-  namesSimple: "data/names-simple-live.json"
+  namesSimple: "data/names-simple-live.json",
+  namesTimestamp: "data/names-timestamp-live.json"
 };
 
 function parseArguments(argv) {
@@ -46,7 +47,8 @@ function parseArguments(argv) {
     namesByCatIdPath: path.resolve(process.cwd(), values.namesbycatid ?? DEFAULTS.namesByCatId),
     namesByRescueOrderPath: path.resolve(process.cwd(), values.namesbyrescueorder ?? DEFAULTS.namesByRescueOrder),
     metadataPath: path.resolve(process.cwd(), values.metadata ?? DEFAULTS.metadata),
-    namesSimplePath: path.resolve(process.cwd(), values.namessimple ?? DEFAULTS.namesSimple)
+    namesSimplePath: path.resolve(process.cwd(), values.namessimple ?? DEFAULTS.namesSimple),
+    namesTimestampPath: path.resolve(process.cwd(), values.namestimestamp ?? DEFAULTS.namesTimestamp)
   };
 }
 
@@ -69,6 +71,7 @@ async function main() {
     namesByRescueOrderPath: paths.namesByRescueOrderPath,
     metadataPath: paths.metadataPath,
     namesSimplePath: paths.namesSimplePath,
+    namesTimestampPath: paths.namesTimestampPath,
     finalizedSourcePath: paths.eventsPath,
     pendingSourcePath: paths.pendingPath,
     sourcePath: `${paths.eventsPath} + ${paths.pendingPath}`

@@ -11,7 +11,8 @@ const ARTIFACT_KEYS = [
   "namesByCatId",
   "namesByRescueOrder",
   "metadata",
-  "namesSimple"
+  "namesSimple",
+  "namesTimestamp"
 ];
 
 function assertPaths(paths) {
@@ -23,7 +24,8 @@ function assertPaths(paths) {
     "namesByCatIdPath",
     "namesByRescueOrderPath",
     "metadataPath",
-    "namesSimplePath"
+    "namesSimplePath",
+    "namesTimestampPath"
   ]) {
     if (typeof paths[key] !== "string" || paths[key] === "") {
       throw new TypeError(`live artifact paths must include ${key}`);
@@ -107,7 +109,8 @@ export function buildLiveNameArtifacts(finalizedEvents, pendingEvents, options =
     namesByCatId: addProvisionalMarker(base.namesByCatId, pendingEventIds),
     namesByRescueOrder: addProvisionalMarker(base.namesByRescueOrder, pendingEventIds),
     metadata,
-    namesSimple: base.namesSimple
+    namesSimple: base.namesSimple,
+    namesTimestamp: base.namesTimestamp
   };
 }
 

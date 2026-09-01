@@ -42,7 +42,9 @@ function paths() {
     currentNamesPath: "/tmp/current-names.json",
     namesByCatIdPath: "/tmp/names-by-cat-id.json",
     namesByRescueOrderPath: "/tmp/names-by-rescue-order.json",
-    metadataPath: "/tmp/metadata.json"
+    metadataPath: "/tmp/metadata.json",
+    namesSimplePath: "/tmp/names-simple.json",
+    namesTimestampPath: "/tmp/names-timestamp.json"
   };
 }
 

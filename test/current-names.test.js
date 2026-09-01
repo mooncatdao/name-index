@@ -107,7 +107,7 @@ test("indexes are deterministic, sparse, and input remains unchanged", () => {
 
 test("generator creates deterministic artifacts and --check detects byte mismatches", async () => {
   const directory = await mkdtemp(path.join(os.tmpdir(), "name-index-current-names-"));
-  const paths = ["events.jsonl", "current.json", "by-cat.json", "by-rescue.json", "metadata.json", "names-simple.json"]
+  const paths = ["events.jsonl", "current.json", "by-cat.json", "by-rescue.json", "metadata.json", "names-simple.json", "names-timestamp.json"]
     .map((name) => path.join(directory, name));
   const args = [
     "scripts/generate-current-names.js",
@@ -116,7 +116,8 @@ test("generator creates deterministic artifacts and --check detects byte mismatc
     "--names-by-cat-id", paths[2],
     "--names-by-rescue-order", paths[3],
     "--metadata", paths[4],
-    "--names-simple", paths[5]
+    "--names-simple", paths[5],
+    "--names-timestamp", paths[6]
   ];
   await writeFile(paths[0], "", "utf8");
   let result = spawnSync(process.execPath, args, { cwd: path.resolve("."), encoding: "utf8" });

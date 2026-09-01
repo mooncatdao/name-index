@@ -16,7 +16,8 @@ const ARTIFACT_KEYS = [
   "namesByCatId",
   "namesByRescueOrder",
   "metadata",
-  "namesSimple"
+  "namesSimple",
+  "namesTimestamp"
 ];
 
 function assertPaths(paths) {
@@ -28,7 +29,8 @@ function assertPaths(paths) {
     "namesByCatIdPath",
     "namesByRescueOrderPath",
     "metadataPath",
-    "namesSimplePath"
+    "namesSimplePath",
+    "namesTimestampPath"
   ]) {
     if (typeof paths[key] !== "string" || paths[key] === "") {
       throw new TypeError(`artifact paths must include ${key}`);
@@ -66,6 +68,21 @@ export function buildSimpleNameMap(currentNames) {
   );
 }
 
+/** Build the display-ready rescue-order map with naming-event timestamps. */
+export function buildTimestampNameMap(currentNames) {
+  return Object.fromEntries(
+    currentNames
+      .filter((record) => typeof record.text === "string")
+      .sort((left, right) => left.rescueOrder - right.rescueOrder)
+      .map((record) => [String(record.rescueOrder), {
+        name: record.text,
+        timestamp: Object.hasOwn(record, "blockTimestamp")
+          ? record.blockTimestamp
+          : null
+      }])
+  );
+}
+
 /** Build all current-name artifacts from an already available event array. */
 export function buildCurrentNameArtifacts(events, options = {}) {
   if (!options || typeof options !== "object" || Array.isArray(options)) {
@@ -82,7 +99,8 @@ export function buildCurrentNameArtifacts(events, options = {}) {
       derived,
       options.sourcePath ?? "data/events.jsonl"
     ),
-    namesSimple: buildSimpleNameMap(derived.currentNames)
+    namesSimple: buildSimpleNameMap(derived.currentNames),
+    namesTimestamp: buildTimestampNameMap(derived.currentNames)
   };
 }
 

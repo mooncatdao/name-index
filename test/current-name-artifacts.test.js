@@ -72,7 +72,8 @@ const PATHS = {
   namesByCatIdPath: "by-cat.json",
   namesByRescueOrderPath: "by-rescue.json",
   metadataPath: "metadata.json",
-  namesSimplePath: "names-simple.json"
+  namesSimplePath: "names-simple.json",
+  namesTimestampPath: "names-timestamp.json"
 };
 
 test("artifact builder is deterministic and metadata matches merged events", () => {
@@ -85,6 +86,9 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   assert.equal(artifacts.namesByRescueOrder[6].catId, EVENT.catId);
   assert.equal(artifacts.namesByRescueOrder.length, 25_440);
   assert.deepEqual(artifacts.namesSimple, { "6": "cat" });
+  assert.deepEqual(artifacts.namesTimestamp, {
+    "6": { name: "cat", timestamp: 1_502_373_528 }
+  });
   assert.deepEqual(artifacts.metadata, {
     schemaVersion: 1,
     chainId: 1,
@@ -109,6 +113,10 @@ test("simple map includes display text, redacted text, and numeric rescue orderi
   assert.deepEqual(Object.keys(artifacts.namesSimple), ["6", "4420"]);
   assert.equal(artifacts.namesSimple["6"], "cat");
   assert.equal(artifacts.namesSimple["4420"], "�");
+  assert.deepEqual(artifacts.namesTimestamp["6"], {
+    name: "cat",
+    timestamp: 1_502_373_528
+  });
   assert.equal(Object.hasOwn(artifacts.namesSimple, "37"), false);
   assert.equal(Object.hasOwn(artifacts.namesSimple, "39"), false);
 });
@@ -124,13 +132,18 @@ test("artifact writes receive the exact merged event-derived payloads in order",
     PATHS.namesByCatIdPath,
     PATHS.namesByRescueOrderPath,
     PATHS.metadataPath,
-    PATHS.namesSimplePath
+    PATHS.namesSimplePath,
+    PATHS.namesTimestampPath
   ]);
   assert.equal(calls[0][1][0].eventId, EVENT.eventId);
   assert.equal(calls[1][1][EVENT.catId].eventId, EVENT.eventId);
   assert.equal(calls[2][1][6].eventId, EVENT.eventId);
   assert.equal(calls[3][1].eventCount, 1);
   assert.equal(calls[4][1]["6"], "cat");
+  assert.deepEqual(calls[5][1]["6"], {
+    name: "cat",
+    timestamp: 1_502_373_528
+  });
 });
 
 test("artifact write failure stops the remaining artifact writes", async () => {
