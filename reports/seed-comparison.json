@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1245,
+  "canonicalCount": 1246,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 20,
+    "canonicalOnly": 21,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36851,6 +36851,20 @@
         "nameRaw": "0x47616e6a616c662074686520477265656e206f6e2061206d697373696f6e0000",
         "status": "text",
         "text": "Ganjalf the Green on a mission"
+      }
+    },
+    "0x00fc587491@11966": {
+      "canonical": {
+        "catId": "0x00fc587491",
+        "rescueOrder": 11966,
+        "eventId": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297:133",
+        "blockNumber": 25934080,
+        "transactionHash": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297",
+        "logIndex": 133,
+        "transactionIndex": 94,
+        "nameRaw": "0x436162616c000000000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Cabal"
       }
     },
     "0x00f67eb670@12065": {

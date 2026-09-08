@@ -1,24 +1,5 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {
-    "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297:133": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 25934080,
-        "catId": "0x00fc587491",
-        "eventId": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297:133",
-        "logIndex": 133,
-        "nameRaw": "0x436162616c000000000000000000000000000000000000000000000000000000",
-        "removed": false,
-        "transactionHash": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297",
-        "transactionIndex": 94,
-        "decoded": {
-          "rawName": "0x436162616c000000000000000000000000000000000000000000000000000000",
-          "status": "text",
-          "text": "Cabal"
-        }
-      }
-    }
-  }
+  "events": {}
 }

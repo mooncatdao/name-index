@@ -11528,6 +11528,22 @@
     "text": "Mr. Meowgi"
   },
   {
+    "catId": "0x00fc587491",
+    "rescueOrder": 11966,
+    "namedOrder": 1246,
+    "eventId": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297:133",
+    "blockNumber": 25934080,
+    "transactionHash": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297",
+    "namer": "0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d",
+    "logIndex": 133,
+    "transactionIndex": 94,
+    "nameRaw": "0x436162616c000000000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1788887831,
+    "namedYear": 2026,
+    "text": "Cabal"
+  },
+  {
     "catId": "0x000a0a28fe",
     "rescueOrder": 11976,
     "namedOrder": 949,
