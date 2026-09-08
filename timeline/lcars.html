@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MoonCat naming activity shown as a TNG-style LCARS temporal timeline.">
     <title>MoonCat naming activity // LCARS temporal analysis</title>
     <style>
       /* Local, one-off geometry adapted from lcars-core's tokens/mixins. No source code is copied. */
@@ -117,7 +116,7 @@
       }
 
       .elbow-code {
-        top: 3rem;
+        top: 2.1rem;
         font-size: 0.72rem;
         font-weight: 700;
         letter-spacing: 0.08em;
@@ -788,7 +787,7 @@
             <desc id="chart-description">An LCARS-style temporal data display showing every nonzero monthly bucket in chronological order. Bar height is a linear count of successful nonblank naming events. Zero-count months are omitted from the rendered sequence.</desc>
           </svg>
         </div>
-        <p class="chart-note"><span><strong id="range-label">ACTIVE RANGE / LOADING</strong></span><span><strong id="bucket-label">ACTIVE / LOADING</strong></span><span>DATA / ./data/timeline-monthly.json</span></p>
+        <p class="chart-note"><span><strong id="range-label">ACTIVE RANGE / LOADING</strong></span><span><strong id="bucket-label">ACTIVE / LOADING</strong></span><span>DATA / ../data/timeline-monthly.json</span></p>
 
         <div class="error-panel" id="error" role="alert" hidden>
           <p class="error-kicker">ARCHIVE LINK ERROR</p>
@@ -799,13 +798,13 @@
 
       <footer class="lcars-footer">
         <div class="footer-rail" aria-hidden="true"><span></span><span></span><span></span></div>
-        <p class="footer-note"><span id="footer-mode">ACTIVE MONTHS / ZERO MONTHS OMITTED</span> / DATA / ./data/timeline-monthly.json</p>
+        <p class="footer-note"><span id="footer-mode">ACTIVE MONTHS / ZERO MONTHS OMITTED</span> / DATA / ../data/timeline-monthly.json</p>
       </footer>
     </div>
 
     <script>
       const SVG_NS = "http://www.w3.org/2000/svg";
-      const DATA_URL = "./data/timeline-monthly.json";
+      const DATA_URL = "../data/timeline-monthly.json";
       const chart = document.getElementById("chart");
       const zeroToggle = document.getElementById("zero-toggle");
       const errorPanel = document.getElementById("error");
