@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1244,
+  "canonicalCount": 1245,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 19,
+    "canonicalOnly": 20,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36893,6 +36893,20 @@
         "nameRaw": "0x4265727269000000000000000000000000000000000000000000000000000000",
         "status": "text",
         "text": "Berri"
+      }
+    },
+    "0x00e5c91214@17943": {
+      "canonical": {
+        "catId": "0x00e5c91214",
+        "rescueOrder": 17943,
+        "eventId": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4:558",
+        "blockNumber": 25933001,
+        "transactionHash": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4",
+        "logIndex": 558,
+        "transactionIndex": 231,
+        "nameRaw": "0x4372757368657200000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Crusher"
       }
     },
     "0x00a7b95e77@18150": {

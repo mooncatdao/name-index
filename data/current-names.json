@@ -15173,6 +15173,22 @@
     "text": "Cat Formerly Known as Prince"
   },
   {
+    "catId": "0x00e5c91214",
+    "rescueOrder": 17943,
+    "namedOrder": 1245,
+    "eventId": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4:558",
+    "blockNumber": 25933001,
+    "transactionHash": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4",
+    "namer": "0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d",
+    "logIndex": 558,
+    "transactionIndex": 231,
+    "nameRaw": "0x4372757368657200000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1788874799,
+    "namedYear": 2026,
+    "text": "Crusher"
+  },
+  {
     "catId": "0x00cca51526",
     "rescueOrder": 17973,
     "namedOrder": 604,
