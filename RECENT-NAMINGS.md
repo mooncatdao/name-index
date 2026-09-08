@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Cabal | CatID 0x00fc587491 · rescue order 11966 | Provisional | — | [0xed80…8297](https://etherscan.io/tx/0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297) |
 | 2026-09-08 13:39:59 UTC | Crusher | CatID 0x00e5c91214 · rescue order 17943 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0x80cf…8bf4](https://etherscan.io/tx/0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4) |
 | 2026-09-01 03:29:35 UTC | Dolly Parton | CatID 0x003dc2a7bf · rescue order 18303 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x1f7a…0cda](https://etherscan.io/tx/0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda) |
 | 2026-08-30 19:10:47 UTC | Berri | CatID 0x00e6dd7f84 · rescue order 16501 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x6a7e…81fa](https://etherscan.io/tx/0x6a7e08e64d1ffb2e29c9b7eca450797101a76a7f0e7182576888c4e1f50d81fa) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-06 17:54:35 UTC | Icele ❄️ | CatID 0x00a68bc6dd · rescue order 18583 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe700…67e4](https://etherscan.io/tx/0xe700547fb5200be7cf400ef4f09256ace9245d8d97fd2d44f33e78ba266767e4) |
 | 2026-02-06 17:30:23 UTC | Lime Halo 💫 | CatID 0x00a440921d · rescue order 19244 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xecdc…d209](https://etherscan.io/tx/0xecdcb20a1b23184b6ef5e63a20a5b0f46cfe8a9daccb129178afcb17dfd9d209) |
 | 2026-02-06 02:07:59 UTC | Zach | CatID 0x00bf3a9f69 · rescue order 13086 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x1e85…f839](https://etherscan.io/tx/0x1e8547fc5c72e3c9d8e993deaf2507a48ef0d4959325e784699a507b32bdf839) |
-| 2026-02-05 22:26:47 UTC | Zach | CatID 0x000af849cb · rescue order 10194 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x6794…7a2d](https://etherscan.io/tx/0x6794a4c973077ae8e3b709c782be7cb2e6ab1edf952ff1ce272a71564a647a2d) |

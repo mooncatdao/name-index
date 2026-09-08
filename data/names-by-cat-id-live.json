@@ -19646,6 +19646,20 @@
     "namedYear": 2021,
     "text": "Celery"
   },
+  "0x00fc587491": {
+    "catId": "0x00fc587491",
+    "rescueOrder": 11966,
+    "namedOrder": 1246,
+    "eventId": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297:133",
+    "blockNumber": 25934080,
+    "transactionHash": "0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297",
+    "logIndex": 133,
+    "transactionIndex": 94,
+    "nameRaw": "0x436162616c000000000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "text": "Cabal",
+    "provisional": true
+  },
   "0x00fc6d6959": {
     "catId": "0x00fc6d6959",
     "rescueOrder": 1548,
