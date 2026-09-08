@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import {
@@ -9,6 +9,7 @@ import { loadEventsJsonl } from "../src/event-store.js";
 
 const DEFAULT_EVENTS = "data/events.jsonl";
 const DEFAULT_OUTPUT = "data/timeline-monthly.json";
+const DEPLOY_OUTPUT = "docs/data/timeline-monthly.json";
 
 function parseArguments(argv) {
   const values = { check: false };
@@ -38,10 +39,13 @@ function parseArguments(argv) {
   const outputInput = values.output ?? DEFAULT_OUTPUT;
   const eventsPath = path.resolve(process.cwd(), eventsInput);
   const outputPath = path.resolve(process.cwd(), outputInput);
+  const deploymentPath = path.resolve(process.cwd(), DEPLOY_OUTPUT);
   return {
     check: values.check,
     eventsPath,
     outputPath,
+    deploymentPath,
+    syncDeployment: outputInput === DEFAULT_OUTPUT,
     source: path.isAbsolute(eventsInput)
       ? path.relative(process.cwd(), eventsPath) || path.basename(eventsPath)
       : eventsInput
@@ -71,10 +75,28 @@ async function main() {
     if (actual !== expected) {
       throw new Error(`timeline artifact is out of date: ${paths.outputPath}`);
     }
+    if (paths.syncDeployment) {
+      let deployment;
+      try {
+        deployment = await readFile(paths.deploymentPath, "utf8");
+      } catch (error) {
+        if (error.code === "ENOENT") {
+          throw new Error(`deployment timeline artifact is missing: ${paths.deploymentPath}`);
+        }
+        throw error;
+      }
+      if (deployment !== expected) {
+        throw new Error(`deployment timeline artifact is out of date: ${paths.deploymentPath}`);
+      }
+    }
     console.log("Validated naming timeline artifact.");
     return;
   }
   await writeFile(paths.outputPath, expected, "utf8");
+  if (paths.syncDeployment) {
+    await mkdir(path.dirname(paths.deploymentPath), { recursive: true });
+    await writeFile(paths.deploymentPath, expected, "utf8");
+  }
   console.log(`Generated naming timeline artifact: ${paths.outputPath}`);
 }
 

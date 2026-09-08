@@ -216,6 +216,7 @@ jobs:
             data/names-simple.json
             data/names-timestamp.json
             data/timeline-monthly.json
+            docs/data/timeline-monthly.json
             docs/images/naming-timeline.png
             reports/seed-comparison.json
             data/pending-events.json
@@ -248,6 +249,7 @@ jobs:
             data/names-simple.json \
             data/names-timestamp.json \
             data/timeline-monthly.json \
+            docs/data/timeline-monthly.json \
             docs/images/naming-timeline.png \
             reports/seed-comparison.json \
             data/pending-events.json \
