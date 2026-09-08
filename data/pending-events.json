@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4:558": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25933001,
+        "catId": "0x00e5c91214",
+        "eventId": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4:558",
+        "logIndex": 558,
+        "nameRaw": "0x4372757368657200000000000000000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4",
+        "transactionIndex": 231,
+        "decoded": {
+          "rawName": "0x4372757368657200000000000000000000000000000000000000000000000000",
+          "status": "text",
+          "text": "Crusher"
+        }
+      }
+    }
+  }
 }
