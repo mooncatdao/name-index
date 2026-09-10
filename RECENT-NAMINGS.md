@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Provisional | — | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |
+| 2026-09-10 11:51:47 UTC | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |
 | 2026-09-08 17:17:11 UTC | Cabal | CatID 0x00fc587491 · rescue order 11966 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0xed80…8297](https://etherscan.io/tx/0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297) |
 | 2026-09-08 13:39:59 UTC | Crusher | CatID 0x00e5c91214 · rescue order 17943 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0x80cf…8bf4](https://etherscan.io/tx/0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4) |
 | 2026-09-01 03:29:35 UTC | Dolly Parton | CatID 0x003dc2a7bf · rescue order 18303 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x1f7a…0cda](https://etherscan.io/tx/0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda) |

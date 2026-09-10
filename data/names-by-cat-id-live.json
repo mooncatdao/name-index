@@ -18886,12 +18886,14 @@
     "eventId": "0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4:167",
     "blockNumber": 25946806,
     "transactionHash": "0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4",
+    "namer": "0x1D7B087234D89510bE132F8835C04d696Be4F43a",
     "logIndex": 167,
     "transactionIndex": 134,
     "nameRaw": "0x4361747320666c69702070756e6b7320617065732070656e6775732065617379",
     "status": "text",
-    "text": "Cats flip punks apes pengus easy",
-    "provisional": true
+    "blockTimestamp": 1789041107,
+    "namedYear": 2026,
+    "text": "Cats flip punks apes pengus easy"
   },
   "0x00f0336e88": {
     "catId": "0x00f0336e88",

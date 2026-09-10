@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1246,
+  "canonicalCount": 1247,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 21,
+    "canonicalOnly": 22,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36893,6 +36893,20 @@
         "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
         "status": "text",
         "text": "RainbowCat-Deere Up-Ape 🌈🚜"
+      }
+    },
+    "0x00f024f830@14360": {
+      "canonical": {
+        "catId": "0x00f024f830",
+        "rescueOrder": 14360,
+        "eventId": "0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4:167",
+        "blockNumber": 25946806,
+        "transactionHash": "0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4",
+        "logIndex": 167,
+        "transactionIndex": 134,
+        "nameRaw": "0x4361747320666c69702070756e6b7320617065732070656e6775732065617379",
+        "status": "text",
+        "text": "Cats flip punks apes pengus easy"
       }
     },
     "0x00e6dd7f84@16501": {
