@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Provisional | — | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |
 | 2026-09-08 17:17:11 UTC | Cabal | CatID 0x00fc587491 · rescue order 11966 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0xed80…8297](https://etherscan.io/tx/0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297) |
 | 2026-09-08 13:39:59 UTC | Crusher | CatID 0x00e5c91214 · rescue order 17943 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0x80cf…8bf4](https://etherscan.io/tx/0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4) |
 | 2026-09-01 03:29:35 UTC | Dolly Parton | CatID 0x003dc2a7bf · rescue order 18303 | Finalized | [0xdeC8…1cFc](https://etherscan.io/address/0xdeC8A12a1638FB8Faaf3ea1EbB6B6f87c0751cFc) | [0x1f7a…0cda](https://etherscan.io/tx/0x1f7a5e5858dd944a93526ba45cb6d644949c440992d51dba5d995e7b2d400cda) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-06 18:00:47 UTC | Dreamstone 🌙 | CatID 0x00f5f943e8 · rescue order 7294 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x8fb5…7b6d](https://etherscan.io/tx/0x8fb5ec6447f51c4194de7b995eb147e9609c22a1b543109f2dd887e9a7057b6d) |
 | 2026-02-06 17:54:35 UTC | Icele ❄️ | CatID 0x00a68bc6dd · rescue order 18583 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe700…67e4](https://etherscan.io/tx/0xe700547fb5200be7cf400ef4f09256ace9245d8d97fd2d44f33e78ba266767e4) |
 | 2026-02-06 17:30:23 UTC | Lime Halo 💫 | CatID 0x00a440921d · rescue order 19244 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xecdc…d209](https://etherscan.io/tx/0xecdcb20a1b23184b6ef5e63a20a5b0f46cfe8a9daccb129178afcb17dfd9d209) |
-| 2026-02-06 02:07:59 UTC | Zach | CatID 0x00bf3a9f69 · rescue order 13086 | Finalized | [0x1B08…2694](https://etherscan.io/address/0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694) | [0x1e85…f839](https://etherscan.io/tx/0x1e8547fc5c72e3c9d8e993deaf2507a48ef0d4959325e784699a507b32bdf839) |
