@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1247,
+  "canonicalCount": 1248,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 22,
+    "canonicalOnly": 23,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36977,6 +36977,20 @@
         "nameRaw": "0x204d6f6f6e43617420426f740a00000000000000000000000000000000000000",
         "status": "text",
         "text": " MoonCat Bot\n"
+      }
+    },
+    "0x00593a0ff9@19547": {
+      "canonical": {
+        "catId": "0x00593a0ff9",
+        "rescueOrder": 19547,
+        "eventId": "0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706:160",
+        "blockNumber": 25951431,
+        "transactionHash": "0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706",
+        "logIndex": 160,
+        "transactionIndex": 122,
+        "nameRaw": "0x426c756562657272790000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Blueberry"
       }
     },
     "0x00ba204151@19625": {

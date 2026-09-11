@@ -34872,12 +34872,14 @@
     "eventId": "0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706:160",
     "blockNumber": 25951431,
     "transactionHash": "0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706",
+    "namer": "0x0fd2B7534B1601a60B1026b4be1865B39BF29b62",
     "logIndex": 160,
     "transactionIndex": 122,
     "nameRaw": "0x426c756562657272790000000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "Blueberry",
-    "provisional": true
+    "blockTimestamp": 1789096871,
+    "namedYear": 2026,
+    "text": "Blueberry"
   },
   null,
   null,
