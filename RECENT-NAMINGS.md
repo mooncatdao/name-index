@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Blueberry | CatID 0x00593a0ff9 · rescue order 19547 | Provisional | — | [0xac1e…a706](https://etherscan.io/tx/0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706) |
 | 2026-09-10 11:51:47 UTC | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |
 | 2026-09-08 17:17:11 UTC | Cabal | CatID 0x00fc587491 · rescue order 11966 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0xed80…8297](https://etherscan.io/tx/0xed80e12403fe02ec176eab07884bd32101c6ca72b1cf78edfd828c1e60c58297) |
 | 2026-09-08 13:39:59 UTC | Crusher | CatID 0x00e5c91214 · rescue order 17943 | Finalized | [0xd15d…BE4d](https://etherscan.io/address/0xd15d229Fd52240F8030Fa4694294189ED1DfBE4d) | [0x80cf…8bf4](https://etherscan.io/tx/0x80cfcf2f686c28e773925f485ea552610c645dcb3598d56e5b6a326b58878bf4) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-08 15:37:11 UTC | Lulligo | CatID 0x00c9803dfd · rescue order 19432 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xa22d…4c15](https://etherscan.io/tx/0xa22d7f349a0fcee8a7ef61c9726c41fda59ede882e37baf17b0ea1e052bc4c15) |
 | 2026-02-06 18:00:47 UTC | Dreamstone 🌙 | CatID 0x00f5f943e8 · rescue order 7294 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x8fb5…7b6d](https://etherscan.io/tx/0x8fb5ec6447f51c4194de7b995eb147e9609c22a1b543109f2dd887e9a7057b6d) |
 | 2026-02-06 17:54:35 UTC | Icele ❄️ | CatID 0x00a68bc6dd · rescue order 18583 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe700…67e4](https://etherscan.io/tx/0xe700547fb5200be7cf400ef4f09256ace9245d8d97fd2d44f33e78ba266767e4) |
-| 2026-02-06 17:30:23 UTC | Lime Halo 💫 | CatID 0x00a440921d · rescue order 19244 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xecdc…d209](https://etherscan.io/tx/0xecdcb20a1b23184b6ef5e63a20a5b0f46cfe8a9daccb129178afcb17dfd9d209) |
