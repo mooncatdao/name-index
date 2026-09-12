@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1249,
+  "canonicalCount": 1250,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 24,
+    "canonicalOnly": 25,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36781,6 +36781,20 @@
         "nameRaw": "0x54686973204d6f6f6e43617420646f6573206e6f742079657420686176652000",
         "status": "text",
         "text": "This MoonCat does not yet have "
+      }
+    },
+    "0x0011db2ff1@6812": {
+      "canonical": {
+        "catId": "0x0011db2ff1",
+        "rescueOrder": 6812,
+        "eventId": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda:342",
+        "blockNumber": 25960068,
+        "transactionHash": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda",
+        "logIndex": 342,
+        "transactionIndex": 158,
+        "nameRaw": "0x4d6f6f6443617420233638313200000000000000000000000000000000000000",
+        "status": "text",
+        "text": "MoodCat #6812"
       }
     },
     "0x00e279df43@7613": {

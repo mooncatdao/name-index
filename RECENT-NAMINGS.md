@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | MoodCat #6812 | CatID 0x0011db2ff1 · rescue order 6812 | Provisional | — | [0xd158…8dda](https://etherscan.io/tx/0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda) |
+| 2026-09-12 08:15:11 UTC | MoodCat #6812 | CatID 0x0011db2ff1 · rescue order 6812 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xd158…8dda](https://etherscan.io/tx/0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda) |
 | 2026-09-12 07:56:59 UTC | Mike Dyson | CatID 0x0012c620be · rescue order 11894 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe6c3…bd70](https://etherscan.io/tx/0xe6c3cffddb815565d9660981b9ea9f03a3a9c6e37adb9c84f6e1f4e3e7c9bd70) |
 | 2026-09-11 03:21:11 UTC | Blueberry | CatID 0x00593a0ff9 · rescue order 19547 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0xac1e…a706](https://etherscan.io/tx/0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706) |
 | 2026-09-10 11:51:47 UTC | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |

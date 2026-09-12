@@ -7663,6 +7663,22 @@
     "text": "Shitcat"
   },
   {
+    "catId": "0x0011db2ff1",
+    "rescueOrder": 6812,
+    "namedOrder": 1250,
+    "eventId": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda:342",
+    "blockNumber": 25960068,
+    "transactionHash": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda",
+    "namer": "0x1189f4016460543Ac15Cfb71b393c08682073a76",
+    "logIndex": 342,
+    "transactionIndex": 158,
+    "nameRaw": "0x4d6f6f6443617420233638313200000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1789200911,
+    "namedYear": 2026,
+    "text": "MoodCat #6812"
+  },
+  {
     "catId": "0x001a57aa96",
     "rescueOrder": 6815,
     "namedOrder": 1081,
