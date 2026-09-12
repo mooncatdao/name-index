@@ -11432,6 +11432,22 @@
     "text": "1 MoonCat = 1 MoonCat"
   },
   {
+    "catId": "0x0012c620be",
+    "rescueOrder": 11894,
+    "namedOrder": 1249,
+    "eventId": "0xe6c3cffddb815565d9660981b9ea9f03a3a9c6e37adb9c84f6e1f4e3e7c9bd70:329",
+    "blockNumber": 25959978,
+    "transactionHash": "0xe6c3cffddb815565d9660981b9ea9f03a3a9c6e37adb9c84f6e1f4e3e7c9bd70",
+    "namer": "0x1189f4016460543Ac15Cfb71b393c08682073a76",
+    "logIndex": 329,
+    "transactionIndex": 108,
+    "nameRaw": "0x4d696b65204479736f6e00000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1789199819,
+    "namedYear": 2026,
+    "text": "Mike Dyson"
+  },
+  {
     "catId": "0x0017067711",
     "rescueOrder": 11898,
     "namedOrder": 746,
