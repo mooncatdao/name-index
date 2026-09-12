@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | MoodCat #6812 | CatID 0x0011db2ff1 · rescue order 6812 | Provisional | — | [0xd158…8dda](https://etherscan.io/tx/0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda) |
 | 2026-09-12 07:56:59 UTC | Mike Dyson | CatID 0x0012c620be · rescue order 11894 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe6c3…bd70](https://etherscan.io/tx/0xe6c3cffddb815565d9660981b9ea9f03a3a9c6e37adb9c84f6e1f4e3e7c9bd70) |
 | 2026-09-11 03:21:11 UTC | Blueberry | CatID 0x00593a0ff9 · rescue order 19547 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0xac1e…a706](https://etherscan.io/tx/0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706) |
 | 2026-09-10 11:51:47 UTC | Cats flip punks apes pengus easy | CatID 0x00f024f830 · rescue order 14360 | Finalized | [0x1D7B…F43a](https://etherscan.io/address/0x1D7B087234D89510bE132F8835C04d696Be4F43a) | [0x2fc9…68d4](https://etherscan.io/tx/0x2fc9ddd4af68f36ce81fb84f39daa341cf1e750fba7d09421fb39f216af568d4) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-08 15:44:11 UTC | MintHush 🍃 | CatID 0x003e1f7e69 · rescue order 10100 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xee85…5c65](https://etherscan.io/tx/0xee853c0316c9369c184dca3d7267459f56d6b39e8f8e6c88fba2ae9fe8565c65) |
 | 2026-02-08 15:39:11 UTC | Nightshawl | CatID 0x00fa423ae0 · rescue order 8593 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x5b20…12d0](https://etherscan.io/tx/0x5b2064e106574194e7f1947a0813b716071a6c6da980137c6882f443987c12d0) |
 | 2026-02-08 15:37:11 UTC | Lulligo | CatID 0x00c9803dfd · rescue order 19432 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xa22d…4c15](https://etherscan.io/tx/0xa22d7f349a0fcee8a7ef61c9726c41fda59ede882e37baf17b0ea1e052bc4c15) |
-| 2026-02-06 18:00:47 UTC | Dreamstone 🌙 | CatID 0x00f5f943e8 · rescue order 7294 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x8fb5…7b6d](https://etherscan.io/tx/0x8fb5ec6447f51c4194de7b995eb147e9609c22a1b543109f2dd887e9a7057b6d) |

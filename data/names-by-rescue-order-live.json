@@ -13995,7 +13995,20 @@
   null,
   null,
   null,
-  null,
+  {
+    "catId": "0x0011db2ff1",
+    "rescueOrder": 6812,
+    "namedOrder": 1250,
+    "eventId": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda:342",
+    "blockNumber": 25960068,
+    "transactionHash": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda",
+    "logIndex": 342,
+    "transactionIndex": 158,
+    "nameRaw": "0x4d6f6f6443617420233638313200000000000000000000000000000000000000",
+    "status": "text",
+    "text": "MoodCat #6812",
+    "provisional": true
+  },
   null,
   null,
   {

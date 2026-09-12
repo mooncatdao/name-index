@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda:342": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25960068,
+        "catId": "0x0011db2ff1",
+        "eventId": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda:342",
+        "logIndex": 342,
+        "nameRaw": "0x4d6f6f6443617420233638313200000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda",
+        "transactionIndex": 158,
+        "decoded": {
+          "rawName": "0x4d6f6f6443617420233638313200000000000000000000000000000000000000",
+          "status": "text",
+          "text": "MoodCat #6812"
+        }
+      }
+    }
+  }
 }
