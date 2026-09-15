@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1250,
+  "canonicalCount": 1251,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 25,
+    "canonicalOnly": 26,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36921,6 +36921,20 @@
         "nameRaw": "0x5261696e626f774361742d44656572652055702d41706520f09f8c88f09f9a9c",
         "status": "text",
         "text": "RainbowCat-Deere Up-Ape 🌈🚜"
+      }
+    },
+    "0x007655de7d@14007": {
+      "canonical": {
+        "catId": "0x007655de7d",
+        "rescueOrder": 14007,
+        "eventId": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02:797",
+        "blockNumber": 25981688,
+        "transactionHash": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02",
+        "logIndex": 797,
+        "transactionIndex": 199,
+        "nameRaw": "0x42616d626f6f7a6c65642042616d626f6f000000000000000000000000000000",
+        "status": "text",
+        "text": "Bamboozled Bamboo"
       }
     },
     "0x00f024f830@14360": {

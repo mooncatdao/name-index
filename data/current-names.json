@@ -12663,6 +12663,22 @@
     "text": "Wilbur"
   },
   {
+    "catId": "0x007655de7d",
+    "rescueOrder": 14007,
+    "namedOrder": 1251,
+    "eventId": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02:797",
+    "blockNumber": 25981688,
+    "transactionHash": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02",
+    "namer": "0x1B086Af7E34b3Fd9E989e732A171adcD0Fc32694",
+    "logIndex": 797,
+    "transactionIndex": 199,
+    "nameRaw": "0x42616d626f6f7a6c65642042616d626f6f000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1789461107,
+    "namedYear": 2026,
+    "text": "Bamboozled Bamboo"
+  },
+  {
     "catId": "0x00fb7ef679",
     "rescueOrder": 14041,
     "namedOrder": 1002,
