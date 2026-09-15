@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Bamboozled Bamboo | CatID 0x007655de7d · rescue order 14007 | Provisional | — | [0xd68a…8e02](https://etherscan.io/tx/0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02) |
 | 2026-09-12 08:15:11 UTC | MoodCat #6812 | CatID 0x0011db2ff1 · rescue order 6812 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xd158…8dda](https://etherscan.io/tx/0xd158d6178a818170d3a1a5ac3a6b425e28a8d80a8952257284af8feb1fab8dda) |
 | 2026-09-12 07:56:59 UTC | Mike Dyson | CatID 0x0012c620be · rescue order 11894 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xe6c3…bd70](https://etherscan.io/tx/0xe6c3cffddb815565d9660981b9ea9f03a3a9c6e37adb9c84f6e1f4e3e7c9bd70) |
 | 2026-09-11 03:21:11 UTC | Blueberry | CatID 0x00593a0ff9 · rescue order 19547 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0xac1e…a706](https://etherscan.io/tx/0xac1e8f7e205600266f1b7a61a5f1dd077b0b671c9f8dc6c18f1fe73c6ff9a706) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-08 15:54:47 UTC | Chubby Rosie | CatID 0x00a1a6614e · rescue order 23579 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x318f…c4be](https://etherscan.io/tx/0x318f7952fcf1a7f274b00b05c3620a275124dd45e72361248d7425295dc0c4be) |
 | 2026-02-08 15:44:11 UTC | MintHush 🍃 | CatID 0x003e1f7e69 · rescue order 10100 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xee85…5c65](https://etherscan.io/tx/0xee853c0316c9369c184dca3d7267459f56d6b39e8f8e6c88fba2ae9fe8565c65) |
 | 2026-02-08 15:39:11 UTC | Nightshawl | CatID 0x00fa423ae0 · rescue order 8593 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x5b20…12d0](https://etherscan.io/tx/0x5b2064e106574194e7f1947a0813b716071a6c6da980137c6882f443987c12d0) |
-| 2026-02-08 15:37:11 UTC | Lulligo | CatID 0x00c9803dfd · rescue order 19432 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0xa22d…4c15](https://etherscan.io/tx/0xa22d7f349a0fcee8a7ef61c9726c41fda59ede882e37baf17b0ea1e052bc4c15) |

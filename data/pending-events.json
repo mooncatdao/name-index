@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02:797": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 25981688,
+        "catId": "0x007655de7d",
+        "eventId": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02:797",
+        "logIndex": 797,
+        "nameRaw": "0x42616d626f6f7a6c65642042616d626f6f000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0xd68a6a5b4cb67abe14c1db8a0a0c75c93f074588a8fc12eaf1c668f4f7108e02",
+        "transactionIndex": 199,
+        "decoded": {
+          "rawName": "0x42616d626f6f7a6c65642042616d626f6f000000000000000000000000000000",
+          "status": "text",
+          "text": "Bamboozled Bamboo"
+        }
+      }
+    }
+  }
 }
