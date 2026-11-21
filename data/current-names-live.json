@@ -7231,6 +7231,22 @@
     "text": "Cameron Winklevoss\n"
   },
   {
+    "catId": "0x0005d08c7e",
+    "rescueOrder": 6306,
+    "namedOrder": 1253,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:74",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 74,
+    "transactionIndex": 9,
+    "nameRaw": "0x536174616e20537061776e2c20746865204361636f2d4461656d6f6e00000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Satan Spawn, the Caco-Daemon"
+  },
+  {
     "catId": "0x009facc332",
     "rescueOrder": 6314,
     "namedOrder": 1179,
@@ -7916,6 +7932,22 @@
     "blockTimestamp": 1770104375,
     "namedYear": 2026,
     "text": "Shitcat"
+  },
+  {
+    "catId": "0x003cda4b6a",
+    "rescueOrder": 7088,
+    "namedOrder": 1254,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:90",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 90,
+    "transactionIndex": 9,
+    "nameRaw": "0x446561642062757420447265616d696e67000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Dead but Dreaming"
   },
   {
     "catId": "0x0026ed931b",
@@ -8666,6 +8698,22 @@
     "blockTimestamp": 1633535269,
     "namedYear": 2021,
     "text": "The Alchemist"
+  },
+  {
+    "catId": "0x0048ffa1a9",
+    "rescueOrder": 8206,
+    "namedOrder": 1255,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:106",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 106,
+    "transactionIndex": 9,
+    "nameRaw": "0x526570656e7420746f2044696500000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Repent to Die"
   },
   {
     "catId": "0x007cc363f1",
@@ -12951,6 +12999,22 @@
     "text": "Shitcat"
   },
   {
+    "catId": "0x0069ad6c6d",
+    "rescueOrder": 14281,
+    "namedOrder": 1256,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:122",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 122,
+    "transactionIndex": 9,
+    "nameRaw": "0x547269666978696f6e0000000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Trifixion"
+  },
+  {
     "catId": "0x00ec67d038",
     "rescueOrder": 14301,
     "namedOrder": 1030,
@@ -13685,6 +13749,22 @@
     "blockTimestamp": 1615707061,
     "namedYear": 2021,
     "text": "Cobain"
+  },
+  {
+    "catId": "0x0068f41acb",
+    "rescueOrder": 15460,
+    "namedOrder": 1252,
+    "eventId": "0xf917f45278e76c6839b5acfeed59dc2353365c8a83af223a0e9f5017e120e257:363",
+    "blockNumber": 26447329,
+    "transactionHash": "0xf917f45278e76c6839b5acfeed59dc2353365c8a83af223a0e9f5017e120e257",
+    "namer": "0x0fd2B7534B1601a60B1026b4be1865B39BF29b62",
+    "logIndex": 363,
+    "transactionIndex": 175,
+    "nameRaw": "0x436f736d6f000000000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795069631,
+    "namedYear": 2026,
+    "text": "Cosmo"
   },
   {
     "catId": "0x007cb1551f",
@@ -15477,6 +15557,22 @@
     "text": "Shitcat"
   },
   {
+    "catId": "0x005aeb1b27",
+    "rescueOrder": 18178,
+    "namedOrder": 1257,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:138",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 138,
+    "transactionIndex": 9,
+    "nameRaw": "0x426568656164207468652050726f706865740000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Behead the Prophet"
+  },
+  {
     "catId": "0x0098a8e6d5",
     "rescueOrder": 18238,
     "namedOrder": 371,
@@ -16866,6 +16962,22 @@
     "blockTimestamp": 1615707943,
     "namedYear": 2021,
     "text": "Bubbles"
+  },
+  {
+    "catId": "0x004986202a",
+    "rescueOrder": 20466,
+    "namedOrder": 1258,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:154",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 154,
+    "transactionIndex": 9,
+    "nameRaw": "0x486f6c7920446563657074696f6e000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Holy Deception"
   },
   {
     "catId": "0x00abe3d027",
@@ -18545,6 +18657,22 @@
     "text": "Meow"
   },
   {
+    "catId": "0x001da94e30",
+    "rescueOrder": 23172,
+    "namedOrder": 1259,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:170",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 170,
+    "transactionIndex": 9,
+    "nameRaw": "0x496e2048656c6c2049204275726e000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "In Hell I Burn"
+  },
+  {
     "catId": "0x000b34e541",
     "rescueOrder": 23232,
     "namedOrder": 475,
@@ -18782,6 +18910,22 @@
     "blockTimestamp": 1615781686,
     "namedYear": 2021,
     "text": "Félicette"
+  },
+  {
+    "catId": "0x006dc5001d",
+    "rescueOrder": 23648,
+    "namedOrder": 1260,
+    "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:186",
+    "blockNumber": 26464829,
+    "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+    "namer": "0xdb144962F8A6a92be74b30007DCf4e078B787a95",
+    "logIndex": 186,
+    "transactionIndex": 9,
+    "nameRaw": "0x5265766f6361746520746865204167697461746f720000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795280387,
+    "namedYear": 2026,
+    "text": "Revocate the Agitator"
   },
   {
     "catId": "0x008ab661ef",

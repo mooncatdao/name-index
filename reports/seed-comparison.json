@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1251,
+  "canonicalCount": 1260,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 26,
+    "canonicalOnly": 35,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36783,6 +36783,20 @@
         "text": "This MoonCat does not yet have "
       }
     },
+    "0x0005d08c7e@6306": {
+      "canonical": {
+        "catId": "0x0005d08c7e",
+        "rescueOrder": 6306,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:74",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 74,
+        "transactionIndex": 9,
+        "nameRaw": "0x536174616e20537061776e2c20746865204361636f2d4461656d6f6e00000000",
+        "status": "text",
+        "text": "Satan Spawn, the Caco-Daemon"
+      }
+    },
     "0x0011db2ff1@6812": {
       "canonical": {
         "catId": "0x0011db2ff1",
@@ -36797,6 +36811,20 @@
         "text": "MoodCat #6812"
       }
     },
+    "0x003cda4b6a@7088": {
+      "canonical": {
+        "catId": "0x003cda4b6a",
+        "rescueOrder": 7088,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:90",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 90,
+        "transactionIndex": 9,
+        "nameRaw": "0x446561642062757420447265616d696e67000000000000000000000000000000",
+        "status": "text",
+        "text": "Dead but Dreaming"
+      }
+    },
     "0x00e279df43@7613": {
       "canonical": {
         "catId": "0x00e279df43",
@@ -36809,6 +36837,20 @@
         "nameRaw": "0x47616e6a616c662074686520477265656e000000000000000000000000000000",
         "status": "text",
         "text": "Ganjalf the Green"
+      }
+    },
+    "0x0048ffa1a9@8206": {
+      "canonical": {
+        "catId": "0x0048ffa1a9",
+        "rescueOrder": 8206,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:106",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 106,
+        "transactionIndex": 9,
+        "nameRaw": "0x526570656e7420746f2044696500000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Repent to Die"
       }
     },
     "0x0041ebc6d8@9315": {
@@ -36937,6 +36979,20 @@
         "text": "Bamboozled Bamboo"
       }
     },
+    "0x0069ad6c6d@14281": {
+      "canonical": {
+        "catId": "0x0069ad6c6d",
+        "rescueOrder": 14281,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:122",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 122,
+        "transactionIndex": 9,
+        "nameRaw": "0x547269666978696f6e0000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Trifixion"
+      }
+    },
     "0x00f024f830@14360": {
       "canonical": {
         "catId": "0x00f024f830",
@@ -36949,6 +37005,20 @@
         "nameRaw": "0x4361747320666c69702070756e6b7320617065732070656e6775732065617379",
         "status": "text",
         "text": "Cats flip punks apes pengus easy"
+      }
+    },
+    "0x0068f41acb@15460": {
+      "canonical": {
+        "catId": "0x0068f41acb",
+        "rescueOrder": 15460,
+        "eventId": "0xf917f45278e76c6839b5acfeed59dc2353365c8a83af223a0e9f5017e120e257:363",
+        "blockNumber": 26447329,
+        "transactionHash": "0xf917f45278e76c6839b5acfeed59dc2353365c8a83af223a0e9f5017e120e257",
+        "logIndex": 363,
+        "transactionIndex": 175,
+        "nameRaw": "0x436f736d6f000000000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Cosmo"
       }
     },
     "0x00e6dd7f84@16501": {
@@ -36991,6 +37061,20 @@
         "nameRaw": "0x5371756967676c65204d792041737320f09f8d91f09f92a80a00000000000000",
         "status": "text",
         "text": "Squiggle My Ass 🍑💨\n"
+      }
+    },
+    "0x005aeb1b27@18178": {
+      "canonical": {
+        "catId": "0x005aeb1b27",
+        "rescueOrder": 18178,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:138",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 138,
+        "transactionIndex": 9,
+        "nameRaw": "0x426568656164207468652050726f706865740000000000000000000000000000",
+        "status": "text",
+        "text": "Behead the Prophet"
       }
     },
     "0x003dc2a7bf@18303": {
@@ -37049,6 +37133,20 @@
         "text": "Smooncatéagol"
       }
     },
+    "0x004986202a@20466": {
+      "canonical": {
+        "catId": "0x004986202a",
+        "rescueOrder": 20466,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:154",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 154,
+        "transactionIndex": 9,
+        "nameRaw": "0x486f6c7920446563657074696f6e000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Holy Deception"
+      }
+    },
     "0x0076bdf974@22230": {
       "canonical": {
         "catId": "0x0076bdf974",
@@ -37061,6 +37159,34 @@
         "nameRaw": "0x50656f706c6520646f6e2774206765742074686174206b696e646e6573730000",
         "status": "text",
         "text": "People don't get that kindness"
+      }
+    },
+    "0x001da94e30@23172": {
+      "canonical": {
+        "catId": "0x001da94e30",
+        "rescueOrder": 23172,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:170",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 170,
+        "transactionIndex": 9,
+        "nameRaw": "0x496e2048656c6c2049204275726e000000000000000000000000000000000000",
+        "status": "text",
+        "text": "In Hell I Burn"
+      }
+    },
+    "0x006dc5001d@23648": {
+      "canonical": {
+        "catId": "0x006dc5001d",
+        "rescueOrder": 23648,
+        "eventId": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b:186",
+        "blockNumber": 26464829,
+        "transactionHash": "0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b",
+        "logIndex": 186,
+        "transactionIndex": 9,
+        "nameRaw": "0x5265766f6361746520746865204167697461746f720000000000000000000000",
+        "status": "text",
+        "text": "Revocate the Agitator"
       }
     },
     "0x00ad55c71a@24124": {

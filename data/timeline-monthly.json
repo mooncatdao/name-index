@@ -3,13 +3,13 @@
   "source": "data/events.jsonl",
   "metric": "successful-nonblank-namings",
   "granularity": "month",
-  "generatedFromEventCount": 23254,
-  "includedEventCount": 1251,
+  "generatedFromEventCount": 23263,
+  "includedEventCount": 1260,
   "excludedBlankCount": 22003,
   "excludedRemovedCount": 0,
   "missingTimestampCount": 0,
   "firstMonth": "2017-08",
-  "lastMonth": "2026-09",
+  "lastMonth": "2026-11",
   "monthly": [
     {
       "month": "2017-08",
@@ -450,6 +450,14 @@
     {
       "month": "2026-09",
       "count": 8
+    },
+    {
+      "month": "2026-10",
+      "count": 0
+    },
+    {
+      "month": "2026-11",
+      "count": 9
     }
   ]
 }
