@@ -10,6 +10,7 @@ import {
 } from "./constants.js";
 import { mergeEvents } from "./event-store.js";
 import { deriveCurrentNames } from "./current-names.js";
+import { NAME_STATUS } from "./name-decoder.js";
 
 const ARTIFACT_KEYS = [
   "currentNames",
@@ -58,28 +59,37 @@ function buildMetadata(events, derived, sourcePath) {
   };
 }
 
+function displayName(record) {
+  switch (record.status) {
+    case NAME_STATUS.INVALID_UTF8:
+      return "[invalid UTF-8]";
+    case NAME_STATUS.LEADING_NULL:
+      return "[leading null]";
+    case NAME_STATUS.TEXT:
+    case NAME_STATUS.REDACTED:
+      return record.text;
+    default:
+      throw new Error(`Unexpected current-name status: ${record.status}`);
+  }
+}
+
 /** Build CatMoon's display-only decimal rescue-order name map. */
 export function buildSimpleNameMap(currentNames) {
   return Object.fromEntries(
-    currentNames
-      .filter((record) => typeof record.text === "string")
-      .sort((left, right) => left.rescueOrder - right.rescueOrder)
-      .map((record) => [String(record.rescueOrder), record.text])
+    currentNames.map((record) => [String(record.rescueOrder), displayName(record)])
   );
 }
 
 /** Build the display-ready rescue-order map with naming-event timestamps. */
 export function buildTimestampNameMap(currentNames) {
   return Object.fromEntries(
-    currentNames
-      .filter((record) => typeof record.text === "string")
-      .sort((left, right) => left.rescueOrder - right.rescueOrder)
-      .map((record) => [String(record.rescueOrder), {
-        name: record.text,
-        timestamp: Object.hasOwn(record, "blockTimestamp")
-          ? record.blockTimestamp
-          : null
-      }])
+    currentNames.map((record) => [String(record.rescueOrder), {
+      name: displayName(record),
+      timestamp: Object.hasOwn(record, "blockTimestamp")
+        ? record.blockTimestamp
+        : null,
+      status: record.status
+    }])
   );
 }
 

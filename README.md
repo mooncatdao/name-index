@@ -19,15 +19,15 @@ and may disappear or become finalized after reconciliation.
 Most projects should start with `data/names-simple.json` or
 `data/current-names.json`.
 
-| File | Best for | What it contains |
-| --- | --- | --- |
-| [`data/names-simple.json`](data/names-simple.json) | Simple websites, bots, and CatMoon | The easiest display-ready map: decimal rescue order to name, such as `{ "6": "mister moo" }`. |
-| [`data/names-timestamp.json`](data/names-timestamp.json) | Display names with naming dates | Rescue order to `{ name, timestamp }`, where `timestamp` is the Unix-second naming-event block timestamp. |
-| [`data/current-names.json`](data/current-names.json) | Apps that need full details | One finalized current-name record per named MoonCat, including raw and decoded name information plus available metadata. |
-| [`data/names-by-cat-id.json`](data/names-by-cat-id.json) | Looking up a MoonCat by on-chain CatID | The detailed finalized current-name records indexed by CatID. |
-| [`data/names-by-rescue-order.json`](data/names-by-rescue-order.json) | Looking up a MoonCat by rescue order | The detailed finalized current-name records indexed by decimal rescue order. |
-| [`data/events.jsonl`](data/events.jsonl) | History, auditing, or rebuilding the index | The canonical finalized naming-event history, including blank naming attempts. |
-| [`data/metadata.json`](data/metadata.json) | Checking index status | Finalized index and scan metadata. |
+| File                                                                 | Best for                                   | What it contains                                                                                                                 |
+| -------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| [`data/names-simple.json`](data/names-simple.json)                   | Simple websites, bots, and CatMoon         | The easiest display-ready map: decimal rescue order to name, such as `{ "6": "mister moo" }`.                                    |
+| [`data/names-timestamp.json`](data/names-timestamp.json)             | Display names with naming dates            | Rescue order to `{ name, timestamp, status }`, with the naming-event block timestamp in Unix seconds or `null` when unavailable. |
+| [`data/current-names.json`](data/current-names.json)                 | Apps that need full details                | One finalized current-name record per named MoonCat, including raw and decoded name information plus available metadata.         |
+| [`data/names-by-cat-id.json`](data/names-by-cat-id.json)             | Looking up a MoonCat by on-chain CatID     | The detailed finalized current-name records indexed by CatID.                                                                    |
+| [`data/names-by-rescue-order.json`](data/names-by-rescue-order.json) | Looking up a MoonCat by rescue order       | The detailed finalized current-name records indexed by decimal rescue order.                                                     |
+| [`data/events.jsonl`](data/events.jsonl)                             | History, auditing, or rebuilding the index | The canonical finalized naming-event history, including blank naming attempts.                                                   |
+| [`data/metadata.json`](data/metadata.json)                           | Checking index status                      | Finalized index and scan metadata.                                                                                               |
 
 ### Need the newest provisional data?
 
@@ -35,26 +35,26 @@ The finalized files above are the safest choice for archives and applications
 that prefer confirmed results. Lower-latency consumers can use the live files,
 which combine finalized data with recent provisional webhook events:
 
-| File | What it contains |
-| --- | --- |
-| [`data/names-simple-live.json`](data/names-simple-live.json) | The simple rescue-order-to-name map with provisional updates included. |
-| [`data/names-timestamp-live.json`](data/names-timestamp-live.json) | The timestamped rescue-order-to-name map with provisional updates included; unknown provisional timestamps are `null`. |
-| [`data/current-names-live.json`](data/current-names-live.json) | Detailed current-name records with provisional updates included. |
-| [`data/names-by-cat-id-live.json`](data/names-by-cat-id-live.json) | Live detailed records indexed by CatID. |
-| [`data/names-by-rescue-order-live.json`](data/names-by-rescue-order-live.json) | Live detailed records indexed by rescue order. |
-| [`data/pending-events.json`](data/pending-events.json) | Recent provisional events waiting for reconciliation. |
-| [`data/metadata-live.json`](data/metadata-live.json) | Finalized and provisional counts for the live view. |
+| File                                                                           | What it contains                                                                                                |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| [`data/names-simple-live.json`](data/names-simple-live.json)                   | The simple rescue-order-to-name map with provisional updates included.                                          |
+| [`data/names-timestamp-live.json`](data/names-timestamp-live.json)             | The same `{ name, timestamp, status }` schema with provisional updates included. Unknown timestamps are `null`. |
+| [`data/current-names-live.json`](data/current-names-live.json)                 | Detailed current-name records with provisional updates included.                                                |
+| [`data/names-by-cat-id-live.json`](data/names-by-cat-id-live.json)             | Live detailed records indexed by CatID.                                                                         |
+| [`data/names-by-rescue-order-live.json`](data/names-by-rescue-order-live.json) | Live detailed records indexed by rescue order.                                                                  |
+| [`data/pending-events.json`](data/pending-events.json)                         | Recent provisional events waiting for reconciliation.                                                           |
+| [`data/metadata-live.json`](data/metadata-live.json)                           | Finalized and provisional counts for the live view.                                                             |
 
 Provisional records are marked with `provisional: true`. They may be removed if
 reconciliation finds that an event was orphaned or replaced.
 
 ### Other useful outputs
 
-| File | What it contains |
-| --- | --- |
-| [`data/timeline-monthly.json`](data/timeline-monthly.json) | Monthly successful naming counts used by the timeline graph. |
-| [`RECENT-NAMINGS.md`](RECENT-NAMINGS.md) | The latest successful nonblank naming events, including clearly marked provisional rows. |
-| [`reports/seed-comparison.json`](reports/seed-comparison.json) | A reproducible comparison between the canonical current names and the historical seed. |
+| File                                                           | What it contains                                                                         |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [`data/timeline-monthly.json`](data/timeline-monthly.json)     | Monthly successful naming counts used by the timeline graph.                             |
+| [`RECENT-NAMINGS.md`](RECENT-NAMINGS.md)                       | The latest successful nonblank naming events, including clearly marked provisional rows. |
+| [`reports/seed-comparison.json`](reports/seed-comparison.json) | A reproducible comparison between the canonical current names and the historical seed.   |
 
 ## How updates work
 
@@ -71,11 +71,27 @@ Duplicate deliveries are safe to process more than once.
 
 ## Important data notes
 
-- `data/names-simple.json` is deliberately minimal and display-oriented.
-  Invalid UTF-8 and leading-null records remain available in the detailed files
-  but are omitted from the simple map.
-- Blank naming attempts remain in `data/events.jsonl`, but are excluded from
-  current-name files and the monthly timeline.
+A successful, nonblank `CatNamed` event irreversibly names a MoonCat even if
+its bytes cannot be displayed as UTF-8. Both display maps include every named
+cat in their respective finalized or live view and exclude blank and removed
+events. Blank attempts remain in the event history and are excluded from the
+monthly naming timeline.
+
+| Canonical status | Display string in both maps |
+| ---------------- | --------------------------- |
+| `text`           | The decoded name, unchanged |
+| `invalid-utf8`   | `[invalid UTF-8]`           |
+| `leading-null`   | `[leading null]`            |
+| `redacted`       | `�` (U+FFFD)                |
+
+CatMoon consumers of the simple map receive a string for every key.
+Key membership now indicates that a cat is named, and displayed strings can
+include placeholders. Each entry also carries `status`, which
+consumers can use to distinguish decoded text from placeholders or redaction.
+Consumers with strict validators that only allow `name` and `timestamp` need
+to accept the additional field. The live maps have the same compatibility
+implications.
+
 - Detailed nonblank records may include `namedOrder`, a 1-based ordering derived
   from block number, transaction index, and log index.
 - Detailed records may include `namedYear`, derived from the canonical block

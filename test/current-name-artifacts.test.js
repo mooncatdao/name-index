@@ -1,10 +1,13 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 import {
   buildCurrentNameArtifacts,
   saveCurrentNameArtifacts
 } from "../src/current-name-artifacts.js";
+import { buildLiveNameArtifacts } from "../src/live-name-artifacts.js";
+import { BLANK_NAME, decodeMoonCatName } from "../src/name-decoder.js";
 
 const EVENT = {
   eventId: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:0",
@@ -45,7 +48,7 @@ const INVALID_EVENT = {
   transactionHash: "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
   logIndex: 2,
   blockNumber: 12,
-  catId: "0x00b7c50d8a",
+  catId: "0x00377aeabf",
   nameRaw: "0xc328000000000000000000000000000000000000000000000000000000000000",
   decoded: {
     rawName: "0xc328000000000000000000000000000000000000000000000000000000000000",
@@ -59,7 +62,7 @@ const LEADING_NULL_EVENT = {
   transactionHash: "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
   logIndex: 3,
   blockNumber: 13,
-  catId: "0x007d228add",
+  catId: "0x008720f4bc",
   nameRaw: "0x0063617400000000000000000000000000000000000000000000000000000000",
   decoded: {
     rawName: "0x0063617400000000000000000000000000000000000000000000000000000000",
@@ -87,7 +90,7 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   assert.equal(artifacts.namesByRescueOrder.length, 25_440);
   assert.deepEqual(artifacts.namesSimple, { "6": "cat" });
   assert.deepEqual(artifacts.namesTimestamp, {
-    "6": { name: "cat", timestamp: 1_502_373_528 }
+    "6": { name: "cat", timestamp: 1_502_373_528, status: "text" }
   });
   assert.deepEqual(artifacts.metadata, {
     schemaVersion: 1,
@@ -103,23 +106,77 @@ test("artifact builder is deterministic and metadata matches merged events", () 
   });
 });
 
-test("simple map includes display text, redacted text, and numeric rescue ordering only", () => {
-  const artifacts = buildCurrentNameArtifacts([
-    LEADING_NULL_EVENT,
-    REDACTED_EVENT,
-    INVALID_EVENT,
-    EVENT
-  ]);
-  assert.deepEqual(Object.keys(artifacts.namesSimple), ["6", "4420"]);
-  assert.equal(artifacts.namesSimple["6"], "cat");
-  assert.equal(artifacts.namesSimple["4420"], "�");
-  assert.deepEqual(artifacts.namesTimestamp["6"], {
-    name: "cat",
-    timestamp: 1_502_373_528
-  });
-  assert.equal(Object.hasOwn(artifacts.namesSimple, "37"), false);
-  assert.equal(Object.hasOwn(artifacts.namesSimple, "39"), false);
+test("finalized and provisional maps include every nonblank naming assignment", () => {
+  const blank = {
+    transactionHash: EVENT.transactionHash,
+    blockNumber: EVENT.blockNumber,
+    catId: "0x0069b659c0",
+    eventId: `${EVENT.transactionHash}:4`,
+    logIndex: 4,
+    nameRaw: BLANK_NAME,
+    removed: false,
+    decoded: decodeMoonCatName(BLANK_NAME)
+  };
+  const removed = {
+    ...EVENT,
+    catId: "0x00b7c50d8a",
+    eventId: `${EVENT.transactionHash}:5`,
+    logIndex: 5,
+    removed: true
+  };
+  const pending = [LEADING_NULL_EVENT, REDACTED_EVENT, INVALID_EVENT, blank, removed];
+
+  for (const artifacts of [
+    buildCurrentNameArtifacts([...pending, EVENT]),
+    buildLiveNameArtifacts([EVENT], pending)
+  ]) {
+    assert.deepEqual(artifacts.namesSimple, {
+      "6": "cat",
+      "4420": "�",
+      "7923": "[leading null]",
+      "20069": "[invalid UTF-8]"
+    });
+    assert.deepEqual(artifacts.namesTimestamp, {
+      "6": { name: "cat", timestamp: 1_502_373_528, status: "text" },
+      "4420": { name: "�", timestamp: 1_502_373_528, status: "redacted" },
+      "7923": {
+        name: "[leading null]", timestamp: 1_502_373_528, status: "leading-null"
+      },
+      "20069": {
+        name: "[invalid UTF-8]", timestamp: 1_502_373_528, status: "invalid-utf8"
+      }
+    });
+  }
 });
+
+for (const suffix of ["", "-live"]) {
+  test(`committed ${suffix ? "live" : "finalized"} display maps cover all current names`, async () => {
+    const [records, simple, timestamped] = await Promise.all(
+      ["current-names", "names-simple", "names-timestamp"].map(async (file) => {
+        const url = new URL(`../data/${file}${suffix}.json`, import.meta.url);
+        return JSON.parse(await readFile(url, "utf8"));
+      })
+    );
+    const keys = records.map(({ rescueOrder }) => String(rescueOrder));
+    assert.deepEqual(Object.keys(simple), keys);
+    assert.deepEqual(Object.keys(timestamped), keys);
+
+    for (const record of records) {
+      const key = String(record.rescueOrder);
+      assert.equal(typeof simple[key], "string", key);
+      const expectedName = {
+        "invalid-utf8": "[invalid UTF-8]",
+        "leading-null": "[leading null]"
+      }[record.status] ?? record.text;
+      assert.equal(simple[key], expectedName, key);
+      assert.deepEqual(timestamped[key], {
+        name: expectedName,
+        timestamp: record.blockTimestamp ?? null,
+        status: record.status
+      }, key);
+    }
+  });
+}
 
 test("artifact writes receive the exact merged event-derived payloads in order", async () => {
   const calls = [];
@@ -142,7 +199,8 @@ test("artifact writes receive the exact merged event-derived payloads in order",
   assert.equal(calls[4][1]["6"], "cat");
   assert.deepEqual(calls[5][1]["6"], {
     name: "cat",
-    timestamp: 1_502_373_528
+    timestamp: 1_502_373_528,
+    status: "text"
   });
 });
 

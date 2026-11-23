@@ -74,14 +74,14 @@ test("live timestamp map preserves known timestamps and marks unknown provisiona
   const provisional = normalizeProvisionalEvent(inputEvent({
     id: "b",
     catId: "0x0069b659c0",
-    nameRaw: TEXT_RAW
+    nameRaw: `0xc328${"00".repeat(30)}`
   }));
   const withTimestamp = { ...finalized, blockTimestamp: 1_502_373_528 };
   const artifacts = buildLiveNameArtifacts([withTimestamp], [provisional]);
 
-  assert.deepEqual(artifacts.namesSimple, { "6": "cat", "35": "cat" });
+  assert.deepEqual(artifacts.namesSimple, { "6": "cat", "35": "[invalid UTF-8]" });
   assert.deepEqual(artifacts.namesTimestamp, {
-    "6": { name: "cat", timestamp: 1_502_373_528 },
-    "35": { name: "cat", timestamp: null }
+    "6": { name: "cat", timestamp: 1_502_373_528, status: "text" },
+    "35": { name: "[invalid UTF-8]", timestamp: null, status: "invalid-utf8" }
   });
 });

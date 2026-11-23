@@ -1,4974 +1,6307 @@
 {
   "6": {
     "name": "mister moo",
-    "timestamp": 1502373528
+    "timestamp": 1502373528,
+    "status": "text"
   },
   "17": {
     "name": "BokkyPooBah❤️Anna",
-    "timestamp": 1674371687
+    "timestamp": 1674371687,
+    "status": "text"
   },
   "22": {
     "name": "WanderWonder",
-    "timestamp": 1637092441
+    "timestamp": 1637092441,
+    "status": "text"
   },
   "35": {
     "name": "Purple Haze",
-    "timestamp": 1502375279
+    "timestamp": 1502375279,
+    "status": "text"
   },
   "37": {
     "name": "Mr. Pink",
-    "timestamp": 1502375412
+    "timestamp": 1502375412,
+    "status": "text"
   },
   "39": {
     "name": "Whiskers",
-    "timestamp": 1502375441
+    "timestamp": 1502375441,
+    "status": "text"
   },
   "40": {
     "name": "Melancholia",
-    "timestamp": 1502375915
+    "timestamp": 1502375915,
+    "status": "text"
   },
   "42": {
     "name": "CryptoCat",
-    "timestamp": 1502424947
+    "timestamp": 1502424947,
+    "status": "text"
   },
   "43": {
     "name": "Ada Lovelace",
-    "timestamp": 1502424352
+    "timestamp": 1502424352,
+    "status": "text"
   },
   "46": {
     "name": "MittMitt StClair",
-    "timestamp": 1502524043
+    "timestamp": 1502524043,
+    "status": "text"
   },
   "47": {
     "name": "Nick Szabo",
-    "timestamp": 1502424329
+    "timestamp": 1502424329,
+    "status": "text"
   },
   "49": {
     "name": "Mr. Yellow",
-    "timestamp": 1502375755
+    "timestamp": 1502375755,
+    "status": "text"
   },
   "51": {
     "name": "Mr. Green",
-    "timestamp": 1502375915
+    "timestamp": 1502375915,
+    "status": "text"
   },
   "56": {
     "name": "Trump",
-    "timestamp": 1502376412
+    "timestamp": 1502376412,
+    "status": "text"
   },
   "59": {
     "name": "Cheshire Cat",
-    "timestamp": 1502376234
+    "timestamp": 1502376234,
+    "status": "text"
   },
   "63": {
     "name": "Clinton",
-    "timestamp": 1502376781
+    "timestamp": 1502376781,
+    "status": "text"
   },
   "65": {
     "name": "Mr. Blue",
-    "timestamp": 1502376732
+    "timestamp": 1502376732,
+    "status": "text"
   },
   "67": {
     "name": "Vitalik",
-    "timestamp": 1502376926
+    "timestamp": 1502376926,
+    "status": "text"
   },
   "75": {
     "name": "Blueberry",
-    "timestamp": 1502377233
+    "timestamp": 1502377233,
+    "status": "text"
   },
   "81": {
     "name": "Elon Meowsk",
-    "timestamp": 1615774274
+    "timestamp": 1615774274,
+    "status": "text"
   },
   "82": {
     "name": "Hagbard Celine",
-    "timestamp": 1502424169
+    "timestamp": 1502424169,
+    "status": "text"
   },
   "91": {
     "name": "Spiritkits",
-    "timestamp": 1679611943
+    "timestamp": 1679611943,
+    "status": "text"
   },
   "93": {
     "name": "Catsensus",
-    "timestamp": 1502402092
+    "timestamp": 1502402092,
+    "status": "text"
   },
   "100": {
     "name": "wiggles",
-    "timestamp": 1502378342
+    "timestamp": 1502378342,
+    "status": "text"
   },
   "104": {
     "name": "Reddy",
-    "timestamp": 1502379302
+    "timestamp": 1502379302,
+    "status": "text"
   },
   "122": {
     "name": "BoringCrypto",
-    "timestamp": 1616050525
+    "timestamp": 1616050525,
+    "status": "text"
   },
   "125": {
     "name": "Wario",
-    "timestamp": 1502379520
+    "timestamp": 1502379520,
+    "status": "text"
   },
   "136": {
     "name": "BokkyPooBah wuz here! 🙀",
-    "timestamp": 1616294302
+    "timestamp": 1616294302,
+    "status": "text"
   },
   "141": {
     "name": "cat",
-    "timestamp": 1502501436
+    "timestamp": 1502501436,
+    "status": "text"
   },
   "144": {
     "name": "Satoshi",
-    "timestamp": 1502380941
+    "timestamp": 1502380941,
+    "status": "text"
   },
   "151": {
     "name": "Tigger",
-    "timestamp": 1502382012
+    "timestamp": 1502382012,
+    "status": "text"
   },
   "152": {
     "name": "Phaedrus",
-    "timestamp": 1616051466
+    "timestamp": 1616051466,
+    "status": "text"
   },
   "153": {
     "name": "Apples\n",
-    "timestamp": 1660165054
+    "timestamp": 1660165054,
+    "status": "text"
   },
   "162": {
     "name": "Mitch",
-    "timestamp": 1502382540
+    "timestamp": 1502382540,
+    "status": "text"
   },
   "168": {
     "name": "Russian Blue",
-    "timestamp": 1502382720
+    "timestamp": 1502382720,
+    "status": "text"
   },
   "169": {
     "name": "Bulgarian Green",
-    "timestamp": 1502382914
+    "timestamp": 1502382914,
+    "status": "text"
   },
   "171": {
     "name": "Turpentine",
-    "timestamp": 1502524684
+    "timestamp": 1502524684,
+    "status": "text"
   },
   "174": {
     "name": "Marmalade",
-    "timestamp": 1502383298
+    "timestamp": 1502383298,
+    "status": "text"
   },
   "179": {
     "name": "Kim Jong-un",
-    "timestamp": 1502383604
+    "timestamp": 1502383604,
+    "status": "text"
   },
   "180": {
     "name": "Sevorg",
-    "timestamp": 1502383801
+    "timestamp": 1502383801,
+    "status": "text"
   },
   "186": {
     "name": "Vitalik",
-    "timestamp": 1502387031
+    "timestamp": 1502387031,
+    "status": "text"
   },
   "194": {
     "name": "Furrball",
-    "timestamp": 1615851470
+    "timestamp": 1615851470,
+    "status": "text"
   },
   "197": {
     "name": "Vixen",
-    "timestamp": 1502389810
+    "timestamp": 1502389810,
+    "status": "text"
   },
   "198": {
     "name": "Two Face",
-    "timestamp": 1502398221
+    "timestamp": 1502398221,
+    "status": "text"
   },
   "199": {
     "name": "Sneezy McLitterMouth",
-    "timestamp": 1502385047
+    "timestamp": 1502385047,
+    "status": "text"
   },
   "203": {
     "name": "This Little Red Cat is My Buddy",
-    "timestamp": 1502385491
+    "timestamp": 1502385491,
+    "status": "text"
   },
   "214": {
     "name": "Maulet",
-    "timestamp": 1616312491
+    "timestamp": 1616312491,
+    "status": "text"
   },
   "217": {
     "name": "Luna",
-    "timestamp": 1502385304
+    "timestamp": 1502385304,
+    "status": "text"
   },
   "223": {
     "name": "ziggy",
-    "timestamp": 1618516255
+    "timestamp": 1618516255,
+    "status": "text"
   },
   "230": {
     "name": "KitKatze",
-    "timestamp": 1616329422
+    "timestamp": 1616329422,
+    "status": "text"
   },
   "233": {
     "name": "PigCat",
-    "timestamp": 1615931397
+    "timestamp": 1615931397,
+    "status": "text"
   },
   "234": {
     "name": "Zaya",
-    "timestamp": 1616090633
+    "timestamp": 1616090633,
+    "status": "text"
   },
   "238": {
     "name": "Haze",
-    "timestamp": 1502386916
+    "timestamp": 1502386916,
+    "status": "text"
   },
   "240": {
     "name": "Batya",
-    "timestamp": 1616055793
+    "timestamp": 1616055793,
+    "status": "text"
   },
   "242": {
     "name": "Pixel",
-    "timestamp": 1621552748
+    "timestamp": 1621552748,
+    "status": "text"
   },
   "253": {
     "name": "Bjork",
-    "timestamp": 1502423755
+    "timestamp": 1502423755,
+    "status": "text"
   },
   "260": {
     "name": "Mr. Blue",
-    "timestamp": 1502389007
+    "timestamp": 1502389007,
+    "status": "text"
   },
   "262": {
     "name": "Hubert Blaine Wolfe+585, Senior",
-    "timestamp": 1615749758
+    "timestamp": 1615749758,
+    "status": "text"
   },
   "263": {
     "name": "Marie",
-    "timestamp": 1502501625
+    "timestamp": 1502501625,
+    "status": "text"
   },
   "265": {
     "name": "CATherine Zeta-Jones",
-    "timestamp": 1616084920
+    "timestamp": 1616084920,
+    "status": "text"
   },
   "270": {
     "name": "FrownyFuzzles",
-    "timestamp": 1502423833
+    "timestamp": 1502423833,
+    "status": "text"
   },
   "285": {
     "name": "Milo",
-    "timestamp": 1502389664
+    "timestamp": 1502389664,
+    "status": "text"
   },
   "291": {
     "name": "Bubbas",
-    "timestamp": 1502501610
+    "timestamp": 1502501610,
+    "status": "text"
   },
   "295": {
     "name": "Tiny Carl Jung",
-    "timestamp": 1502422880
+    "timestamp": 1502422880,
+    "status": "text"
   },
   "302": {
     "name": "Sabrina",
-    "timestamp": 1502501599
+    "timestamp": 1502501599,
+    "status": "text"
   },
   "313": {
     "name": "Edgar",
-    "timestamp": 1502393130
+    "timestamp": 1502393130,
+    "status": "text"
   },
   "314": {
     "name": "Spratt",
-    "timestamp": 1502393082
+    "timestamp": 1502393082,
+    "status": "text"
   },
   "315": {
     "name": "ChooChoo BoneWagon",
-    "timestamp": 1502523455
+    "timestamp": 1502523455,
+    "status": "text"
   },
   "317": {
     "name": "Knoobles",
-    "timestamp": 1502393082
+    "timestamp": 1502393082,
+    "status": "text"
   },
   "324": {
     "name": "Young Lord Twitchybottoms Esq.",
-    "timestamp": 1502393736
+    "timestamp": 1502393736,
+    "status": "text"
   },
   "331": {
     "name": "nyan",
-    "timestamp": 1502396822
+    "timestamp": 1502396822,
+    "status": "text"
   },
   "335": {
     "name": "Feckis",
-    "timestamp": 1502394383
+    "timestamp": 1502394383,
+    "status": "text"
   },
   "342": {
     "name": "unicorn",
-    "timestamp": 1502397256
+    "timestamp": 1502397256,
+    "status": "text"
   },
   "351": {
     "name": "Nipper",
-    "timestamp": 1502423944
+    "timestamp": 1502423944,
+    "status": "text"
   },
   "358": {
     "name": "Runcible",
-    "timestamp": 1502413775
+    "timestamp": 1502413775,
+    "status": "text"
   },
   "362": {
     "name": "Pickles",
-    "timestamp": 1502412882
+    "timestamp": 1502412882,
+    "status": "text"
   },
   "364": {
     "name": "Pink Guy",
-    "timestamp": 1502399208
+    "timestamp": 1502399208,
+    "status": "text"
   },
   "366": {
     "name": "Sakamoto",
-    "timestamp": 1502395961
+    "timestamp": 1502395961,
+    "status": "text"
   },
   "371": {
     "name": "Pox",
-    "timestamp": 1502396128
+    "timestamp": 1502396128,
+    "status": "text"
   },
   "379": {
     "name": "Princess Josephine Bumblebee",
-    "timestamp": 1502412882
+    "timestamp": 1502412882,
+    "status": "text"
   },
   "387": {
     "name": "Meowsers",
-    "timestamp": 1502397520
+    "timestamp": 1502397520,
+    "status": "text"
   },
   "390": {
     "name": "Cat",
-    "timestamp": 1502397844
+    "timestamp": 1502397844,
+    "status": "text"
   },
   "392": {
     "name": "Eliot",
-    "timestamp": 1502411146
+    "timestamp": 1502411146,
+    "status": "text"
   },
   "405": {
     "name": "Emerald",
-    "timestamp": 1502400252
+    "timestamp": 1502400252,
+    "status": "text"
   },
   "406": {
     "name": "Marigold",
-    "timestamp": 1502414127
+    "timestamp": 1502414127,
+    "status": "text"
   },
   "417": {
     "name": "Wintermute🙀",
-    "timestamp": 1754498339
+    "timestamp": 1754498339,
+    "status": "text"
   },
   "420": {
     "name": "SNOOP CAT",
-    "timestamp": 1502746325
+    "timestamp": 1502746325,
+    "status": "text"
   },
   "423": {
     "name": "さとしなかもと",
-    "timestamp": 1502401775
+    "timestamp": 1502401775,
+    "status": "text"
   },
   "429": {
     "name": "SMELLYCAT",
-    "timestamp": 1502411146
+    "timestamp": 1502411146,
+    "status": "text"
   },
   "458": {
     "name": "STIMPY",
-    "timestamp": 1502411643
+    "timestamp": 1502411643,
+    "status": "text"
   },
   "471": {
     "name": "meowmeow",
-    "timestamp": 1502407077
+    "timestamp": 1502407077,
+    "status": "text"
   },
   "480": {
     "name": "Princess Layla",
-    "timestamp": 1627902307
+    "timestamp": 1627902307,
+    "status": "text"
   },
   "482": {
     "name": "PINKY",
-    "timestamp": 1502408138
+    "timestamp": 1502408138,
+    "status": "text"
   },
   "483": {
     "name": "KIRBY",
-    "timestamp": 1502408007
+    "timestamp": 1502408007,
+    "status": "text"
   },
   "502": {
     "name": "Mr. Bigglesworth",
-    "timestamp": 1502411554
+    "timestamp": 1502411554,
+    "status": "text"
   },
   "511": {
     "name": "Leon The Professional",
-    "timestamp": 1502415586
+    "timestamp": 1502415586,
+    "status": "text"
   },
   "519": {
     "name": "Pouncival",
-    "timestamp": 1502413249
+    "timestamp": 1502413249,
+    "status": "text"
   },
   "522": {
     "name": "Sigmund Freud",
-    "timestamp": 1502413103
+    "timestamp": 1502413103,
+    "status": "text"
   },
   "540": {
     "name": "Darryl",
-    "timestamp": 1502413979
+    "timestamp": 1502413979,
+    "status": "text"
   },
   "549": {
     "name": "Mr. Pickles",
-    "timestamp": 1502415867
+    "timestamp": 1502415867,
+    "status": "text"
   },
   "559": {
     "name": "Snoggles",
-    "timestamp": 1502520115
+    "timestamp": 1502520115,
+    "status": "text"
   },
   "564": {
     "name": "devilCAT",
-    "timestamp": 1502419248
+    "timestamp": 1502419248,
+    "status": "text"
   },
   "567": {
     "name": "KUMA",
-    "timestamp": 1502426567
+    "timestamp": 1502426567,
+    "status": "text"
   },
   "585": {
     "name": "True Blue No Wukkas",
-    "timestamp": 1616302212
+    "timestamp": 1616302212,
+    "status": "text"
   },
   "586": {
     "name": "to the moon",
-    "timestamp": 1502425217
+    "timestamp": 1502425217,
+    "status": "text"
   },
   "588": {
     "name": "Chief Justice John Roberts",
-    "timestamp": 1502423449
+    "timestamp": 1502423449,
+    "status": "text"
   },
   "590": {
     "name": "Mopey",
-    "timestamp": 1511805591
+    "timestamp": 1511805591,
+    "status": "text"
   },
   "593": {
     "name": "Justice Ruth Bader Ginsburg",
-    "timestamp": 1502423570
+    "timestamp": 1502423570,
+    "status": "text"
   },
   "595": {
     "name": "Mama Cass",
-    "timestamp": 1502501597
+    "timestamp": 1502501597,
+    "status": "text"
   },
   "598": {
     "name": "kiddy kat",
-    "timestamp": 1502424937
+    "timestamp": 1502424937,
+    "status": "text"
   },
   "602": {
     "name": "KEVIN KEVIN KEVIN",
-    "timestamp": 1646180757
+    "timestamp": 1646180757,
+    "status": "text"
   },
   "605": {
     "name": "devCAT",
-    "timestamp": 1502426478
+    "timestamp": 1502426478,
+    "status": "text"
   },
   "614": {
     "name": "BigChungus™",
-    "timestamp": 1616200774
+    "timestamp": 1616200774,
+    "status": "text"
   },
   "615": {
     "name": "Red Clyde",
-    "timestamp": 1619357010
+    "timestamp": 1619357010,
+    "status": "text"
   },
   "616": {
     "name": "Serenity",
-    "timestamp": 1616381231
+    "timestamp": 1616381231,
+    "status": "text"
   },
   "634": {
     "name": "Perky",
-    "timestamp": 1502439198
+    "timestamp": 1502439198,
+    "status": "text"
   },
   "635": {
     "name": "Blue Cat",
-    "timestamp": 1502433004
+    "timestamp": 1502433004,
+    "status": "text"
   },
   "638": {
     "name": "Sonic",
-    "timestamp": 1751547227
+    "timestamp": 1751547227,
+    "status": "text"
   },
   "645": {
     "name": "Gitcat",
-    "timestamp": 1616138849
+    "timestamp": 1616138849,
+    "status": "text"
   },
   "657": {
     "name": "devCAT",
-    "timestamp": 1502444423
+    "timestamp": 1502444423,
+    "status": "text"
   },
   "660": {
     "name": "Cpt. Three",
-    "timestamp": 1627118092
+    "timestamp": 1627118092,
+    "status": "text"
   },
   "662": {
     "name": "Riversleigh Rocks",
-    "timestamp": 1642550888
+    "timestamp": 1642550888,
+    "status": "text"
   },
   "664": {
     "name": "Neighbour of the Beef",
-    "timestamp": 1619421742
+    "timestamp": 1619421742,
+    "status": "text"
   },
   "666": {
     "name": "THE NUMBER OF THE BEEF",
-    "timestamp": 1615771688
+    "timestamp": 1615771688,
+    "status": "text"
   },
   "668": {
     "name": "For #Ethernity 🚀🚀🚀",
-    "timestamp": 1616116361
+    "timestamp": 1616116361,
+    "status": "text"
   },
   "671": {
     "name": "Red Rum",
-    "timestamp": 1619336913
+    "timestamp": 1619336913,
+    "status": "text"
+  },
+  "680": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1622503365,
+    "status": "invalid-utf8"
   },
   "685": {
     "name": "TRexCat",
-    "timestamp": 1616307730
+    "timestamp": 1616307730,
+    "status": "text"
   },
   "694": {
     "name": "Shittybank",
-    "timestamp": 1639865563
+    "timestamp": 1639865563,
+    "status": "text"
   },
   "695": {
     "name": "Bokky BOOYEAH!",
-    "timestamp": 1622387342
+    "timestamp": 1622387342,
+    "status": "text"
   },
   "697": {
     "name": "Mr Bigglesworth",
-    "timestamp": 1615961651
+    "timestamp": 1615961651,
+    "status": "text"
   },
   "703": {
     "name": "Tigra",
-    "timestamp": 1616090261
+    "timestamp": 1616090261,
+    "status": "text"
   },
   "707": {
     "name": "geekgirl",
-    "timestamp": 1615768376
+    "timestamp": 1615768376,
+    "status": "text"
   },
   "714": {
     "name": "Inpurra",
-    "timestamp": 1616717482
+    "timestamp": 1616717482,
+    "status": "text"
   },
   "719": {
     "name": "Vitalick",
-    "timestamp": 1616041633
+    "timestamp": 1616041633,
+    "status": "text"
   },
   "721": {
     "name": "Princess Leia Peach ❤️s U",
-    "timestamp": 1616152138
+    "timestamp": 1616152138,
+    "status": "text"
   },
   "722": {
     "name": "Buttface McGee",
-    "timestamp": 1502450982
+    "timestamp": 1502450982,
+    "status": "text"
   },
   "733": {
     "name": "Chungo",
-    "timestamp": 1678064975
+    "timestamp": 1678064975,
+    "status": "text"
   },
   "735": {
     "name": "The Chodemaster",
-    "timestamp": 1502521276
+    "timestamp": 1502521276,
+    "status": "text"
   },
   "737": {
     "name": "Athanasius",
-    "timestamp": 1616294694
+    "timestamp": 1616294694,
+    "status": "text"
   },
   "740": {
     "name": "Pop",
-    "timestamp": 1615740485
+    "timestamp": 1615740485,
+    "status": "text"
   },
   "744": {
     "name": "Brownie",
-    "timestamp": 1615757015
+    "timestamp": 1615757015,
+    "status": "text"
   },
   "755": {
     "name": "RIP floggy.eth 2017-2021",
-    "timestamp": 1642375655
+    "timestamp": 1642375655,
+    "status": "text"
   },
   "757": {
     "name": "Hemule",
-    "timestamp": 1616090306
+    "timestamp": 1616090306,
+    "status": "text"
   },
   "758": {
     "name": "ETH = MONEY",
-    "timestamp": 1615958614
+    "timestamp": 1615958614,
+    "status": "text"
   },
   "768": {
     "name": "Cool",
-    "timestamp": 1753450487
+    "timestamp": 1753450487,
+    "status": "text"
   },
   "769": {
     "name": "BitShares",
-    "timestamp": 1502460801
+    "timestamp": 1502460801,
+    "status": "text"
   },
   "770": {
     "name": "fav",
-    "timestamp": 1502460981
+    "timestamp": 1502460981,
+    "status": "text"
   },
   "773": {
     "name": "Mr. Kitty",
-    "timestamp": 1502481313
+    "timestamp": 1502481313,
+    "status": "text"
   },
   "809": {
     "name": "Pizza",
-    "timestamp": 1502474529
+    "timestamp": 1502474529,
+    "status": "text"
   },
   "810": {
     "name": "Mr. Meowgi",
-    "timestamp": 1502474453
+    "timestamp": 1502474453,
+    "status": "text"
   },
   "811": {
     "name": "Mr. Suggles",
-    "timestamp": 1502474347
+    "timestamp": 1502474347,
+    "status": "text"
   },
   "820": {
     "name": "Team Tyler",
-    "timestamp": 1502722147
+    "timestamp": 1502722147,
+    "status": "text"
   },
   "824": {
     "name": "Kind of Blue",
-    "timestamp": 1502479775
+    "timestamp": 1502479775,
+    "status": "text"
   },
   "826": {
     "name": "Seti",
-    "timestamp": 1502480269
+    "timestamp": 1502480269,
+    "status": "text"
   },
   "827": {
     "name": "Ecto",
-    "timestamp": 1502480406
+    "timestamp": 1502480406,
+    "status": "text"
   },
   "828": {
     "name": "Felinious Monk",
-    "timestamp": 1502480161
+    "timestamp": 1502480161,
+    "status": "text"
   },
   "831": {
     "name": "Dog Food",
-    "timestamp": 1502726474
+    "timestamp": 1502726474,
+    "status": "text"
   },
   "845": {
     "name": "Tiger",
-    "timestamp": 1502483022
+    "timestamp": 1502483022,
+    "status": "text"
   },
   "886": {
     "name": "Secretaricat",
-    "timestamp": 1502485515
+    "timestamp": 1502485515,
+    "status": "text"
   },
   "896": {
     "name": "Tabitha",
-    "timestamp": 1502501494
+    "timestamp": 1502501494,
+    "status": "text"
   },
   "898": {
     "name": "Leeroy",
-    "timestamp": 1502494496
+    "timestamp": 1502494496,
+    "status": "text"
   },
   "899": {
     "name": "abdul",
-    "timestamp": 1502576216
+    "timestamp": 1502576216,
+    "status": "text"
   },
   "901": {
     "name": "Miles Davis",
-    "timestamp": 1502495293
+    "timestamp": 1502495293,
+    "status": "text"
   },
   "902": {
     "name": "Slime Ball",
-    "timestamp": 1502496002
+    "timestamp": 1502496002,
+    "status": "text"
   },
   "905": {
     "name": "zoi",
-    "timestamp": 1502496523
+    "timestamp": 1502496523,
+    "status": "text"
   },
   "906": {
     "name": "@realdonaldtrump",
-    "timestamp": 1502499080
+    "timestamp": 1502499080,
+    "status": "text"
   },
   "908": {
     "name": "I'm Cheap and Lonely",
-    "timestamp": 1502497183
+    "timestamp": 1502497183,
+    "status": "text"
   },
   "909": {
     "name": "einste1n",
-    "timestamp": 1502497032
+    "timestamp": 1502497032,
+    "status": "text"
   },
   "920": {
     "name": "Happy Birthday",
-    "timestamp": 1502498397
+    "timestamp": 1502498397,
+    "status": "text"
   },
   "921": {
     "name": "cat",
-    "timestamp": 1502498897
+    "timestamp": 1502498897,
+    "status": "text"
   },
   "928": {
     "name": "big_dick_cat",
-    "timestamp": 1502500458
+    "timestamp": 1502500458,
+    "status": "text"
   },
   "934": {
     "name": "Afrocat Tornado Paw",
-    "timestamp": 1502501258
+    "timestamp": 1502501258,
+    "status": "text"
   },
   "936": {
     "name": "Turd Ferguson",
-    "timestamp": 1502501702
+    "timestamp": 1502501702,
+    "status": "text"
   },
   "937": {
     "name": "Big Red",
-    "timestamp": 1502502340
+    "timestamp": 1502502340,
+    "status": "text"
   },
   "938": {
     "name": "Purple Haze",
-    "timestamp": 1502502714
+    "timestamp": 1502502714,
+    "status": "text"
   },
   "941": {
     "name": "Don't call me radio, unit 91.",
-    "timestamp": 1502504357
+    "timestamp": 1502504357,
+    "status": "text"
   },
   "942": {
     "name": "Chairman Meow Zedong",
-    "timestamp": 1502505043
+    "timestamp": 1502505043,
+    "status": "text"
   },
   "951": {
     "name": "Dawwwwwwwwwwwwwwww",
-    "timestamp": 1502565362
+    "timestamp": 1502565362,
+    "status": "text"
   },
   "968": {
     "name": "Sperkle",
-    "timestamp": 1502522126
+    "timestamp": 1502522126,
+    "status": "text"
   },
   "969": {
     "name": "Eye Patch",
-    "timestamp": 1502567055
+    "timestamp": 1502567055,
+    "status": "text"
   },
   "971": {
     "name": "Popsicle",
-    "timestamp": 1502523780
+    "timestamp": 1502523780,
+    "status": "text"
   },
   "972": {
     "name": "Moewlaclypse the Younger",
-    "timestamp": 1502594503
+    "timestamp": 1502594503,
+    "status": "text"
   },
   "973": {
     "name": "Satoshi",
-    "timestamp": 1502523195
+    "timestamp": 1502523195,
+    "status": "text"
   },
   "974": {
     "name": "Zazu",
-    "timestamp": 1615641463
+    "timestamp": 1615641463,
+    "status": "text"
   },
   "979": {
     "name": "The MEAO Hacker",
-    "timestamp": 1502591085
+    "timestamp": 1502591085,
+    "status": "text"
   },
   "991": {
     "name": "Pastey",
-    "timestamp": 1502973926
+    "timestamp": 1502973926,
+    "status": "text"
   },
   "992": {
     "name": "Cattila the Pun",
-    "timestamp": 1502784061
+    "timestamp": 1502784061,
+    "status": "text"
   },
   "996": {
     "name": "Sam Sammison",
-    "timestamp": 1502530219
+    "timestamp": 1502530219,
+    "status": "text"
   },
   "998": {
     "name": "Lord Admiral Feather Bottom III",
-    "timestamp": 1502568532
+    "timestamp": 1502568532,
+    "status": "text"
   },
   "1000": {
     "name": "Microdorf",
-    "timestamp": 1502539169
+    "timestamp": 1502539169,
+    "status": "text"
   },
   "1001": {
     "name": "Fapple",
-    "timestamp": 1502539192
+    "timestamp": 1502539192,
+    "status": "text"
   },
   "1007": {
     "name": "sazabi",
-    "timestamp": 1502541294
+    "timestamp": 1502541294,
+    "status": "text"
   },
   "1014": {
     "name": "Total Catsshole",
-    "timestamp": 1502546893
+    "timestamp": 1502546893,
+    "status": "text"
   },
   "1015": {
     "name": "Mr. Pooper",
-    "timestamp": 1502543635
+    "timestamp": 1502543635,
+    "status": "text"
   },
   "1017": {
     "name": "Funny Bunny",
-    "timestamp": 1502546679
+    "timestamp": 1502546679,
+    "status": "text"
   },
   "1018": {
     "name": "Sad Sleeper",
-    "timestamp": 1502546737
+    "timestamp": 1502546737,
+    "status": "text"
   },
   "1019": {
     "name": "Average Cat",
-    "timestamp": 1502546782
+    "timestamp": 1502546782,
+    "status": "text"
   },
   "1020": {
     "name": "Above Average Cat",
-    "timestamp": 1502546955
+    "timestamp": 1502546955,
+    "status": "text"
   },
   "1021": {
     "name": "Below Average Cat",
-    "timestamp": 1502547085
+    "timestamp": 1502547085,
+    "status": "text"
   },
   "1035": {
     "name": "natalie",
-    "timestamp": 1502835279
+    "timestamp": 1502835279,
+    "status": "text"
   },
   "1057": {
     "name": "hold",
-    "timestamp": 1617677140
+    "timestamp": 1617677140,
+    "status": "text"
   },
   "1065": {
     "name": "k bear",
-    "timestamp": 1502919383
+    "timestamp": 1502919383,
+    "status": "text"
   },
   "1068": {
     "name": "Mos Def",
-    "timestamp": 1502557571
+    "timestamp": 1502557571,
+    "status": "text"
   },
   "1071": {
     "name": "Less Def",
-    "timestamp": 1502557699
+    "timestamp": 1502557699,
+    "status": "text"
   },
   "1080": {
     "name": "Poster Nutbag",
-    "timestamp": 1502566374
+    "timestamp": 1502566374,
+    "status": "text"
   },
   "1081": {
     "name": "Catticus Finch",
-    "timestamp": 1502783651
+    "timestamp": 1502783651,
+    "status": "text"
   },
   "1082": {
     "name": "Rum Tum Tugger",
-    "timestamp": 1502566732
+    "timestamp": 1502566732,
+    "status": "text"
   },
   "1083": {
     "name": "Cattaca",
-    "timestamp": 1502824689
+    "timestamp": 1502824689,
+    "status": "text"
   },
   "1084": {
     "name": "Your Pet Cat",
-    "timestamp": 1502567144
+    "timestamp": 1502567144,
+    "status": "text"
   },
   "1086": {
     "name": "Satoshi Nakamoto",
-    "timestamp": 1502567607
+    "timestamp": 1502567607,
+    "status": "text"
   },
   "1087": {
     "name": "Puss in Boots",
-    "timestamp": 1502568199
+    "timestamp": 1502568199,
+    "status": "text"
   },
   "1089": {
     "name": "Catoshi",
-    "timestamp": 1502567976
+    "timestamp": 1502567976,
+    "status": "text"
   },
   "1090": {
     "name": "Garfield",
-    "timestamp": 1502568302
+    "timestamp": 1502568302,
+    "status": "text"
   },
   "1092": {
     "name": "Mr. Bigglesworth",
-    "timestamp": 1502568585
+    "timestamp": 1502568585,
+    "status": "text"
   },
   "1094": {
     "name": "daniel cat",
-    "timestamp": 1502568485
+    "timestamp": 1502568485,
+    "status": "text"
   },
   "1110": {
     "name": "Felix",
-    "timestamp": 1616449712
+    "timestamp": 1616449712,
+    "status": "text"
   },
   "1121": {
     "name": "Purple Nerple",
-    "timestamp": 1502573302
+    "timestamp": 1502573302,
+    "status": "text"
   },
   "1122": {
     "name": "Blue Nose",
-    "timestamp": 1502573351
+    "timestamp": 1502573351,
+    "status": "text"
   },
   "1123": {
     "name": "Greeny McGreen",
-    "timestamp": 1502573636
+    "timestamp": 1502573636,
+    "status": "text"
   },
   "1124": {
     "name": "Willa",
-    "timestamp": 1502574146
+    "timestamp": 1502574146,
+    "status": "text"
   },
   "1125": {
     "name": "cemil",
-    "timestamp": 1502577181
+    "timestamp": 1502577181,
+    "status": "text"
   },
   "1127": {
     "name": "Roxie",
-    "timestamp": 1502579126
+    "timestamp": 1502579126,
+    "status": "text"
   },
   "1128": {
     "name": "Gerald",
-    "timestamp": 1502579639
+    "timestamp": 1502579639,
+    "status": "text"
   },
   "1131": {
     "name": "Tabitha",
-    "timestamp": 1502581377
+    "timestamp": 1502581377,
+    "status": "text"
   },
   "1136": {
     "name": "Pumpkin",
-    "timestamp": 1502587321
+    "timestamp": 1502587321,
+    "status": "text"
   },
   "1166": {
     "name": "Hulk GMT Meowster",
-    "timestamp": 1649024213
+    "timestamp": 1649024213,
+    "status": "text"
   },
   "1169": {
     "name": "Goooooooooooooood luuuuuuuuuuuuc",
-    "timestamp": 1502630339
+    "timestamp": 1502630339,
+    "status": "text"
   },
   "1176": {
     "name": "Mellow Yellow",
-    "timestamp": 1502640003
+    "timestamp": 1502640003,
+    "status": "text"
   },
   "1178": {
     "name": "REDRUM",
-    "timestamp": 1502670153
+    "timestamp": 1502670153,
+    "status": "text"
   },
   "1270": {
     "name": "brave sir robin",
-    "timestamp": 1619462254
+    "timestamp": 1619462254,
+    "status": "text"
   },
   "1337": {
     "name": "1337CAT",
-    "timestamp": 1503447878
+    "timestamp": 1503447878,
+    "status": "text"
   },
   "1344": {
     "name": "SGT. ITCHYWHISKERS",
-    "timestamp": 1503779101
+    "timestamp": 1503779101,
+    "status": "text"
   },
   "1350": {
     "name": "MEOWONE",
-    "timestamp": 1503446017
+    "timestamp": 1503446017,
+    "status": "text"
   },
   "1351": {
     "name": "MEOWTWO",
-    "timestamp": 1503447359
+    "timestamp": 1503447359,
+    "status": "text"
   },
   "1352": {
     "name": "MEOWTHREE",
-    "timestamp": 1503447405
+    "timestamp": 1503447405,
+    "status": "text"
   },
   "1353": {
     "name": "MEOWFOUR",
-    "timestamp": 1503447547
+    "timestamp": 1503447547,
+    "status": "text"
   },
   "1354": {
     "name": "Mishka",
-    "timestamp": 1502764230
+    "timestamp": 1502764230,
+    "status": "text"
   },
   "1355": {
     "name": "Declan",
-    "timestamp": 1502765112
+    "timestamp": 1502765112,
+    "status": "text"
   },
   "1356": {
     "name": "Pre-Pounce Butt Wiggle",
-    "timestamp": 1502764925
+    "timestamp": 1502764925,
+    "status": "text"
   },
   "1359": {
     "name": "Catoshi Meowamoto",
-    "timestamp": 1514405421
+    "timestamp": 1514405421,
+    "status": "text"
   },
   "1375": {
     "name": "EvilCat",
-    "timestamp": 1502808803
+    "timestamp": 1502808803,
+    "status": "text"
   },
   "1385": {
     "name": "Stormy Davis",
-    "timestamp": 1516749254
+    "timestamp": 1516749254,
+    "status": "text"
   },
   "1396": {
     "name": "PikaBoo",
-    "timestamp": 1755111587
+    "timestamp": 1755111587,
+    "status": "text"
   },
   "1416": {
     "name": "modena",
-    "timestamp": 1513139562
+    "timestamp": 1513139562,
+    "status": "text"
   },
   "1417": {
     "name": "vaynerchuk",
-    "timestamp": 1615749003
+    "timestamp": 1615749003,
+    "status": "text"
   },
   "1428": {
     "name": "CLAWS of the DEAD",
-    "timestamp": 1755110843
+    "timestamp": 1755110843,
+    "status": "text"
   },
   "1437": {
     "name": "Pink Panther",
-    "timestamp": 1616218758
+    "timestamp": 1616218758,
+    "status": "text"
   },
   "1502": {
     "name": "Stimpy",
-    "timestamp": 1616211756
+    "timestamp": 1616211756,
+    "status": "text"
   },
   "1511": {
     "name": "Scipio Africanus",
-    "timestamp": 1502895018
+    "timestamp": 1502895018,
+    "status": "text"
   },
   "1528": {
     "name": "Buttercup",
-    "timestamp": 1777352615
+    "timestamp": 1777352615,
+    "status": "text"
   },
   "1534": {
     "name": "Gutter Garf",
-    "timestamp": 1727035835
+    "timestamp": 1727035835,
+    "status": "text"
   },
   "1538": {
     "name": "0xE20x9C0xA8 SLIMER",
-    "timestamp": 1503098638
+    "timestamp": 1503098638,
+    "status": "text"
   },
   "1539": {
     "name": "Pickles",
-    "timestamp": 1502920653
+    "timestamp": 1502920653,
+    "status": "text"
   },
   "1547": {
     "name": "MoonPig",
-    "timestamp": 1502932868
+    "timestamp": 1502932868,
+    "status": "text"
   },
   "1548": {
     "name": "Grapefruit LaCroix",
-    "timestamp": 1502939823
+    "timestamp": 1502939823,
+    "status": "text"
   },
   "1549": {
     "name": "Little Mewmaid",
-    "timestamp": 1502942355
+    "timestamp": 1502942355,
+    "status": "text"
   },
   "1552": {
     "name": "Stay Pawsitive!",
-    "timestamp": 1502941477
+    "timestamp": 1502941477,
+    "status": "text"
   },
   "1554": {
     "name": "Mudbutt",
-    "timestamp": 1502932900
+    "timestamp": 1502932900,
+    "status": "text"
   },
   "1555": {
     "name": "SpaceGhost Purp",
-    "timestamp": 1502922090
+    "timestamp": 1502922090,
+    "status": "text"
   },
   "1556": {
     "name": "Mr. Bigglesworth",
-    "timestamp": 1502939147
+    "timestamp": 1502939147,
+    "status": "text"
   },
   "1562": {
     "name": "Prince",
-    "timestamp": 1502924024
+    "timestamp": 1502924024,
+    "status": "text"
   },
   "1563": {
     "name": "TAFKAP",
-    "timestamp": 1502924318
+    "timestamp": 1502924318,
+    "status": "text"
   },
   "1564": {
     "name": "Mew",
-    "timestamp": 1502988992
+    "timestamp": 1502988992,
+    "status": "text"
   },
   "1565": {
     "name": "Vitalik",
-    "timestamp": 1502933227
+    "timestamp": 1502933227,
+    "status": "text"
   },
   "1567": {
     "name": "My Pink Pussy",
-    "timestamp": 1502988992
+    "timestamp": 1502988992,
+    "status": "text"
   },
   "1568": {
     "name": "Mewtwo",
-    "timestamp": 1502988992
+    "timestamp": 1502988992,
+    "status": "text"
   },
   "1569": {
     "name": "King Cryptocat",
-    "timestamp": 1502941730
+    "timestamp": 1502941730,
+    "status": "text"
   },
   "1570": {
     "name": "$$$ rich da kitty $$$",
-    "timestamp": 1502994506
+    "timestamp": 1502994506,
+    "status": "text"
   },
   "1571": {
     "name": "Hennessy",
-    "timestamp": 1502937674
+    "timestamp": 1502937674,
+    "status": "text"
   },
   "1597": {
     "name": "Kat Torres",
-    "timestamp": 1502994106
+    "timestamp": 1502994106,
+    "status": "text"
   },
   "1607": {
     "name": "kitty",
-    "timestamp": 1615876401
+    "timestamp": 1615876401,
+    "status": "text"
   },
   "1634": {
     "name": "Blue Nebula",
-    "timestamp": 1768544423
+    "timestamp": 1768544423,
+    "status": "text"
   },
   "1640": {
     "name": "Gary",
-    "timestamp": 1617991925
+    "timestamp": 1617991925,
+    "status": "text"
   },
   "1666": {
     "name": "All your base are belong to us",
-    "timestamp": 1623809617
+    "timestamp": 1623809617,
+    "status": "text"
   },
   "1716": {
     "name": "Pusheen",
-    "timestamp": 1503033668
+    "timestamp": 1503033668,
+    "status": "text"
   },
   "1718": {
     "name": "666",
-    "timestamp": 1615745358
+    "timestamp": 1615745358,
+    "status": "text"
   },
   "1719": {
     "name": "PUSHEEN'KA",
-    "timestamp": 1503165980
+    "timestamp": 1503165980,
+    "status": "text"
   },
   "1720": {
     "name": "NewOne",
-    "timestamp": 1503033920
+    "timestamp": 1503033920,
+    "status": "text"
   },
   "1726": {
     "name": "🐱",
-    "timestamp": 1503042722
+    "timestamp": 1503042722,
+    "status": "text"
   },
   "1765": {
     "name": "THE QUEEN OF MOON CATS I",
-    "timestamp": 1503166037
+    "timestamp": 1503166037,
+    "status": "text"
   },
   "1770": {
     "name": "The King Of Moon Cats I",
-    "timestamp": 1503165804
+    "timestamp": 1503165804,
+    "status": "text"
   },
   "1771": {
     "name": "garfield",
-    "timestamp": 1615738356
+    "timestamp": 1615738356,
+    "status": "text"
   },
   "1772": {
     "name": "420",
-    "timestamp": 1615738091
+    "timestamp": 1615738091,
+    "status": "text"
   },
   "1773": {
     "name": "garfield",
-    "timestamp": 1615738046
+    "timestamp": 1615738046,
+    "status": "text"
   },
   "1775": {
     "name": "420",
-    "timestamp": 1615738034
+    "timestamp": 1615738034,
+    "status": "text"
   },
   "1805": {
     "name": "Bon Bini Bella",
-    "timestamp": 1503145871
+    "timestamp": 1503145871,
+    "status": "text"
   },
   "1808": {
     "name": "Boris Borealis",
-    "timestamp": 1503146303
+    "timestamp": 1503146303,
+    "status": "text"
   },
   "1811": {
     "name": "Tiger Puppy",
-    "timestamp": 1503146892
+    "timestamp": 1503146892,
+    "status": "text"
   },
   "1815": {
     "name": "Greenie McDickFace",
-    "timestamp": 1615739740
+    "timestamp": 1615739740,
+    "status": "text"
   },
   "1821": {
     "name": "Lil Jimbo",
-    "timestamp": 1503194974
+    "timestamp": 1503194974,
+    "status": "text"
   },
   "1822": {
     "name": "SatanCat",
-    "timestamp": 1503300491
+    "timestamp": 1503300491,
+    "status": "text"
   },
   "1852": {
     "name": "Galaxy",
-    "timestamp": 1503283327
+    "timestamp": 1503283327,
+    "status": "text"
   },
   "1855": {
     "name": "Twinkle",
-    "timestamp": 1503291446
+    "timestamp": 1503291446,
+    "status": "text"
   },
   "1900": {
     "name": "Polimew",
-    "timestamp": 1503519724
+    "timestamp": 1503519724,
+    "status": "text"
   },
   "1904": {
     "name": "Fortuna",
-    "timestamp": 1503689938
+    "timestamp": 1503689938,
+    "status": "text"
   },
   "1905": {
     "name": "Pink",
-    "timestamp": 1503690409
+    "timestamp": 1503690409,
+    "status": "text"
   },
   "1915": {
     "name": "Emma",
-    "timestamp": 1503765847
+    "timestamp": 1503765847,
+    "status": "text"
   },
   "2061": {
     "name": "e11.io's cat",
-    "timestamp": 1503812415
+    "timestamp": 1503812415,
+    "status": "text"
   },
   "2094": {
     "name": "STARLiNK",
-    "timestamp": 1782585503
+    "timestamp": 1782585503,
+    "status": "text"
   },
   "2114": {
     "name": "Vitalik",
-    "timestamp": 1503822496
+    "timestamp": 1503822496,
+    "status": "text"
   },
   "2145": {
     "name": "Mog",
-    "timestamp": 1753362599
+    "timestamp": 1753362599,
+    "status": "text"
   },
   "2192": {
     "name": "pixi",
-    "timestamp": 1778800583
+    "timestamp": 1778800583,
+    "status": "text"
   },
   "2292": {
     "name": "This cat is not for sale",
-    "timestamp": 1787317931
+    "timestamp": 1787317931,
+    "status": "text"
   },
   "2373": {
     "name": "Luna",
-    "timestamp": 1618820488
+    "timestamp": 1618820488,
+    "status": "text"
   },
   "2405": {
     "name": "Battle Cat",
-    "timestamp": 1755632747
+    "timestamp": 1755632747,
+    "status": "text"
   },
   "2613": {
     "name": "Chafouin Deux",
-    "timestamp": 1770104399
+    "timestamp": 1770104399,
+    "status": "text"
   },
   "2649": {
     "name": "pale blue dot",
-    "timestamp": 1769246039
+    "timestamp": 1769246039,
+    "status": "text"
   },
   "2678": {
     "name": "McDonald's",
-    "timestamp": 1787575751
+    "timestamp": 1787575751,
+    "status": "text"
   },
   "2744": {
     "name": "DOGE CAT",
-    "timestamp": 1615798613
+    "timestamp": 1615798613,
+    "status": "text"
   },
   "2825": {
     "name": "Mr Poopy Butthole",
-    "timestamp": 1506471288
+    "timestamp": 1506471288,
+    "status": "text"
   },
   "2833": {
     "name": "im gay",
-    "timestamp": 1506472956
+    "timestamp": 1506472956,
+    "status": "text"
   },
   "2873": {
     "name": "Shiro Wat",
-    "timestamp": 1507747977
+    "timestamp": 1507747977,
+    "status": "text"
   },
   "2874": {
     "name": "Skilledcat",
-    "timestamp": 1507839334
+    "timestamp": 1507839334,
+    "status": "text"
   },
   "2875": {
     "name": "Paddy",
-    "timestamp": 1507839878
+    "timestamp": 1507839878,
+    "status": "text"
   },
   "2887": {
     "name": "Mochi",
-    "timestamp": 1618820176
+    "timestamp": 1618820176,
+    "status": "text"
   },
   "2892": {
     "name": "Mr. Kitty Kuddles",
-    "timestamp": 1508445805
+    "timestamp": 1508445805,
+    "status": "text"
   },
   "2893": {
     "name": "Ethan ",
-    "timestamp": 1508536143
+    "timestamp": 1508536143,
+    "status": "text"
   },
   "2905": {
     "name": "Purple Haze",
-    "timestamp": 1509149719
+    "timestamp": 1509149719,
+    "status": "text"
   },
   "2906": {
     "name": "Iris",
-    "timestamp": 1509333419
+    "timestamp": 1509333419,
+    "status": "text"
   },
   "2915": {
     "name": "Murrigan",
-    "timestamp": 1510271176
+    "timestamp": 1510271176,
+    "status": "text"
   },
   "2916": {
     "name": "Pause",
-    "timestamp": 1510280600
+    "timestamp": 1510280600,
+    "status": "text"
   },
   "2917": {
     "name": "Mewnion",
-    "timestamp": 1510280148
+    "timestamp": 1510280148,
+    "status": "text"
   },
   "2918": {
     "name": "Glitty",
-    "timestamp": 1510280410
+    "timestamp": 1510280410,
+    "status": "text"
   },
   "2919": {
     "name": "Mawzy",
-    "timestamp": 1510280307
+    "timestamp": 1510280307,
+    "status": "text"
   },
   "2920": {
     "name": "Vasilis Papaioannou",
-    "timestamp": 1510598273
+    "timestamp": 1510598273,
+    "status": "text"
   },
   "2926": {
     "name": "Manchester",
-    "timestamp": 1510702312
+    "timestamp": 1510702312,
+    "status": "text"
   },
   "2929": {
     "name": "Baby Boy",
-    "timestamp": 1510715106
+    "timestamp": 1510715106,
+    "status": "text"
   },
   "2968": {
     "name": "Froyo",
-    "timestamp": 1512262252
+    "timestamp": 1512262252,
+    "status": "text"
   },
   "2970": {
     "name": "Allowishus",
-    "timestamp": 1512262344
+    "timestamp": 1512262344,
+    "status": "text"
   },
   "2972": {
     "name": "MagentaField",
-    "timestamp": 1512262445
+    "timestamp": 1512262445,
+    "status": "text"
   },
   "2981": {
     "name": "Catty McCatface",
-    "timestamp": 1512266822
+    "timestamp": 1512266822,
+    "status": "text"
   },
   "2983": {
     "name": "Sherry",
-    "timestamp": 1512268320
+    "timestamp": 1512268320,
+    "status": "text"
   },
   "2984": {
     "name": "Joycat",
-    "timestamp": 1754436563
+    "timestamp": 1754436563,
+    "status": "text"
   },
   "2989": {
     "name": "me-ow",
-    "timestamp": 1512275541
+    "timestamp": 1512275541,
+    "status": "text"
   },
   "2991": {
     "name": "Fellatio",
-    "timestamp": 1512275622
+    "timestamp": 1512275622,
+    "status": "text"
   },
   "2995": {
     "name": "Methyl Ethyl",
-    "timestamp": 1512278046
+    "timestamp": 1512278046,
+    "status": "text"
   },
   "3002": {
     "name": "Zero",
-    "timestamp": 1521561609
+    "timestamp": 1521561609,
+    "status": "text"
   },
   "3004": {
     "name": "Tooofii",
-    "timestamp": 1521559506
+    "timestamp": 1521559506,
+    "status": "text"
   },
   "3006": {
     "name": "minnow",
-    "timestamp": 1521563786
+    "timestamp": 1521563786,
+    "status": "text"
   },
   "3007": {
     "name": "skinnow",
-    "timestamp": 1521563643
+    "timestamp": 1521563643,
+    "status": "text"
   },
   "3013": {
     "name": " The Great Catsby",
-    "timestamp": 1512321806
+    "timestamp": 1512321806,
+    "status": "text"
   },
   "3015": {
     "name": "Green Cat",
-    "timestamp": 1512322145
+    "timestamp": 1512322145,
+    "status": "text"
   },
   "3016": {
     "name": "Pussy Galore",
-    "timestamp": 1512322668
+    "timestamp": 1512322668,
+    "status": "text"
   },
   "3018": {
     "name": "Catty McCatFace",
-    "timestamp": 1512322068
+    "timestamp": 1512322068,
+    "status": "text"
   },
   "3033": {
     "name": "Founder Cat #1",
-    "timestamp": 1512324842
+    "timestamp": 1512324842,
+    "status": "text"
   },
   "3040": {
     "name": "Frizzlepus",
-    "timestamp": 1512361135
+    "timestamp": 1512361135,
+    "status": "text"
   },
   "3075": {
     "name": "Pert the Tiger",
-    "timestamp": 1512402200
+    "timestamp": 1512402200,
+    "status": "text"
   },
   "3101": {
     "name": "Shamrock",
-    "timestamp": 1512451291
+    "timestamp": 1512451291,
+    "status": "text"
   },
   "3108": {
     "name": "Visa",
-    "timestamp": 1753080455
+    "timestamp": 1753080455,
+    "status": "text"
   },
   "3161": {
     "name": "Sir Snuggles",
-    "timestamp": 1512964134
+    "timestamp": 1512964134,
+    "status": "text"
   },
   "3166": {
     "name": "cera",
-    "timestamp": 1513176281
+    "timestamp": 1513176281,
+    "status": "text"
   },
   "3167": {
     "name": "puff",
-    "timestamp": 1513176257
+    "timestamp": 1513176257,
+    "status": "text"
   },
   "3197": {
     "name": "Emmy",
-    "timestamp": 1513574911
+    "timestamp": 1513574911,
+    "status": "text"
   },
   "3229": {
     "name": "Megacat",
-    "timestamp": 1514099736
+    "timestamp": 1514099736,
+    "status": "text"
   },
   "3272": {
     "name": "Green Machine ",
-    "timestamp": 1514110193
+    "timestamp": 1514110193,
+    "status": "text"
   },
   "3303": {
     "name": "Clark Kent",
-    "timestamp": 1514130765
+    "timestamp": 1514130765,
+    "status": "text"
   },
   "3337": {
     "name": "Hulk",
-    "timestamp": 1514334344
+    "timestamp": 1514334344,
+    "status": "text"
   },
   "3352": {
     "name": "Chad",
-    "timestamp": 1514515474
+    "timestamp": 1514515474,
+    "status": "text"
   },
   "3374": {
     "name": "创世猫",
-    "timestamp": 1514960382
+    "timestamp": 1514960382,
+    "status": "text"
   },
   "3399": {
     "name": "Claude is our friend",
-    "timestamp": 1774455155
+    "timestamp": 1774455155,
+    "status": "text"
   },
   "3464": {
     "name": "CosmicCannaFish",
-    "timestamp": 1519444642
+    "timestamp": 1519444642,
+    "status": "text"
   },
   "3466": {
     "name": "Tuxedo Junction",
-    "timestamp": 1516826749
+    "timestamp": 1516826749,
+    "status": "text"
   },
   "3467": {
     "name": "ALF",
-    "timestamp": 1616209169
+    "timestamp": 1616209169,
+    "status": "text"
   },
   "3478": {
     "name": "Tinkle von Purr",
-    "timestamp": 1516879931
+    "timestamp": 1516879931,
+    "status": "text"
   },
   "3479": {
     "name": "Cuddle van der Tinkleface",
-    "timestamp": 1516880434
+    "timestamp": 1516880434,
+    "status": "text"
   },
   "3482": {
     "name": "Johan Glans",
-    "timestamp": 1516888019
+    "timestamp": 1516888019,
+    "status": "text"
   },
   "3505": {
     "name": "Lamborghini",
-    "timestamp": 1517263405
+    "timestamp": 1517263405,
+    "status": "text"
   },
   "3507": {
     "name": "Miss Pinkywinky",
-    "timestamp": 1517291290
+    "timestamp": 1517291290,
+    "status": "text"
   },
   "3509": {
     "name": "Kucoin",
-    "timestamp": 1517354616
+    "timestamp": 1517354616,
+    "status": "text"
   },
   "3513": {
     "name": "Vivaldi",
-    "timestamp": 1517553619
+    "timestamp": 1517553619,
+    "status": "text"
   },
   "3514": {
     "name": "Remolacha",
-    "timestamp": 1517554754
+    "timestamp": 1517554754,
+    "status": "text"
   },
   "3561": {
     "name": "Melvin",
-    "timestamp": 1518049227
+    "timestamp": 1518049227,
+    "status": "text"
   },
   "3562": {
     "name": "Pouncy",
-    "timestamp": 1518049124
+    "timestamp": 1518049124,
+    "status": "text"
   },
   "3566": {
     "name": "Harvey",
-    "timestamp": 1518049227
+    "timestamp": 1518049227,
+    "status": "text"
   },
   "3570": {
     "name": "Clue",
-    "timestamp": 1518049227
+    "timestamp": 1518049227,
+    "status": "text"
   },
   "3571": {
     "name": "Minette",
-    "timestamp": 1518049227
+    "timestamp": 1518049227,
+    "status": "text"
   },
   "3580": {
     "name": "Jagger",
-    "timestamp": 1518305197
+    "timestamp": 1518305197,
+    "status": "text"
   },
   "3582": {
     "name": "Hodlen Kitty",
-    "timestamp": 1518308985
+    "timestamp": 1518308985,
+    "status": "text"
   },
   "3597": {
     "name": "Gina Rina",
-    "timestamp": 1518851740
+    "timestamp": 1518851740,
+    "status": "text"
   },
   "3598": {
     "name": "Piggy Kitty",
-    "timestamp": 1518852457
+    "timestamp": 1518852457,
+    "status": "text"
   },
   "3606": {
     "name": "Boba Pett",
-    "timestamp": 1630065098
+    "timestamp": 1630065098,
+    "status": "text"
   },
   "3618": {
     "name": "Pixel",
-    "timestamp": 1519511913
+    "timestamp": 1519511913,
+    "status": "text"
   },
   "3626": {
     "name": "Catti",
-    "timestamp": 1519606299
+    "timestamp": 1519606299,
+    "status": "text"
   },
   "3643": {
     "name": "Muramasa",
-    "timestamp": 1519832073
+    "timestamp": 1519832073,
+    "status": "text"
   },
   "3690": {
     "name": "Mathilda",
-    "timestamp": 1520181196
+    "timestamp": 1520181196,
+    "status": "text"
   },
   "3696": {
     "name": "0x_b1",
-    "timestamp": 1615586286
+    "timestamp": 1615586286,
+    "status": "text"
   },
   "3722": {
     "name": "Kityka",
-    "timestamp": 1520205939
+    "timestamp": 1520205939,
+    "status": "text"
   },
   "3725": {
     "name": "Green Machine",
-    "timestamp": 1520222707
+    "timestamp": 1520222707,
+    "status": "text"
   },
   "3726": {
     "name": "KITY PURRY",
-    "timestamp": 1520226448
+    "timestamp": 1520226448,
+    "status": "text"
   },
   "3740": {
     "name": "Cool Cat",
-    "timestamp": 1673865659
+    "timestamp": 1673865659,
+    "status": "text"
   },
   "3749": {
     "name": "Tronny Kitten",
-    "timestamp": 1520369632
+    "timestamp": 1520369632,
+    "status": "text"
   },
   "3752": {
     "name": "Mr. Purple",
-    "timestamp": 1520635643
+    "timestamp": 1520635643,
+    "status": "text"
   },
   "3771": {
     "name": "(,,,)=(^.^)=(,,,)",
-    "timestamp": 1520818743
+    "timestamp": 1520818743,
+    "status": "text"
   },
   "3781": {
     "name": "MY BIG BIG BIG BIG BIG CIRCLE!!",
-    "timestamp": 1520816315
+    "timestamp": 1520816315,
+    "status": "text"
   },
   "3787": {
     "name": "Mr. Bigglesworth",
-    "timestamp": 1615693512
+    "timestamp": 1615693512,
+    "status": "text"
   },
   "3790": {
     "name": "**┏(-_-)┛┗(-_-﻿ )┓**",
-    "timestamp": 1520819044
+    "timestamp": 1520819044,
+    "status": "text"
   },
   "3794": {
     "name": "Carl Foster",
-    "timestamp": 1615696754
+    "timestamp": 1615696754,
+    "status": "text"
   },
   "3796": {
     "name": "-┏(-_-)┛-┗(-_-﻿ )┓-",
-    "timestamp": 1520818359
+    "timestamp": 1520818359,
+    "status": "text"
   },
   "3800": {
     "name": "--٩(̾●̮̮̃̾•̃̾)۶--",
-    "timestamp": 1520818299
+    "timestamp": 1520818299,
+    "status": "text"
   },
   "3867": {
     "name": "🐱>>🔥🚀TO THE MOON->🌕",
-    "timestamp": 1777666055
+    "timestamp": 1777666055,
+    "status": "text"
   },
   "4010": {
     "name": "Mr Whiskers",
-    "timestamp": 1521509622
+    "timestamp": 1521509622,
+    "status": "text"
   },
   "4060": {
     "name": "winnow",
-    "timestamp": 1521563786
+    "timestamp": 1521563786,
+    "status": "text"
   },
   "4066": {
     "name": "2 face",
-    "timestamp": 1521598510
+    "timestamp": 1521598510,
+    "status": "text"
   },
   "4067": {
     "name": "vary siray cat",
-    "timestamp": 1521598523
+    "timestamp": 1521598523,
+    "status": "text"
   },
   "4132": {
     "name": "Garfield",
-    "timestamp": 1521587521
+    "timestamp": 1521587521,
+    "status": "text"
   },
   "4140": {
     "name": "Simba",
-    "timestamp": 1521587915
+    "timestamp": 1521587915,
+    "status": "text"
   },
   "4143": {
     "name": "Hello Kitty",
-    "timestamp": 1521588385
+    "timestamp": 1521588385,
+    "status": "text"
   },
   "4152": {
     "name": "Mr. Bigglesworth",
-    "timestamp": 1521593331
+    "timestamp": 1521593331,
+    "status": "text"
   },
   "4153": {
     "name": "Simon The Cat",
-    "timestamp": 1616319869
+    "timestamp": 1616319869,
+    "status": "text"
   },
   "4200": {
     "name": "Japanese_neko",
-    "timestamp": 1521610402
+    "timestamp": 1521610402,
+    "status": "text"
   },
   "4243": {
     "name": "OldGreen420",
-    "timestamp": 1628317430
+    "timestamp": 1628317430,
+    "status": "text"
   },
   "4244": {
     "name": "Heathcliff",
-    "timestamp": 1521681573
+    "timestamp": 1521681573,
+    "status": "text"
   },
   "4246": {
     "name": "The Cat In The Hat",
-    "timestamp": 1616475225
+    "timestamp": 1616475225,
+    "status": "text"
   },
   "4298": {
     "name": "hayride",
-    "timestamp": 1521682206
+    "timestamp": 1521682206,
+    "status": "text"
   },
   "4300": {
     "name": "leora",
-    "timestamp": 1521682332
+    "timestamp": 1521682332,
+    "status": "text"
   },
   "4301": {
     "name": "abigail",
-    "timestamp": 1521682439
+    "timestamp": 1521682439,
+    "status": "text"
   },
   "4420": {
     "name": "�",
-    "timestamp": 1521755399
+    "timestamp": 1521755399,
+    "status": "redacted"
   },
   "4531": {
     "name": "Strawberry Princess",
-    "timestamp": 1521825893
+    "timestamp": 1521825893,
+    "status": "text"
   },
   "4775": {
     "name": "Mined 2017 Old kitty",
-    "timestamp": 1617185801
+    "timestamp": 1617185801,
+    "status": "text"
   },
   "4776": {
     "name": "Zen",
-    "timestamp": 1522512397
+    "timestamp": 1522512397,
+    "status": "text"
   },
   "4911": {
     "name": "Purple Cow",
-    "timestamp": 1522911431
+    "timestamp": 1522911431,
+    "status": "text"
   },
   "4950": {
     "name": "Mindy",
-    "timestamp": 1522975493
+    "timestamp": 1522975493,
+    "status": "text"
   },
   "4951": {
     "name": "Brian Campbell",
-    "timestamp": 1522975621
+    "timestamp": 1522975621,
+    "status": "text"
   },
   "5457": {
     "name": "Bouncy Franky",
-    "timestamp": 1524439581
+    "timestamp": 1524439581,
+    "status": "text"
   },
   "5504": {
     "name": "Cheshire Cat",
-    "timestamp": 1525377223
+    "timestamp": 1525377223,
+    "status": "text"
   },
   "5518": {
     "name": "Lucero",
-    "timestamp": 1525727808
+    "timestamp": 1525727808,
+    "status": "text"
   },
   "5551": {
     "name": "Luna",
-    "timestamp": 1527373807
+    "timestamp": 1527373807,
+    "status": "text"
   },
   "5581": {
     "name": "Fraggle",
-    "timestamp": 1529789324
+    "timestamp": 1529789324,
+    "status": "text"
   },
   "5587": {
     "name": "Jennifer",
-    "timestamp": 1529790384
+    "timestamp": 1529790384,
+    "status": "text"
   },
   "5595": {
     "name": "PEPE",
-    "timestamp": 1529792288
+    "timestamp": 1529792288,
+    "status": "text"
   },
   "5662": {
     "name": "Grandma",
-    "timestamp": 1537683825
+    "timestamp": 1537683825,
+    "status": "text"
   },
   "5680": {
     "name": " ----- Berry Cat -----",
-    "timestamp": 1545634613
+    "timestamp": 1545634613,
+    "status": "text"
   },
   "5719": {
     "name": "Outer Space",
-    "timestamp": 1554688566
+    "timestamp": 1554688566,
+    "status": "text"
   },
   "5730": {
     "name": "Blue Clue",
-    "timestamp": 1554693149
+    "timestamp": 1554693149,
+    "status": "text"
   },
   "5791": {
     "name": "Balthazar",
-    "timestamp": 1615766699
+    "timestamp": 1615766699,
+    "status": "text"
   },
   "5837": {
     "name": "Schrödinger",
-    "timestamp": 1616030317
+    "timestamp": 1616030317,
+    "status": "text"
   },
   "5843": {
     "name": "Finance",
-    "timestamp": 1753081403
+    "timestamp": 1753081403,
+    "status": "text"
   },
   "5850": {
     "name": "Sakura Kawaii",
-    "timestamp": 1730534219
+    "timestamp": 1730534219,
+    "status": "text"
   },
   "5858": {
     "name": "This MoonCat does not yet have ",
-    "timestamp": 1787575595
+    "timestamp": 1787575595,
+    "status": "text"
   },
   "5923": {
     "name": "Amado",
-    "timestamp": 1772252015
+    "timestamp": 1772252015,
+    "status": "text"
   },
   "5936": {
     "name": "Satoshi Meowmoto",
-    "timestamp": 1754328467
+    "timestamp": 1754328467,
+    "status": "text"
   },
   "6012": {
     "name": "notsocat",
-    "timestamp": 1615601316
+    "timestamp": 1615601316,
+    "status": "text"
   },
   "6013": {
     "name": "Strawberry",
-    "timestamp": 1615592169
+    "timestamp": 1615592169,
+    "status": "text"
   },
   "6119": {
     "name": "Desert Rose",
-    "timestamp": 1618822156
+    "timestamp": 1618822156,
+    "status": "text"
   },
   "6164": {
     "name": "Mr. Meowington",
-    "timestamp": 1616371984
+    "timestamp": 1616371984,
+    "status": "text"
   },
   "6169": {
     "name": "NotSoCat",
-    "timestamp": 1672528151
+    "timestamp": 1672528151,
+    "status": "text"
   },
   "6192": {
     "name": "Space",
-    "timestamp": 1615594650
+    "timestamp": 1615594650,
+    "status": "text"
   },
   "6244": {
     "name": "Sir meows a lot",
-    "timestamp": 1615734770
+    "timestamp": 1615734770,
+    "status": "text"
   },
   "6245": {
     "name": "MoonBaseCoinCat",
-    "timestamp": 1712928167
+    "timestamp": 1712928167,
+    "status": "text"
   },
   "6277": {
     "name": "Vinecat",
-    "timestamp": 1682978339
+    "timestamp": 1682978339,
+    "status": "text"
   },
   "6289": {
     "name": "Cameron Winklevoss\n",
-    "timestamp": 1615698603
+    "timestamp": 1615698603,
+    "status": "text"
   },
   "6306": {
     "name": "Satan Spawn, the Caco-Daemon",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "6314": {
     "name": "Zach",
-    "timestamp": 1772365595
+    "timestamp": 1772365595,
+    "status": "text"
   },
   "6331": {
     "name": "Roland",
-    "timestamp": 1615591925
+    "timestamp": 1615591925,
+    "status": "text"
   },
   "6343": {
     "name": "Daft Cat",
-    "timestamp": 1753426463
+    "timestamp": 1753426463,
+    "status": "text"
   },
   "6361": {
     "name": "Slimer\n",
-    "timestamp": 1615699183
+    "timestamp": 1615699183,
+    "status": "text"
   },
   "6385": {
     "name": "genesis",
-    "timestamp": 1615565504
+    "timestamp": 1615565504,
+    "status": "text"
   },
   "6393": {
     "name": "Marijuana Man 5000",
-    "timestamp": 1615695726
+    "timestamp": 1615695726,
+    "status": "text"
   },
   "6401": {
     "name": "Roaring Kitty",
-    "timestamp": 1615836410
+    "timestamp": 1615836410,
+    "status": "text"
   },
   "6428": {
     "name": "Remember my name, FAME !",
-    "timestamp": 1753358243
+    "timestamp": 1753358243,
+    "status": "text"
   },
   "6461": {
     "name": "フシギダネ",
-    "timestamp": 1770132311
+    "timestamp": 1770132311,
+    "status": "text"
   },
   "6476": {
     "name": "Luka Doncic",
-    "timestamp": 1616890533
+    "timestamp": 1616890533,
+    "status": "text"
   },
   "6550": {
     "name": "Elon Musk",
-    "timestamp": 1615576907
+    "timestamp": 1615576907,
+    "status": "text"
   },
   "6574": {
     "name": "Pumbaa",
-    "timestamp": 1615596524
+    "timestamp": 1615596524,
+    "status": "text"
   },
   "6579": {
     "name": "Shitcat",
-    "timestamp": 1770104183
+    "timestamp": 1770104183,
+    "status": "text"
   },
   "6592": {
     "name": "Shitcat",
-    "timestamp": 1770103787
+    "timestamp": 1770103787,
+    "status": "text"
   },
   "6614": {
     "name": "Shitcat",
-    "timestamp": 1770103835
+    "timestamp": 1770103835,
+    "status": "text"
   },
   "6643": {
     "name": "Lady Gaga",
-    "timestamp": 1615738398
+    "timestamp": 1615738398,
+    "status": "text"
   },
   "6664": {
     "name": "GOD",
-    "timestamp": 1615586252
+    "timestamp": 1615586252,
+    "status": "text"
   },
   "6679": {
     "name": "Shitcat",
-    "timestamp": 1770103355
+    "timestamp": 1770103355,
+    "status": "text"
   },
   "6694": {
     "name": "notsofast",
-    "timestamp": 1615583224
+    "timestamp": 1615583224,
+    "status": "text"
   },
   "6700": {
     "name": "Shitcat",
-    "timestamp": 1770103751
+    "timestamp": 1770103751,
+    "status": "text"
   },
   "6716": {
     "name": "Lellek",
-    "timestamp": 1773151043
+    "timestamp": 1773151043,
+    "status": "text"
   },
   "6746": {
     "name": "crabby",
-    "timestamp": 1615579214
+    "timestamp": 1615579214,
+    "status": "text"
   },
   "6749": {
     "name": "Cryptopathic",
-    "timestamp": 1621703429
+    "timestamp": 1621703429,
+    "status": "text"
   },
   "6759": {
     "name": "Reginald",
-    "timestamp": 1777738703
+    "timestamp": 1777738703,
+    "status": "text"
   },
   "6772": {
     "name": "Bhoka",
-    "timestamp": 1615861679
+    "timestamp": 1615861679,
+    "status": "text"
   },
   "6790": {
     "name": "Feini",
-    "timestamp": 1754558735
+    "timestamp": 1754558735,
+    "status": "text"
   },
   "6804": {
     "name": "Shitcat",
-    "timestamp": 1770104471
+    "timestamp": 1770104471,
+    "status": "text"
   },
   "6812": {
     "name": "MoodCat #6812",
-    "timestamp": 1789200911
+    "timestamp": 1789200911,
+    "status": "text"
   },
   "6815": {
     "name": "Zach",
-    "timestamp": 1769920523
+    "timestamp": 1769920523,
+    "status": "text"
   },
   "6817": {
     "name": "Albert",
-    "timestamp": 1615591297
+    "timestamp": 1615591297,
+    "status": "text"
   },
   "6835": {
     "name": "Satoshi",
-    "timestamp": 1615570141
+    "timestamp": 1615570141,
+    "status": "text"
   },
   "6841": {
     "name": "Garfield",
-    "timestamp": 1615591026
+    "timestamp": 1615591026,
+    "status": "text"
   },
   "6878": {
     "name": "Historical Artifact",
-    "timestamp": 1753446071
+    "timestamp": 1753446071,
+    "status": "text"
   },
   "6888": {
     "name": "Malte",
-    "timestamp": 1781844515
+    "timestamp": 1781844515,
+    "status": "text"
+  },
+  "6902": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1770751595,
+    "status": "invalid-utf8"
   },
   "6928": {
     "name": "Bitcoin",
-    "timestamp": 1615570222
+    "timestamp": 1615570222,
+    "status": "text"
   },
   "6933": {
     "name": "Zombiecat",
-    "timestamp": 1754918471
+    "timestamp": 1754918471,
+    "status": "text"
   },
   "6976": {
     "name": "Precious",
-    "timestamp": 1754690387
+    "timestamp": 1754690387,
+    "status": "text"
   },
   "7003": {
     "name": "#LOVE 🔥🔥🔥",
-    "timestamp": 1674399239
+    "timestamp": 1674399239,
+    "status": "text"
   },
   "7040": {
     "name": "Melon",
-    "timestamp": 1679517683
+    "timestamp": 1679517683,
+    "status": "text"
   },
   "7067": {
     "name": "Red Fire",
-    "timestamp": 1615567624
+    "timestamp": 1615567624,
+    "status": "text"
   },
   "7077": {
     "name": "Spirit",
-    "timestamp": 1615595872
+    "timestamp": 1615595872,
+    "status": "text"
   },
   "7083": {
     "name": "Shitcat",
-    "timestamp": 1770104375
+    "timestamp": 1770104375,
+    "status": "text"
   },
   "7088": {
     "name": "Dead but Dreaming",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "7092": {
     "name": "Garfield",
-    "timestamp": 1616162393
+    "timestamp": 1616162393,
+    "status": "text"
   },
   "7106": {
     "name": "Scar",
-    "timestamp": 1615596523
+    "timestamp": 1615596523,
+    "status": "text"
   },
   "7131": {
     "name": "USA",
-    "timestamp": 1753082015
+    "timestamp": 1753082015,
+    "status": "text"
   },
   "7146": {
     "name": "Зеленський",
-    "timestamp": 1645928671
+    "timestamp": 1645928671,
+    "status": "text"
   },
   "7173": {
     "name": "MOONCAT",
-    "timestamp": 1615579646
+    "timestamp": 1615579646,
+    "status": "text"
   },
   "7192": {
     "name": "Geoff",
-    "timestamp": 1615568809
+    "timestamp": 1615568809,
+    "status": "text"
   },
   "7196": {
     "name": "@larvalabs",
-    "timestamp": 1755297935
+    "timestamp": 1755297935,
+    "status": "text"
   },
   "7206": {
     "name": "goatishduck",
-    "timestamp": 1702946771
+    "timestamp": 1702946771,
+    "status": "text"
   },
   "7294": {
     "name": "Dreamstone 🌙",
-    "timestamp": 1770400847
+    "timestamp": 1770400847,
+    "status": "text"
   },
   "7365": {
     "name": "Enzo",
-    "timestamp": 1770055703
+    "timestamp": 1770055703,
+    "status": "text"
   },
   "7372": {
     "name": "OpenSeaCat",
-    "timestamp": 1766174879
+    "timestamp": 1766174879,
+    "status": "text"
   },
   "7381": {
     "name": "Chain",
-    "timestamp": 1753080575
+    "timestamp": 1753080575,
+    "status": "text"
   },
   "7391": {
     "name": "Shitcat",
-    "timestamp": 1770103391
+    "timestamp": 1770103391,
+    "status": "text"
   },
   "7402": {
     "name": "King Cat XLII",
-    "timestamp": 1767697139
+    "timestamp": 1767697139,
+    "status": "text"
   },
   "7420": {
     "name": "IT AINT MUCH BUT ITS HONEST WORK",
-    "timestamp": 1751823095
+    "timestamp": 1751823095,
+    "status": "text"
   },
   "7438": {
     "name": "$6,000,000 cat",
-    "timestamp": 1753255283
+    "timestamp": 1753255283,
+    "status": "text"
   },
   "7441": {
     "name": "MOONPIG",
-    "timestamp": 1615693499
+    "timestamp": 1615693499,
+    "status": "text"
   },
   "7449": {
     "name": "Cheshire Cat",
-    "timestamp": 1615591016
+    "timestamp": 1615591016,
+    "status": "text"
   },
   "7486": {
     "name": "MANBEARPIG",
-    "timestamp": 1615693212
+    "timestamp": 1615693212,
+    "status": "text"
   },
   "7488": {
     "name": "ET",
-    "timestamp": 1615948923
+    "timestamp": 1615948923,
+    "status": "text"
   },
   "7520": {
     "name": "Blue Ball",
-    "timestamp": 1615636682
+    "timestamp": 1615636682,
+    "status": "text"
   },
   "7524": {
     "name": "Stitch",
-    "timestamp": 1751545547
+    "timestamp": 1751545547,
+    "status": "text"
   },
   "7534": {
     "name": "Viridian",
-    "timestamp": 1751467715
+    "timestamp": 1751467715,
+    "status": "text"
   },
   "7600": {
     "name": "Granny Smith 🍏",
-    "timestamp": 1753884671
+    "timestamp": 1753884671,
+    "status": "text"
   },
   "7607": {
     "name": "beeple",
-    "timestamp": 1615576511
+    "timestamp": 1615576511,
+    "status": "text"
   },
   "7610": {
     "name": "Father of Flex",
-    "timestamp": 1616616126
+    "timestamp": 1616616126,
+    "status": "text"
   },
   "7613": {
     "name": "Ganjalf the Green",
-    "timestamp": 1785304859
+    "timestamp": 1785304859,
+    "status": "text"
   },
   "7672": {
     "name": "Alien Cat",
-    "timestamp": 1615567928
+    "timestamp": 1615567928,
+    "status": "text"
   },
   "7775": {
     "name": "meme",
-    "timestamp": 1615582573
+    "timestamp": 1615582573,
+    "status": "text"
   },
   "7801": {
     "name": "Alfredo",
-    "timestamp": 1615594963
+    "timestamp": 1615594963,
+    "status": "text"
   },
   "7864": {
     "name": "benis party 🍕",
-    "timestamp": 1615788012
+    "timestamp": 1615788012,
+    "status": "text"
+  },
+  "7923": {
+    "name": "[leading null]",
+    "timestamp": 1615568173,
+    "status": "leading-null"
   },
   "7966": {
     "name": "$7,000,000 cat",
-    "timestamp": 1753255487
+    "timestamp": 1753255487,
+    "status": "text"
   },
   "7967": {
     "name": "LukaDoncic77",
-    "timestamp": 1617629044
+    "timestamp": 1617629044,
+    "status": "text"
   },
   "7973": {
     "name": "Gainz",
-    "timestamp": 1701470183
+    "timestamp": 1701470183,
+    "status": "text"
   },
   "7988": {
     "name": "bonna8 on discord",
-    "timestamp": 1753210703
+    "timestamp": 1753210703,
+    "status": "text"
   },
   "7989": {
     "name": "bumpycat",
-    "timestamp": 1712105915
+    "timestamp": 1712105915,
+    "status": "text"
   },
   "8002": {
     "name": "Gary Vee approved I'm crazy long",
-    "timestamp": 1768217843
+    "timestamp": 1768217843,
+    "status": "text"
+  },
+  "8014": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615568139,
+    "status": "invalid-utf8"
   },
   "8026": {
     "name": "Scatty",
-    "timestamp": 1773156947
+    "timestamp": 1773156947,
+    "status": "text"
   },
   "8036": {
     "name": "@Bonna8",
-    "timestamp": 1753464287
+    "timestamp": 1753464287,
+    "status": "text"
   },
   "8042": {
     "name": "Catoshi Catamoonto",
-    "timestamp": 1767696575
+    "timestamp": 1767696575,
+    "status": "text"
   },
   "8108": {
     "name": "🍕 benis party pizza pals 🍕",
-    "timestamp": 1615789297
+    "timestamp": 1615789297,
+    "status": "text"
   },
   "8162": {
     "name": "Ysabet",
-    "timestamp": 1692843815
+    "timestamp": 1692843815,
+    "status": "text"
   },
   "8172": {
     "name": "Byzantine General Diavolus",
-    "timestamp": 1746866927
+    "timestamp": 1746866927,
+    "status": "text"
   },
   "8194": {
     "name": "@EricTrump",
-    "timestamp": 1755461531
+    "timestamp": 1755461531,
+    "status": "text"
   },
   "8201": {
     "name": "The Alchemist",
-    "timestamp": 1633535269
+    "timestamp": 1633535269,
+    "status": "text"
   },
   "8206": {
     "name": "Repent to Die",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "8224": {
     "name": "Generative Whiskerlock Holmes",
-    "timestamp": 1753453199
+    "timestamp": 1753453199,
+    "status": "text"
   },
   "8278": {
     "name": "Mark Cuban",
-    "timestamp": 1615598184
+    "timestamp": 1615598184,
+    "status": "text"
   },
   "8314": {
     "name": "Custard",
-    "timestamp": 1754430779
+    "timestamp": 1754430779,
+    "status": "text"
   },
   "8323": {
     "name": "Kitty",
-    "timestamp": 1615591466
+    "timestamp": 1615591466,
+    "status": "text"
   },
   "8340": {
     "name": "Heathcliff",
-    "timestamp": 1615590549
+    "timestamp": 1615590549,
+    "status": "text"
   },
   "8363": {
     "name": "Zach",
-    "timestamp": 1778140259
+    "timestamp": 1778140259,
+    "status": "text"
   },
   "8400": {
     "name": "Gemesis",
-    "timestamp": 1770197231
+    "timestamp": 1770197231,
+    "status": "text"
   },
   "8408": {
     "name": "Squiggle deeze Nutz 🥜🌈",
-    "timestamp": 1770039719
+    "timestamp": 1770039719,
+    "status": "text"
   },
   "8409": {
     "name": "Shitcat",
-    "timestamp": 1770103691
+    "timestamp": 1770103691,
+    "status": "text"
   },
   "8411": {
     "name": "Gunther",
-    "timestamp": 1752294911
+    "timestamp": 1752294911,
+    "status": "text"
+  },
+  "8443": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615568633,
+    "status": "invalid-utf8"
   },
   "8449": {
     "name": "Raspberry Sugarplum",
-    "timestamp": 1769092115
+    "timestamp": 1769092115,
+    "status": "text"
   },
   "8465": {
     "name": "Logo Cat",
-    "timestamp": 1691009651
+    "timestamp": 1691009651,
+    "status": "text"
   },
   "8476": {
     "name": "Mr Bigglesworth",
-    "timestamp": 1615931736
+    "timestamp": 1615931736,
+    "status": "text"
   },
   "8491": {
     "name": "Lovemore",
-    "timestamp": 1755537335
+    "timestamp": 1755537335,
+    "status": "text"
   },
   "8493": {
     "name": "Maybel",
-    "timestamp": 1615673925
+    "timestamp": 1615673925,
+    "status": "text"
   },
   "8520": {
     "name": "Cat",
-    "timestamp": 1615573529
+    "timestamp": 1615573529,
+    "status": "text"
   },
   "8521": {
     "name": "alienkitty\n",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "8522": {
     "name": "godmode",
-    "timestamp": 1615594374
+    "timestamp": 1615594374,
+    "status": "text"
   },
   "8527": {
     "name": "Fuzz Aldrin",
-    "timestamp": 1615675767
+    "timestamp": 1615675767,
+    "status": "text"
   },
   "8569": {
     "name": "Winter Soldier",
-    "timestamp": 1616676502
+    "timestamp": 1616676502,
+    "status": "text"
   },
   "8593": {
     "name": "Nightshawl",
-    "timestamp": 1770565151
+    "timestamp": 1770565151,
+    "status": "text"
   },
   "8598": {
     "name": "Knuckles",
-    "timestamp": 1751553875
+    "timestamp": 1751553875,
+    "status": "text"
   },
   "8601": {
     "name": "@Bonna8",
-    "timestamp": 1753562759
+    "timestamp": 1753562759,
+    "status": "text"
   },
   "8605": {
     "name": "Mark Cuban",
-    "timestamp": 1615576955
+    "timestamp": 1615576955,
+    "status": "text"
   },
   "8636": {
     "name": "MoonCat",
-    "timestamp": 1615591533
+    "timestamp": 1615591533,
+    "status": "text"
   },
   "8638": {
     "name": "Dirty Sanchez",
-    "timestamp": 1747288667
+    "timestamp": 1747288667,
+    "status": "text"
   },
   "8649": {
     "name": "CoolCat",
-    "timestamp": 1629885778
+    "timestamp": 1629885778,
+    "status": "text"
   },
   "8699": {
     "name": "vidpet",
-    "timestamp": 1731185519
+    "timestamp": 1731185519,
+    "status": "text"
   },
   "8729": {
     "name": "Neo",
-    "timestamp": 1615778491
+    "timestamp": 1615778491,
+    "status": "text"
   },
   "8742": {
     "name": "Lunelight",
-    "timestamp": 1679528243
+    "timestamp": 1679528243,
+    "status": "text"
   },
   "8750": {
     "name": "Faetooth",
-    "timestamp": 1751455067
+    "timestamp": 1751455067,
+    "status": "text"
   },
   "8765": {
     "name": "Pengu",
-    "timestamp": 1754577035
+    "timestamp": 1754577035,
+    "status": "text"
   },
   "8780": {
     "name": "satoshi",
-    "timestamp": 1615583702
+    "timestamp": 1615583702,
+    "status": "text"
   },
   "8806": {
     "name": "Cereza",
-    "timestamp": 1615833183
+    "timestamp": 1615833183,
+    "status": "text"
   },
   "8807": {
     "name": "$8,000,000 cat",
-    "timestamp": 1753255487
+    "timestamp": 1753255487,
+    "status": "text"
   },
   "8822": {
     "name": "MEOWTH THAT'S RIGHT!",
-    "timestamp": 1615933495
+    "timestamp": 1615933495,
+    "status": "text"
   },
   "8835": {
     "name": "Lazy Garfield",
-    "timestamp": 1629934660
+    "timestamp": 1629934660,
+    "status": "text"
   },
   "8845": {
     "name": "Michael Scott",
-    "timestamp": 1751821871
+    "timestamp": 1751821871,
+    "status": "text"
   },
   "8872": {
     "name": "Zach",
-    "timestamp": 1769811119
+    "timestamp": 1769811119,
+    "status": "text"
   },
   "8873": {
     "name": "tom",
-    "timestamp": 1615697768
+    "timestamp": 1615697768,
+    "status": "text"
   },
   "8877": {
     "name": "@Bonna8 sold his genesis cat",
-    "timestamp": 1753569743
+    "timestamp": 1753569743,
+    "status": "text"
   },
   "8898": {
     "name": "Neil Pawstrong",
-    "timestamp": 1615654004
+    "timestamp": 1615654004,
+    "status": "text"
   },
   "8900": {
     "name": "satoshi",
-    "timestamp": 1615576692
+    "timestamp": 1615576692,
+    "status": "text"
   },
   "8918": {
     "name": "Miss Piggy",
-    "timestamp": 1615592169
+    "timestamp": 1615592169,
+    "status": "text"
+  },
+  "8958": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615569803,
+    "status": "invalid-utf8"
   },
   "8966": {
     "name": "alien punk",
-    "timestamp": 1773852443
+    "timestamp": 1773852443,
+    "status": "text"
   },
   "8978": {
     "name": "Zach",
-    "timestamp": 1779816059
+    "timestamp": 1779816059,
+    "status": "text"
   },
   "8983": {
     "name": "Paris Hilton",
-    "timestamp": 1618168490
+    "timestamp": 1618168490,
+    "status": "text"
   },
   "8989": {
     "name": "Thinmint",
-    "timestamp": 1615770413
+    "timestamp": 1615770413,
+    "status": "text"
   },
   "9002": {
     "name": "Cheshire Cat",
-    "timestamp": 1616011420
+    "timestamp": 1616011420,
+    "status": "text"
   },
   "9003": {
     "name": "Pastel",
-    "timestamp": 1615592169
+    "timestamp": 1615592169,
+    "status": "text"
   },
   "9068": {
     "name": "Kiwi 🥝",
-    "timestamp": 1719797459
+    "timestamp": 1719797459,
+    "status": "text"
   },
   "9084": {
     "name": "Shitcat",
-    "timestamp": 1770103439
+    "timestamp": 1770103439,
+    "status": "text"
   },
   "9098": {
     "name": "w",
-    "timestamp": 1615587763
+    "timestamp": 1615587763,
+    "status": "text"
   },
   "9116": {
     "name": "Coinbase",
-    "timestamp": 1752482771
+    "timestamp": 1752482771,
+    "status": "text"
+  },
+  "9194": {
+    "name": "[leading null]",
+    "timestamp": 1615569250,
+    "status": "leading-null"
   },
   "9244": {
     "name": "Greta Greenberg",
-    "timestamp": 1616725951
+    "timestamp": 1616725951,
+    "status": "text"
   },
   "9273": {
     "name": "Ice Men",
-    "timestamp": 1616677030
+    "timestamp": 1616677030,
+    "status": "text"
   },
   "9289": {
     "name": "uniswap",
-    "timestamp": 1615587969
+    "timestamp": 1615587969,
+    "status": "text"
   },
   "9294": {
     "name": "MEOW",
-    "timestamp": 1615584106
+    "timestamp": 1615584106,
+    "status": "text"
   },
   "9295": {
     "name": "esther",
-    "timestamp": 1727009099
+    "timestamp": 1727009099,
+    "status": "text"
   },
   "9303": {
     "name": "lasagna mmmmmmmmmm",
-    "timestamp": 1615948505
+    "timestamp": 1615948505,
+    "status": "text"
   },
   "9315": {
     "name": "After Ethereum Life 👾",
-    "timestamp": 1787575427
+    "timestamp": 1787575427,
+    "status": "text"
   },
   "9332": {
     "name": "exp(i*Pi)=-1",
-    "timestamp": 1767646943
+    "timestamp": 1767646943,
+    "status": "text"
   },
   "9338": {
     "name": "TELEBURNED: Inscription 58736595",
-    "timestamp": 1706566883
+    "timestamp": 1706566883,
+    "status": "text"
   },
   "9373": {
     "name": "UpOnlyCat",
-    "timestamp": 1690880879
+    "timestamp": 1690880879,
+    "status": "text"
   },
   "9404": {
     "name": "Gemesis",
-    "timestamp": 1770196871
+    "timestamp": 1770196871,
+    "status": "text"
   },
   "9423": {
     "name": "jiji",
-    "timestamp": 1615577156
+    "timestamp": 1615577156,
+    "status": "text"
   },
   "9425": {
     "name": "CatPig",
-    "timestamp": 1615742380
+    "timestamp": 1615742380,
+    "status": "text"
   },
   "9438": {
     "name": "Shitcat",
-    "timestamp": 1770103187
+    "timestamp": 1770103187,
+    "status": "text"
   },
   "9454": {
     "name": "Cat Stevens",
-    "timestamp": 1615592300
+    "timestamp": 1615592300,
+    "status": "text"
   },
   "9467": {
     "name": "Shitcat",
-    "timestamp": 1770103583
+    "timestamp": 1770103583,
+    "status": "text"
   },
   "9469": {
     "name": "Shitcat",
-    "timestamp": 1770103247
+    "timestamp": 1770103247,
+    "status": "text"
   },
   "9502": {
     "name": "Peter",
-    "timestamp": 1615691405
+    "timestamp": 1615691405,
+    "status": "text"
   },
   "9517": {
     "name": "Supawcat",
-    "timestamp": 1773300239
+    "timestamp": 1773300239,
+    "status": "text"
   },
   "9534": {
     "name": "Charmander",
-    "timestamp": 1615625764
+    "timestamp": 1615625764,
+    "status": "text"
   },
   "9550": {
     "name": "SamsonMeow",
-    "timestamp": 1615569749
+    "timestamp": 1615569749,
+    "status": "text"
   },
   "9562": {
     "name": "MoonPay",
-    "timestamp": 1754214479
+    "timestamp": 1754214479,
+    "status": "text"
   },
   "9572": {
     "name": "Gemesis",
-    "timestamp": 1770198083
+    "timestamp": 1770198083,
+    "status": "text"
   },
   "9587": {
     "name": "Killer",
-    "timestamp": 1754684123
+    "timestamp": 1754684123,
+    "status": "text"
   },
   "9603": {
     "name": "Leica",
-    "timestamp": 1616065464
+    "timestamp": 1616065464,
+    "status": "text"
   },
   "9623": {
     "name": "Liesel",
-    "timestamp": 1779788495
+    "timestamp": 1779788495,
+    "status": "text"
   },
   "9626": {
     "name": "bullish",
-    "timestamp": 1615649957
+    "timestamp": 1615649957,
+    "status": "text"
   },
   "9664": {
     "name": "Blotchy",
-    "timestamp": 1777226699
+    "timestamp": 1777226699,
+    "status": "text"
   },
   "9665": {
     "name": "Garfield",
-    "timestamp": 1615587846
+    "timestamp": 1615587846,
+    "status": "text"
   },
   "9683": {
     "name": "Cheshire Cat",
-    "timestamp": 1615694653
+    "timestamp": 1615694653,
+    "status": "text"
   },
   "9694": {
     "name": "Isabella",
-    "timestamp": 1781844611
+    "timestamp": 1781844611,
+    "status": "text"
   },
   "9719": {
     "name": "Up Only",
-    "timestamp": 1615773714
+    "timestamp": 1615773714,
+    "status": "text"
   },
   "9733": {
     "name": "Elon Musk",
-    "timestamp": 1615571525
+    "timestamp": 1615571525,
+    "status": "text"
   },
   "9754": {
     "name": "Galaxy",
-    "timestamp": 1615691660
+    "timestamp": 1615691660,
+    "status": "text"
   },
   "9794": {
     "name": "Shitcat",
-    "timestamp": 1770104219
+    "timestamp": 1770104219,
+    "status": "text"
   },
   "9822": {
     "name": "Bootsy Pawlins",
-    "timestamp": 1615869511
+    "timestamp": 1615869511,
+    "status": "text"
   },
   "9827": {
     "name": "Jack Dorsey is Satoshi Nakamoto",
-    "timestamp": 1752638411
+    "timestamp": 1752638411,
+    "status": "text"
   },
   "9870": {
     "name": "Zach",
-    "timestamp": 1770613247
+    "timestamp": 1770613247,
+    "status": "text"
+  },
+  "9871": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615587396,
+    "status": "invalid-utf8"
   },
   "9881": {
     "name": "SuperRare",
-    "timestamp": 1765287275
+    "timestamp": 1765287275,
+    "status": "text"
   },
   "9946": {
     "name": "Fusaka",
-    "timestamp": 1764778607
+    "timestamp": 1764778607,
+    "status": "text"
   },
   "9996": {
     "name": "bonna8 on discord",
-    "timestamp": 1753183511
+    "timestamp": 1753183511,
+    "status": "text"
   },
   "10008": {
     "name": "Gemesis",
-    "timestamp": 1770198287
+    "timestamp": 1770198287,
+    "status": "text"
   },
   "10009": {
     "name": "@a16z",
-    "timestamp": 1770893747
+    "timestamp": 1770893747,
+    "status": "text"
   },
   "10034": {
     "name": "Elaine",
-    "timestamp": 1622419755
+    "timestamp": 1622419755,
+    "status": "text"
   },
   "10044": {
     "name": "Cinke",
-    "timestamp": 1784673011
+    "timestamp": 1784673011,
+    "status": "text"
   },
   "10100": {
     "name": "MintHush 🍃",
-    "timestamp": 1770565451
+    "timestamp": 1770565451,
+    "status": "text"
   },
   "10104": {
     "name": "pigglesworth",
-    "timestamp": 1615703009
+    "timestamp": 1615703009,
+    "status": "text"
   },
   "10162": {
     "name": "Earth PonderPal",
-    "timestamp": 1648085279
+    "timestamp": 1648085279,
+    "status": "text"
   },
   "10175": {
     "name": "Zach",
-    "timestamp": 1770667547
+    "timestamp": 1770667547,
+    "status": "text"
   },
   "10194": {
     "name": "Zach",
-    "timestamp": 1770330407
+    "timestamp": 1770330407,
+    "status": "text"
   },
   "10197": {
     "name": "Dirk Nowitzki ",
-    "timestamp": 1616890871
+    "timestamp": 1616890871,
+    "status": "text"
   },
   "10225": {
     "name": "Gemesis",
-    "timestamp": 1770198443
+    "timestamp": 1770198443,
+    "status": "text"
   },
   "10266": {
     "name": "Pink Panther",
-    "timestamp": 1615596517
+    "timestamp": 1615596517,
+    "status": "text"
   },
   "10296": {
     "name": "Shitcat",
-    "timestamp": 1770103643
+    "timestamp": 1770103643,
+    "status": "text"
   },
   "10303": {
     "name": "OpenSea Gemesis Maxicat",
-    "timestamp": 1762631951
+    "timestamp": 1762631951,
+    "status": "text"
   },
   "10320": {
     "name": "Mango",
-    "timestamp": 1733049227
+    "timestamp": 1733049227,
+    "status": "text"
   },
   "10338": {
     "name": "Binance",
-    "timestamp": 1751450855
+    "timestamp": 1751450855,
+    "status": "text"
   },
   "10380": {
     "name": "Elon Musk",
-    "timestamp": 1615693167
+    "timestamp": 1615693167,
+    "status": "text"
   },
   "10451": {
     "name": "Sisu",
-    "timestamp": 1765312715
+    "timestamp": 1765312715,
+    "status": "text"
   },
   "10484": {
     "name": "Lord Beerus",
-    "timestamp": 1638325427
+    "timestamp": 1638325427,
+    "status": "text"
   },
   "10533": {
     "name": "Gemesis",
-    "timestamp": 1770197831
+    "timestamp": 1770197831,
+    "status": "text"
   },
   "10559": {
     "name": "Ozzy Osbourne",
-    "timestamp": 1753209215
+    "timestamp": 1753209215,
+    "status": "text"
   },
   "10590": {
     "name": "MIDAS IX",
-    "timestamp": 1631609780
+    "timestamp": 1631609780,
+    "status": "text"
   },
   "10636": {
     "name": "CEOcat",
-    "timestamp": 1690845659
+    "timestamp": 1690845659,
+    "status": "text"
   },
   "10646": {
     "name": "EL GATO",
-    "timestamp": 1615733690
+    "timestamp": 1615733690,
+    "status": "text"
   },
   "10677": {
     "name": "Pink Ranger",
-    "timestamp": 1754493899
+    "timestamp": 1754493899,
+    "status": "text"
   },
   "10743": {
     "name": "Billie Eilish",
-    "timestamp": 1769089703
+    "timestamp": 1769089703,
+    "status": "text"
   },
   "10771": {
     "name": "bonna8 on discord",
-    "timestamp": 1752447419
+    "timestamp": 1752447419,
+    "status": "text"
   },
   "10779": {
     "name": "Kira",
-    "timestamp": 1754329787
+    "timestamp": 1754329787,
+    "status": "text"
   },
   "10785": {
     "name": "BlueSky",
-    "timestamp": 1629858326
+    "timestamp": 1629858326,
+    "status": "text"
   },
   "10788": {
     "name": "Kraken",
-    "timestamp": 1753080851
+    "timestamp": 1753080851,
+    "status": "text"
   },
   "10847": {
     "name": "Caturday",
-    "timestamp": 1615594328
+    "timestamp": 1615594328,
+    "status": "text"
   },
   "10853": {
     "name": "Zach",
-    "timestamp": 1769094071
+    "timestamp": 1769094071,
+    "status": "text"
   },
   "10873": {
     "name": "Jalil",
-    "timestamp": 1779796379
+    "timestamp": 1779796379,
+    "status": "text"
   },
   "10916": {
     "name": "RICHCUTECUDLDEALSEAL WITH VIDPET",
-    "timestamp": 1762006379
+    "timestamp": 1762006379,
+    "status": "text"
   },
   "10968": {
     "name": "Appa",
-    "timestamp": 1770754427
+    "timestamp": 1770754427,
+    "status": "text"
   },
   "11030": {
     "name": "Catwoman",
-    "timestamp": 1615592300
+    "timestamp": 1615592300,
+    "status": "text"
   },
   "11041": {
     "name": "OpenSea",
-    "timestamp": 1751447951
+    "timestamp": 1751447951,
+    "status": "text"
   },
   "11046": {
     "name": "Qwellcode",
-    "timestamp": 1615592169
+    "timestamp": 1615592169,
+    "status": "text"
   },
   "11108": {
     "name": "Pinky\n",
-    "timestamp": 1615578414
+    "timestamp": 1615578414,
+    "status": "text"
   },
   "11116": {
     "name": "Fenrir",
-    "timestamp": 1687504979
+    "timestamp": 1687504979,
+    "status": "text"
   },
   "11124": {
     "name": "$9,000,000 cat",
-    "timestamp": 1753255571
+    "timestamp": 1753255571,
+    "status": "text"
   },
   "11173": {
     "name": "Zach",
-    "timestamp": 1772337587
+    "timestamp": 1772337587,
+    "status": "text"
   },
   "11193": {
     "name": "Elon Musk",
-    "timestamp": 1615598084
+    "timestamp": 1615598084,
+    "status": "text"
   },
   "11200": {
     "name": "Fleischwanze",
-    "timestamp": 1747288091
+    "timestamp": 1747288091,
+    "status": "text"
   },
   "11209": {
     "name": "Violet",
-    "timestamp": 1769093279
+    "timestamp": 1769093279,
+    "status": "text"
   },
   "11210": {
     "name": "Lavapaws",
-    "timestamp": 1679523095
+    "timestamp": 1679523095,
+    "status": "text"
   },
   "11219": {
     "name": "Wake & Bake",
-    "timestamp": 1778647751
+    "timestamp": 1778647751,
+    "status": "text"
   },
   "11236": {
     "name": "Amethyst",
-    "timestamp": 1769122787
+    "timestamp": 1769122787,
+    "status": "text"
   },
   "11266": {
     "name": "Kiddo",
-    "timestamp": 1755097175
+    "timestamp": 1755097175,
+    "status": "text"
   },
   "11272": {
     "name": "Toxin",
-    "timestamp": 1615594387
+    "timestamp": 1615594387,
+    "status": "text"
   },
   "11290": {
     "name": "Name",
-    "timestamp": 1753081703
+    "timestamp": 1753081703,
+    "status": "text"
   },
   "11305": {
     "name": "The Goblin",
-    "timestamp": 1616675886
+    "timestamp": 1616675886,
+    "status": "text"
   },
   "11359": {
     "name": "Gemesis",
-    "timestamp": 1770197939
+    "timestamp": 1770197939,
+    "status": "text"
   },
   "11384": {
     "name": "Gemesis",
-    "timestamp": 1770197747
+    "timestamp": 1770197747,
+    "status": "text"
   },
   "11390": {
     "name": "Donald Trump",
-    "timestamp": 1615571567
+    "timestamp": 1615571567,
+    "status": "text"
   },
   "11406": {
     "name": "MoonCat",
-    "timestamp": 1615574328
+    "timestamp": 1615574328,
+    "status": "text"
   },
   "11456": {
     "name": "Gerbil",
-    "timestamp": 1615592308
+    "timestamp": 1615592308,
+    "status": "text"
   },
   "11481": {
     "name": "Nala",
-    "timestamp": 1615596524
+    "timestamp": 1615596524,
+    "status": "text"
   },
   "11504": {
     "name": "Ledger",
-    "timestamp": 1753081007
+    "timestamp": 1753081007,
+    "status": "text"
   },
   "11522": {
     "name": "Squishy",
-    "timestamp": 1615694624
+    "timestamp": 1615694624,
+    "status": "text"
   },
   "11564": {
     "name": "Glowy",
-    "timestamp": 1679517971
+    "timestamp": 1679517971,
+    "status": "text"
   },
   "11612": {
     "name": "Gemesis",
-    "timestamp": 1770197687
+    "timestamp": 1770197687,
+    "status": "text"
   },
   "11621": {
     "name": "Zach",
-    "timestamp": 1770079319
+    "timestamp": 1770079319,
+    "status": "text"
   },
   "11623": {
     "name": "McGonagall",
-    "timestamp": 1773930515
+    "timestamp": 1773930515,
+    "status": "text"
   },
   "11664": {
     "name": "Keccak",
-    "timestamp": 1752524903
+    "timestamp": 1752524903,
+    "status": "text"
   },
   "11677": {
     "name": "Hobbes",
-    "timestamp": 1615582534
+    "timestamp": 1615582534,
+    "status": "text"
   },
   "11709": {
     "name": "Gemesis",
-    "timestamp": 1770197579
+    "timestamp": 1770197579,
+    "status": "text"
   },
   "11738": {
     "name": "Bingus",
-    "timestamp": 1679516831
+    "timestamp": 1679516831,
+    "status": "text"
   },
   "11758": {
     "name": "Snoozy",
-    "timestamp": 1615584002
+    "timestamp": 1615584002,
+    "status": "text"
   },
   "11760": {
     "name": "Zach",
-    "timestamp": 1770078935
+    "timestamp": 1770078935,
+    "status": "text"
   },
   "11768": {
     "name": "Poster Nutbag",
-    "timestamp": 1615603523
+    "timestamp": 1615603523,
+    "status": "text"
   },
   "11794": {
     "name": "Zach",
-    "timestamp": 1778389355
+    "timestamp": 1778389355,
+    "status": "text"
   },
   "11874": {
     "name": "bonna8",
-    "timestamp": 1767312011
+    "timestamp": 1767312011,
+    "status": "text"
   },
   "11882": {
     "name": "Today",
-    "timestamp": 1785500531
+    "timestamp": 1785500531,
+    "status": "text"
   },
   "11890": {
     "name": "1 MoonCat = 1 MoonCat",
-    "timestamp": 1754464463
+    "timestamp": 1754464463,
+    "status": "text"
   },
   "11894": {
     "name": "Mike Dyson",
-    "timestamp": 1789199819
+    "timestamp": 1789199819,
+    "status": "text"
   },
   "11898": {
     "name": "Dreamlife",
-    "timestamp": 1618692762
+    "timestamp": 1618692762,
+    "status": "text"
   },
   "11927": {
     "name": "Ganjalf the Green on a mission",
-    "timestamp": 1785328355
+    "timestamp": 1785328355,
+    "status": "text"
   },
   "11935": {
     "name": "Valentines",
-    "timestamp": 1770873923
+    "timestamp": 1770873923,
+    "status": "text"
   },
   "11939": {
     "name": "RAMSES II",
-    "timestamp": 1751467487
+    "timestamp": 1751467487,
+    "status": "text"
   },
   "11949": {
     "name": "Blueberry",
-    "timestamp": 1615749229
+    "timestamp": 1615749229,
+    "status": "text"
   },
   "11950": {
     "name": "Mr. Meowgi",
-    "timestamp": 1617922047
+    "timestamp": 1617922047,
+    "status": "text"
   },
   "11966": {
     "name": "Cabal",
-    "timestamp": 1788887831
+    "timestamp": 1788887831,
+    "status": "text"
   },
   "11976": {
     "name": "$4,000,000 cat",
-    "timestamp": 1753251971
+    "timestamp": 1753251971,
+    "status": "text"
   },
   "11980": {
     "name": "Trevor Gonna Give You Up",
-    "timestamp": 1628307537
+    "timestamp": 1628307537,
+    "status": "text"
   },
   "11987": {
     "name": "Grezzz\n",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "11992": {
     "name": "Einstein",
-    "timestamp": 1615591322
+    "timestamp": 1615591322,
+    "status": "text"
   },
   "12048": {
     "name": "ElonMuskat",
-    "timestamp": 1615585180
+    "timestamp": 1615585180,
+    "status": "text"
   },
   "12065": {
     "name": "Relish",
-    "timestamp": 1786852619
+    "timestamp": 1786852619,
+    "status": "text"
   },
   "12080": {
     "name": "Minou El Gato De LaCrypt",
-    "timestamp": 1770972539
+    "timestamp": 1770972539,
+    "status": "text"
   },
   "12108": {
     "name": "SIMBA",
-    "timestamp": 1615693922
+    "timestamp": 1615693922,
+    "status": "text"
   },
   "12238": {
     "name": "Lilly",
-    "timestamp": 1679529875
+    "timestamp": 1679529875,
+    "status": "text"
   },
   "12242": {
     "name": "Whiskerson",
-    "timestamp": 1615588706
+    "timestamp": 1615588706,
+    "status": "text"
   },
   "12295": {
     "name": "RainbowCat-Deere Up-Ape 🌈🚜",
-    "timestamp": 1787574959
+    "timestamp": 1787574959,
+    "status": "text"
   },
   "12324": {
     "name": "Chippy McChipperson",
-    "timestamp": 1615691766
+    "timestamp": 1615691766,
+    "status": "text"
   },
   "12341": {
     "name": "Galaxy Gato",
-    "timestamp": 1615731621
+    "timestamp": 1615731621,
+    "status": "text"
   },
   "12433": {
     "name": "Auto -3rd ETH gen art- glyphs",
-    "timestamp": 1770040283
+    "timestamp": 1770040283,
+    "status": "text"
   },
   "12444": {
     "name": "Defi",
-    "timestamp": 1753081139
+    "timestamp": 1753081139,
+    "status": "text"
   },
   "12455": {
     "name": "Whisky",
-    "timestamp": 1615594074
+    "timestamp": 1615594074,
+    "status": "text"
   },
   "12474": {
     "name": "Ghoul Friend",
-    "timestamp": 1768195031
+    "timestamp": 1768195031,
+    "status": "text"
   },
   "12481": {
     "name": "Tigs",
-    "timestamp": 1698419795
+    "timestamp": 1698419795,
+    "status": "text"
+  },
+  "12541": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1770671351,
+    "status": "invalid-utf8"
   },
   "12566": {
     "name": "peanut",
-    "timestamp": 1770761891
+    "timestamp": 1770761891,
+    "status": "text"
   },
   "12582": {
     "name": "Pig Cat",
-    "timestamp": 1615605912
+    "timestamp": 1615605912,
+    "status": "text"
   },
   "12593": {
     "name": "Nyan",
-    "timestamp": 1615583880
+    "timestamp": 1615583880,
+    "status": "text"
   },
   "12595": {
     "name": "Zach",
-    "timestamp": 1769454539
+    "timestamp": 1769454539,
+    "status": "text"
   },
   "12618": {
     "name": "buy",
-    "timestamp": 1617676981
+    "timestamp": 1617676981,
+    "status": "text"
   },
   "12634": {
     "name": "happy",
-    "timestamp": 1616305888
+    "timestamp": 1616305888,
+    "status": "text"
   },
   "12666": {
     "name": "Zoom",
-    "timestamp": 1770754655
+    "timestamp": 1770754655,
+    "status": "text"
   },
   "12689": {
     "name": "Nature",
-    "timestamp": 1615591972
+    "timestamp": 1615591972,
+    "status": "text"
   },
   "12699": {
     "name": "Zach",
-    "timestamp": 1770271919
+    "timestamp": 1770271919,
+    "status": "text"
   },
   "12709": {
     "name": "Smith",
-    "timestamp": 1615592930
+    "timestamp": 1615592930,
+    "status": "text"
   },
   "12829": {
     "name": "NFT",
-    "timestamp": 1753081979
+    "timestamp": 1753081979,
+    "status": "text"
   },
   "12830": {
     "name": "Raya Jade",
-    "timestamp": 1767926255
+    "timestamp": 1767926255,
+    "status": "text"
   },
   "12831": {
     "name": "Satoshi Nakamoto",
-    "timestamp": 1615572370
+    "timestamp": 1615572370,
+    "status": "text"
   },
   "12836": {
     "name": "ZooBear",
-    "timestamp": 1616870760
+    "timestamp": 1616870760,
+    "status": "text"
   },
   "12928": {
     "name": "Pink Dick",
-    "timestamp": 1615722025
+    "timestamp": 1615722025,
+    "status": "text"
   },
   "12936": {
     "name": "Zach",
-    "timestamp": 1778319599
+    "timestamp": 1778319599,
+    "status": "text"
   },
   "12941": {
     "name": "ピカチュウ",
-    "timestamp": 1751460359
+    "timestamp": 1751460359,
+    "status": "text"
   },
   "13069": {
     "name": "Tyler Winklevoss\n",
-    "timestamp": 1615698459
+    "timestamp": 1615698459,
+    "status": "text"
   },
   "13086": {
     "name": "Zach",
-    "timestamp": 1770343679
+    "timestamp": 1770343679,
+    "status": "text"
   },
   "13296": {
     "name": "Pooperium=RarePepe deriv 💩",
-    "timestamp": 1769980619
+    "timestamp": 1769980619,
+    "status": "text"
   },
   "13360": {
     "name": "Dima Buterin",
-    "timestamp": 1751457599
+    "timestamp": 1751457599,
+    "status": "text"
   },
   "13372": {
     "name": "Βonna8 on discord",
-    "timestamp": 1762895219
+    "timestamp": 1762895219,
+    "status": "text"
   },
   "13374": {
     "name": "pussy",
-    "timestamp": 1615594491
+    "timestamp": 1615594491,
+    "status": "text"
   },
   "13393": {
     "name": "Reneil",
-    "timestamp": 1615593809
+    "timestamp": 1615593809,
+    "status": "text"
   },
   "13427": {
     "name": "Bank",
-    "timestamp": 1753081703
+    "timestamp": 1753081703,
+    "status": "text"
   },
   "13453": {
     "name": "I AM LEGEND",
-    "timestamp": 1615583880
+    "timestamp": 1615583880,
+    "status": "text"
   },
   "13462": {
     "name": "Hal Finney",
-    "timestamp": 1616249785
+    "timestamp": 1616249785,
+    "status": "text"
   },
   "13483": {
     "name": "Purrfect",
-    "timestamp": 1615712970
+    "timestamp": 1615712970,
+    "status": "text"
   },
   "13524": {
     "name": "Arcticat",
-    "timestamp": 1769396495
+    "timestamp": 1769396495,
+    "status": "text"
   },
   "13533": {
     "name": "Garfield",
-    "timestamp": 1615571795
+    "timestamp": 1615571795,
+    "status": "text"
   },
   "13537": {
     "name": "Purple Prowler",
-    "timestamp": 1772251439
+    "timestamp": 1772251439,
+    "status": "text"
   },
   "13542": {
     "name": "l",
-    "timestamp": 1615573263
+    "timestamp": 1615573263,
+    "status": "text"
   },
   "13546": {
     "name": "Cat",
-    "timestamp": 1615574644
+    "timestamp": 1615574644,
+    "status": "text"
   },
   "13547": {
     "name": "Unique",
-    "timestamp": 1615575094
+    "timestamp": 1615575094,
+    "status": "text"
   },
   "13561": {
     "name": "elon",
-    "timestamp": 1615582761
+    "timestamp": 1615582761,
+    "status": "text"
   },
   "13591": {
     "name": "STREETCAT",
-    "timestamp": 1781043971
+    "timestamp": 1781043971,
+    "status": "text"
   },
   "13630": {
     "name": "$SEA Scams AGAIN",
-    "timestamp": 1771038071
+    "timestamp": 1771038071,
+    "status": "text"
   },
   "13642": {
     "name": "bоnnа8 оn discоrd",
-    "timestamp": 1762938287
+    "timestamp": 1762938287,
+    "status": "text"
   },
   "13718": {
     "name": "@Bonna8",
-    "timestamp": 1753269539
+    "timestamp": 1753269539,
+    "status": "text"
   },
   "13773": {
     "name": "Pussycat",
-    "timestamp": 1615700078
+    "timestamp": 1615700078,
+    "status": "text"
   },
   "13780": {
     "name": "Indica",
-    "timestamp": 1615693041
+    "timestamp": 1615693041,
+    "status": "text"
   },
   "13785": {
     "name": "Garfield\n",
-    "timestamp": 1615578706
+    "timestamp": 1615578706,
+    "status": "text"
   },
   "13789": {
     "name": "X Æ A-12",
-    "timestamp": 1615627420
+    "timestamp": 1615627420,
+    "status": "text"
   },
   "13828": {
     "name": "Heart PonderPal",
-    "timestamp": 1648085420
+    "timestamp": 1648085420,
+    "status": "text"
   },
   "13844": {
     "name": "Jun",
-    "timestamp": 1751409383
+    "timestamp": 1751409383,
+    "status": "text"
   },
   "13904": {
     "name": "sell",
-    "timestamp": 1617677045
+    "timestamp": 1617677045,
+    "status": "text"
   },
   "13909": {
     "name": "PIGGY",
-    "timestamp": 1615724841
+    "timestamp": 1615724841,
+    "status": "text"
   },
   "13957": {
     "name": "7777777777777777777777777777777",
-    "timestamp": 1615699853
+    "timestamp": 1615699853,
+    "status": "text"
   },
   "13986": {
     "name": "Wilbur",
-    "timestamp": 1615671889
+    "timestamp": 1615671889,
+    "status": "text"
   },
   "14007": {
     "name": "Bamboozled Bamboo",
-    "timestamp": 1789461107
+    "timestamp": 1789461107,
+    "status": "text"
   },
   "14041": {
     "name": "Arora",
-    "timestamp": 1754758067
+    "timestamp": 1754758067,
+    "status": "text"
   },
   "14044": {
     "name": "Peter Schiff",
-    "timestamp": 1625903603
+    "timestamp": 1625903603,
+    "status": "text"
   },
   "14050": {
     "name": "FILECAT",
-    "timestamp": 1615852217
+    "timestamp": 1615852217,
+    "status": "text"
   },
   "14073": {
     "name": "CryptoCobain",
-    "timestamp": 1615694965
+    "timestamp": 1615694965,
+    "status": "text"
   },
   "14094": {
     "name": "Water PonderPal",
-    "timestamp": 1648085806
+    "timestamp": 1648085806,
+    "status": "text"
   },
   "14103": {
     "name": "Clementine",
-    "timestamp": 1733050943
+    "timestamp": 1733050943,
+    "status": "text"
   },
   "14121": {
     "name": "HashToken",
-    "timestamp": 1752525023
+    "timestamp": 1752525023,
+    "status": "text"
   },
   "14166": {
     "name": "HellCat",
-    "timestamp": 1615700992
+    "timestamp": 1615700992,
+    "status": "text"
   },
   "14195": {
     "name": "Scarfield",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "14204": {
     "name": "bonna8 on dіscord",
-    "timestamp": 1757232239
+    "timestamp": 1757232239,
+    "status": "text"
   },
   "14216": {
     "name": "cat",
-    "timestamp": 1615571862
+    "timestamp": 1615571862,
+    "status": "text"
   },
   "14223": {
     "name": "AyeAyeCat",
-    "timestamp": 1718062739
+    "timestamp": 1718062739,
+    "status": "text"
   },
   "14248": {
     "name": "Bitcoin",
-    "timestamp": 1615582613
+    "timestamp": 1615582613,
+    "status": "text"
   },
   "14262": {
     "name": "Melita",
-    "timestamp": 1718792423
+    "timestamp": 1718792423,
+    "status": "text"
   },
   "14266": {
     "name": "Wind PonderPal",
-    "timestamp": 1648086216
+    "timestamp": 1648086216,
+    "status": "text"
   },
   "14267": {
     "name": "Twitch",
-    "timestamp": 1753081847
+    "timestamp": 1753081847,
+    "status": "text"
   },
   "14277": {
     "name": "Shitcat",
-    "timestamp": 1770104771
+    "timestamp": 1770104771,
+    "status": "text"
   },
   "14281": {
     "name": "Trifixion",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "14301": {
     "name": "another cat named bοnna8",
-    "timestamp": 1763587583
+    "timestamp": 1763587583,
+    "status": "text"
   },
   "14306": {
     "name": "Gemesis",
-    "timestamp": 1770197459
+    "timestamp": 1770197459,
+    "status": "text"
   },
   "14327": {
     "name": "Bulbasaur",
-    "timestamp": 1690879643
+    "timestamp": 1690879643,
+    "status": "text"
   },
   "14360": {
     "name": "Cats flip punks apes pengus easy",
-    "timestamp": 1789041107
+    "timestamp": 1789041107,
+    "status": "text"
   },
   "14373": {
     "name": "Name N' Weth",
-    "timestamp": 1753123559
+    "timestamp": 1753123559,
+    "status": "text"
   },
   "14379": {
     "name": "Matrix",
-    "timestamp": 1753082099
+    "timestamp": 1753082099,
+    "status": "text"
   },
   "14381": {
     "name": "Simba",
-    "timestamp": 1615691660
+    "timestamp": 1615691660,
+    "status": "text"
   },
   "14449": {
     "name": "Shitcat",
-    "timestamp": 1770104435
+    "timestamp": 1770104435,
+    "status": "text"
   },
   "14511": {
     "name": "Moonboi",
-    "timestamp": 1615593356
+    "timestamp": 1615593356,
+    "status": "text"
   },
   "14512": {
     "name": "Gemesis",
-    "timestamp": 1770197327
+    "timestamp": 1770197327,
+    "status": "text"
   },
   "14538": {
     "name": "Freddie Mercury",
-    "timestamp": 1615696890
+    "timestamp": 1615696890,
+    "status": "text"
   },
   "14540": {
     "name": "BoomerCat",
-    "timestamp": 1615726896
+    "timestamp": 1615726896,
+    "status": "text"
   },
   "14568": {
     "name": "The big ETH rotation",
-    "timestamp": 1754294723
+    "timestamp": 1754294723,
+    "status": "text"
   },
   "14587": {
     "name": "TESLA",
-    "timestamp": 1615693216
+    "timestamp": 1615693216,
+    "status": "text"
   },
   "14589": {
     "name": "Elon",
-    "timestamp": 1615693226
+    "timestamp": 1615693226,
+    "status": "text"
   },
   "14595": {
     "name": "STARBURST-THE SUPERNOVA MOONCAT",
-    "timestamp": 1624330496
+    "timestamp": 1624330496,
+    "status": "text"
   },
   "14689": {
     "name": "Blobby",
-    "timestamp": 1710338519
+    "timestamp": 1710338519,
+    "status": "text"
   },
   "14726": {
     "name": "Tails",
-    "timestamp": 1751547311
+    "timestamp": 1751547311,
+    "status": "text"
   },
   "14774": {
     "name": "Big Poppa",
-    "timestamp": 1679519363
+    "timestamp": 1679519363,
+    "status": "text"
   },
   "14790": {
     "name": "Shitcat",
-    "timestamp": 1770103715
+    "timestamp": 1770103715,
+    "status": "text"
   },
   "14851": {
     "name": "Crypto",
-    "timestamp": 1753080335
+    "timestamp": 1753080335,
+    "status": "text"
   },
   "14891": {
     "name": "Satoshi Nakamoto",
-    "timestamp": 1615580867
+    "timestamp": 1615580867,
+    "status": "text"
   },
   "14893": {
     "name": "mooncat",
-    "timestamp": 1615573355
+    "timestamp": 1615573355,
+    "status": "text"
   },
   "14947": {
     "name": "John",
-    "timestamp": 1615587130
+    "timestamp": 1615587130,
+    "status": "text"
   },
   "14991": {
     "name": "Shitcat",
-    "timestamp": 1770103271
+    "timestamp": 1770103271,
+    "status": "text"
   },
   "15010": {
     "name": "Gemesis",
-    "timestamp": 1770196463
+    "timestamp": 1770196463,
+    "status": "text"
   },
   "15014": {
     "name": "OSCAR",
-    "timestamp": 1615909850
+    "timestamp": 1615909850,
+    "status": "text"
   },
   "15023": {
     "name": "Ludwig",
-    "timestamp": 1692423731
+    "timestamp": 1692423731,
+    "status": "text"
   },
   "15071": {
     "name": "Peppa Pig",
-    "timestamp": 1615696874
+    "timestamp": 1615696874,
+    "status": "text"
   },
   "15075": {
     "name": "Mr. Neon",
-    "timestamp": 1754328575
+    "timestamp": 1754328575,
+    "status": "text"
   },
   "15129": {
     "name": "Mike Wazowski",
-    "timestamp": 1619405737
+    "timestamp": 1619405737,
+    "status": "text"
   },
   "15134": {
     "name": "Βonna8 on discord",
-    "timestamp": 1762350011
+    "timestamp": 1762350011,
+    "status": "text"
   },
   "15158": {
     "name": "Rattata",
-    "timestamp": 1615593356
+    "timestamp": 1615593356,
+    "status": "text"
   },
   "15175": {
     "name": "keepie",
-    "timestamp": 1753117763
+    "timestamp": 1753117763,
+    "status": "text"
   },
   "15186": {
     "name": "Aqua",
-    "timestamp": 1686123503
+    "timestamp": 1686123503,
+    "status": "text"
   },
   "15212": {
     "name": "Sapphire",
-    "timestamp": 1615591414
+    "timestamp": 1615591414,
+    "status": "text"
   },
   "15221": {
     "name": "Nedjem",
-    "timestamp": 1672790975
+    "timestamp": 1672790975,
+    "status": "text"
   },
   "15223": {
     "name": "Maize",
-    "timestamp": 1751468411
+    "timestamp": 1751468411,
+    "status": "text"
   },
   "15255": {
     "name": "bonna8",
-    "timestamp": 1767218663
+    "timestamp": 1767218663,
+    "status": "text"
   },
   "15279": {
     "name": "Heraldia",
-    "timestamp": 1778509307
+    "timestamp": 1778509307,
+    "status": "text"
   },
   "15315": {
     "name": "Banana Pepper",
-    "timestamp": 1769305043
+    "timestamp": 1769305043,
+    "status": "text"
   },
   "15322": {
     "name": "Flamingo🦩",
-    "timestamp": 1779106127
+    "timestamp": 1779106127,
+    "status": "text"
   },
   "15370": {
     "name": "Cat",
-    "timestamp": 1615749080
+    "timestamp": 1615749080,
+    "status": "text"
   },
   "15381": {
     "name": "Money",
-    "timestamp": 1753081775
+    "timestamp": 1753081775,
+    "status": "text"
   },
   "15427": {
     "name": "PURPLE MOONCAT",
-    "timestamp": 1615575832
+    "timestamp": 1615575832,
+    "status": "text"
   },
   "15451": {
     "name": "Cobain",
-    "timestamp": 1615707061
+    "timestamp": 1615707061,
+    "status": "text"
   },
   "15460": {
     "name": "Cosmo",
-    "timestamp": 1795069631
+    "timestamp": 1795069631,
+    "status": "text"
   },
   "15470": {
     "name": "mmmmmLasagna",
-    "timestamp": 1615935303
+    "timestamp": 1615935303,
+    "status": "text"
   },
   "15471": {
     "name": "Comet",
-    "timestamp": 1616207753
+    "timestamp": 1616207753,
+    "status": "text"
   },
   "15514": {
     "name": "Lenny del Mar",
-    "timestamp": 1755537179
+    "timestamp": 1755537179,
+    "status": "text"
   },
   "15590": {
     "name": "The Bee Gees",
-    "timestamp": 1615695844
+    "timestamp": 1615695844,
+    "status": "text"
   },
   "15609": {
     "name": "It ain't an L unless U sell",
-    "timestamp": 1772268887
+    "timestamp": 1772268887,
+    "status": "text"
   },
   "15611": {
     "name": "Mufasa",
-    "timestamp": 1615596524
+    "timestamp": 1615596524,
+    "status": "text"
   },
   "15624": {
     "name": "ELON MUSK",
-    "timestamp": 1615611839
+    "timestamp": 1615611839,
+    "status": "text"
   },
   "15642": {
     "name": "Celery",
-    "timestamp": 1616444007
+    "timestamp": 1616444007,
+    "status": "text"
   },
   "15713": {
     "name": "tesla",
-    "timestamp": 1615587549
+    "timestamp": 1615587549,
+    "status": "text"
   },
   "15749": {
     "name": "MoonCat NFTStrategy Machine",
-    "timestamp": 1758867887
+    "timestamp": 1758867887,
+    "status": "text"
   },
   "15754": {
     "name": "Pikachu",
-    "timestamp": 1731227819
+    "timestamp": 1731227819,
+    "status": "text"
   },
   "15778": {
     "name": "MOCA",
-    "timestamp": 1719303503
+    "timestamp": 1719303503,
+    "status": "text"
   },
   "15801": {
     "name": "Simba",
-    "timestamp": 1615582573
+    "timestamp": 1615582573,
+    "status": "text"
   },
   "15833": {
     "name": "Dwight Shrute",
-    "timestamp": 1751821103
+    "timestamp": 1751821103,
+    "status": "text"
   },
   "15834": {
     "name": "Zach",
-    "timestamp": 1778476235
+    "timestamp": 1778476235,
+    "status": "text"
   },
   "15844": {
     "name": "Shashlyck",
-    "timestamp": 1773311651
+    "timestamp": 1773311651,
+    "status": "text"
   },
   "15850": {
     "name": "MrBeast",
-    "timestamp": 1615688476
+    "timestamp": 1615688476,
+    "status": "text"
   },
   "15888": {
     "name": "Moustache",
-    "timestamp": 1615710365
+    "timestamp": 1615710365,
+    "status": "text"
   },
   "15941": {
     "name": "Teeny Weeny Cassini",
-    "timestamp": 1754677499
+    "timestamp": 1754677499,
+    "status": "text"
   },
   "15997": {
     "name": "Hal FinneY",
-    "timestamp": 1615573039
+    "timestamp": 1615573039,
+    "status": "text"
   },
   "16060": {
     "name": "luna",
-    "timestamp": 1615577356
+    "timestamp": 1615577356,
+    "status": "text"
   },
   "16099": {
     "name": "Pablo\n",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "16106": {
     "name": "satoshi",
-    "timestamp": 1615582726
+    "timestamp": 1615582726,
+    "status": "text"
   },
   "16138": {
     "name": "MOONPIG",
-    "timestamp": 1615693283
+    "timestamp": 1615693283,
+    "status": "text"
   },
   "16172": {
     "name": "PawnHub",
-    "timestamp": 1771184879
+    "timestamp": 1771184879,
+    "status": "text"
   },
   "16180": {
     "name": "Pic Cat",
-    "timestamp": 1615594122
+    "timestamp": 1615594122,
+    "status": "text"
   },
   "16220": {
     "name": "Snowball",
-    "timestamp": 1615593029
+    "timestamp": 1615593029,
+    "status": "text"
   },
   "16222": {
     "name": "$5,000,000 cat",
-    "timestamp": 1753255091
+    "timestamp": 1753255091,
+    "status": "text"
   },
   "16241": {
     "name": "Pornhub.com",
-    "timestamp": 1615910938
+    "timestamp": 1615910938,
+    "status": "text"
   },
   "16256": {
     "name": "CatGPT",
-    "timestamp": 1755202787
+    "timestamp": 1755202787,
+    "status": "text"
   },
   "16351": {
     "name": "Winner",
-    "timestamp": 1615707856
+    "timestamp": 1615707856,
+    "status": "text"
   },
   "16358": {
     "name": "Vitalik",
-    "timestamp": 1615717397
+    "timestamp": 1615717397,
+    "status": "text"
   },
   "16368": {
     "name": "Nurmagomedov",
-    "timestamp": 1770838955
+    "timestamp": 1770838955,
+    "status": "text"
   },
   "16374": {
     "name": "Relics DAO",
-    "timestamp": 1689154451
+    "timestamp": 1689154451,
+    "status": "text"
   },
   "16390": {
     "name": "Ser Sergeant Stray",
-    "timestamp": 1735689575
+    "timestamp": 1735689575,
+    "status": "text"
   },
   "16437": {
     "name": "Cool Cat",
-    "timestamp": 1615591322
+    "timestamp": 1615591322,
+    "status": "text"
   },
   "16464": {
     "name": "Periwinkle",
-    "timestamp": 1615593721
+    "timestamp": 1615593721,
+    "status": "text"
   },
   "16480": {
     "name": "Pixie",
-    "timestamp": 1615759721
+    "timestamp": 1615759721,
+    "status": "text"
   },
   "16501": {
     "name": "Berri",
-    "timestamp": 1788117047
+    "timestamp": 1788117047,
+    "status": "text"
+  },
+  "16511": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1616876249,
+    "status": "invalid-utf8"
   },
   "16536": {
     "name": "b_d_c_fan_1",
-    "timestamp": 1679454971
+    "timestamp": 1679454971,
+    "status": "text"
   },
   "16541": {
     "name": "Saint Meme Cirque",
-    "timestamp": 1767749759
+    "timestamp": 1767749759,
+    "status": "text"
   },
   "16553": {
     "name": "Gemesis",
-    "timestamp": 1770196367
+    "timestamp": 1770196367,
+    "status": "text"
   },
   "16555": {
     "name": "Ultraviolet",
-    "timestamp": 1768721075
+    "timestamp": 1768721075,
+    "status": "text"
   },
   "16587": {
     "name": "TechnoViking",
-    "timestamp": 1778065883
+    "timestamp": 1778065883,
+    "status": "text"
   },
   "16594": {
     "name": "Retch MF",
-    "timestamp": 1751947091
+    "timestamp": 1751947091,
+    "status": "text"
   },
   "16617": {
     "name": "Mewcleon",
-    "timestamp": 1679533487
+    "timestamp": 1679533487,
+    "status": "text"
   },
   "16624": {
     "name": "fireball",
-    "timestamp": 1615593088
+    "timestamp": 1615593088,
+    "status": "text"
   },
   "16661": {
     "name": "bitcoin",
-    "timestamp": 1615604389
+    "timestamp": 1615604389,
+    "status": "text"
   },
   "16671": {
     "name": "Zach",
-    "timestamp": 1779636467
+    "timestamp": 1779636467,
+    "status": "text"
   },
   "16688": {
     "name": "Islam Makhachev",
-    "timestamp": 1770839183
+    "timestamp": 1770839183,
+    "status": "text"
   },
   "16690": {
     "name": "M.A.D. Cat",
-    "timestamp": 1615695709
+    "timestamp": 1615695709,
+    "status": "text"
   },
   "16702": {
     "name": "Lightning PonderPal",
-    "timestamp": 1751343947
+    "timestamp": 1751343947,
+    "status": "text"
   },
   "16721": {
     "name": "Beeple",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "16733": {
     "name": "bοnna8 on discord",
-    "timestamp": 1763760863
+    "timestamp": 1763760863,
+    "status": "text"
   },
   "16746": {
     "name": "Moonlight",
-    "timestamp": 1615710587
+    "timestamp": 1615710587,
+    "status": "text"
   },
   "16756": {
     "name": "Shitcat",
-    "timestamp": 1770057059
+    "timestamp": 1770057059,
+    "status": "text"
   },
   "16765": {
     "name": "Vitalik",
-    "timestamp": 1615724053
+    "timestamp": 1615724053,
+    "status": "text"
   },
   "16820": {
     "name": "Nebula",
-    "timestamp": 1778793155
+    "timestamp": 1778793155,
+    "status": "text"
   },
   "16842": {
     "name": "Ether",
-    "timestamp": 1615593847
+    "timestamp": 1615593847,
+    "status": "text"
+  },
+  "16897": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1616876325,
+    "status": "invalid-utf8"
   },
   "16910": {
     "name": "Schlong",
-    "timestamp": 1773311363
+    "timestamp": 1773311363,
+    "status": "text"
   },
   "16952": {
     "name": "PAWS of the DEAD",
-    "timestamp": 1754506787
+    "timestamp": 1754506787,
+    "status": "text"
   },
   "17014": {
     "name": "pussy",
-    "timestamp": 1615572939
+    "timestamp": 1615572939,
+    "status": "text"
   },
   "17035": {
     "name": "Herman",
-    "timestamp": 1753931879
+    "timestamp": 1753931879,
+    "status": "text"
   },
   "17044": {
     "name": "Svengali",
-    "timestamp": 1615769583
+    "timestamp": 1615769583,
+    "status": "text"
   },
   "17147": {
     "name": "Gemesis",
-    "timestamp": 1770196271
+    "timestamp": 1770196271,
+    "status": "text"
   },
   "17155": {
     "name": "Peppa",
-    "timestamp": 1751490611
+    "timestamp": 1751490611,
+    "status": "text"
   },
   "17175": {
     "name": "‎",
-    "timestamp": 1751467115
+    "timestamp": 1751467115,
+    "status": "text"
   },
   "17212": {
     "name": "Get farmed",
-    "timestamp": 1778473535
+    "timestamp": 1778473535,
+    "status": "text"
   },
   "17216": {
     "name": "Piglet",
-    "timestamp": 1754506739
+    "timestamp": 1754506739,
+    "status": "text"
   },
   "17237": {
     "name": "Nelcat",
-    "timestamp": 1616166055
+    "timestamp": 1616166055,
+    "status": "text"
   },
   "17269": {
     "name": "Emrald Ray",
-    "timestamp": 1754500319
+    "timestamp": 1754500319,
+    "status": "text"
   },
   "17274": {
     "name": "Topspin",
-    "timestamp": 1628429802
+    "timestamp": 1628429802,
+    "status": "text"
   },
   "17285": {
     "name": "Pussy",
-    "timestamp": 1615572778
+    "timestamp": 1615572778,
+    "status": "text"
   },
   "17304": {
     "name": "🐱‍🚀",
-    "timestamp": 1768281827
+    "timestamp": 1768281827,
+    "status": "text"
   },
   "17365": {
     "name": "Fudrick Fidfaddy",
-    "timestamp": 1692050027
+    "timestamp": 1692050027,
+    "status": "text"
   },
   "17377": {
     "name": "Punkburner Draconic Overlord",
-    "timestamp": 1753886111
+    "timestamp": 1753886111,
+    "status": "text"
   },
   "17398": {
     "name": "SunCat",
-    "timestamp": 1731233027
+    "timestamp": 1731233027,
+    "status": "text"
   },
   "17496": {
     "name": "Sergey Nazarov",
-    "timestamp": 1615583135
+    "timestamp": 1615583135,
+    "status": "text"
   },
   "17499": {
     "name": "MoonCat5997 cat friend",
-    "timestamp": 1766325515
+    "timestamp": 1766325515,
+    "status": "text"
   },
   "17507": {
     "name": "Danny Phantom",
-    "timestamp": 1615594148
+    "timestamp": 1615594148,
+    "status": "text"
   },
   "17523": {
     "name": "rug",
-    "timestamp": 1615577269
+    "timestamp": 1615577269,
+    "status": "text"
   },
   "17528": {
     "name": "pussyqueen",
-    "timestamp": 1615594446
+    "timestamp": 1615594446,
+    "status": "text"
   },
   "17558": {
     "name": "Cat Norris",
-    "timestamp": 1615594224
+    "timestamp": 1615594224,
+    "status": "text"
   },
   "17604": {
     "name": "$10,000,000 cat",
-    "timestamp": 1753255619
+    "timestamp": 1753255619,
+    "status": "text"
   },
   "17672": {
     "name": "JonLan7",
-    "timestamp": 1615791579
+    "timestamp": 1615791579,
+    "status": "text"
   },
   "17682": {
     "name": "Doge Cat",
-    "timestamp": 1616679540
+    "timestamp": 1616679540,
+    "status": "text"
   },
   "17687": {
     "name": "Alien in Wonderland",
-    "timestamp": 1771780067
+    "timestamp": 1771780067,
+    "status": "text"
   },
   "17694": {
     "name": "0x000",
-    "timestamp": 1615694482
+    "timestamp": 1615694482,
+    "status": "text"
   },
   "17699": {
     "name": "제니",
-    "timestamp": 1767014231
+    "timestamp": 1767014231,
+    "status": "text"
   },
   "17737": {
     "name": "LONGERNAMEBETTERLIVINGCONDITION",
-    "timestamp": 1615770144
+    "timestamp": 1615770144,
+    "status": "text"
   },
   "17779": {
     "name": "Star Wars",
-    "timestamp": 1751820491
+    "timestamp": 1751820491,
+    "status": "text"
   },
   "17788": {
     "name": "Elon Muskcat",
-    "timestamp": 1616636570
+    "timestamp": 1616636570,
+    "status": "text"
   },
   "17818": {
     "name": "Acquired by MoMA ^^",
-    "timestamp": 1766324855
+    "timestamp": 1766324855,
+    "status": "text"
   },
   "17824": {
     "name": "Smurf",
-    "timestamp": 1704769559
+    "timestamp": 1704769559,
+    "status": "text"
   },
   "17846": {
     "name": "Kitten",
-    "timestamp": 1615572893
+    "timestamp": 1615572893,
+    "status": "text"
   },
   "17903": {
     "name": "Cat Formerly Known as Prince",
-    "timestamp": 1615742411
+    "timestamp": 1615742411,
+    "status": "text"
   },
   "17943": {
     "name": "Crusher",
-    "timestamp": 1788874799
+    "timestamp": 1788874799,
+    "status": "text"
   },
   "17973": {
     "name": "Zoroaster",
-    "timestamp": 1615717896
+    "timestamp": 1615717896,
+    "status": "text"
   },
   "17990": {
     "name": "Pranksy",
-    "timestamp": 1615790765
+    "timestamp": 1615790765,
+    "status": "text"
   },
   "18020": {
     "name": "Riesling",
-    "timestamp": 1750391399
+    "timestamp": 1750391399,
+    "status": "text"
   },
   "18037": {
     "name": "ETHEREUM CAT",
-    "timestamp": 1766271563
+    "timestamp": 1766271563,
+    "status": "text"
   },
   "18053": {
     "name": "Slakky",
-    "timestamp": 1773156911
+    "timestamp": 1773156911,
+    "status": "text"
   },
   "18069": {
     "name": "RAREST CAT ALIVE",
-    "timestamp": 1631609515
+    "timestamp": 1631609515,
+    "status": "text"
   },
   "18075": {
     "name": "Rascal",
-    "timestamp": 1616176767
+    "timestamp": 1616176767,
+    "status": "text"
   },
   "18084": {
     "name": "Shitcat",
-    "timestamp": 1770103511
+    "timestamp": 1770103511,
+    "status": "text"
   },
   "18132": {
     "name": "Exoplanet hunter",
-    "timestamp": 1763541035
+    "timestamp": 1763541035,
+    "status": "text"
   },
   "18150": {
     "name": "Squiggle My Ass 🍑💨\n",
-    "timestamp": 1785446159
+    "timestamp": 1785446159,
+    "status": "text"
   },
   "18156": {
     "name": "Gemesis",
-    "timestamp": 1770196811
+    "timestamp": 1770196811,
+    "status": "text"
   },
   "18164": {
     "name": "big fan of naming cats bonna8",
-    "timestamp": 1765251983
+    "timestamp": 1765251983,
+    "status": "text"
   },
   "18170": {
     "name": "Shitcat",
-    "timestamp": 1770057095
+    "timestamp": 1770057095,
+    "status": "text"
   },
   "18178": {
     "name": "Behead the Prophet",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "18238": {
     "name": "obama",
-    "timestamp": 1615575001
+    "timestamp": 1615575001,
+    "status": "text"
   },
   "18243": {
     "name": "chernobyl cat",
-    "timestamp": 1615715754
+    "timestamp": 1615715754,
+    "status": "text"
   },
   "18245": {
     "name": "The Professor",
-    "timestamp": 1704300143
+    "timestamp": 1704300143,
+    "status": "text"
   },
   "18249": {
     "name": "Lazuli",
-    "timestamp": 1686123635
+    "timestamp": 1686123635,
+    "status": "text"
   },
   "18255": {
     "name": "*pepa*",
-    "timestamp": 1615871009
+    "timestamp": 1615871009,
+    "status": "text"
   },
   "18280": {
     "name": "Onchain Magritte",
-    "timestamp": 1754302007
+    "timestamp": 1754302007,
+    "status": "text"
   },
   "18292": {
     "name": "VIDPET SHARE ETH PLZ",
-    "timestamp": 1754029715
+    "timestamp": 1754029715,
+    "status": "text"
   },
   "18303": {
     "name": "Dolly Parton",
-    "timestamp": 1788233375
+    "timestamp": 1788233375,
+    "status": "text"
   },
   "18311": {
     "name": "ETH",
-    "timestamp": 1615855646
+    "timestamp": 1615855646,
+    "status": "text"
   },
   "18343": {
     "name": "Poopsy",
-    "timestamp": 1615593554
+    "timestamp": 1615593554,
+    "status": "text"
   },
   "18421": {
     "name": "Taffy Tiger",
-    "timestamp": 1795405487
+    "timestamp": 1795405487,
+    "status": "text"
   },
   "18441": {
     "name": "Onchain Picasso",
-    "timestamp": 1754302535
+    "timestamp": 1754302535,
+    "status": "text"
   },
   "18452": {
     "name": "blue sunset",
-    "timestamp": 1615576789
+    "timestamp": 1615576789,
+    "status": "text"
   },
   "18453": {
     "name": "The Dude",
-    "timestamp": 1615697219
+    "timestamp": 1615697219,
+    "status": "text"
   },
   "18466": {
     "name": "Peterbald",
-    "timestamp": 1679518415
+    "timestamp": 1679518415,
+    "status": "text"
   },
   "18488": {
     "name": "BB",
-    "timestamp": 1628430242
+    "timestamp": 1628430242,
+    "status": "text"
   },
   "18544": {
     "name": "Kristen",
-    "timestamp": 1615878867
+    "timestamp": 1615878867,
+    "status": "text"
   },
   "18545": {
     "name": "Flywheel $MOONSTR",
-    "timestamp": 1760484491
+    "timestamp": 1760484491,
+    "status": "text"
   },
   "18579": {
     "name": " MoonCat Bot\n",
-    "timestamp": 1787575187
+    "timestamp": 1787575187,
+    "status": "text"
   },
   "18583": {
     "name": "Icele ❄️",
-    "timestamp": 1770400475
+    "timestamp": 1770400475,
+    "status": "text"
   },
   "18614": {
     "name": "Onchain Van Gogh",
-    "timestamp": 1754302583
+    "timestamp": 1754302583,
+    "status": "text"
   },
   "18657": {
     "name": "Pawg 🐖",
-    "timestamp": 1771603643
+    "timestamp": 1771603643,
+    "status": "text"
   },
   "18667": {
     "name": "Shitcat",
-    "timestamp": 1770104135
+    "timestamp": 1770104135,
+    "status": "text"
   },
   "18673": {
     "name": "DegenKitty",
-    "timestamp": 1615581472
+    "timestamp": 1615581472,
+    "status": "text"
   },
   "18695": {
     "name": "Purrgey Meowsarov",
-    "timestamp": 1615757174
+    "timestamp": 1615757174,
+    "status": "text"
   },
   "18700": {
     "name": "Vitalik",
-    "timestamp": 1615573213
+    "timestamp": 1615573213,
+    "status": "text"
   },
   "18726": {
     "name": "Bonsai",
-    "timestamp": 1752557927
+    "timestamp": 1752557927,
+    "status": "text"
   },
   "18740": {
     "name": "blue pussy",
-    "timestamp": 1615577007
+    "timestamp": 1615577007,
+    "status": "text"
   },
   "18783": {
     "name": "Meow Zedong",
-    "timestamp": 1615576511
+    "timestamp": 1615576511,
+    "status": "text"
   },
   "18789": {
     "name": "Rizz",
-    "timestamp": 1687505039
+    "timestamp": 1687505039,
+    "status": "text"
   },
   "18833": {
     "name": "Agent",
-    "timestamp": 1753080599
+    "timestamp": 1753080599,
+    "status": "text"
   },
   "18841": {
     "name": "Dimethyltryptamine",
-    "timestamp": 1770845219
+    "timestamp": 1770845219,
+    "status": "text"
   },
   "18876": {
     "name": "Wallace",
-    "timestamp": 1615773785
+    "timestamp": 1615773785,
+    "status": "text"
   },
   "18888": {
     "name": "Gemesis",
-    "timestamp": 1770196199
+    "timestamp": 1770196199,
+    "status": "text"
   },
   "18912": {
     "name": "Maverick McWeth",
-    "timestamp": 1773166223
+    "timestamp": 1773166223,
+    "status": "text"
   },
   "18921": {
     "name": "Pak",
-    "timestamp": 1615593806
+    "timestamp": 1615593806,
+    "status": "text"
   },
   "18964": {
     "name": "Zach",
-    "timestamp": 1769395415
+    "timestamp": 1769395415,
+    "status": "text"
   },
   "18965": {
     "name": "Peter Thiel",
-    "timestamp": 1615692679
+    "timestamp": 1615692679,
+    "status": "text"
   },
   "18977": {
     "name": "Molerat",
-    "timestamp": 1778647415
+    "timestamp": 1778647415,
+    "status": "text"
   },
   "18981": {
     "name": "Bloodstar",
-    "timestamp": 1687505027
+    "timestamp": 1687505027,
+    "status": "text"
   },
   "18982": {
     "name": "Captain America",
-    "timestamp": 1616675650
+    "timestamp": 1616675650,
+    "status": "text"
   },
   "19056": {
     "name": "Pope Peenut",
-    "timestamp": 1746865967
+    "timestamp": 1746865967,
+    "status": "text"
   },
   "19085": {
     "name": "Alex Jones",
-    "timestamp": 1615715195
+    "timestamp": 1615715195,
+    "status": "text"
   },
   "19117": {
     "name": "Satoshi Nakameowto",
-    "timestamp": 1615830847
+    "timestamp": 1615830847,
+    "status": "text"
   },
   "19143": {
     "name": "Lily Lagoon",
-    "timestamp": 1754739755
+    "timestamp": 1754739755,
+    "status": "text"
   },
   "19158": {
     "name": "Seitan",
-    "timestamp": 1615788758
+    "timestamp": 1615788758,
+    "status": "text"
   },
   "19168": {
     "name": "Stray Alien",
-    "timestamp": 1727034767
+    "timestamp": 1727034767,
+    "status": "text"
   },
   "19180": {
     "name": "Pinky",
-    "timestamp": 1623448562
+    "timestamp": 1623448562,
+    "status": "text"
   },
   "19234": {
     "name": "Apollo",
-    "timestamp": 1615587527
+    "timestamp": 1615587527,
+    "status": "text"
   },
   "19244": {
     "name": "Lime Halo 💫",
-    "timestamp": 1770399023
+    "timestamp": 1770399023,
+    "status": "text"
   },
   "19255": {
     "name": "Zach",
-    "timestamp": 1778100815
+    "timestamp": 1778100815,
+    "status": "text"
   },
   "19301": {
     "name": "BASTET",
-    "timestamp": 1615693631
+    "timestamp": 1615693631,
+    "status": "text"
   },
   "19362": {
     "name": "Tardar Sauce",
-    "timestamp": 1765422659
+    "timestamp": 1765422659,
+    "status": "text"
   },
   "19378": {
     "name": "Dogecoin",
-    "timestamp": 1751451839
+    "timestamp": 1751451839,
+    "status": "text"
   },
   "19408": {
     "name": "Gemesis",
-    "timestamp": 1770196067
+    "timestamp": 1770196067,
+    "status": "text"
   },
   "19429": {
     "name": "Fire PonderPal",
-    "timestamp": 1648086272
+    "timestamp": 1648086272,
+    "status": "text"
   },
   "19432": {
     "name": "Lulligo",
-    "timestamp": 1770565031
+    "timestamp": 1770565031,
+    "status": "text"
   },
   "19484": {
     "name": "Art Basel feeding bowl located",
-    "timestamp": 1766389487
+    "timestamp": 1766389487,
+    "status": "text"
   },
   "19547": {
     "name": "Blueberry",
-    "timestamp": 1789096871
+    "timestamp": 1789096871,
+    "status": "text"
   },
   "19621": {
     "name": "Vitalik Private Security Patrol",
-    "timestamp": 1768203779
+    "timestamp": 1768203779,
+    "status": "text"
   },
   "19625": {
     "name": "Smooncatéagol",
-    "timestamp": 1785328043
+    "timestamp": 1785328043,
+    "status": "text"
   },
   "19688": {
     "name": "beeple",
-    "timestamp": 1615582467
+    "timestamp": 1615582467,
+    "status": "text"
   },
   "19750": {
     "name": "Blossom",
-    "timestamp": 1778792411
+    "timestamp": 1778792411,
+    "status": "text"
   },
   "19951": {
     "name": "XCOPY",
-    "timestamp": 1618168761
+    "timestamp": 1618168761,
+    "status": "text"
   },
   "19974": {
     "name": "CryptoTwitter",
-    "timestamp": 1616010822
+    "timestamp": 1616010822,
+    "status": "text"
   },
   "19995": {
     "name": "Butter Baby",
-    "timestamp": 1752696251
+    "timestamp": 1752696251,
+    "status": "text"
   },
   "19996": {
     "name": "CxCat",
-    "timestamp": 1696752767
+    "timestamp": 1696752767,
+    "status": "text"
   },
   "20004": {
     "name": "Zach",
-    "timestamp": 1780531439
+    "timestamp": 1780531439,
+    "status": "text"
   },
   "20023": {
     "name": "BTC",
-    "timestamp": 1615692891
+    "timestamp": 1615692891,
+    "status": "text"
   },
   "20043": {
     "name": "Creeper",
-    "timestamp": 1770274211
+    "timestamp": 1770274211,
+    "status": "text"
   },
   "20059": {
     "name": "Meowington",
-    "timestamp": 1615587239
+    "timestamp": 1615587239,
+    "status": "text"
+  },
+  "20069": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1781213171,
+    "status": "invalid-utf8"
   },
   "20089": {
     "name": "Petunia",
-    "timestamp": 1769508863
+    "timestamp": 1769508863,
+    "status": "text"
   },
   "20091": {
     "name": "Yahoooo",
-    "timestamp": 1761331619
+    "timestamp": 1761331619,
+    "status": "text"
   },
   "20092": {
     "name": "Jeremy",
-    "timestamp": 1615673925
+    "timestamp": 1615673925,
+    "status": "text"
   },
   "20180": {
     "name": "bonna8 on discord",
-    "timestamp": 1752534563
+    "timestamp": 1752534563,
+    "status": "text"
   },
   "20181": {
     "name": "SuperRare",
-    "timestamp": 1766178611
+    "timestamp": 1766178611,
+    "status": "text"
   },
   "20192": {
     "name": "$1,000,000 cat",
-    "timestamp": 1751824859
+    "timestamp": 1751824859,
+    "status": "text"
   },
   "20248": {
     "name": "Uncaught CatError: Unsellable",
-    "timestamp": 1777206131
+    "timestamp": 1777206131,
+    "status": "text"
   },
   "20320": {
     "name": "Zach",
-    "timestamp": 1769394707
+    "timestamp": 1769394707,
+    "status": "text"
   },
   "20336": {
     "name": "Paris",
-    "timestamp": 1617988257
+    "timestamp": 1617988257,
+    "status": "text"
   },
   "20345": {
     "name": "Zach",
-    "timestamp": 1769973239
+    "timestamp": 1769973239,
+    "status": "text"
   },
   "20349": {
     "name": "Mr. Kotik",
-    "timestamp": 1751445203
+    "timestamp": 1751445203,
+    "status": "text"
   },
   "20425": {
     "name": "Shitcat",
-    "timestamp": 1770104267
+    "timestamp": 1770104267,
+    "status": "text"
   },
   "20427": {
     "name": "Umbriel",
-    "timestamp": 1679530679
+    "timestamp": 1679530679,
+    "status": "text"
   },
   "20438": {
     "name": "VPN Enjoyer",
-    "timestamp": 1770571739
+    "timestamp": 1770571739,
+    "status": "text"
   },
   "20440": {
     "name": "Ariel",
-    "timestamp": 1673058767
+    "timestamp": 1673058767,
+    "status": "text"
   },
   "20459": {
     "name": "Bubbles",
-    "timestamp": 1615707943
+    "timestamp": 1615707943,
+    "status": "text"
   },
   "20466": {
     "name": "Holy Deception",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "20468": {
     "name": "Devin Finzer",
-    "timestamp": 1754385347
+    "timestamp": 1754385347,
+    "status": "text"
+  },
+  "20531": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615573988,
+    "status": "invalid-utf8"
   },
   "20536": {
     "name": "PikaCat",
-    "timestamp": 1615617488
+    "timestamp": 1615617488,
+    "status": "text"
   },
   "20578": {
     "name": "Gemesis",
-    "timestamp": 1770195935
+    "timestamp": 1770195935,
+    "status": "text"
   },
   "20591": {
     "name": "Captain Willem van der Decken",
-    "timestamp": 1751487527
+    "timestamp": 1751487527,
+    "status": "text"
   },
   "20608": {
     "name": "Zachattack",
-    "timestamp": 1752121031
+    "timestamp": 1752121031,
+    "status": "text"
   },
   "20625": {
     "name": "아현",
-    "timestamp": 1754475299
+    "timestamp": 1754475299,
+    "status": "text"
   },
   "20721": {
     "name": "Elon Musk",
-    "timestamp": 1615691398
+    "timestamp": 1615691398,
+    "status": "text"
   },
   "20767": {
     "name": "ETH",
-    "timestamp": 1615692871
+    "timestamp": 1615692871,
+    "status": "text"
   },
   "20883": {
     "name": "Cricket",
-    "timestamp": 1769159015
+    "timestamp": 1769159015,
+    "status": "text"
   },
   "20901": {
     "name": "PINK FLOYD",
-    "timestamp": 1615691624
+    "timestamp": 1615691624,
+    "status": "text"
   },
   "20910": {
     "name": "Gemesis",
-    "timestamp": 1770195491
+    "timestamp": 1770195491,
+    "status": "text"
   },
   "20955": {
     "name": "Eggplant",
-    "timestamp": 1753080035
+    "timestamp": 1753080035,
+    "status": "text"
   },
   "20969": {
     "name": "Pink Panther",
-    "timestamp": 1615754125
+    "timestamp": 1615754125,
+    "status": "text"
   },
   "20973": {
     "name": "Garfield",
-    "timestamp": 1615742145
+    "timestamp": 1615742145,
+    "status": "text"
   },
   "20974": {
     "name": "HyperCat",
-    "timestamp": 1615830607
+    "timestamp": 1615830607,
+    "status": "text"
   },
   "20975": {
     "name": "Pickle",
-    "timestamp": 1615598609
+    "timestamp": 1615598609,
+    "status": "text"
   },
   "21030": {
     "name": "Love❤️",
-    "timestamp": 1754497703
+    "timestamp": 1754497703,
+    "status": "text"
   },
   "21060": {
     "name": "Puff",
-    "timestamp": 1615751261
+    "timestamp": 1615751261,
+    "status": "text"
   },
   "21063": {
     "name": "Lucky",
-    "timestamp": 1615850644
+    "timestamp": 1615850644,
+    "status": "text"
   },
   "21125": {
     "name": "Shitcat",
-    "timestamp": 1770103331
+    "timestamp": 1770103331,
+    "status": "text"
   },
   "21140": {
     "name": "Acid",
-    "timestamp": 1679515187
+    "timestamp": 1679515187,
+    "status": "text"
   },
   "21146": {
     "name": "Sour Apple",
-    "timestamp": 1769304191
+    "timestamp": 1769304191,
+    "status": "text"
   },
   "21244": {
     "name": "She-Hulk\n",
-    "timestamp": 1615583412
+    "timestamp": 1615583412,
+    "status": "text"
   },
   "21267": {
     "name": "Miss Raspberry Penelope Sweet",
-    "timestamp": 1746867623
+    "timestamp": 1746867623,
+    "status": "text"
   },
   "21300": {
     "name": "Beeple",
-    "timestamp": 1615593348
+    "timestamp": 1615593348,
+    "status": "text"
   },
   "21323": {
     "name": "Zach",
-    "timestamp": 1769795099
+    "timestamp": 1769795099,
+    "status": "text"
   },
   "21342": {
     "name": "Shitcat",
-    "timestamp": 1770104339
+    "timestamp": 1770104339,
+    "status": "text"
   },
   "21384": {
     "name": "Red Ruby",
-    "timestamp": 1615591426
+    "timestamp": 1615591426,
+    "status": "text"
   },
   "21401": {
     "name": "Garfield",
-    "timestamp": 1615577640
+    "timestamp": 1615577640,
+    "status": "text"
   },
   "21426": {
     "name": "PIG",
-    "timestamp": 1615694105
+    "timestamp": 1615694105,
+    "status": "text"
   },
   "21432": {
     "name": "Pink Cat",
-    "timestamp": 1615592413
+    "timestamp": 1615592413,
+    "status": "text"
   },
   "21433": {
     "name": "Zach",
-    "timestamp": 1770070691
+    "timestamp": 1770070691,
+    "status": "text"
   },
   "21557": {
     "name": "Pamp'The'Cat Pamp'It'Up",
-    "timestamp": 1777205807
+    "timestamp": 1777205807,
+    "status": "text"
   },
   "21569": {
     "name": "bonna8",
-    "timestamp": 1765752227
+    "timestamp": 1765752227,
+    "status": "text"
   },
   "21584": {
     "name": "Qwellcode",
-    "timestamp": 1615594074
+    "timestamp": 1615594074,
+    "status": "text"
   },
   "21604": {
     "name": "Morpheus",
-    "timestamp": 1773484883
+    "timestamp": 1773484883,
+    "status": "text"
   },
   "21608": {
     "name": "8annob no drocsid",
-    "timestamp": 1763414159
+    "timestamp": 1763414159,
+    "status": "text"
   },
   "21636": {
     "name": "it's bonna8 on discord",
-    "timestamp": 1766592251
+    "timestamp": 1766592251,
+    "status": "text"
   },
   "21640": {
     "name": "Zoom",
-    "timestamp": 1753117667
+    "timestamp": 1753117667,
+    "status": "text"
   },
   "21664": {
     "name": "Elon Musk",
-    "timestamp": 1615744583
+    "timestamp": 1615744583,
+    "status": "text"
   },
   "21665": {
     "name": "Pudding",
-    "timestamp": 1753113311
+    "timestamp": 1753113311,
+    "status": "text"
   },
   "21666": {
     "name": "tweet",
-    "timestamp": 1615594282
+    "timestamp": 1615594282,
+    "status": "text"
   },
   "21682": {
     "name": "^__^(oo)\\__MOONBULLCAT__/(__)~~>",
-    "timestamp": 1756370015
+    "timestamp": 1756370015,
+    "status": "text"
   },
   "21773": {
     "name": "satoshi",
-    "timestamp": 1615582692
+    "timestamp": 1615582692,
+    "status": "text"
   },
   "21788": {
     "name": "VincentVanDough",
-    "timestamp": 1673917031
+    "timestamp": 1673917031,
+    "status": "text"
   },
   "21792": {
     "name": "Smelly Cat",
-    "timestamp": 1617060745
+    "timestamp": 1617060745,
+    "status": "text"
   },
   "21847": {
     "name": "beeple",
-    "timestamp": 1615582815
+    "timestamp": 1615582815,
+    "status": "text"
   },
   "21855": {
     "name": "Night King",
-    "timestamp": 1615592773
+    "timestamp": 1615592773,
+    "status": "text"
   },
   "21862": {
     "name": "Federweißer",
-    "timestamp": 1750391435
+    "timestamp": 1750391435,
+    "status": "text"
   },
   "21868": {
     "name": "Playa de Mogán",
-    "timestamp": 1768067783
+    "timestamp": 1768067783,
+    "status": "text"
   },
   "21876": {
     "name": "Pawnster",
-    "timestamp": 1771780283
+    "timestamp": 1771780283,
+    "status": "text"
   },
   "21984": {
     "name": "Game",
-    "timestamp": 1753082111
+    "timestamp": 1753082111,
+    "status": "text"
   },
   "22018": {
     "name": "Love",
-    "timestamp": 1615692691
+    "timestamp": 1615692691,
+    "status": "text"
   },
   "22025": {
     "name": "Tupac",
-    "timestamp": 1615575844
+    "timestamp": 1615575844,
+    "status": "text"
   },
   "22038": {
     "name": "Tsuki",
-    "timestamp": 1626638786
+    "timestamp": 1626638786,
+    "status": "text"
+  },
+  "22065": {
+    "name": "[leading null]",
+    "timestamp": 1615573958,
+    "status": "leading-null"
   },
   "22077": {
     "name": "Cobalt",
-    "timestamp": 1725703127
+    "timestamp": 1725703127,
+    "status": "text"
   },
   "22220": {
     "name": "schrödinger",
-    "timestamp": 1615576332
+    "timestamp": 1615576332,
+    "status": "text"
   },
   "22230": {
     "name": "People don't get that kindness",
-    "timestamp": 1786084787
+    "timestamp": 1786084787,
+    "status": "text"
   },
   "22239": {
     "name": "Pink Panther",
-    "timestamp": 1615584223
+    "timestamp": 1615584223,
+    "status": "text"
   },
   "22273": {
     "name": "Fidel",
-    "timestamp": 1615587266
+    "timestamp": 1615587266,
+    "status": "text"
   },
   "22275": {
     "name": "Garfield",
-    "timestamp": 1615588927
+    "timestamp": 1615588927,
+    "status": "text"
   },
   "22342": {
     "name": "Garfield",
-    "timestamp": 1615582036
+    "timestamp": 1615582036,
+    "status": "text"
   },
   "22345": {
     "name": "bonna8 keeps naming cats bonna8",
-    "timestamp": 1766772251
+    "timestamp": 1766772251,
+    "status": "text"
   },
   "22364": {
     "name": "chouquette",
-    "timestamp": 1769579855
+    "timestamp": 1769579855,
+    "status": "text"
   },
   "22368": {
     "name": "Vitalik Buterin",
-    "timestamp": 1615692845
+    "timestamp": 1615692845,
+    "status": "text"
   },
   "22376": {
     "name": "Wild Pidgey",
-    "timestamp": 1778961599
+    "timestamp": 1778961599,
+    "status": "text"
   },
   "22382": {
     "name": "GATOMAKONHA",
-    "timestamp": 1617758863
+    "timestamp": 1617758863,
+    "status": "text"
   },
   "22385": {
     "name": "Apple",
-    "timestamp": 1753082051
+    "timestamp": 1753082051,
+    "status": "text"
   },
   "22405": {
     "name": "Casino",
-    "timestamp": 1753081271
+    "timestamp": 1753081271,
+    "status": "text"
   },
   "22418": {
     "name": "TUTANKHAMUN",
-    "timestamp": 1751467331
+    "timestamp": 1751467331,
+    "status": "text"
   },
   "22433": {
     "name": "Cappuccino",
-    "timestamp": 1688676635
+    "timestamp": 1688676635,
+    "status": "text"
   },
   "22452": {
     "name": "Crouton",
-    "timestamp": 1615588418
+    "timestamp": 1615588418,
+    "status": "text"
   },
   "22527": {
     "name": "Inspector Clouseau",
-    "timestamp": 1753736939
+    "timestamp": 1753736939,
+    "status": "text"
   },
   "22637": {
     "name": "Locutus",
-    "timestamp": 1619803599
+    "timestamp": 1619803599,
+    "status": "text"
   },
   "22638": {
     "name": "kitty fried pepe",
-    "timestamp": 1769124167
+    "timestamp": 1769124167,
+    "status": "text"
   },
   "22660": {
     "name": "$2,000,000 cat",
-    "timestamp": 1753251647
+    "timestamp": 1753251647,
+    "status": "text"
   },
   "22687": {
     "name": "Twitter",
-    "timestamp": 1751453159
+    "timestamp": 1751453159,
+    "status": "text"
   },
   "22697": {
     "name": "bonna",
-    "timestamp": 1754827775
+    "timestamp": 1754827775,
+    "status": "text"
   },
   "22727": {
     "name": "BK",
-    "timestamp": 1628378785
+    "timestamp": 1628378785,
+    "status": "text"
   },
   "22756": {
     "name": "Zach",
-    "timestamp": 1770056819
+    "timestamp": 1770056819,
+    "status": "text"
   },
   "22763": {
     "name": "Garfield",
-    "timestamp": 1615593356
+    "timestamp": 1615593356,
+    "status": "text"
   },
   "22779": {
     "name": "bonna8 on dіscord",
-    "timestamp": 1757250971
+    "timestamp": 1757250971,
+    "status": "text"
   },
   "22795": {
     "name": "Cheshire",
-    "timestamp": 1615591757
+    "timestamp": 1615591757,
+    "status": "text"
   },
   "22798": {
     "name": "Satoshi",
-    "timestamp": 1615692803
+    "timestamp": 1615692803,
+    "status": "text"
   },
   "22799": {
     "name": "MoonCat",
-    "timestamp": 1615692941
+    "timestamp": 1615692941,
+    "status": "text"
   },
   "22817": {
     "name": "Garfield",
-    "timestamp": 1615578716
+    "timestamp": 1615578716,
+    "status": "text"
   },
   "22832": {
     "name": "Gamora",
-    "timestamp": 1751477303
+    "timestamp": 1751477303,
+    "status": "text"
   },
   "22834": {
     "name": "Beans",
-    "timestamp": 1752295019
+    "timestamp": 1752295019,
+    "status": "text"
   },
   "22840": {
     "name": "Luna",
-    "timestamp": 1615581935
+    "timestamp": 1615581935,
+    "status": "text"
   },
   "22848": {
     "name": "Satoshi",
-    "timestamp": 1615650421
+    "timestamp": 1615650421,
+    "status": "text"
+  },
+  "22849": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615573985,
+    "status": "invalid-utf8"
   },
   "22866": {
     "name": "Elon ",
-    "timestamp": 1615841424
+    "timestamp": 1615841424,
+    "status": "text"
   },
   "22883": {
     "name": "Sussy Baka",
-    "timestamp": 1675389191
+    "timestamp": 1675389191,
+    "status": "text"
   },
   "22920": {
     "name": "Garfield",
-    "timestamp": 1615593806
+    "timestamp": 1615593806,
+    "status": "text"
   },
   "22954": {
     "name": "Vault",
-    "timestamp": 1753081067
+    "timestamp": 1753081067,
+    "status": "text"
   },
   "23020": {
     "name": "Grumpy Cat",
-    "timestamp": 1615576465
+    "timestamp": 1615576465,
+    "status": "text"
   },
   "23038": {
     "name": "amazon",
-    "timestamp": 1615588782
+    "timestamp": 1615588782,
+    "status": "text"
   },
   "23039": {
     "name": "Zach",
-    "timestamp": 1778130467
+    "timestamp": 1778130467,
+    "status": "text"
   },
   "23057": {
     "name": "Onchain Dali",
-    "timestamp": 1754303003
+    "timestamp": 1754303003,
+    "status": "text"
   },
   "23080": {
     "name": "Doraemon",
-    "timestamp": 1615584368
+    "timestamp": 1615584368,
+    "status": "text"
   },
   "23084": {
     "name": "Mr. Pigglesworth",
-    "timestamp": 1725702155
+    "timestamp": 1725702155,
+    "status": "text"
   },
   "23096": {
     "name": "Cheshire Cat",
-    "timestamp": 1615647448
+    "timestamp": 1615647448,
+    "status": "text"
   },
   "23130": {
     "name": "Meow",
-    "timestamp": 1615581830
+    "timestamp": 1615581830,
+    "status": "text"
   },
   "23172": {
     "name": "In Hell I Burn",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
   },
   "23232": {
     "name": "zocktay\n",
-    "timestamp": 1615592476
+    "timestamp": 1615592476,
+    "status": "text"
   },
   "23239": {
     "name": "Yakitori ",
-    "timestamp": 1615719278
+    "timestamp": 1615719278,
+    "status": "text"
   },
   "23252": {
     "name": "McLovin",
-    "timestamp": 1771611803
+    "timestamp": 1771611803,
+    "status": "text"
   },
   "23272": {
     "name": "Catoshi Nakamoto",
-    "timestamp": 1622843805
+    "timestamp": 1622843805,
+    "status": "text"
   },
   "23279": {
     "name": "MEWTWO",
-    "timestamp": 1615724336
+    "timestamp": 1615724336,
+    "status": "text"
   },
   "23295": {
     "name": "Moontoshi",
-    "timestamp": 1615723236
+    "timestamp": 1615723236,
+    "status": "text"
   },
   "23342": {
     "name": "Huge Cock",
-    "timestamp": 1615602647
+    "timestamp": 1615602647,
+    "status": "text"
   },
   "23448": {
     "name": "Pink Pussy",
-    "timestamp": 1754569583
+    "timestamp": 1754569583,
+    "status": "text"
   },
   "23463": {
     "name": "Jeff Bezos inside Blue Origin",
-    "timestamp": 1751823875
+    "timestamp": 1751823875,
+    "status": "text"
   },
   "23490": {
     "name": "Garfield",
-    "timestamp": 1615694376
+    "timestamp": 1615694376,
+    "status": "text"
   },
   "23511": {
     "name": "Zach",
-    "timestamp": 1778129447
+    "timestamp": 1778129447,
+    "status": "text"
   },
   "23536": {
     "name": "Simba",
-    "timestamp": 1615582371
+    "timestamp": 1615582371,
+    "status": "text"
   },
   "23579": {
     "name": "Chubby Rosie",
-    "timestamp": 1770566087
+    "timestamp": 1770566087,
+    "status": "text"
+  },
+  "23599": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615574220,
+    "status": "invalid-utf8"
   },
   "23611": {
     "name": "Félicette",
-    "timestamp": 1615781686
+    "timestamp": 1615781686,
+    "status": "text"
   },
   "23648": {
     "name": "Revocate the Agitator",
-    "timestamp": 1795280387
+    "timestamp": 1795280387,
+    "status": "text"
+  },
+  "23696": {
+    "name": "[leading null]",
+    "timestamp": 1615574261,
+    "status": "leading-null"
   },
   "23708": {
     "name": "Zach",
-    "timestamp": 1770628619
+    "timestamp": 1770628619,
+    "status": "text"
   },
   "23781": {
     "name": "bonnа8 on discord",
-    "timestamp": 1758866339
+    "timestamp": 1758866339,
+    "status": "text"
   },
   "23800": {
     "name": "Seabiscat",
-    "timestamp": 1753338083
+    "timestamp": 1753338083,
+    "status": "text"
   },
   "23803": {
     "name": "Gutterball",
-    "timestamp": 1687505003
+    "timestamp": 1687505003,
+    "status": "text"
   },
   "23820": {
     "name": "Crystail",
-    "timestamp": 1679532755
+    "timestamp": 1679532755,
+    "status": "text"
   },
   "23893": {
     "name": "Well of Darkness",
-    "timestamp": 1779040175
+    "timestamp": 1779040175,
+    "status": "text"
   },
   "23906": {
     "name": "fudsmckenzie",
-    "timestamp": 1615583066
+    "timestamp": 1615583066,
+    "status": "text"
   },
   "23938": {
     "name": "Bitcoin",
-    "timestamp": 1615579506
+    "timestamp": 1615579506,
+    "status": "text"
   },
   "24034": {
     "name": "Mein Kampf",
-    "timestamp": 1777981355
+    "timestamp": 1777981355,
+    "status": "text"
   },
   "24082": {
     "name": "build",
-    "timestamp": 1757704067
+    "timestamp": 1757704067,
+    "status": "text"
   },
   "24087": {
     "name": "*low elo legend*",
-    "timestamp": 1772270303
+    "timestamp": 1772270303,
+    "status": "text"
   },
   "24094": {
     "name": "Felix",
-    "timestamp": 1615577849
+    "timestamp": 1615577849,
+    "status": "text"
   },
   "24099": {
     "name": "Genesis",
-    "timestamp": 1615693017
+    "timestamp": 1615693017,
+    "status": "text"
   },
   "24100": {
     "name": "Scar",
-    "timestamp": 1615582467
+    "timestamp": 1615582467,
+    "status": "text"
   },
   "24124": {
     "name": "Pistachio",
-    "timestamp": 1787802599
+    "timestamp": 1787802599,
+    "status": "text"
   },
   "24151": {
     "name": "Zach",
-    "timestamp": 1769984411
+    "timestamp": 1769984411,
+    "status": "text"
   },
   "24152": {
     "name": "Kiwi",
-    "timestamp": 1615653058
+    "timestamp": 1615653058,
+    "status": "text"
   },
   "24161": {
     "name": "Dexter",
-    "timestamp": 1629166430
+    "timestamp": 1629166430,
+    "status": "text"
   },
   "24180": {
     "name": "Laggy",
-    "timestamp": 1679528999
+    "timestamp": 1679528999,
+    "status": "text"
   },
   "24205": {
     "name": "your mum",
-    "timestamp": 1630986238
+    "timestamp": 1630986238,
+    "status": "text"
   },
   "24226": {
     "name": "Elon Cat",
-    "timestamp": 1615593721
+    "timestamp": 1615593721,
+    "status": "text"
   },
   "24263": {
     "name": "Vitalik Buterin",
-    "timestamp": 1615579619
+    "timestamp": 1615579619,
+    "status": "text"
   },
   "24280": {
     "name": "MoonCatPig\n",
-    "timestamp": 1615577625
+    "timestamp": 1615577625,
+    "status": "text"
   },
   "24283": {
     "name": "Shitcat",
-    "timestamp": 1770104303
+    "timestamp": 1770104303,
+    "status": "text"
   },
   "24332": {
     "name": "Sauce",
-    "timestamp": 1615692064
+    "timestamp": 1615692064,
+    "status": "text"
   },
   "24338": {
     "name": "ChainLinkGod",
-    "timestamp": 1615581539
+    "timestamp": 1615581539,
+    "status": "text"
   },
   "24340": {
     "name": "Azurite",
-    "timestamp": 1686123551
+    "timestamp": 1686123551,
+    "status": "text"
   },
   "24437": {
     "name": "Elon Musk",
-    "timestamp": 1615575460
+    "timestamp": 1615575460,
+    "status": "text"
   },
   "24454": {
     "name": "Happy New Wagey",
-    "timestamp": 1735689695
+    "timestamp": 1735689695,
+    "status": "text"
   },
   "24542": {
     "name": "blu",
-    "timestamp": 1615652862
+    "timestamp": 1615652862,
+    "status": "text"
   },
   "24583": {
     "name": "Satoshi Nakamoto",
-    "timestamp": 1615692803
+    "timestamp": 1615692803,
+    "status": "text"
   },
   "24630": {
     "name": "Kai",
-    "timestamp": 1615772432
+    "timestamp": 1615772432,
+    "status": "text"
   },
   "24637": {
     "name": "Historical Onchain JPEG",
-    "timestamp": 1753452443
+    "timestamp": 1753452443,
+    "status": "text"
   },
   "24722": {
     "name": "Jerry",
-    "timestamp": 1626959895
+    "timestamp": 1626959895,
+    "status": "text"
   },
   "24728": {
     "name": "Incredible Hulk",
-    "timestamp": 1616675089
+    "timestamp": 1616675089,
+    "status": "text"
   },
   "24739": {
     "name": "$3,000,000 cat",
-    "timestamp": 1753251791
+    "timestamp": 1753251791,
+    "status": "text"
   },
   "24756": {
     "name": "The Dark Side of The Orange",
-    "timestamp": 1615716473
+    "timestamp": 1615716473,
+    "status": "text"
   },
   "24762": {
     "name": "Ethereum",
-    "timestamp": 1615580791
+    "timestamp": 1615580791,
+    "status": "text"
   },
   "24768": {
     "name": "Pussy",
-    "timestamp": 1615582062
+    "timestamp": 1615582062,
+    "status": "text"
   },
   "24778": {
     "name": "Scarlet",
-    "timestamp": 1775192447
+    "timestamp": 1775192447,
+    "status": "text"
   },
   "24831": {
     "name": "Katze",
-    "timestamp": 1615575239
+    "timestamp": 1615575239,
+    "status": "text"
   },
   "24861": {
     "name": "Pikachu",
-    "timestamp": 1615593473
+    "timestamp": 1615593473,
+    "status": "text"
   },
   "24916": {
     "name": "❤️❤️, MrFahrenheit.eth",
-    "timestamp": 1649148658
+    "timestamp": 1649148658,
+    "status": "text"
   },
   "24924": {
     "name": "∞ CO฿IE",
-    "timestamp": 1615716473
+    "timestamp": 1615716473,
+    "status": "text"
   },
   "24932": {
     "name": "pussycat",
-    "timestamp": 1615575357
+    "timestamp": 1615575357,
+    "status": "text"
   },
   "24957": {
     "name": "Catoshi Meowamoto",
-    "timestamp": 1615835596
+    "timestamp": 1615835596,
+    "status": "text"
   },
   "24966": {
     "name": "Satoshi",
-    "timestamp": 1615581702
+    "timestamp": 1615581702,
+    "status": "text"
   },
   "24971": {
     "name": "Vitalik",
-    "timestamp": 1615581615
+    "timestamp": 1615581615,
+    "status": "text"
+  },
+  "24980": {
+    "name": "[invalid UTF-8]",
+    "timestamp": 1615586256,
+    "status": "invalid-utf8"
   },
   "24987": {
     "name": "Rambo",
-    "timestamp": 1615703784
+    "timestamp": 1615703784,
+    "status": "text"
   },
   "24998": {
     "name": "Skittles",
-    "timestamp": 1751668955
+    "timestamp": 1751668955,
+    "status": "text"
   },
   "25006": {
     "name": "Simba",
-    "timestamp": 1615596523
+    "timestamp": 1615596523,
+    "status": "text"
   },
   "25017": {
     "name": "GREMLIN",
-    "timestamp": 1617942227
+    "timestamp": 1617942227,
+    "status": "text"
   },
   "25026": {
     "name": "C0BIE'S HOUSECAT",
-    "timestamp": 1615692093
+    "timestamp": 1615692093,
+    "status": "text"
   },
   "25048": {
     "name": "Beeple",
-    "timestamp": 1615581101
+    "timestamp": 1615581101,
+    "status": "text"
   },
   "25084": {
     "name": "9233",
-    "timestamp": 1617735385
+    "timestamp": 1617735385,
+    "status": "text"
   },
   "25118": {
     "name": "Mila",
-    "timestamp": 1629877946
+    "timestamp": 1629877946,
+    "status": "text"
   },
   "25119": {
     "name": "bonna8",
-    "timestamp": 1767134243
+    "timestamp": 1767134243,
+    "status": "text"
   },
   "25130": {
     "name": "Ame Lía",
-    "timestamp": 1615574728
+    "timestamp": 1615574728,
+    "status": "text"
   },
   "25133": {
     "name": "Adam",
-    "timestamp": 1615575482
+    "timestamp": 1615575482,
+    "status": "text"
   },
   "25143": {
     "name": "James P. Sullivan",
-    "timestamp": 1619406550
+    "timestamp": 1619406550,
+    "status": "text"
   },
   "25157": {
     "name": "Eminem",
-    "timestamp": 1615692803
+    "timestamp": 1615692803,
+    "status": "text"
   },
   "25187": {
     "name": "Transient Labs",
-    "timestamp": 1766179523
+    "timestamp": 1766179523,
+    "status": "text"
   },
   "25188": {
     "name": "Mittens",
-    "timestamp": 1615691720
+    "timestamp": 1615691720,
+    "status": "text"
   },
   "25207": {
     "name": "Project256",
-    "timestamp": 1787306435
+    "timestamp": 1787306435,
+    "status": "text"
   },
   "25210": {
     "name": "EMERALD",
-    "timestamp": 1615691704
+    "timestamp": 1615691704,
+    "status": "text"
   },
   "25216": {
     "name": "вonna8 on discord",
-    "timestamp": 1763476991
+    "timestamp": 1763476991,
+    "status": "text"
   },
   "25248": {
     "name": "Mr Tiddles",
-    "timestamp": 1622842898
+    "timestamp": 1622842898,
+    "status": "text"
   },
   "25295": {
     "name": "Starlet Sparkle",
-    "timestamp": 1730390063
+    "timestamp": 1730390063,
+    "status": "text"
   },
   "25347": {
     "name": "Amazon",
-    "timestamp": 1753081907
+    "timestamp": 1753081907,
+    "status": "text"
   },
   "25349": {
     "name": "Tigger",
-    "timestamp": 1770755603
+    "timestamp": 1770755603,
+    "status": "text"
   },
   "25384": {
     "name": "招き猫",
-    "timestamp": 1753613879
+    "timestamp": 1753613879,
+    "status": "text"
   },
   "25408": {
     "name": "Karl",
-    "timestamp": 1615593723
+    "timestamp": 1615593723,
+    "status": "text"
   },
   "25412": {
     "name": "WE ARE PAMPIIIING TO THE MOON!!!",
-    "timestamp": 1753445795
+    "timestamp": 1753445795,
+    "status": "text"
   },
   "25435": {
     "name": "Nala",
-    "timestamp": 1615582545
+    "timestamp": 1615582545,
+    "status": "text"
   }
 }
