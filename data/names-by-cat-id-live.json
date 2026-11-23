@@ -469,12 +469,14 @@
     "eventId": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08:198",
     "blockNumber": 26475224,
     "transactionHash": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08",
+    "namer": "0x0fd2B7534B1601a60B1026b4be1865B39BF29b62",
     "logIndex": 198,
     "transactionIndex": 124,
     "nameRaw": "0x5461666679205469676572000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "Taffy Tiger",
-    "provisional": true
+    "blockTimestamp": 1795405487,
+    "namedYear": 2026,
+    "text": "Taffy Tiger"
   },
   "0x0004c9752f": {
     "catId": "0x0004c9752f",

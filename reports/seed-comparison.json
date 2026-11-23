@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1260,
+  "canonicalCount": 1261,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 35,
+    "canonicalOnly": 36,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -37089,6 +37089,20 @@
         "nameRaw": "0x446f6c6c7920506172746f6e0000000000000000000000000000000000000000",
         "status": "text",
         "text": "Dolly Parton"
+      }
+    },
+    "0x0004bd35da@18421": {
+      "canonical": {
+        "catId": "0x0004bd35da",
+        "rescueOrder": 18421,
+        "eventId": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08:198",
+        "blockNumber": 26475224,
+        "transactionHash": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08",
+        "logIndex": 198,
+        "transactionIndex": 124,
+        "nameRaw": "0x5461666679205469676572000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Taffy Tiger"
       }
     },
     "0x009ba069ff@18579": {
