@@ -84,7 +84,7 @@ monthly naming timeline.
 | `leading-null`   | `[leading null]`            |
 | `redacted`       | `�` (U+FFFD)                |
 
-CatMoon consumers of the simple map receive a string for every key.
+Consumers of the simple map receive a string for every key.
 Key membership now indicates that a cat is named, and displayed strings can
 include placeholders. Each entry also carries `status`, which
 consumers can use to distinguish decoded text from placeholders or redaction.
