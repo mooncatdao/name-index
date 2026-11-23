@@ -1,5 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {}
+  "events": {
+    "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08:198": {
+      "status": "provisional",
+      "event": {
+        "blockNumber": 26475224,
+        "catId": "0x0004bd35da",
+        "eventId": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08:198",
+        "logIndex": 198,
+        "nameRaw": "0x5461666679205469676572000000000000000000000000000000000000000000",
+        "removed": false,
+        "transactionHash": "0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08",
+        "transactionIndex": 124,
+        "decoded": {
+          "rawName": "0x5461666679205469676572000000000000000000000000000000000000000000",
+          "status": "text",
+          "text": "Taffy Tiger"
+        }
+      }
+    }
+  }
 }

@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Taffy Tiger | CatID 0x0004bd35da · rescue order 18421 | Provisional | — | [0x05ce…9a08](https://etherscan.io/tx/0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08) |
 | 2026-11-21 16:59:47 UTC | Revocate the Agitator | CatID 0x006dc5001d · rescue order 23648 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
 | 2026-11-21 16:59:47 UTC | In Hell I Burn | CatID 0x001da94e30 · rescue order 23172 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
 | 2026-11-21 16:59:47 UTC | Holy Deception | CatID 0x004986202a · rescue order 20466 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-11 19:46:23 UTC | Islam Makhachev | CatID 0x0093f79d4d · rescue order 16688 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0xdbea…8f22](https://etherscan.io/tx/0xdbeab334672d65d0b7988a3c6a66eed76b71c65e1ccfedb3f97bfc43c1ee8f22) |
 | 2026-02-11 19:42:35 UTC | Nurmagomedov | CatID 0x003f5d424c · rescue order 16368 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0xeb21…72f4](https://etherscan.io/tx/0xeb2126c2c6c831efe1fb117da7ed566b330c5ea0828db87b433738eb5e5e72f4) |
 | 2026-02-10 22:18:11 UTC | peanut | CatID 0x00b628c0ec · rescue order 12566 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0x37fc…4fd7](https://etherscan.io/tx/0x37fc31f29808a6eac88f5d8f9bda3a995452205b54d4a5fd2b4853465a234fd7) |
-| 2026-02-10 20:33:23 UTC | Tigger | CatID 0x0076ac34ad · rescue order 25349 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0x85f4…c9c1](https://etherscan.io/tx/0x85f4640727ef5ff7d94bbf26278bf6a1e3aca71878cf53c7a0efb0017e46c9c1) |
