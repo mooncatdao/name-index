@@ -1,4 +1,5 @@
 import { getRescueOrderByCatId } from "./cat-id-map.js";
+import { displayName } from "./current-name-artifacts.js";
 import { mergeEvents } from "./event-store.js";
 import { NAME_STATUS } from "./name-decoder.js";
 import { assertReconciliationMatch } from "./provisional-events.js";
@@ -29,10 +30,7 @@ function compareNewest(left, right) {
 }
 
 function isSuccessfulNonblank(event) {
-  return event.removed === false && (
-    event.decoded.status === NAME_STATUS.TEXT ||
-    event.decoded.status === NAME_STATUS.REDACTED
-  );
+  return !event.removed && event.decoded.status !== NAME_STATUS.BLANK;
 }
 
 function mergeFinalizedAndPending(finalizedEvents, pendingEvents) {
@@ -142,7 +140,7 @@ export function serializeRecentNamings(records) {
     "| --- | --- | --- | --- | --- | --- |"
   ];
   for (const { event, provisional } of records) {
-    lines.push(`| ${escapeTableCell(formatUtcTime(event))} | ${escapeTableCell(event.decoded.text)} | ${escapeTableCell(formatMoonCat(event))} | ${provisional ? "Provisional" : "Finalized"} | ${formatAddress(event.namer)} | ${formatTransaction(event.transactionHash)} |`);
+    lines.push(`| ${escapeTableCell(formatUtcTime(event))} | ${escapeTableCell(displayName(event.decoded))} | ${escapeTableCell(formatMoonCat(event))} | ${provisional ? "Provisional" : "Finalized"} | ${formatAddress(event.namer)} | ${formatTransaction(event.transactionHash)} |`);
   }
   if (records.length === 0) {
     lines.push("| — | No recent namings | — | — | — | — |");

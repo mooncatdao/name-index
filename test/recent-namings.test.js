@@ -24,9 +24,11 @@ function event({
   removed = false
 }) {
   const transactionHash = `0x${id.repeat(64).slice(0, 64)}`;
-  const nameRaw = status === "blank"
-    ? BLANK_RAW
-    : status === "leading-null" ? LEADING_NULL_RAW : NAME_RAW;
+  const nameRaw = {
+    blank: BLANK_RAW,
+    "leading-null": LEADING_NULL_RAW,
+    "invalid-utf8": `0xc328${"00".repeat(30)}`
+  }[status] ?? NAME_RAW;
   return {
     eventId: `${transactionHash}:0`,
     transactionHash,
@@ -36,11 +38,12 @@ function event({
     catId,
     nameRaw,
     removed,
-    decoded: status === "blank"
-      ? { rawName: BLANK_RAW, status: "blank" }
-      : status === "leading-null"
-        ? { rawName: LEADING_NULL_RAW, status: "leading-null" }
-        : { rawName: NAME_RAW, status: "text", text },
+    decoded: {
+      rawName: nameRaw,
+      status,
+      ...(status === "text" ? { text } : {}),
+      ...(status === "redacted" ? { text: "�" } : {})
+    },
     ...(blockTimestamp === undefined ? {} : { blockTimestamp }),
     ...(namer === undefined ? {} : { namer })
   };
@@ -79,24 +82,49 @@ test("recent namings deduplicate finalized overlaps and filter newest events", (
     namer: undefined,
     text: "provisional"
   });
+  const invalid = event({
+    id: "1", blockNumber: 14, catId: "0x00377aeabf", status: "invalid-utf8"
+  });
+  const leadingNull = event({ id: "e", blockNumber: 13, status: "leading-null" });
+  const redacted = event({
+    id: "2", blockNumber: 8, catId: "0x0008d4ecd0", status: "redacted"
+  });
   const records = buildRecentNamings(
-    [finalized, event({ id: "c", blockNumber: 9, status: "blank" })],
-    [pendingOverlap, pending, event({ id: "d", blockNumber: 12, removed: true }), event({ id: "e", blockNumber: 13, status: "leading-null" })]
+    [finalized, invalid, redacted, event({ id: "c", blockNumber: 15, status: "blank" })],
+    [pendingOverlap, pending, leadingNull, event({ id: "d", blockNumber: 12, removed: true })]
   );
 
   assert.deepEqual(records.map(({ event: value }) => value.eventId), [
+    invalid.eventId,
+    leadingNull.eventId,
     pending.eventId,
-    finalized.eventId
+    finalized.eventId,
+    redacted.eventId
   ]);
-  assert.deepEqual(records.map(({ provisional }) => provisional), [true, false]);
+  assert.deepEqual(records.map(({ provisional }) => provisional), [false, true, true, false, false]);
 
   const output = serializeRecentNamings(records);
+  assert.match(output, /\| &#91;invalid UTF-8&#93; \| CatID 0x00377aeabf · rescue order 20069 \|/);
+  assert.match(output, /\| &#91;leading null&#93; \|/);
+  assert.match(output, /\| finalized \|/);
+  assert.match(output, /\| � \|/);
   assert.match(output, /\| Provisional \|/);
   assert.match(output, /\| Finalized \|/);
   assert.match(output, /https:\/\/etherscan\.io\/tx\//);
   assert.match(output, /https:\/\/etherscan\.io\/address\//);
   assert.doesNotMatch(output, new RegExp(NAME_RAW));
-  assert.equal(output.split("\n").filter((line) => line.startsWith("| ")).length, 4);
+  assert.equal(output.split("\n").filter((line) => line.startsWith("| ")).length, 7);
+});
+
+test("recent namings keep the newest 100 events by default", () => {
+  const events = Array.from({ length: 105 }, (_, index) =>
+    event({ id: index.toString(16).padStart(2, "0"), blockNumber: index + 1 })
+  );
+  const records = buildRecentNamings(events, []);
+  assert.deepEqual(
+    records.map(({ event }) => event.blockNumber),
+    Array.from({ length: 100 }, (_, index) => 105 - index)
+  );
 });
 
 test("recent namings render on-chain names as literal table text", () => {

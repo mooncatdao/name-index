@@ -59,7 +59,7 @@ function buildMetadata(events, derived, sourcePath) {
   };
 }
 
-function displayName(record) {
+export function displayName(record) {
   switch (record.status) {
     case NAME_STATUS.INVALID_UTF8:
       return "[invalid UTF-8]";
