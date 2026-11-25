@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1261,
+  "canonicalCount": 1262,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 36,
+    "canonicalOnly": 37,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36767,6 +36767,20 @@
         "nameRaw": "0x4d63446f6e616c64277300000000000000000000000000000000000000000000",
         "status": "text",
         "text": "McDonald's"
+      }
+    },
+    "0x00c216b53a@2732": {
+      "canonical": {
+        "catId": "0x00c216b53a",
+        "rescueOrder": 2732,
+        "eventId": "0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce:1425",
+        "blockNumber": 26490812,
+        "transactionHash": "0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce",
+        "logIndex": 1425,
+        "transactionIndex": 375,
+        "nameRaw": "0x5a6f6d6269780000000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Zombix"
       }
     },
     "0x00dfa21957@5858": {

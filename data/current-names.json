@@ -4943,6 +4943,22 @@
     "text": "McDonald's"
   },
   {
+    "catId": "0x00c216b53a",
+    "rescueOrder": 2732,
+    "namedOrder": 1262,
+    "eventId": "0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce:1425",
+    "blockNumber": 26490812,
+    "transactionHash": "0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce",
+    "namer": "0xb4C6Cf361CE4c7D39E3118E3B44FB1384d078Cb2",
+    "logIndex": 1425,
+    "transactionIndex": 375,
+    "nameRaw": "0x5a6f6d6269780000000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "blockTimestamp": 1795593011,
+    "namedYear": 2026,
+    "text": "Zombix"
+  },
+  {
     "catId": "0x0038c89fc8",
     "rescueOrder": 2744,
     "namedOrder": 653,

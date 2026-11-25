@@ -4,7 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
-| — | Zombix | CatID 0x00c216b53a · rescue order 2732 | Provisional | — | [0x7718…cfce](https://etherscan.io/tx/0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce) |
+| 2026-11-25 07:50:11 UTC | Zombix | CatID 0x00c216b53a · rescue order 2732 | Finalized | [0xb4C6…8Cb2](https://etherscan.io/address/0xb4C6Cf361CE4c7D39E3118E3B44FB1384d078Cb2) | [0x7718…cfce](https://etherscan.io/tx/0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce) |
 | 2026-11-23 03:44:47 UTC | Taffy Tiger | CatID 0x0004bd35da · rescue order 18421 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0x05ce…9a08](https://etherscan.io/tx/0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08) |
 | 2026-11-21 16:59:47 UTC | Revocate the Agitator | CatID 0x006dc5001d · rescue order 23648 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
 | 2026-11-21 16:59:47 UTC | In Hell I Burn | CatID 0x001da94e30 · rescue order 23172 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
