@@ -3066,6 +3066,20 @@
     "namedYear": 2026,
     "text": "Dimethyltryptamine"
   },
+  "0x001f7ead90": {
+    "catId": "0x001f7ead90",
+    "rescueOrder": 1673,
+    "namedOrder": 1263,
+    "eventId": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0:526",
+    "blockNumber": 26513106,
+    "transactionHash": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0",
+    "logIndex": 526,
+    "transactionIndex": 196,
+    "nameRaw": "0x5669726964696100000000000000000000000000000000000000000000000000",
+    "status": "text",
+    "text": "Viridia",
+    "provisional": true
+  },
   "0x001f84f8fe": {
     "catId": "0x001f84f8fe",
     "rescueOrder": 5730,

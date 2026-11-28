@@ -4,6 +4,7 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 
 | UTC time | Name | MoonCat | Status | Namer | Transaction |
 | --- | --- | --- | --- | --- | --- |
+| — | Viridia | CatID 0x001f7ead90 · rescue order 1673 | Provisional | — | [0x80cb…dcb0](https://etherscan.io/tx/0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0) |
 | 2026-11-25 07:50:11 UTC | Zombix | CatID 0x00c216b53a · rescue order 2732 | Finalized | [0xb4C6…8Cb2](https://etherscan.io/address/0xb4C6Cf361CE4c7D39E3118E3B44FB1384d078Cb2) | [0x7718…cfce](https://etherscan.io/tx/0x7718886ec95e9a30c771291a174928806543ea2a398466752c5e4a990c9ecfce) |
 | 2026-11-23 03:44:47 UTC | Taffy Tiger | CatID 0x0004bd35da · rescue order 18421 | Finalized | [0x0fd2…9b62](https://etherscan.io/address/0x0fd2B7534B1601a60B1026b4be1865B39BF29b62) | [0x05ce…9a08](https://etherscan.io/tx/0x05ce7e71544f60601f5994c3e52f930f0ca634b46de436b415aa2c46b6119a08) |
 | 2026-11-21 16:59:47 UTC | Revocate the Agitator | CatID 0x006dc5001d · rescue order 23648 | Finalized | [0xdb14…7a95](https://etherscan.io/address/0xdb144962F8A6a92be74b30007DCf4e078B787a95) | [0x758a…151b](https://etherscan.io/tx/0x758a15bd0f3685131ded1186b33b3ae36f3477f9ee555f3213c0969c6236151b) |
@@ -103,4 +104,3 @@ Latest successful nonblank naming events, newest first. Provisional rows may dis
 | 2026-02-12 10:55:47 UTC | @a16z | CatID 0x002339ab99 · rescue order 10009 | Finalized | [0x1189…3a76](https://etherscan.io/address/0x1189f4016460543Ac15Cfb71b393c08682073a76) | [0x0b6b…518c](https://etherscan.io/tx/0x0b6b7ff4100c25038fec65718f9fd8a206819a2d7a36b572b6713cb6b62a518c) |
 | 2026-02-12 05:25:23 UTC | Valentines | CatID 0x00de6377db · rescue order 11935 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0x4b1b…9852](https://etherscan.io/tx/0x4b1bcba87c37a80b212410388d28b80d4903f310044b30d0067fd6831a639852) |
 | 2026-02-11 21:26:59 UTC | Dimethyltryptamine | CatID 0x001f4050a5 · rescue order 18841 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0xa0ad…3442](https://etherscan.io/tx/0xa0ad96800becae4620f38c39d9312f08931df6fcd97f7eec201b1f4965263442) |
-| 2026-02-11 19:46:23 UTC | Islam Makhachev | CatID 0x0093f79d4d · rescue order 16688 | Finalized | [0x2Bde…c018](https://etherscan.io/address/0x2Bde15dFbc4CAB612F8288B9e2Acd8f6298Ac018) | [0xdbea…8f22](https://etherscan.io/tx/0xdbeab334672d65d0b7988a3c6a66eed76b71c65e1ccfedb3f97bfc43c1ee8f22) |
