@@ -5803,12 +5803,14 @@
     "eventId": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0:526",
     "blockNumber": 26513106,
     "transactionHash": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0",
+    "namer": "0x0fd2B7534B1601a60B1026b4be1865B39BF29b62",
     "logIndex": 526,
     "transactionIndex": 196,
     "nameRaw": "0x5669726964696100000000000000000000000000000000000000000000000000",
     "status": "text",
-    "text": "Viridia",
-    "provisional": true
+    "blockTimestamp": 1795861427,
+    "namedYear": 2026,
+    "text": "Viridia"
   },
   null,
   null,

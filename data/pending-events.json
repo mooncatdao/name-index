@@ -1,24 +1,5 @@
 {
   "schemaVersion": 1,
   "status": "provisional",
-  "events": {
-    "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0:526": {
-      "status": "provisional",
-      "event": {
-        "blockNumber": 26513106,
-        "catId": "0x001f7ead90",
-        "eventId": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0:526",
-        "logIndex": 526,
-        "nameRaw": "0x5669726964696100000000000000000000000000000000000000000000000000",
-        "removed": false,
-        "transactionHash": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0",
-        "transactionIndex": 196,
-        "decoded": {
-          "rawName": "0x5669726964696100000000000000000000000000000000000000000000000000",
-          "status": "text",
-          "text": "Viridia"
-        }
-      }
-    }
-  }
+  "events": {}
 }

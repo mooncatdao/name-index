@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "canonicalSource": "data/current-names.json",
   "seedSource": "data/seed/current-names.json",
-  "canonicalCount": 1262,
+  "canonicalCount": 1263,
   "seedCount": 1225,
   "counts": {
     "exactMatches": 1225,
-    "canonicalOnly": 37,
+    "canonicalOnly": 38,
     "seedOnly": 0,
     "mismatches": 0
   },
@@ -36727,6 +36727,20 @@
     }
   },
   "canonicalOnly": {
+    "0x001f7ead90@1673": {
+      "canonical": {
+        "catId": "0x001f7ead90",
+        "rescueOrder": 1673,
+        "eventId": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0:526",
+        "blockNumber": 26513106,
+        "transactionHash": "0x80cb3bbf34d6a497993811ca37acdcfb46a9d5b2c2baff8d3398259d519edcb0",
+        "logIndex": 526,
+        "transactionIndex": 196,
+        "nameRaw": "0x5669726964696100000000000000000000000000000000000000000000000000",
+        "status": "text",
+        "text": "Viridia"
+      }
+    },
     "0x00cea5e546@2094": {
       "canonical": {
         "catId": "0x00cea5e546",
